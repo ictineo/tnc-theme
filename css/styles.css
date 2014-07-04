@@ -1884,15 +1884,7 @@ h1#page-title {
   );
 }
 */
-/* line 70, ../sass/styles.scss */
-h1#page-title {
-  margin-left: -100px;
-  text-indent: 100px;
-  background-color: #e2007a;
-  vertical-align: middle;
-}
-
-/* line 73, ../sass/styles.scss */
+/* line 72, ../sass/styles.scss */
 #content a {
   background-color: #e2007a;
   width: 100px;

@@ -130,7 +130,7 @@
  * param1 distancia cap a l'esquerra
  * param2 color de fons
  */
-@mixin titol($m,$bg:$destacat) {
+@mixin titol_bg($m,$bg:$destacat) {
   margin-left: -$m;
   text-indent: $m;
   background-color: $bg;
@@ -142,7 +142,65 @@
  * Ictineo mixins for TNC
  * Mixins de estils de text
  */
-
+@mixin estil_reset() {
+  font-size: 13px;
+  line-height: 19px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: $color_text;
+  text-transform: none;
+  text-decoration: none;
+}
+@mixin titol() {
+  font-size: 44px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  color: $titols_b;
+  text-transform: uppercase;
+}
+@mixin sub_titol() {
+  font-size: 29px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  color: $titols_b;
+  text-transform: uppercase;
+}
+@mixin tit_autor() {
+  font-size: 21px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  line-height: 25px;
+  color: $color_text;
+  text-transform: uppercase;
+}
+@mixin tit_director() {
+  font-size: 21px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  line-height: 25px;
+  color: $color_text;
+  text-transform: uppercase;
+}
+@mixin pestanya_inactiva() {
+  font-size: 13px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  color: $gris2;
+  text-transform: uppercase;
+}
+@mixin pestanya_activa() {
+  @include pestanya_inactiva();
+  color: $gris1;
+  border-top: 1px solid $gris2;
+}
+@mixin boto() {
+  font-size: 11px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  background-color: $destacat;
+  color: $blanc;
+  text-transform: uppercase;
+}
 
 
 
