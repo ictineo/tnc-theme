@@ -35,3 +35,109 @@
     @include element-invisible-off;
   }
 }
+
+
+/**
+ * Ictineo mixins for TNC
+ */
+
+/**
+ * mixin caixes amb block superior diagona
+ * presuposa que s'aplica a un element que conte
+ * al wrapper del contingut
+ *
+ * param1 color de fons
+ * param2 ample de la caixa
+ * param3 algura de la regio superior
+ */
+@mixin caixa_dig($bg:$fons_actiu, $w:'250px', $h:'72px') {
+  &:before {
+    width: #{$w};
+    content: " ";
+    display: block;
+    height: #{$h};
+    // Aquesta aproximació controla el color de transicio, pero
+    // el resultat es millor deixantho automatic al linear-gradient
+    //@include background-image(linear-gradient(-165deg, transparent 50%, rgba($bg, 0.5) 50%, rgba($bg, 0.5) 50.5%, $bg 50.5%, $bg));
+    // Deixem un marge per que no renderitzi en escaleta (pixelat)
+    @include background-image(linear-gradient(-165deg, transparent 48%, $bg 50%, $bg));
+    background-repeat: no-repeat;
+    background-size: cover;
+    @include border-radius(12px 12px 0 0);
+    border: 1px solid pink;
+  }
+  & > * {
+    background-color: $bg;
+    width: #{$w};
+    height: #{$h};
+  }
+}
+
+/**
+ * mixin bola destacada
+ * converteix un element donat en una bola amb el
+ * text centrat i lleugerament girada
+ * NO posiciona al element
+ * aplica blanc al color interior
+ *
+ * param1 tamany de la bola (ample i alt)
+ * param2 color de fons
+ */
+@mixin bola_destc($t:"100px", $bg:$destacat) {
+  background-color: $bg;
+  width: #{$t};
+  height: #{$t};
+  @include border-radius($t/2);
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  line-height: 100%;
+  @include rotate(-20deg);
+}
+
+/**
+ * mixin per cites
+ * aplica les cometes dobertura i tancament
+ * al text, amb tamany i ubicacio
+ * 
+ * sense parametres
+ */
+@mixin cita() {
+  &:after,
+  &:before {
+    display: inline-block;
+    font-size: 300%;
+    vertical-align: bottom;
+    bottom: -12px;
+    position: relative;
+  }
+  &:after {
+    content: '\201D';
+  }
+  &:before {
+    content: '\201C';
+  }
+}
+
+/**
+ * mixin per titols
+ * aplica color de fons i franja cap a l'esquerra
+ *
+ * param1 distancia cap a l'esquerra
+ * param2 color de fons
+ */
+@mixin titol($m,$bg:$destacat) {
+  margin-left: -$m;
+  text-indent: $m;
+  background-color: $bg;
+  vertical-align: middle;
+  
+}
+
+/**
+ * apunts
+ *http://www.slideshare.net/LeaVerou/mastering-css3-gradients
+//@include background-image(linear-gradient(45deg, green 25%, transparent 25%, transparent 50%, green 50%, green 75%, transparent 75%, transparent));
+*/

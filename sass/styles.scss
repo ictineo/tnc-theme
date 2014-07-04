@@ -12,14 +12,62 @@
 /* HTML element (SMACSS base) rules */
 @import "normalize";
 
+@import "vars";
 /* Layout rules */
 @import "layouts/responsive";
 
 /* Component (SMACSS module) rules */
 @import "components/misc";
+
 // Optionally, add your own components here.
 @import "print";
 
 /* SMACSS theme rules */
 /* @import "theme-A"; */
 /* @import "theme-B"; */
+
+
+/*
+test secctionnnn
+*/
+
+/*
+h1#page-title {
+  background-image: -webkit-gradient(
+
+  linear,
+
+  left bottom,
+
+  right top,
+
+  color-stop(0.07, #FFFF00),
+
+  color-stop(0.5, #000000),
+
+  color-stop(1, #FFFF00)
+
+  );
+
+  background-image: -moz-linear-gradient(
+
+  left bottom,
+
+  #FFFF00 7%,
+
+  #000000 50%,
+
+  #FFFF00 100%
+
+  );
+}
+*/
+h1#page-title {
+  @include titol(100px);
+}
+#content a {
+  @include bola_destc(100px); 
+}
+#page span {
+  @include cita();
+}
