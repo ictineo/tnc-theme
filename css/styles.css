@@ -1,3 +1,4 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&subset=latin,latin-ext");
 /**
  * @file
  * Styles are organized using the SMACSS technique. @see http://smacss.com/book/
@@ -8,6 +9,8 @@
 /* Import Sass mixins, variables, Compass modules, etc. */
 /**
  * Ictineo mixins for TNC
+ * Mixins de funcionaments
+ * específics
  */
 /**
  * mixin caixes amb block superior diagona
@@ -41,6 +44,10 @@
  *
  * param1 distancia cap a l'esquerra
  * param2 color de fons
+ */
+/**
+ * Ictineo mixins for TNC
+ * Mixins de estils de text
  */
 /* HTML element (SMACSS base) rules */
 /**
@@ -612,6 +619,8 @@ table {
   margin-bottom: 1.5em;
 }
 
+/* Importem la OpenSans des de Google fonts */
+/* Importem les variables */
 /**
  * Arxiu de variables globlas
  * Projecte Ictineo SCCL
@@ -1875,7 +1884,7 @@ h1#page-title {
   );
 }
 */
-/* line 65, ../sass/styles.scss */
+/* line 70, ../sass/styles.scss */
 h1#page-title {
   margin-left: -100px;
   text-indent: 100px;
@@ -1883,7 +1892,7 @@ h1#page-title {
   vertical-align: middle;
 }
 
-/* line 68, ../sass/styles.scss */
+/* line 73, ../sass/styles.scss */
 #content a {
   background-color: #e2007a;
   width: 100px;
@@ -1906,7 +1915,7 @@ h1#page-title {
   transform: rotate(-20deg);
 }
 
-/* line 109, ../sass/_mixins.scss */
+/* line 111, ../sass/_mixins.scss */
 #page span:after, #page span:before {
   display: inline-block;
   font-size: 300%;
@@ -1914,11 +1923,11 @@ h1#page-title {
   bottom: -12px;
   position: relative;
 }
-/* line 116, ../sass/_mixins.scss */
+/* line 118, ../sass/_mixins.scss */
 #page span:after {
   content: '\201D';
 }
-/* line 119, ../sass/_mixins.scss */
+/* line 121, ../sass/_mixins.scss */
 #page span:before {
   content: '\201C';
 }

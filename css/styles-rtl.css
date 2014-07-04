@@ -5,6 +5,8 @@
 /* Import Sass mixins, variables, Compass modules, etc. */
 /**
  * Ictineo mixins for TNC
+ * Mixins de funcionaments
+ * específics
  */
 /**
  * mixin caixes amb block superior diagona
@@ -38,6 +40,10 @@
  *
  * param1 distancia cap a l'esquerra
  * param2 color de fons
+ */
+/**
+ * Ictineo mixins for TNC
+ * Mixins de estils de text
  */
 /* HTML element (SMACSS base) rules */
 /**
