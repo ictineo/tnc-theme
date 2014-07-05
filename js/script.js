@@ -14,8 +14,9 @@
 
 
 // To understand behaviors, see https://drupal.org/node/756722#behaviors
-Drupal.behaviors.my_custom_behavior = {
+Drupal.behaviors.theme_tnc = {
   attach: function(context, settings) {
+        $('video, audio').acornMediaPlayer();
 
     // Place your code here.
 

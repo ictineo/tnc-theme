@@ -9,10 +9,32 @@ dsm($content);
  */
 ?>
 <article class="node-<?php print $node->nid; ?> <?php print $classes; ?> clearfix"<?php print $attributes; ?>>
-<h2>adsfasdfasdf</h2>
+
+
 <?php
-print render($content['field_audio']);
+  /** Audio field **/
+  foreach ($content['field_audio']['#items'] as $i => $trash):
+    foreach ($content['field_audio'][$i]['node'] as $nid => $audio):
+      foreach ($audio['field_file_audio']['#items'] as $j => $elem):
+        ?>
+        <figure class="audio-figure">
+          <audio id="audio-<?php print $i; ?>">
+            <source src="<?php print file_create_url($elem['uri']); ?>" />
+          </audio>
+          <figcaption id="audio-<?php print $i; ?>-description">
+            <?php print $elem['description']; ?>
+          </figcaption>
+        </figure>
+        <?php
+      endforeach;
+    endforeach;
+  endforeach;
+?>
+<?php /*
+print file_create_url($content['field_audio'][0]['node'][95]['field_file_audio']['#items'][0]['uri']);
+print $content['field_audio'][0]['node'][95]['field_file_audio']['#items'][0]['description'];
 unset($content['feild_audio']);
+*/
 ?>
   <?php if ($title_prefix || $title_suffix || $display_submitted || $unpublished || !$page && $title): ?>
     <header>
