@@ -16,7 +16,7 @@
 // To understand behaviors, see https://drupal.org/node/756722#behaviors
 Drupal.behaviors.theme_tnc = {
   attach: function(context, settings) {
-        $('video, audio').mediaelementplayer();
+        jQuery('video, audio').mediaelementplayer();
 
     // Place your code here.
 
