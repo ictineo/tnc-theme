@@ -34,7 +34,7 @@ dsm($content);
     </div>
     <div class="cycle-slideshow pager"
          data-cycle-fx="scrollHorz" 
-         data-cycle-timeout="2000"
+         data-cycle-timeout="0"
          data-cycle-slides="> figure"
          data-cycle-fx="carousel"
          data-cycle-carousel-visible="5"
@@ -74,7 +74,7 @@ dsm($content);
     </div>
     <div class="cycle-slideshow pager"
          data-cycle-fx="scrollHorz" 
-         data-cycle-timeout="2000"
+         data-cycle-timeout="0"
          data-cycle-slides="> figure"
          data-cycle-fx="carousel"
          data-cycle-carousel-visible="2"
@@ -168,6 +168,15 @@ dsm($content);
       <?php print render($content['field_a_fons']); ?>
       <?php print views_embed_view('blo', 'block'); ?>
     </div>
+    <div id="destacats-wrapper">
+      <?php print render($content['field_destacats']); ?>
+    </div>
+    <div id="xxss-wrapper">
+      <?php $fb_block = module_invoke('facebook_comments_box', 'block_view', 'facebook_comments_box');
+            print render($fb_block['content']);
+            ?>
+      <?php print render($content['field_hastag_tw']); ?>
+    </div>
   </div>
 
   <br />
@@ -182,14 +191,14 @@ dsm($content);
   <hr />
   <?php
     // We hide the comments and links now so that we can render them later.
-    hide($content['comments']);
-    hide($content['links']);
-    print render($content);
+    //hide($content['comments']);
+    //hide($content['links']);
+    //print render($content);
   ?>
 
-  <?php print render($content['links']); ?>
+  <?php //print render($content['links']); ?>
 
-  <?php print render($content['comments']); ?>
+  <?php //print render($content['comments']); ?>
 
 </article>
 <?php drupal_add_js(drupal_get_path('theme','tnc') . '/js/carousels-fitxa.js'); ?>
