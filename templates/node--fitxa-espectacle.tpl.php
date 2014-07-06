@@ -9,9 +9,86 @@ dsm($content);
  */
 ?>
 <article class="node-<?php print $node->nid; ?> <?php print $classes; ?> clearfix"<?php print $attributes; ?>>
+  <?php
+    $audio_elements = "";
+    /** Audio field **/
+    foreach ($content['field_imatges']['#items'] as $i => $trash):
+      foreach ($content['field_imatges'][$i]['node'] as $nid => $img):
+        foreach ($img['field_imatge']['#items'] as $j => $elem):
+          $audio_elements .= '<figure class="image-figure">';
+          $audio_elements .= '  <img id="image-'.$i.'" src="'.file_create_url($elem['uri']).'" alt="'.$elem['description'].'" />';
+          $audio_elements .= '</figure>';
+        endforeach;
+      endforeach;
+    endforeach;
+    /** ja esta mostrat, no cal que torni a sortir **/
+    hide($content['feild_video']);
+    ?>
+
+  <div id="images-wrapper">
+    <div class="cycle-slideshow main"
+         data-cycle-fx="scrollHorz" 
+         data-cycle-timeout="0"
+         data-cycle-slides="> figure"
+        >
+      <?php print $audio_elements; ?>
+    </div>
+    <div class="cycle-slideshow pager"
+         data-cycle-fx="scrollHorz" 
+         data-cycle-timeout="2000"
+         data-cycle-slides="> figure"
+         data-cycle-fx="carousel"
+         data-cycle-carousel-visible="5"
+         data-cycle-carousel-fluid=true
+        >
+      <?php print $audio_elements; ?>
+    </div>
+  </div>
+
+    <?php
+    $video_elements = "";
+    /** Audio field **/
+    foreach ($content['field_videos']['#items'] as $i => $trash):
+      foreach ($content['field_videos'][$i]['node'] as $nid => $video):
+        foreach ($video['field_video']['#items'] as $j => $elem):
+          $video_elements .= '<figure class="video-figure">';
+          $video_elements .= '  <video id="audio-'.$i.'">';
+          $video_elements .= '    <source type="'.$elem['filemime'].'" src="'.file_create_url($elem['uri']).'" />';
+          $video_elements .= '  </video>';
+          $video_elements .= '  <figcaption id="video-'.$i.'-description">';
+          $video_elements .= '    '.$elem['description'];
+          $video_elements .= '  </figcaption>';
+          $video_elements .= '</figure>';
+        endforeach;
+      endforeach;
+    endforeach;
+    /** ja esta mostrat, no cal que torni a sortir **/
+    hide($content['feild_video']);
+    ?>
 
 
-<?php
+  <div id="video-wrapper">
+    <div class="cycle-slideshow"
+         data-cycle-fx="scrollHorz" 
+         data-cycle-timeout="0"
+         data-cycle-slides="> figure"
+        >
+      <?php print $video_elements; ?>
+    </div>
+    <div class="cycle-slideshow pager"
+         data-cycle-fx="scrollHorz" 
+         data-cycle-timeout="2000"
+         data-cycle-slides="> figure"
+         data-cycle-fx="carousel"
+         data-cycle-carousel-visible="2"
+         data-cycle-carousel-fluid=true
+        >
+      <?php print $video_elements; ?>
+    </div>
+  </div>
+
+  <div class="audio-wrapper">
+  <?php
   /** Audio field **/
   foreach ($content['field_audio']['#items'] as $i => $trash):
     foreach ($content['field_audio'][$i]['node'] as $nid => $audio):
@@ -19,7 +96,7 @@ dsm($content);
         ?>
         <figure class="audio-figure">
           <audio id="audio-<?php print $i; ?>">
-            <source src="<?php print file_create_url($elem['uri']); ?>" />
+            <source type="<?php print $elem['filemime']; ?>" src="<?php print file_create_url($elem['uri']); ?>" />
           </audio>
           <figcaption id="audio-<?php print $i; ?>-description">
             <?php print $elem['description']; ?>
@@ -29,12 +106,12 @@ dsm($content);
       endforeach;
     endforeach;
   endforeach;
-?>
-<?php /*
-print file_create_url($content['field_audio'][0]['node'][95]['field_file_audio']['#items'][0]['uri']);
-print $content['field_audio'][0]['node'][95]['field_file_audio']['#items'][0]['description'];
-unset($content['feild_audio']);
-*/
+  /** ja esta mostrat, no cal que torni a sortir **/
+  hide($content['feild_audio']);
+  ?>
+  </div>
+
+<?php 
 ?>
   <?php if ($title_prefix || $title_suffix || $display_submitted || $unpublished || !$page && $title): ?>
     <header>
@@ -69,3 +146,4 @@ unset($content['feild_audio']);
   <?php print render($content['comments']); ?>
 
 </article>
+<?php drupal_add_js(drupal_get_path('theme','tnc') . '/js/carousels-fitxa.js'); ?>

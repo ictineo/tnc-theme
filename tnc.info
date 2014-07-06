@@ -67,6 +67,8 @@ stylesheets[all][] = css/styles.css
 
 ; Optionally add some JavaScripts to your theme.
 
+
+scripts[] = js/jquery.cycle2.min.js
 scripts[] = js/mediaelement/build/mediaelement-and-player.min.js
 scripts[] = js/script.js
 
