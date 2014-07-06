@@ -128,29 +128,36 @@ dsm($content);
   ?>
   </div>
 
-<?php 
-?>
-  <?php if ($title_prefix || $title_suffix || $display_submitted || $unpublished || !$page && $title): ?>
-    <header>
-      <?php print render($title_prefix); ?>
-      <?php if (!$page && $title): ?>
-        <h2<?php print $title_attributes; ?>><a href="<?php print $node_url; ?>"><?php print $title; ?></a></h2>
-      <?php endif; ?>
-      <?php print render($title_suffix); ?>
+  <header id="top-left4-wrapper">
+    <div id="top-left3-wrapper">
+      <div id="supraheader">
+        <!--span class="sala"><?php print render($content['field_sala']);?>.</span><span class="data"><?php print render($content['field_data']); ?></span-->
+        <span class="sala"><?php print $content['field_sala'][0]['#markup'];?>.</span> <span class="data"><?php print $content['field_data'][0]['#markup']; ?></span>
+      </div>
+      <div class="title-region">
+        <h2><?php print $title; ?></h2>
+        <h3><?php print $content['field_subtitol'][0]['#markup']; ?></h3>
+      </div>
+      <div class="moreinfo-region">
+        <h4><?php print $content['field_autor'][0]['#markup']; ?></h4>
+        <h5><?php print $content['field_rol_destacat'][0]['#markup']; ?></h5>
+      </div>
+    </div><!-- /top-left3-wrapper -->
+    <div id="sessions">
+      <?php //print views_embed_view('', ''); ?>
+    </div>
+  </header>
 
-      <?php if ($display_submitted): ?>
-        <p class="submitted">
-          <?php print $user_picture; ?>
-          <?php print $submitted; ?>
-        </p>
-      <?php endif; ?>
-
-      <?php if ($unpublished): ?>
-        <mark class="unpublished"><?php print t('Unpublished'); ?></mark>
-      <?php endif; ?>
-    </header>
-  <?php endif; ?>
-
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <hr />
+  <hr />
+  <hr />
+  <hr />
+  <hr />
   <?php
     // We hide the comments and links now so that we can render them later.
     hide($content['comments']);
