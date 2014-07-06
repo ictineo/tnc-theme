@@ -167,12 +167,17 @@ dsm($content);
       <div id="main-text-wrapper">
         <?php print render($content['body']); ?>
         <?php print render($content['field_artista_carrec']); ?>
+        <div id="destacats-wrapper">
+          <?php print render($content['field_destacats']); ?>
+        </div>
       </div>
-      <?php print render($content['field_a_fons']); ?>
+      <div id="moreinfo-wrapper">
+        <?php print render($content['field_a_fons']); ?>
+        <div id="destacats-wrapper">
+          <?php print render($content['field_destacats']); ?>
+        </div>
+      </div>
       <?php print views_embed_view('blo', 'block'); ?>
-    </div>
-    <div id="destacats-wrapper">
-      <?php print render($content['field_destacats']); ?>
     </div>
     <div id="xxss-wrapper">
       <?php print render($content['easy_social_1']); ?>
