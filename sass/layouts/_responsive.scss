@@ -207,4 +207,31 @@ $zen-auto-include-item-base: false;
       @include zen-grid-item(1, 5);
     }
   }
+
+  /**
+   * Custom TNC
+   */
+  body.node-type-fitxa-espectacle
+    header {
+      @include zen-grid-item(4, 1);
+      #sessions {
+        @include zen-grid-item(1, 4);
+      }
+      #top-left3-wrapper {
+        @include zen-grid-item(3, 1);
+        //@include zen-clear();
+      }
+    }
+    #right-col {
+      @include zen-grid-item(1, 5);
+    }
+    #main-wrapper {
+      @include zen-clear();
+      @include zen-grid-item(4, 1);
+      #destacats-wrapper {
+        @include zen-grid-item(1, 4);
+      }
+    }
+
+
 }
