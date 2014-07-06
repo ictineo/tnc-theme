@@ -51,7 +51,7 @@ dsm($content);
       foreach ($content['field_videos'][$i]['node'] as $nid => $video):
         foreach ($video['field_video']['#items'] as $j => $elem):
           $video_elements .= '<figure class="video-figure">';
-          $video_elements .= '  <video id="audio-'.$i.'">';
+          $video_elements .= '  <video id="audio-'.$i.'" preload="none">';
           $video_elements .= '    <source type="'.$elem['filemime'].'" src="'.file_create_url($elem['uri']).'" />';
           $video_elements .= '  </video>';
           $video_elements .= '  <figcaption id="video-'.$i.'-description">';
@@ -92,7 +92,7 @@ dsm($content);
       foreach ($audio['field_file_audio']['#items'] as $j => $elem):
         ?>
         <figure class="audio-figure">
-          <audio id="audio-<?php print $i; ?>">
+          <audio id="audio-<?php print $i; ?>" preload="none">
             <source type="<?php print $elem['filemime']; ?>" src="<?php print file_create_url($elem['uri']); ?>" />
           </audio>
           <figcaption id="audio-<?php print $i; ?>-description">
@@ -144,9 +144,31 @@ dsm($content);
       </div>
     </div><!-- /top-left3-wrapper -->
     <div id="sessions">
-      <?php //print views_embed_view('', ''); ?>
+      <?php //print views_embed_view('sessions_node', 'entity_view_1', $node->nid); ?>
+      <?php print $content['sessions_node_entity_view_1']['#markup']; ?>
+      <?php print $content['sessions_node_entity_view_2']['#markup']; ?>
+      <?php print render($content['field_durada']); ?>
     </div>
   </header>
+
+  <div id="right-col">
+    <?php print $content['eva_taxo_tarifes_entity_view_1']['#markup']; ?>
+    <?php print render($content['field_url_compra_reserva']); ?>
+    <?php print render($content['field_entorn']); ?>
+  </div>
+
+  <div id="main-wrapper">
+    <div class="tnc-tabs">
+      <span class="tnc-tab"><?php print t('Presentation'); ?></span>
+      <span class="tnc-tab"><?php print t('More information'); ?></span>
+      <span class="tnc-tab"><?php print t('Calendar'); ?></span>
+    </div>
+    <div id="text-wrapper">
+      <?php print render($content['body']); ?>
+      <?php print render($content['field_a_fons']); ?>
+      <?php print views_embed_view('blo', 'block'); ?>
+    </div>
+  </div>
 
   <br />
   <br />
