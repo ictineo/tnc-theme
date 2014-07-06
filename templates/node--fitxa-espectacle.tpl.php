@@ -87,7 +87,7 @@ dsm($content);
     </div>
   </div>
 
-  <div class="audio-wrapper">
+  <div id="audio-wrapper">
   <?php
   /** Audio field **/
   foreach ($content['field_audio']['#items'] as $i => $trash):

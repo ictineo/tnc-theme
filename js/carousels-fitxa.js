@@ -6,4 +6,8 @@ jQuery(document).ready(function () {
       //jQuery('#images-wrapper .cycle-slideshow.pager').cycle('add', jQuery(this).parent().html());
     //});
   //});
+  jQuery('#audio-wrapper').slimScroll({
+    alwaysVisible: true,
+    height: '100px'
+  });
 });
