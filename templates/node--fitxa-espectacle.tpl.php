@@ -164,7 +164,10 @@ dsm($content);
       <span class="tnc-tab"><?php print t('Calendar'); ?></span>
     </div>
     <div id="text-wrapper">
-      <?php print render($content['body']); ?>
+      <div id="main-text-wrapper">
+        <?php print render($content['body']); ?>
+        <?php print render($content['field_artista_carrec']); ?>
+      </div>
       <?php print render($content['field_a_fons']); ?>
       <?php print views_embed_view('blo', 'block'); ?>
     </div>
@@ -172,10 +175,11 @@ dsm($content);
       <?php print render($content['field_destacats']); ?>
     </div>
     <div id="xxss-wrapper">
+      <?php print render($content['easy_social_1']); ?>
       <?php $fb_block = module_invoke('facebook_comments_box', 'block_view', 'facebook_comments_box');
             print render($fb_block['content']);
             ?>
-      <?php print render($content['field_hastag_tw']); ?>
+      <?php print render($content['field_hashtag_tw']); ?>
     </div>
   </div>
 
