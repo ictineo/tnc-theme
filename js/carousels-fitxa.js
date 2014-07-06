@@ -10,4 +10,8 @@ jQuery(document).ready(function () {
     alwaysVisible: true,
     height: '100px'
   });
+  jQuery('#document-wrapper').slimScroll({
+    alwaysVisible: true,
+    height: '100px'
+  });
 });
