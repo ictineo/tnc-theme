@@ -207,19 +207,19 @@ ul {
   /**
    * The layout when there is only one sidebar, the left one.
    */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_tt\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003164}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_tt\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003165}}
   .sidebar-first {
     /* Span 4 columns, starting in 2nd column from left. */
     /* Span 1 column, starting in 1st column from left. */
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_tt\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003166}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_tt\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003167}}
   .sidebar-first #content {
     float: right;
     width: 80%;
     margin-right: 20%;
     margin-left: -100%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_tt\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003171}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_tt\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003172}}
   .sidebar-first .region-sidebar-first {
     float: right;
     width: 20%;
@@ -230,19 +230,19 @@ ul {
   /**
    * The layout when there is only one sidebar, the right one.
    */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_tt\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003179}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_tt\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003180}}
   .sidebar-second {
     /* Span 4 columns, starting in 1st column from left. */
     /* Span 1 column, starting in 5th column from left. */
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_tt\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003181}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_tt\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003182}}
   .sidebar-second #content {
     float: right;
     width: 80%;
     margin-right: 0%;
     margin-left: -80%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_tt\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003186}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_tt\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003187}}
   .sidebar-second .region-sidebar-second {
     float: right;
     width: 20%;
@@ -253,27 +253,27 @@ ul {
   /**
    * The layout when there are two sidebars.
    */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_tt\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003194}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_tt\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003195}}
   .two-sidebars {
     /* Span 3 columns, starting in 2nd column from left. */
     /* Span 1 column, starting in 1st column from left. */
     /* Span 1 column, starting in 5th column from left. */
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_tt\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003196}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_tt\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003197}}
   .two-sidebars #content {
     float: right;
     width: 60%;
     margin-right: 20%;
     margin-left: -80%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_tt\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003201}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_tt\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003202}}
   .two-sidebars .region-sidebar-first {
     float: right;
     width: 20%;
     margin-right: 0%;
     margin-left: -20%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_tt\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003206}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_tt\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003207}}
   .two-sidebars .region-sidebar-second {
     float: right;
     width: 20%;
@@ -284,15 +284,17 @@ ul {
   /**
    * Custom TNC
    */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_tt\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003215}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_tt\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003216}}
   body.node-type-fitxa-espectacle
   header {
     float: right;
-    width: 80%;
+    width: 100%;
     margin-right: 0%;
-    margin-left: -80%;
+    margin-left: -100%;
+    padding-left: 0;
+    padding-right: 0;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_tt\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003217}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_tt\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003219}}
   body.node-type-fitxa-espectacle
   header #sessions {
     float: right;
@@ -300,7 +302,7 @@ ul {
     margin-right: 60%;
     margin-left: -80%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_tt\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003220}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_tt\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003222}}
   body.node-type-fitxa-espectacle
   header #top-left3-wrapper {
     float: right;
@@ -308,29 +310,40 @@ ul {
     margin-right: 0%;
     margin-left: -60%;
   }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_tt\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003225}}
-  #right-col {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_tt\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003226}}
+  body.node-type-fitxa-espectacle
+  header #tarifes {
     float: right;
     width: 20%;
     margin-right: 80%;
     margin-left: -100%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_tt\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003228}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_tt\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003230}}
   #main-wrapper {
     clear: right;
-    float: right;
-    width: 80%;
-    margin-right: 0%;
-    margin-left: -80%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_tt\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003231}}
-  #main-wrapper #destacats-wrapper {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_tt\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003232}}
+  #main-wrapper .destacats-wrapper {
     float: right;
     width: 20%;
     margin-right: 60%;
     margin-left: -80%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_tt\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003235}}
+  #main-wrapper #right-col {
+    float: right;
+    width: 20%;
+    margin-right: 80%;
+    margin-left: -100%;
+    background-color: blue;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_tt\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003239}}
+  #main-wrapper #text-wrapper .field {
+    float: right;
+    width: 60%;
+    margin-right: 0%;
+    margin-left: -60%;
   }
 }
 /* Component (SMACSS module) rules */

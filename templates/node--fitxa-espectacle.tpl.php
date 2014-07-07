@@ -149,15 +149,17 @@ dsm($content);
       <?php print $content['sessions_node_entity_view_2']['#markup']; ?>
       <?php print render($content['field_durada']); ?>
     </div>
+    <div id="tarifes">
+      <?php print $content['eva_taxo_tarifes_entity_view_1']['#markup']; ?>
+      <?php print render($content['field_url_compra_reserva']); ?>
+    </div>
   </header>
 
-  <div id="right-col">
-    <?php print $content['eva_taxo_tarifes_entity_view_1']['#markup']; ?>
-    <?php print render($content['field_url_compra_reserva']); ?>
-    <?php print render($content['field_entorn']); ?>
-  </div>
 
   <div id="main-wrapper">
+    <div id="right-col">
+      <?php print render($content['field_entorn']); ?>
+    </div>
     <div class="tnc-tabs">
       <span class="tnc-tab"><?php print t('Presentation'); ?></span>
       <span class="tnc-tab"><?php print t('More information'); ?></span>
@@ -165,17 +167,17 @@ dsm($content);
     </div>
     <div id="text-wrapper">
       <div id="main-text-wrapper">
+        <div class="destacats-wrapper">
+          <?php print render($content['field_destacats']); ?>
+        </div>
         <?php print render($content['body']); ?>
         <?php print render($content['field_artista_carrec']); ?>
-        <div id="destacats-wrapper">
-          <?php print render($content['field_destacats']); ?>
-        </div>
       </div>
       <div id="moreinfo-wrapper">
-        <?php print render($content['field_a_fons']); ?>
-        <div id="destacats-wrapper">
+        <div class="destacats-wrapper">
           <?php print render($content['field_destacats']); ?>
         </div>
+        <?php print render($content['field_a_fons']); ?>
       </div>
       <?php print views_embed_view('blo', 'block'); ?>
     </div>
