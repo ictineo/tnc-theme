@@ -425,7 +425,7 @@ ul {
     clear: both;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_tt\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003278}}
-  body.node-type-fitxa-espectacle #mm-node-region #video-wraper,
+  body.node-type-fitxa-espectacle #mm-node-region #video-wrapper,
   body.node-type-fitxa-espectacle #mm-node-region .slimScrollDiv {
     float: right;
     width: 20%;
@@ -433,6 +433,10 @@ ul {
     margin-left: -100%;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_tt\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003281}}
+  body.node-type-fitxa-espectacle #mm-node-region .slimScrollDiv {
+    clear: right;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_tt\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003284}}
   body.node-type-fitxa-espectacle #mm-node-region #images-wrapper {
     float: right;
     width: 80%;

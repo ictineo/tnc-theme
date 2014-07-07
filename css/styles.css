@@ -1055,7 +1055,7 @@ table {
     clear: both;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_tt\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003278}}
-  body.node-type-fitxa-espectacle #mm-node-region #video-wraper,
+  body.node-type-fitxa-espectacle #mm-node-region #video-wrapper,
   body.node-type-fitxa-espectacle #mm-node-region .slimScrollDiv {
     float: left;
     width: 20%;
@@ -1063,6 +1063,10 @@ table {
     margin-right: -100%;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_tt\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003281}}
+  body.node-type-fitxa-espectacle #mm-node-region .slimScrollDiv {
+    clear: left;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_tt\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003284}}
   body.node-type-fitxa-espectacle #mm-node-region #images-wrapper {
     float: left;
     width: 80%;
@@ -1918,6 +1922,18 @@ tr.selected td {
 .progress .filled {
   background-color: #0072b9;
   background-image: url('../images/progress.gif?1404739057');
+}
+
+/**
+ * Custom tnc styles
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_tt\/sites\/all\/themes\/tnc\/sass\/_fitxa-multimedia\.scss}line{font-family:\000036}}
+#mm-node-region #video-wrapper figure,
+#mm-node-region #video-wrapper figcaption,
+#mm-node-region #video-wrapper figure audio,
+#mm-node-region #video-wrapper figure video {
+  max-width: 100%;
+  width: 100%;
 }
 
 /**

@@ -13,6 +13,41 @@ dsm($content);
   <?php if(isset($content['field_estrenat']['#items'][0]['value']) && $content['field_estrenat']['#items'][0]['value'] == '0'):?>
     <?php print render($content['field_imatge_capcalera']); ?>
   <?php else: ?>
+      <?php
+        /** imatges **/
+        $audio_elements = "";
+        /** Images field **/
+        foreach ($content['field_imatges']['#items'] as $i => $trash):
+          foreach ($content['field_imatges'][$i]['node'] as $nid => $img):
+            foreach ($img['field_imatge']['#items'] as $j => $elem):
+              $audio_elements .= '<figure class="image-figure">';
+              $audio_elements .= '  <img id="image-'.$i.'" src="'.file_create_url($elem['uri']).'" alt="'.$elem['description'].'" />';
+              $audio_elements .= '</figure>';
+            endforeach;
+          endforeach;
+        endforeach;
+        /** ja esta mostrat, no cal que torni a sortir **/
+        hide($content['feild_video']);
+        ?>
+      <div id="images-wrapper">
+        <div class="cycle-slideshow main"
+             data-cycle-fx="scrollHorz" 
+             data-cycle-timeout="0"
+             data-cycle-slides="> figure"
+            >
+          <?php print $audio_elements; ?>
+        </div>
+        <div class="cycle-slideshow pager"
+             data-cycle-fx="scrollHorz" 
+             data-cycle-timeout="0"
+             data-cycle-slides="> figure"
+             data-cycle-fx="carousel"
+             data-cycle-carousel-visible="5"
+             data-cycle-carousel-fluid=true
+            >
+          <?php print $audio_elements; ?>
+        </div>
+      </div>
         <?php
         /** columna dreta **/
         $video_elements = "";
@@ -66,7 +101,7 @@ dsm($content);
                 <source type="<?php print $elem['filemime']; ?>" src="<?php print file_create_url($elem['uri']); ?>" />
               </audio>
               <figcaption id="audio-<?php print $i; ?>-description">
-                <?php print $elem['description']; ?>
+                <?php //print $elem['description']; ?>
               </figcaption>
             </figure>
             <?php
@@ -86,9 +121,11 @@ dsm($content);
         foreach ($content['field_documentacio'][$i]['node'] as $nid => $doc):
           foreach ($doc['field_documents']['#items'] as $j => $elem):
             ?>
-              <a href="<?php print file_create_url($elem['uri']); ?>">
-                <?php print $elem['description']; ?>
-              </a>
+              <div class="file-wrapper">
+                <a href="<?php print file_create_url($elem['uri']); ?>">
+                  <?php print $elem['description']; ?>
+                </a>
+              </div>
             <?php
           endforeach;
         endforeach;
@@ -98,41 +135,7 @@ dsm($content);
       ?>
       </div>
  
-      <?php
-        /** imatges **/
-        $audio_elements = "";
-        /** Images field **/
-        foreach ($content['field_imatges']['#items'] as $i => $trash):
-          foreach ($content['field_imatges'][$i]['node'] as $nid => $img):
-            foreach ($img['field_imatge']['#items'] as $j => $elem):
-              $audio_elements .= '<figure class="image-figure">';
-              $audio_elements .= '  <img id="image-'.$i.'" src="'.file_create_url($elem['uri']).'" alt="'.$elem['description'].'" />';
-              $audio_elements .= '</figure>';
-            endforeach;
-          endforeach;
-        endforeach;
-        /** ja esta mostrat, no cal que torni a sortir **/
-        hide($content['feild_video']);
-        ?>
-      <div id="images-wrapper">
-        <div class="cycle-slideshow main"
-             data-cycle-fx="scrollHorz" 
-             data-cycle-timeout="0"
-             data-cycle-slides="> figure"
-            >
-          <?php print $audio_elements; ?>
-        </div>
-        <div class="cycle-slideshow pager"
-             data-cycle-fx="scrollHorz" 
-             data-cycle-timeout="0"
-             data-cycle-slides="> figure"
-             data-cycle-fx="carousel"
-             data-cycle-carousel-visible="5"
-             data-cycle-carousel-fluid=true
-            >
-          <?php print $audio_elements; ?>
-        </div>
-      </div>
+
    <?php endif; ?>
   </div><!-- /mm-node-region -->
 

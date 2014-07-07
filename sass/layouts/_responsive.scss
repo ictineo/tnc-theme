@@ -274,9 +274,12 @@ $zen-auto-include-item-base: false;
     #mm-node-region {
       $zen-column-count: 5;
       @include zen-grid-container();
-      #video-wraper,
+      #video-wrapper,
       .slimScrollDiv {
         @include zen-grid-item(1, 5);
+      }
+      .slimScrollDiv {
+        @include zen-clear();
       }
       #images-wrapper {
         @include zen-grid-item(4,1);

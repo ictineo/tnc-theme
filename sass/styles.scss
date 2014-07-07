@@ -24,6 +24,11 @@
 /* Component (SMACSS module) rules */
 @import "components/misc";
 
+/**
+ * Custom tnc styles
+ */
+@import "fitxa-multimedia";
+
 // Optionally, add your own components here.
 @import "print";
 
