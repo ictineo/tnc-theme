@@ -1,5 +1,5 @@
 <?php
-dsm($content);
+//dsm($content);
 /**
  * @file
  * Returns the HTML for a node.
@@ -128,26 +128,28 @@ dsm($content);
   ?>
   </div>
 
-  <header id="top-left4-wrapper">
-    <div id="top-left3-wrapper">
-      <div id="supraheader">
-        <!--span class="sala"><?php print render($content['field_sala']);?>.</span><span class="data"><?php print render($content['field_data']); ?></span-->
-        <span class="sala"><?php print $content['field_sala'][0]['#markup'];?>.</span> <span class="data"><?php print $content['field_data'][0]['#markup']; ?></span>
+  <header>
+    <div id="top-left4-wrapper">
+      <div id="top-left3-wrapper">
+        <div id="supraheader">
+          <!--span class="sala"><?php print render($content['field_sala']);?>.</span><span class="data"><?php print render($content['field_data']); ?></span-->
+          <span class="sala"><?php print $content['field_sala'][0]['#markup'];?>.</span> <span class="data"><?php print $content['field_data'][0]['#markup']; ?></span>
+        </div>
+        <div class="title-region">
+          <h2><?php print $title; ?></h2>
+          <h3><?php print $content['field_subtitol'][0]['#markup']; ?></h3>
+        </div>
+        <div class="moreinfo-region">
+          <h4><?php print $content['field_autor'][0]['#markup']; ?></h4>
+          <h5><?php print $content['field_rol_destacat'][0]['#markup']; ?></h5>
+        </div>
+      </div><!-- /top-left3-wrapper -->
+      <div id="sessions">
+        <?php //print views_embed_view('sessions_node', 'entity_view_1', $node->nid); ?>
+        <?php print $content['sessions_node_entity_view_1']['#markup']; ?>
+        <?php print $content['sessions_node_entity_view_2']['#markup']; ?>
+        <?php print render($content['field_durada']); ?>
       </div>
-      <div class="title-region">
-        <h2><?php print $title; ?></h2>
-        <h3><?php print $content['field_subtitol'][0]['#markup']; ?></h3>
-      </div>
-      <div class="moreinfo-region">
-        <h4><?php print $content['field_autor'][0]['#markup']; ?></h4>
-        <h5><?php print $content['field_rol_destacat'][0]['#markup']; ?></h5>
-      </div>
-    </div><!-- /top-left3-wrapper -->
-    <div id="sessions">
-      <?php //print views_embed_view('sessions_node', 'entity_view_1', $node->nid); ?>
-      <?php print $content['sessions_node_entity_view_1']['#markup']; ?>
-      <?php print $content['sessions_node_entity_view_2']['#markup']; ?>
-      <?php print render($content['field_durada']); ?>
     </div>
     <div id="tarifes">
       <?php print $content['eva_taxo_tarifes_entity_view_1']['#markup']; ?>

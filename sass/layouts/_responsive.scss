@@ -207,4 +207,67 @@ $zen-auto-include-item-base: false;
       @include zen-grid-item(1, 5);
     }
   }
+  body.node-type-fitxa-espectacle article.node-fitxa-espectacle {
+    header {
+      $zen-column-count: 5;
+      @include zen-grid-container();
+
+      #tarifes {
+        @include zen-grid-item(1,5);
+        background-color: blue;
+        border: 1px solid black;
+      }
+      /** tarifes ha d'anar a dalt abans de canviar el count **/
+      #top-left4-wrapper {
+        @include zen-grid-item(4, 1);
+        border: 1px solid black;
+        $zen-column-count: 4;
+        @include zen-grid-container();
+
+        #top-left3-wrapper {
+          @include zen-grid-item(3,1);
+        }
+        #sessions {
+          @include zen-grid-item(1,4);
+        }
+        background-color: pink;
+        border: 1px solid black;
+      }
+    }
+    /** recuperem el column cout **/
+    $zen-column-count: 5;
+    #main-wrapper {
+      @include zen-grid-container();
+      #right-col {
+        @include zen-grid-item(1,5);
+      }
+      #tnc-tabs {
+        @include zen-grid-item(3,1);
+      }
+      #text-wrapper {
+        @include zen-grid-item(4,1);
+        #main-text-wrapper,
+        #moreinfo-wrapper {
+          $zen-column-count: 4;
+          @include zen-grid-container();
+          .destacats-wrapper {
+            @include zen-grid-item(1,4);
+          }
+          .field-name-body,
+          .field-name-field-artista-carrec,
+          .field-name-field-a-fons {
+            @include zen-grid-item(3,1);
+          }
+          .field-name-field-artista-carrec {
+            @include zen-clear();
+          }
+        }
+      }
+      #xxss-wrapper {
+        @include zen-clear();
+        @include zen-grid-item(4,1);
+      }
+    }
+
+  }
 }
