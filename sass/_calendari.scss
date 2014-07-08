@@ -1,0 +1,54 @@
+/**
+ * Theme calendari
+ */
+.view-blo {
+  margin-top: 28px;
+  .view-header {
+    display: inline;
+
+    ul {
+      margin: 0px;
+    }
+    .date-nav-wrapper {
+      display: inline;
+    }
+  }
+  .view-content {
+    table {
+      thead {
+        display: none;
+      }
+      tbody {
+        tr.date-box td {
+          background-color: $gris4;
+          .num-day {
+            float: left;
+            color: white;
+            font-size: 29px;
+            line-height: 36px;
+            padding: 0 8px 0 2px;
+            background-color: $fons_actiu;
+            border-radius: 0 20px 20px 0 ;
+            font-weight: 800;
+          }
+          .month,
+          .txt-day {
+            width: 100%;
+            text-align: left;
+            padding-left: 50px;
+          }
+          .month {
+          }
+          .txt-day {
+          }
+        }
+        tr.single-day {
+          .item {
+            //background-color: none;
+            //background-color: none !important;
+          }
+        }
+      }
+    }
+  }
+}
