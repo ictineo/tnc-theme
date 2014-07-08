@@ -130,3 +130,9 @@ function tnc_preprocess_block(&$variables, $hook) {
   //}
 }
 // */
+function tnc_preprocess_calendar_month_col(&$variables) {
+  //dsm($variables['item']['class']);
+}
+//function tnc_preprocess_preprocess_date_views_pager(&$vars) {
+  //dsm($vars);
+//}

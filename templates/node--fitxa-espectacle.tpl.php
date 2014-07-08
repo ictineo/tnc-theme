@@ -207,10 +207,12 @@ dsm($content);
     </div>
     <div id="xxss-wrapper">
       <?php print render($content['easy_social_1']); ?>
-      <?php $fb_block = module_invoke('facebook_comments_box', 'block_view', 'facebook_comments_box');
-            print render($fb_block['content']);
-            ?>
-      <?php print render($content['field_hashtag_tw']); ?>
+      <div id="xxss-external-content">
+        <?php $fb_block = module_invoke('facebook_comments_box', 'block_view', 'facebook_comments_box');
+              print render($fb_block['content']);
+              ?>
+        <?php print render($content['field_hashtag_tw']); ?>
+      </div>
     </div>
   </div>
 
