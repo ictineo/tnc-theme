@@ -185,9 +185,9 @@ dsm($content);
       <?php print render($content['field_entorn']); ?>
     </div>
     <div class="tnc-tabs">
-      <span class="tnc-tab"><?php print t('Presentation'); ?></span>
-      <span class="tnc-tab"><?php print t('More information'); ?></span>
-      <span class="tnc-tab"><?php print t('Calendar'); ?></span>
+      <span class="tnc-tab tnc-tab-1"><?php print t('Presentation'); ?></span>
+      <span class="tnc-tab tnc-tab-2"><?php print t('More information'); ?></span>
+      <span class="tnc-tab tnc-tab-3"><?php print t('Calendar'); ?></span>
     </div>
     <div id="text-wrapper">
       <div id="main-text-wrapper">

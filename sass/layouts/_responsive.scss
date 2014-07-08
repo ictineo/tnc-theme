@@ -233,7 +233,7 @@ $zen-auto-include-item-base: false;
           }
         }
       }
-      /** recuperem el column cout **/
+      /** recuperem el column count **/
       $zen-column-count: 4;
       #main-wrapper {
         @include zen-grid-container();
@@ -259,6 +259,12 @@ $zen-auto-include-item-base: false;
             }
             .field-name-field-artista-carrec {
               @include zen-clear();
+              $zen-column-count: 3;
+              @include zen-grid-container();
+              .carrec-tid-11,
+              .carrec-tid-14 {
+                @include zen-grid-item(1,1);
+              }
             }
           }
         }
