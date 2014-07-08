@@ -224,6 +224,9 @@
   line-height: 100%;
   color: $blanc;
 }
+@mixin bora() {
+  border: $color-bora 1px solid;
+}
 
 
 
