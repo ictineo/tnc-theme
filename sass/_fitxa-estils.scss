@@ -1,0 +1,141 @@
+body.node-type-fitxa-espectacle article.node-fitxa-espectacle {
+  header {
+    margin-top: 32px;
+    #top-left3-wrapper{
+      div {
+        //padding-right: $column_padding;
+      }
+      #supraheader {
+        .sala {
+          font-size: 25px;
+          color: $blau1;
+          font-family: 'Open Sans', sans-serif;
+          font-weight: 800;
+          text-transform: uppercase;
+        }
+        .data span {
+          font-size: 25px;
+          color: $color_text;
+          font-family: 'Open Sans', sans-serif;
+          font-weight: 600;
+          text-transform: uppercase;
+        }
+        border-bottom: 1px solid $color_bora;
+      }
+      .title-region {
+        h2 {
+          @include titol();
+          margin: 0px;
+          line-height: 100%;
+        }
+        h3 {
+          @include sub_titol();
+          margin: 0px;
+          line-height: 100%;
+        }
+        border-bottom: 1px solid $color_bora;
+      }
+      .moreinfo-region {
+        h4{
+          @include tit_autor();
+          margin: 0px;
+        }
+        h5{
+          @include tit_director();
+          margin: 0px;
+        }
+      }
+    }
+    #sessions {
+      div {
+        //padding: 0 $column_padding;
+      }
+      .views-row div {
+        display: inline;
+      }
+      .view-id-sessions_node.view-display-id-entity_view_1 .view-header {
+        font-size: 13px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 800;
+        color: $color_text;
+        text-transform: uppercase;
+        border-bottom: 1px solid $color_bora;
+      } 
+      .view-id-sessions_node.view-display-id-entity_view_2 .view-header {
+          font-size: 13px;
+          line-height: 17px;
+          font-family: 'Open Sans', sans-serif;
+          font-weight: 600;
+          margin-top: 17px;
+      }
+      .view .view-content {
+        .field-name-field-dia-sessio {
+          font-size: 13px;
+          line-height: 17px;
+          font-family: 'Open Sans', sans-serif;
+          font-weight: 600;
+        }
+        .views-field-nothing {
+          font-size: 13px;
+          line-height: 17px;
+          font-family: 'Open Sans', sans-serif;
+          font-weight: 400;
+        }
+      }
+      .field-name-field-durada {
+        /** forcem el display block per ppoder posar marge superior **/
+        display: block;
+        margin-top: 17px;
+        .field-label,
+        .field-items div,
+        .field-items {
+          display: inline;
+          font-size: 13px;
+          line-height: 17px;
+          font-family: 'Open Sans', sans-serif;
+          font-weight: 400;
+        }
+      }
+    }
+    #tarifes {
+      .view-id-eva_taxo_tarifes.view-display-id-entity_view_1 {
+        .view-header {
+          font-size: 13px;
+          font-family: 'Open Sans', sans-serif;
+          font-weight: 800;
+          color: $color_text;
+          text-transform: uppercase;
+          border-bottom: 1px solid $color_bora;
+        }
+        .view-content {
+          .views-row {
+            $zen-column-count: 8;
+            @include zen-grid-container();
+            border-bottom: 1px solid $color_bora;
+            .views-field-field-preu-1 {
+              font-size: 13px;
+              line-height: 17px;
+              font-family: 'Open Sans', sans-serif;
+              font-weight: 600;
+              @include zen-grid-item(1,8);
+            }
+            .field-name-field-nom {
+              @include zen-grid-item(7,1);
+              font-size: 13px;
+              line-height: 17px;
+              font-family: 'Open Sans', sans-serif;
+              font-weight: 600;
+            }
+          }
+        }
+      }
+      .field-name-field-url-compra-reserva a {
+        margin-top: 17px;
+        @include boto();
+      }
+    }
+  }
+
+
+
+}
