@@ -2,7 +2,6 @@ body.node-type-fitxa-espectacle article.node-fitxa-espectacle {
   header {
     margin-top: 32px;
     #top-left4-wrapper {
-      @include: bora;
       #top-left3-wrapper{
         div {
           //padding-right: $column_padding;
@@ -32,7 +31,7 @@ body.node-type-fitxa-espectacle article.node-fitxa-espectacle {
           }
           h3 {
             @include sub_titol();
-            margin: 0px;
+            margin: 0px 0 5px;
             line-height: 100%;
           }
           border-bottom: 1px solid $color_bora;
@@ -40,7 +39,7 @@ body.node-type-fitxa-espectacle article.node-fitxa-espectacle {
         .moreinfo-region {
           h4{
             @include tit_autor();
-            margin: 0px;
+            margin: 5px 0px 15px;
           }
           h5{
             @include tit_director();
@@ -57,10 +56,7 @@ body.node-type-fitxa-espectacle article.node-fitxa-espectacle {
         display: inline;
       }
       .view-id-sessions_node.view-display-id-entity_view_1 .view-header {
-        font-size: 13px;
-        font-family: 'Open Sans', sans-serif;
-        font-weight: 800;
-        color: $color_text;
+        @include tit_mig;
         text-transform: uppercase;
         border-bottom: 1px solid $color_bora;
       } 
@@ -68,15 +64,15 @@ body.node-type-fitxa-espectacle article.node-fitxa-espectacle {
           font-size: 13px;
           line-height: 17px;
           font-family: 'Open Sans', sans-serif;
-          font-weight: 600;
+          font-weight: 700;
           margin-top: 17px;
       }
       .view .view-content {
-        .field-name-field-dia-sessio {
+        .field-name-field-dia-sessio span {
           font-size: 13px;
           line-height: 17px;
           font-family: 'Open Sans', sans-serif;
-          font-weight: 600;
+          font-weight: 700;
         }
         .views-field-nothing {
           font-size: 13px;
@@ -103,31 +99,47 @@ body.node-type-fitxa-espectacle article.node-fitxa-espectacle {
     #tarifes {
       .view-id-eva_taxo_tarifes.view-display-id-entity_view_1 {
         .view-header {
-          font-size: 13px;
-          font-family: 'Open Sans', sans-serif;
-          font-weight: 800;
-          color: $color_text;
+          @include tit_mig;
           text-transform: uppercase;
           border-bottom: 1px solid $color_bora;
         }
         .view-content {
           .views-row {
+            $zen-gutter-width:  0px;
             $zen-column-count: 8;
             @include zen-grid-container();
             border-bottom: 1px solid $color_bora;
+            &:last-child {
+              border-bottom: 0px none;
+            }
             .views-field-field-preu-1 {
-              font-size: 13px;
-              line-height: 17px;
-              font-family: 'Open Sans', sans-serif;
-              font-weight: 600;
-              @include zen-grid-item(1,8);
+              @include zen-grid-item(2,7);
+              span,
+              div {
+                float: right;
+                font-size: 13px;
+                line-height: 17px;
+                font-family: 'Open Sans', sans-serif;
+                font-weight: 600;
+              }
             }
             .field-name-field-nom {
-              @include zen-grid-item(7,1);
-              font-size: 13px;
-              line-height: 17px;
-              font-family: 'Open Sans', sans-serif;
-              font-weight: 600;
+              @include zen-grid-item(6,1);
+              div {
+                font-size: 13px;
+                line-height: 17px;
+                font-family: 'Open Sans', sans-serif;
+                font-weight: 600;
+              }
+            }
+            .views-field-field-descripcio-tarifa {
+              @include zen-grid-item(6,1);
+              * {
+                font-size: 10px;
+                line-height: 15px;
+                font-family: 'Open Sans', sans-serif;
+                font-weight: 400;
+              }
             }
           }
         }
@@ -139,9 +151,15 @@ body.node-type-fitxa-espectacle article.node-fitxa-espectacle {
     }
   }
   #main-wrapper {
-    #right-col{
+    #right-col > div{
+      @include bora_top();
     }
     #text-wrapper{
+      .separator-left {
+        @include bora_top();
+        display: block;
+        height: 0px;
+      }
       .tnc-tabs {
         .tnc-tab {
           cursor: pointer;
@@ -151,13 +169,25 @@ body.node-type-fitxa-espectacle article.node-fitxa-espectacle {
           }
         }
       }
-      #main-text-wrapper {
+      #main-text-wrapper,
+      #moreinfo-wrapper {
         .destacats-wrapper {
           .field-name-field-destacats .field-items {
-            .field-name-field-text .field-items .field-item.odd {
+            .field-name-field-text .field-items .field-item {
               @include cita();
+              @include destacat();
+            }
+            .field-name-field-enllac .field-items .field-item {
+              @include destacat();
+              font-size: 13px;
             }
           }
+        }
+        h5.field-title {
+          @include tit_mig;
+          text-transform: uppercase;                              
+          border-bottom: 1px solid $color_bora;
+          border-top: 1px solid $color_bora;
         }
       }
         

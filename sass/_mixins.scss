@@ -181,6 +181,18 @@
   color: $color_text;
   text-transform: uppercase;
 }
+@mixin destacat() {
+  font-size: 21px;
+  font-family: 'Open Sans';
+  font-weight: 600;
+  line-heigh: 27px;
+}
+@mixin tit_mig {
+  font-size: 13px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  color: $color_text;
+}
 @mixin pestanya_inactiva() {
   font-size: 13px;
   font-family: 'Open Sans', sans-serif;
@@ -188,12 +200,14 @@
   color: $gris2;
   text-transform: uppercase;
   padding: 5px 20px;
+  display: inline-block;
 }
 @mixin pestanya_activa() {
   @include pestanya_inactiva();
   color: $gris1;
   border-top: 1px solid $gris2;
   background-color: $gris3;
+  padding: 5px 20px;
 }
 @mixin boto() {
   width: 100%;
@@ -224,8 +238,11 @@
   line-height: 100%;
   color: $blanc;
 }
-@mixin bora() {
-  border: $color-bora 1px solid;
+@mixin bora_bot() {
+  border-bottom: $color-bora 1px solid;
+}
+@mixin bora_top() {
+  border-top: $color-bora 1px solid;
 }
 
 

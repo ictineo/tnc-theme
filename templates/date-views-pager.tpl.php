@@ -36,9 +36,9 @@
         <?php print l('&laquo;' . ($mini ? '' : ' ' . t('Prev', array(), array('context' => 'date_nav'))), $prev_url, $prev_options); ?>
       &nbsp;</li>
     <?php endif; ?>
-    <div class="date-heading">
+    <li class="date-heading">
       <h3><?php print $nav_title ?></h3>
-    </div>
+    </li>
     <?php if (!empty($next_url)) : ?>
       <li class="date-next">&nbsp;
         <?php print l(($mini ? '' : t('Next', array(), array('context' => 'date_nav')) . ' ') . '&raquo;', $next_url, $next_options); ?>

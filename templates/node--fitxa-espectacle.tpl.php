@@ -186,6 +186,7 @@
       <?php print render($content['field_entorn']); ?>
     </div>
     <div id="text-wrapper">
+      <div class="separator-left separator">&nbsp; </div>
       <span class="tnc-tabs">
         <span class="tnc-tab tnc-tab-1"><?php print t('Presentation'); ?></span>
         <span class="tnc-tab tnc-tab-2"><?php print t('More information'); ?></span>
@@ -196,6 +197,7 @@
           <?php print render($content['field_destacats']); ?>
         </div>
         <?php print render($content['body']); ?>
+        <h5 class="field-title"> <?php print t('Artistic team'); ?></h5>
         <?php print render($content['field_artista_carrec']); ?>
       </div>
       <div id="moreinfo-wrapper">
