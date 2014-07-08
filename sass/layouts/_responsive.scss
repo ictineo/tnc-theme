@@ -240,19 +240,16 @@ $zen-auto-include-item-base: false;
         #right-col {
           @include zen-grid-item(1,4);
         }
-        .tnc-tabs {
-          @include zen-grid-item(3,1);
-          $zen-column-count: 3;
-          @include zen-grid-container();
-          .tnc-tab {
-            @include zen-clear();
-            @include zen-grid-item(3,1);
-          }
-        }
         #text-wrapper {
           @include zen-grid-item(3,1);
+          .tnc-tabs {
+            @include zen-grid-item(3,1);
+            $zen-column-count: 3;
+            @include zen-grid-container();
+          }
           #main-text-wrapper,
           #moreinfo-wrapper {
+            @include zen-clear();
             $zen-column-count: 3;
             @include zen-grid-container();
             .destacats-wrapper {
@@ -316,6 +313,7 @@ $zen-auto-include-item-base: false;
         @include zen-grid-item(3,1);
         $zen-column-count: 4;
         @include zen-grid-container();
+        h5,
         .pager {
           @include zen-grid-item(3,2);
         }

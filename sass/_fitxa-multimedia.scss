@@ -1,23 +1,54 @@
 #mm-node-region {
-  background-color: darkgray;
-  color: white;
-  #video-wrapper .main {
-    figure,
-    figcaption,
-    figure audio,
-    figure video{
-      max-width: 100%;
-      width: 100%;
+  /** etils generals **/
+  background-color: $negre;
+  h5.multimedia-title {
+    @include tit_multimedia();
+  }
+  figcaption div,
+  figcaption {
+    @include peus_multimedia();
+    a {
+      color: $gris1;
     }
-   #video-wrapper .pager {
+  }
+
+  /** esitls per regions **/
+  #video-wrapper {
+    .main {
       figure,
       figcaption,
       figure audio,
       figure video{
-        width: 50%;
-        max-width: 50%;
+        max-width: 100%;
+        width: 100%;
       }
     }
+   .pager {
+      figure,
+      figcaption,
+      figure audio,
+      figure video{
+        //width: 50%;
+        //max-width: 50%;
+      }
+      figcaption {
+        width: 100%;
+        max-width: 100%;
+        white-space: normal;
+        text-align: left;
+        a {
+          display: none;
+        }
+      }
+    }
+    margin-bottom: 17px;
+    padding-bottom: 17px;
+    border-bottom: 1px solid $blanc;
+  }
+  #audio-wrapper {
+    border-bottom: 1px solid $blanc;
+    margin-bottom: 17px;
+    padding-bottom: 17px;
   }
   #images-wrapper {
     .main {

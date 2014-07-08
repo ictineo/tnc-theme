@@ -187,11 +187,13 @@
   font-weight: 800;
   color: $gris2;
   text-transform: uppercase;
+  padding: 5px 20px;
 }
 @mixin pestanya_activa() {
   @include pestanya_inactiva();
   color: $gris1;
   border-top: 1px solid $gris2;
+  background-color: $gris3;
 }
 @mixin boto() {
   width: 100%;
@@ -206,6 +208,21 @@
   background-color: $destacat;
   color: $blanc;
   text-transform: uppercase;
+}
+@mixin tit_multimedia() {
+  font-size: 13px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  color: $blanc;
+  text-transform: uppercase;
+  margin: 0px;
+}
+@mixin peus_multimedia() {
+  font-size: 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  line-height: 100%;
+  color: $blanc;
 }
 
 

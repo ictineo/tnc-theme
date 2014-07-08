@@ -15,7 +15,6 @@ jQuery(document).ready(function () {
     height: '100px'
   });
   jQuery('#main-wrapper .tnc-tabs .tnc-tab').click(function () {
-    console.log(jQuery(this).html());
     if(!jQuery(this).hasClass('active')) {
       /* desactivem totes les tabs */
       jQuery('#main-wrapper .tnc-tabs .active').each(function () {

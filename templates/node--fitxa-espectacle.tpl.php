@@ -1,5 +1,5 @@
 <?php
-dsm($content);
+//dsm($content);
 /**
  * @file
  * Returns the HTML for a node.
@@ -35,6 +35,7 @@ dsm($content);
             >
           <?php print $audio_elements; ?>
         </div>
+        <h5 class="multimedia-title"><?php print t('Images gallery'); ?></h5>
         <div class="cycle-slideshow pager"
              data-cycle-timeout="0"
              data-cycle-slides="> figure"
@@ -60,9 +61,9 @@ dsm($content);
               $video_elements .= '    <source type="'.$elem['filemime'].'" src="'.$path_to_file.'" />';
               $video_elements .= '  </video>';
               $video_elements .= '  <figcaption id="video-'.$i.'-description">';
-              $video_elements .= '    '.$elem['description'];
-              $video_elements .= '    <div><a href="'.$path_to_file.'" class="download-link">'.t('Download').'</a></div>';
-              $video_elements .= '  </figcaption>';
+              $video_elements .=      $elem['description'];
+              $video_elements .=      '<div><a href="'.$path_to_file.'" class="download-link">'.t('Download').'</a></div>';
+              $video_elements .=   '</figcaption>';
               $video_elements .= '</figure>';
             endforeach;
           endforeach;
@@ -184,12 +185,12 @@ dsm($content);
     <div id="right-col">
       <?php print render($content['field_entorn']); ?>
     </div>
-    <div class="tnc-tabs">
-      <span class="tnc-tab tnc-tab-1"><?php print t('Presentation'); ?></span>
-      <span class="tnc-tab tnc-tab-2"><?php print t('More information'); ?></span>
-      <span class="tnc-tab tnc-tab-3"><?php print t('Calendar'); ?></span>
-    </div>
     <div id="text-wrapper">
+      <span class="tnc-tabs">
+        <span class="tnc-tab tnc-tab-1"><?php print t('Presentation'); ?></span>
+        <span class="tnc-tab tnc-tab-2"><?php print t('More information'); ?></span>
+        <span class="tnc-tab tnc-tab-3"><?php print t('Calendar'); ?></span>
+      </span>
       <div id="main-text-wrapper">
         <div class="destacats-wrapper">
           <?php print render($content['field_destacats']); ?>

@@ -15,8 +15,10 @@ $attrs .= ($iehint > 0) ? ' iehint="' . $iehint . '"' : '';
 <?php endif;?>
   <?php print $inner ?>
 </tr>
+<?php if(is_numeric(strpos($class, 'single'))): ?>
 <tr class="arrow">
   <td colspan='7'>
     <div class="cal-arrow-wrapper"></div>
   </td>
 </tr>
+<?php endif; ?>

@@ -135,7 +135,31 @@ body.node-type-fitxa-espectacle article.node-fitxa-espectacle {
       }
     }
   }
-
+  #main-wrapper {
+    #right-col{
+    }
+    #text-wrapper{
+      .tnc-tabs {
+        .tnc-tab {
+          cursor: pointer;
+          @include pestanya_inactiva();
+          &.active {
+            @include pestanya_activa();
+          }
+        }
+      }
+      #main-text-wrapper {
+        .destacats-wrapper {
+          .field-name-field-destacats .field-items {
+            .field-name-field-text .field-items .field-item.odd {
+              @include cita();
+            }
+          }
+        }
+      }
+        
+    }
+  }
 
 
 }
