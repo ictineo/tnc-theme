@@ -25,9 +25,29 @@
 @import "components/misc";
 
 /**
+ * general style
+ */
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-transform: none;
+  text-decoration: none;
+}
+* {
+  color: $color_text;
+}
+div,
+span,
+p {
+  @include estil_reset();
+}
+
+/**
  * Custom tnc styles
  */
 @import "fitxa-multimedia";
+@import "fitxa-estils";
 
 // Optionally, add your own components here.
 @import "print";

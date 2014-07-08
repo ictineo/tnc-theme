@@ -6,11 +6,11 @@ jQuery(document).ready(function () {
       //jQuery('#images-wrapper .cycle-slideshow.pager').cycle('add', jQuery(this).parent().html());
     //});
   //});
-  jQuery('#audio-wrapper').slimScroll({
+  jQuery('#audio-wrapper .slider').slimScroll({
     alwaysVisible: true,
-    height: '100px'
+    height: '200px'
   });
-  jQuery('#document-wrapper').slimScroll({
+  jQuery('#document-wrapper .slider').slimScroll({
     alwaysVisible: true,
     height: '100px'
   });

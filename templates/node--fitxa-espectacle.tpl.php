@@ -26,8 +26,6 @@ dsm($content);
             endforeach;
           endforeach;
         endforeach;
-        /** ja esta mostrat, no cal que torni a sortir **/
-        hide($content['feild_video']);
         ?>
       <div id="images-wrapper">
         <div class="cycle-slideshow main"
@@ -38,16 +36,17 @@ dsm($content);
           <?php print $audio_elements; ?>
         </div>
         <div class="cycle-slideshow pager"
-             data-cycle-fx="scrollHorz" 
              data-cycle-timeout="0"
              data-cycle-slides="> figure"
              data-cycle-fx="carousel"
              data-cycle-carousel-visible="5"
              data-cycle-carousel-fluid=true
+             data-allow-wrap="false"
             >
           <?php print $audio_elements; ?>
         </div>
       </div>
+      <div id="right-media">
         <?php
         /** columna dreta **/
         $video_elements = "";
@@ -55,22 +54,23 @@ dsm($content);
         foreach ($content['field_videos']['#items'] as $i => $trash):
           foreach ($content['field_videos'][$i]['node'] as $nid => $video):
             foreach ($video['field_video']['#items'] as $j => $elem):
+              $path_to_file = file_create_url($elem['uri']);
               $video_elements .= '<figure class="video-figure">';
               $video_elements .= '  <video id="audio-'.$i.'" preload="none">';
-              $video_elements .= '    <source type="'.$elem['filemime'].'" src="'.file_create_url($elem['uri']).'" />';
+              $video_elements .= '    <source type="'.$elem['filemime'].'" src="'.$path_to_file.'" />';
               $video_elements .= '  </video>';
               $video_elements .= '  <figcaption id="video-'.$i.'-description">';
               $video_elements .= '    '.$elem['description'];
+              $video_elements .= '    <div><a href="'.$path_to_file.'" class="download-link">'.t('Download').'</a></div>';
               $video_elements .= '  </figcaption>';
               $video_elements .= '</figure>';
             endforeach;
           endforeach;
         endforeach;
-        /** ja esta mostrat, no cal que torni a sortir **/
-        hide($content['feild_video']);
         ?>
       <div id="video-wrapper">
-        <div class="cycle-slideshow"
+        <h5 class="multimedia-title"><?php print t('Videos'); ?></h5>
+        <div class="cycle-slideshow main"
              data-cycle-fx="scrollHorz" 
              data-cycle-timeout="0"
              data-cycle-slides="> figure"
@@ -78,7 +78,6 @@ dsm($content);
           <?php print $video_elements; ?>
         </div>
         <div class="cycle-slideshow pager"
-             data-cycle-fx="scrollHorz" 
              data-cycle-timeout="0"
              data-cycle-slides="> figure"
              data-cycle-fx="carousel"
@@ -90,50 +89,55 @@ dsm($content);
       </div>
 
       <div id="audio-wrapper">
-      <?php
-      /** Audio field **/
-      foreach ($content['field_audio']['#items'] as $i => $trash):
-        foreach ($content['field_audio'][$i]['node'] as $nid => $audio):
-          foreach ($audio['field_file_audio']['#items'] as $j => $elem):
-            ?>
-            <figure class="audio-figure">
-              <audio id="audio-<?php print $i; ?>" preload="none">
-                <source type="<?php print $elem['filemime']; ?>" src="<?php print file_create_url($elem['uri']); ?>" />
-              </audio>
-              <figcaption id="audio-<?php print $i; ?>-description">
-                <?php //print $elem['description']; ?>
-              </figcaption>
-            </figure>
-            <?php
+        <h5 class="multimedia-title"><?php print t('Audios'); ?></h5>
+        <div class='slider'>
+          <?php
+          /** Audio field **/
+          foreach ($content['field_audio']['#items'] as $i => $trash):
+            foreach ($content['field_audio'][$i]['node'] as $nid => $audio):
+              foreach ($audio['field_file_audio']['#items'] as $j => $elem):
+                $path_to_file = file_create_url($elem['uri']);
+                ?>
+                <figure class="audio-figure">
+                  <figcaption id="audio-<?php print $i; ?>-description">
+                    <?php print $elem['description']; ?>
+                  </figcaption>
+                  <audio id="audio-<?php print $i; ?>" preload="none">
+                    <source type="<?php print $elem['filemime']; ?>" src="<?php print $path_to_file; ?>" />
+                  </audio>
+                  <div><a href="<?php print $path_to_file; ?>" class="download-link"><?php print t('Download'); ?></a></div>
+                </figure>
+                <?php
+              endforeach;
+            endforeach;
           endforeach;
-        endforeach;
-      endforeach;
-      /** ja esta mostrat, no cal que torni a sortir **/
-      hide($content['feild_audio']);
-      ?>
+          ?>
+        </div>
       </div>
 
 
       <div id="document-wrapper">
-      <?php
-      /** Documents field **/
-      foreach ($content['field_documentacio']['#items'] as $i => $trash):
-        foreach ($content['field_documentacio'][$i]['node'] as $nid => $doc):
-          foreach ($doc['field_documents']['#items'] as $j => $elem):
-            ?>
-              <div class="file-wrapper">
-                <a href="<?php print file_create_url($elem['uri']); ?>">
-                  <?php print $elem['description']; ?>
-                </a>
-              </div>
-            <?php
+        <h5 class="multimedia-title"><?php print t('Documents'); ?></h5>
+        <div class="slider">
+          <?php
+          /** Documents field **/
+          foreach ($content['field_documentacio']['#items'] as $i => $trash):
+            foreach ($content['field_documentacio'][$i]['node'] as $nid => $doc):
+              foreach ($doc['field_documents']['#items'] as $j => $elem):
+                ?>
+                  <div class="file-wrapper">
+                    <a href="<?php print file_create_url($elem['uri']); ?>">
+                      <?php print $elem['description']; ?>
+                    </a>
+                  </div>
+                <?php
+              endforeach;
+            endforeach;
           endforeach;
-        endforeach;
-      endforeach;
-      /** ja esta mostrat, no cal que torni a sortir **/
-      hide($content['feild_audio']);
-      ?>
+          ?>
+        </div>
       </div>
+    </div>
  
 
    <?php endif; ?>

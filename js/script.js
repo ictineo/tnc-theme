@@ -17,26 +17,26 @@
 Drupal.behaviors.theme_tnc = {
   attach: function(context, settings) {
         var w = jQuery('#video-wrapper').width();
-        jQuery('video, audio').mediaelementplayer({
-          // if the <video width> is not specified, this is the default
-          //defaultVideoWidth: 100%,
-          // if the <video height> is not specified, this is the default
-          //defaultVideoHeight: 100%,
-          // if set, overrides <video width>
-          videoWidth: -1,
-          // if set, overrides <video height>
-          videoHeight: -1,
-          // width of audio player
-          audioWidth: w,
-          // initial volume when the player starts
-          startVolume: 0.8,
-          // useful for <audio> player loops
-          loop: false,
-          // enables Flash and Silverlight to resize to content size
-          enableAutosize: true,
-          features: ['playpause','progress','current','volume','fullscreen'],
-
-          });
+        var options_pager = {
+            videoHeight: -1,
+            videoWidth: w/2 - 10,
+            startVolume: 0.8,
+            loop: false,
+            enableAutosize: true,
+            features: ['playpause','progress','current','volume','fullscreen'],
+          };
+ 
+        var options = {
+            videoWidth: -1,
+            videoHeight: -1,
+            audioWidth: w,
+            startVolume: 0.8,
+            loop: false,
+            enableAutosize: true,
+            features: ['playpause','progress','current','volume','fullscreen'],
+          };
+        jQuery('#video-wrapper .main video, audio').mediaelementplayer(options);
+        jQuery('#video-wrapper .pager video').mediaelementplayer(options_pager);
 
     // Place your code here.
 

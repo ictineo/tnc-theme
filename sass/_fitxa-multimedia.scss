@@ -1,11 +1,40 @@
 #mm-node-region {
-  #video-wrapper {
+  background-color: darkgray;
+  color: white;
+  #video-wrapper .main {
     figure,
     figcaption,
     figure audio,
     figure video{
       max-width: 100%;
       width: 100%;
+    }
+   #video-wrapper .pager {
+      figure,
+      figcaption,
+      figure audio,
+      figure video{
+        width: 50%;
+        max-width: 50%;
+      }
+    }
+  }
+  #images-wrapper {
+    .main {
+      figure,
+      figure img {
+        width: 100%;
+        height: auto;
+      }
+    }
+    .pager {
+      figure {
+        width: 20%;
+        img {
+          height: 150px;
+          width: auto;
+        }
+      }
     }
   }
 }
