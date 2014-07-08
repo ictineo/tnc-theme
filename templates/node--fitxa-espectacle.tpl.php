@@ -148,7 +148,14 @@ dsm($content);
       <div id="top-left3-wrapper">
         <div id="supraheader">
           <!--span class="sala"><?php print render($content['field_sala']);?>.</span><span class="data"><?php print render($content['field_data']); ?></span-->
-          <span class="sala"><?php print $content['field_sala'][0]['#markup'];?>.</span> <span class="data"><?php print $content['field_data'][0]['#markup']; ?></span>
+          <span class="sala"><?php print $content['field_sala'][0]['#markup'];?>.</span> 
+          <span class="data"><?php 
+            $date_vals = $content['field_data']['#items'][0];
+            print date('d/m/Y', strtotime($date_vals['value']));
+            if($date_vals['value'] != $date_vals['value2']) {
+              print ' > ' . date('d/m/Y', strtotime($date_vals['value2']));
+            }
+            ?></span>
         </div>
         <div class="title-region">
           <h2><?php print $title; ?></h2>

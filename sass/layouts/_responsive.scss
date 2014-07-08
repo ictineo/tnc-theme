@@ -207,10 +207,13 @@ $zen-auto-include-item-base: false;
       @include zen-grid-item(1, 5);
     }
   }
+
   body.node-type-fitxa-espectacle {
     article.node-fitxa-espectacle {
       header {
         $zen-column-count: 4;
+        $zen-auto-include-item-base: true;
+        $zen-gutter-width:  20px;
         @include zen-grid-container();
 
         #tarifes {
