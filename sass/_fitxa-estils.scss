@@ -1,48 +1,51 @@
 body.node-type-fitxa-espectacle article.node-fitxa-espectacle {
   header {
     margin-top: 32px;
-    #top-left3-wrapper{
-      div {
-        //padding-right: $column_padding;
-      }
-      #supraheader {
-        .sala {
-          font-size: 25px;
-          color: $blau1;
-          font-family: 'Open Sans', sans-serif;
-          font-weight: 800;
-          text-transform: uppercase;
+    #top-left4-wrapper {
+      @include: bora;
+      #top-left3-wrapper{
+        div {
+          //padding-right: $column_padding;
         }
-        .data {
-          font-size: 25px;
-          color: $color_text;
-          font-family: 'Open Sans', sans-serif;
-          font-weight: 600;
-          text-transform: uppercase;
+        #supraheader {
+          .sala {
+            font-size: 25px;
+            color: $blau1;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 800;
+            text-transform: uppercase;
+          }
+          .data {
+            font-size: 25px;
+            color: $color_text;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 600;
+            text-transform: uppercase;
+          }
+          border-bottom: 1px solid $color_bora;
         }
-        border-bottom: 1px solid $color_bora;
-      }
-      .title-region {
-        h2 {
-          @include titol();
-          margin: 0px;
-          line-height: 100%;
+        .title-region {
+          h2 {
+            @include titol();
+            margin: 0px;
+            line-height: 100%;
+          }
+          h3 {
+            @include sub_titol();
+            margin: 0px;
+            line-height: 100%;
+          }
+          border-bottom: 1px solid $color_bora;
         }
-        h3 {
-          @include sub_titol();
-          margin: 0px;
-          line-height: 100%;
-        }
-        border-bottom: 1px solid $color_bora;
-      }
-      .moreinfo-region {
-        h4{
-          @include tit_autor();
-          margin: 0px;
-        }
-        h5{
-          @include tit_director();
-          margin: 0px;
+        .moreinfo-region {
+          h4{
+            @include tit_autor();
+            margin: 0px;
+          }
+          h5{
+            @include tit_director();
+            margin: 0px;
+          }
         }
       }
     }
