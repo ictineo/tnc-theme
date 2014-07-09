@@ -179,6 +179,28 @@
             }
           }
         }
+        tr.single-day.collapsed {
+          display: none;
+        }
+        tr.arrow {
+          cursor: pointer;
+          td {
+            height: 20px;
+            text-align: center;
+            .cal-arrow-wrapper {
+              width: 40px;
+              height: 20px;
+              margin: 0 auto;
+              display: block;
+              @include bg_sprite();
+            }
+          }
+          &.collapsed {
+            td .cal-arrow-wrapper {
+              background-position: -40px 0;
+            }
+          }
+        }
       }
     }
   }

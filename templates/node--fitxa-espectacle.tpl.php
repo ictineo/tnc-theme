@@ -263,4 +263,4 @@ drupal_add_js(array('tnc' => array('nid' => $node->nid)), 'setting');
   <?php //print render($content['comments']); ?>
 
 </article>
-<?php drupal_add_js(drupal_get_path('theme','tnc') . '/js/carousels-fitxa.js'); ?>
+<?php drupal_add_js(drupal_get_path('theme','tnc') . '/js/efectes-fitxa.js'); ?>

@@ -1,6 +1,8 @@
 jQuery(document).ready(function () {
-  /** marcat calendari
+  /** 
+   * calendari
    */
+  /** marca de dies i events actius **/
   var nid = Drupal.settings.tnc.nid;
   var flag_td = false;
   jQuery('.view-blo .calendar-calendar td.single-day').each(function () {
@@ -15,6 +17,24 @@ jQuery(document).ready(function () {
         jQuery(this).addClass('day-box-current');
       });
     }
+  });
+  /** marca de fileres de passat **/
+  flag_td = false
+  jQuery('.view-blo .calendar-calendar table tr').each(function () {
+    if(!jQuery(this).hasClass('arrow') && jQuery(this).find('td.today, td.future').length == 0) {
+      jQuery(this).addClass('collapsed');
+      flag_td = true;
+    }
+    if(flag_td && jQuery(this).hasClass('arrow')) {
+      jQuery(this).addClass('collapsed');
+      flag_td = false;
+    }
+
+  });
+  /** interaccio amb les fletxes **/
+  jQuery('.view-blo .calendar-calendar table tr.arrow').click(function () {
+    jQuery(this).toggleClass('collapsed');
+    jQuery(this).prev().toggleClass('collapsed');
   });
   //var classarr = jQuery('article.node-fitxa-espectacle').attr('class').split(' ');
   //jQuery(classarr).each(function () {
