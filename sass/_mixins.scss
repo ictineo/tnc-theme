@@ -185,7 +185,8 @@
   font-size: 21px;
   font-family: 'Open Sans';
   font-weight: 600;
-  line-heigh: 27px;
+  line-height: 27px;
+  background-color: $gris5;
 }
 @mixin tit_mig {
   font-size: 13px;
@@ -244,7 +245,30 @@
 @mixin bora_top() {
   border-top: $color-bora 1px solid;
 }
-
+@mixin caixa_petita {
+  background-color: $gris5;
+  text-align: center;
+  h2.node-title a {
+    color: $titols_b;
+    text-transform: uppercase;
+  }
+  .field-name-field-tipus-entorn .field-item {
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-weight: 600;
+  }
+  .field-name-field-sala .field-item {
+    text-transform: uppercase;
+  }
+  .field-name-field-tarifa .field-item {
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  .field-name-field-url-compra-reserva a {
+    @include boto();
+    width: 70%;
+  }
+}
 
 
 /**

@@ -183,6 +183,7 @@
 
   <div id="main-wrapper">
     <div id="right-col">
+    <h3 class="col-title"><?php print t('Surroundings'); ?></h3>
       <?php print render($content['field_entorn']); ?>
     </div>
     <div id="text-wrapper">

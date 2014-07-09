@@ -117,19 +117,16 @@ body.node-type-fitxa-espectacle article.node-fitxa-espectacle {
               span,
               div {
                 float: right;
-                font-size: 13px;
+                @include tit_mig;
                 line-height: 17px;
-                font-family: 'Open Sans', sans-serif;
-                font-weight: 600;
               }
             }
             .field-name-field-nom {
               @include zen-grid-item(6,1);
               div {
-                font-size: 13px;
+                @include tit_mig;
+                text-transform: uppercase;
                 line-height: 17px;
-                font-family: 'Open Sans', sans-serif;
-                font-weight: 600;
               }
             }
             .views-field-field-descripcio-tarifa {
@@ -151,8 +148,23 @@ body.node-type-fitxa-espectacle article.node-fitxa-espectacle {
     }
   }
   #main-wrapper {
-    #right-col > div{
+    #right-col /*> div*/{/*Jude comenta*/
       @include bora_top();
+      h3.col-title {
+        @include sub_titol();
+        @include bora_top;
+        @include bora_bot;
+        padding: 5px 0;
+      }
+      .field-name-field-entorn {
+        .field-label {
+          display: none;
+        }
+        article.node {
+          @include caixa_petita;
+        }
+      }
+
     }
     #text-wrapper{
       .separator-left {
@@ -176,10 +188,13 @@ body.node-type-fitxa-espectacle article.node-fitxa-espectacle {
             .field-name-field-text .field-items .field-item {
               @include cita();
               @include destacat();
+              padding: 30px 30px 0 30px;
             }
             .field-name-field-enllac .field-items .field-item {
               @include destacat();
               font-size: 13px;
+              padding: 10px 30px 30px 30px;
+              text-align: right;
             }
           }
         }
@@ -188,6 +203,31 @@ body.node-type-fitxa-espectacle article.node-fitxa-espectacle {
           text-transform: uppercase;                              
           border-bottom: 1px solid $color_bora;
           border-top: 1px solid $color_bora;
+        }
+        .field-name-field-artista-carrec {
+          .carrec-tid-11.field-collection-item-field-artista-carrec,
+          .carrec-tid-14.field-collection-item-field-artista-carrec {
+            .field-name-field-carrec a {
+              @include estil_reset();
+              line-height: 17px;
+              color: $titols_b; 
+            }
+            .field-name-field-artista a {
+              @include estil_reset();
+              line-height: 17px;
+              color: $titols_b;
+              font-weight: 700;
+            }
+          }
+          .field-collection-item-field-artista-carrec {
+            .field-name-field-carrec a {
+              line-heigh: 17px;
+              font-weight: 800;
+            }
+            .field-name-field-artista a {
+              line-height: 17px;
+            }
+          }
         }
       }
         
