@@ -1,5 +1,7 @@
 <?php
 //dsm($content);
+$tid_dir = 9;
+$tid_acc = 15;
 /**
  * @file
  * Returns the HTML for a node.
@@ -7,6 +9,7 @@
  * Complete documentation for this file is available online.
  * @see https://drupal.org/node/1728164
  */
+drupal_add_js(array('tnc' => array('nid' => $node->nid)), 'setting');
 ?>
 <article class="node-<?php print $node->nid; ?> <?php print $classes; ?> clearfix"<?php print $attributes; ?>>
   <div id="mm-node-region">
@@ -187,7 +190,7 @@
       <?php print render($content['field_entorn']); ?>
     </div>
     <div id="text-wrapper">
-      <div class="separator-left separator">&nbsp; </div>
+      <span class="separator-left separator">&nbsp; </span>
       <span class="tnc-tabs">
         <span class="tnc-tab tnc-tab-1"><?php print t('Presentation'); ?></span>
         <span class="tnc-tab tnc-tab-2"><?php print t('More information'); ?></span>
@@ -197,9 +200,27 @@
         <div class="destacats-wrapper">
           <?php print render($content['field_destacats']); ?>
         </div>
-        <?php print render($content['body']); ?>
-        <h5 class="field-title"> <?php print t('Artistic team'); ?></h5>
-        <?php print render($content['field_artista_carrec']); ?>
+        <div class="presentation-col">
+          <?php print render($content['body']); ?>
+          <h5 class="field-title"> <?php print t('Artistic team'); ?></h5>
+  <?php 
+            //$field_left = $content['field_artista_carrec'];
+            //foreach($content['field_artista_carrec']['#items'] as $id => $itm) {
+              //if (array_shift($content['field_artista_carrec'][$id]['entity']['field_collection_item'])['field_carrec']['#items'][0]['tid'] == $tid_dir
+                //|| array_shift($content['field_artista_carrec'][$id]['entity']['field_collection_item'])['field_carrec']['#items'][0]['tid'] == $tid_act) {
+                  //unset($content['field_artista_carrec']['#items'][$id]);
+                  //unset($content['field_artista_carrec'][$id]);
+                //} else {
+                  //unset($field_left['#items'][$id]);
+                  //unset($field_left[$id]);
+                //}
+              //}
+  ?>
+          <div class="artista-carrec-left">
+            <?php print render($content['field_artista_carrec']); ?>
+          </div>
+          <?php print render($content['field_artista_carrec']); ?>
+        </div>
       </div>
       <div id="moreinfo-wrapper">
         <div class="destacats-wrapper">

@@ -141,20 +141,22 @@ body.node-type-fitxa-espectacle article.node-fitxa-espectacle {
           }
         }
       }
-      .field-name-field-url-compra-reserva a {
-        margin-top: 17px;
+      .field-name-field-url-compra-reserva {
+        margin-bottom: 17px;
+        a {
         @include boto();
+        }
       }
     }
   }
   #main-wrapper {
     #right-col /*> div*/{/*Jude comenta*/
-      @include bora_top();
       h3.col-title {
         @include sub_titol();
         @include bora_top;
         @include bora_bot;
         padding: 5px 0;
+        margin: 0;
       }
       .field-name-field-entorn {
         .field-label {
@@ -184,7 +186,9 @@ body.node-type-fitxa-espectacle article.node-fitxa-espectacle {
       #main-text-wrapper,
       #moreinfo-wrapper {
         .destacats-wrapper {
-          .field-name-field-destacats .field-items {
+          .field-name-field-destacats .field-items .field-item {
+            background-color: $gris5;
+            margin: 25px 0 30px 0;
             .field-name-field-text .field-items .field-item {
               @include cita();
               @include destacat();
@@ -204,21 +208,30 @@ body.node-type-fitxa-espectacle article.node-fitxa-espectacle {
           border-bottom: 1px solid $color_bora;
           border-top: 1px solid $color_bora;
         }
-        .field-name-field-artista-carrec {
-          .carrec-tid-15.field-collection-item-field-artista-carrec,
-          .carrec-tid-9.field-collection-item-field-artista-carrec {
-            .field-name-field-carrec a {
-              @include estil_reset();
-              line-height: 17px;
-              color: $titols_b; 
-            }
-            .field-name-field-artista a {
-              @include estil_reset();
-              line-height: 17px;
-              color: $titols_b;
-              font-weight: 700;
+        .artista-carrec-left {
+          .field-name-field-artista-carrec .field-collection-item-field-artista-carrec a {
+            display: none;
+          }
+          .field-name-field-artista-carrec {
+            .field-collection-item-field-artista-carrec.carrec-tid-15,
+            .field-collection-item-field-artista-carrec.carrec-tid-9 {
+              .field-name-field-carrec a {
+                @include estil_reset();
+                line-height: 17px;
+                color: $titols_b; 
+                display: block;
+              }
+              .field-name-field-artista a {
+                @include estil_reset();
+                line-height: 17px;
+                color: $titols_b;
+                font-weight: 700;
+                display: block;
+              }
             }
           }
+        }
+        .field-name-field-artista-carrec {
           .field-collection-item-field-artista-carrec {
             .field-name-field-carrec a {
               line-heigh: 17px;
@@ -226,6 +239,13 @@ body.node-type-fitxa-espectacle article.node-fitxa-espectacle {
             }
             .field-name-field-artista a {
               line-height: 17px;
+            }
+          }
+          .carrec-tid-15.field-collection-item-field-artista-carrec,
+          .carrec-tid-9.field-collection-item-field-artista-carrec {
+            .field-name-field-artista a,
+            .field-name-field-carrec a {
+              display: none;
             }
           }
         }

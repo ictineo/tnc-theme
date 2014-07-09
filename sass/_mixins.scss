@@ -186,7 +186,6 @@
   font-family: 'Open Sans';
   font-weight: 600;
   line-height: 27px;
-  background-color: $gris5;
 }
 @mixin tit_mig {
   font-size: 13px;
@@ -268,6 +267,10 @@
     @include boto();
     width: 70%;
   }
+}
+@mixin bg_sprite() {
+  background-image: url('../images/sprite.png');
+  background-repeat: no-repeat;
 }
 
 

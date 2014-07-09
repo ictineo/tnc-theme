@@ -1,4 +1,29 @@
 jQuery(document).ready(function () {
+  /** marcat calendari
+   */
+  var nid = Drupal.settings.tnc.nid;
+  var flag_td = false;
+  jQuery('.view-blo .calendar-calendar td.single-day').each(function () {
+    flag_td = false;
+    jQuery(this).find('.views-field-nothing .host-entity-nid-' + nid).each(function () {
+      jQuery(this).parent().parent().parent().parent().parent().parent().addClass('current');
+      flag_td = true;
+    });
+    if(flag_td) {
+      var act_date = jQuery(this).attr('data-date');
+      jQuery('.view-blo .calendar-calendar td.date-box[data-date="' + act_date + '"]').each(function () {
+        jQuery(this).addClass('day-box-current');
+      });
+    }
+  });
+  //var classarr = jQuery('article.node-fitxa-espectacle').attr('class').split(' ');
+  //jQuery(classarr).each(function () {
+    //if(this.substring(0,5) == 'node-' && jQuery.isNumeric(this.substring(5))) {
+      //alert(this.substring(5));
+    //}
+  //});
+
+
   //console.log('tractament carrousels DEBUG');
   //jQuery('#images-wrapper .cycle-slideshow.pager').one('cycle-initialized', function (e, h) {
     //jQuery('#images-wrapper .main figure').each(function () {
@@ -6,6 +31,9 @@ jQuery(document).ready(function () {
       //jQuery('#images-wrapper .cycle-slideshow.pager').cycle('add', jQuery(this).parent().html());
     //});
   //});
+  if(jQuery('#mm-node-region').length) {
+    jQuery('#mm-node-region').appendTo('#mm-wrapper');
+  }
   jQuery('#audio-wrapper .slider').slimScroll({
     alwaysVisible: true,
     height: '200px'
@@ -14,6 +42,9 @@ jQuery(document).ready(function () {
     alwaysVisible: true,
     height: '100px'
   });
+  /**&
+   * Tabs
+   */
   jQuery('#main-wrapper .tnc-tabs .tnc-tab').click(function () {
     if(!jQuery(this).hasClass('active')) {
       /* desactivem totes les tabs */

@@ -2,50 +2,181 @@
  * Theme calendari
  */
 .view-blo {
-  margin-top: 28px;
+  margin-top: 58px;
   .view-header {
     display: inline;
 
-    ul {
+    .date-nav-wrapper ul {
       margin: 0px;
+      display: block;
+      height: 35px;
+      h3 {
+        @include estil_reset();
+        font-size: 35px;
+        text-transform: uppercase;
+        margin: 0px;
+        display: inline;
+        font-weight: 800;
+      }
+      li {
+        list-style: none;
+        line-height: 35px;
+        top: auto;
+        right: auto;
+        bottom: auto;
+        left: auto;
+        margin: 0px;
+        position: relative;
+        background-color: transparent;
+        border-radius: 0px;
+        padding: 0px;
+        height: 35px;
+        width: 12px;
+        float: left;
+        &.date-heading {
+          text-align: center;
+          display: inline;
+          width: auto;
+          padding: 0 20px;
+        }
+        a {
+          overflow: hidden;
+          text-indent: 999px;
+          display: block;
+          height: 35px;
+          width: 12px;
+          @include bg_sprite();
+          margin: 0px;
+        }
+        &.date-next a {
+          margin-top: -35px;
+        }
+      }
     }
     .date-nav-wrapper {
       display: inline;
     }
   }
-  .view-content {
-    table {
+  .view-content .calendar-calendar .month-view {
+    table.full {
+      border: 0px none;
+      td.today,
+      td.date-box.today,
+      td.single-day.today,
+      td {
+        border-top: 0px none;
+        border-bottom: 0px none;
+        border-right: 6px solid white;
+        border-left: 6px solid white;
+
+      }
       thead {
         display: none;
       }
       tbody {
         tr.date-box td {
-          background-color: $gris4;
+          background-color: $gris3;
+          padding: 0px;
+          margin: 0px;
           .num-day {
             float: left;
             color: white;
             font-size: 29px;
-            line-height: 36px;
+            line-height: 38px;
             padding: 0 8px 0 2px;
-            background-color: $fons_actiu;
+            background-color: $gris2;
             border-radius: 0 20px 20px 0 ;
             font-weight: 800;
           }
+          .strs {
+          }
           .month,
           .txt-day {
-            width: 100%;
+            width: auto;
+            background-color: transparent;
             text-align: left;
+            font-size: 11px;
+            text-transform: uppercase;
             padding-left: 50px;
+            font-weight: 600;
+            line-height: 15px;
+            //display: inline-block;
           }
           .month {
+            font-weight: 800;
+            vertical-align: bottom;
+            padding-top: 4px;
           }
           .txt-day {
+            vertical-align: top;
+          }
+          &.day-box-current .num-day {
+            background-color: $blau1;
           }
         }
         tr.single-day {
-          .item {
-            //background-color: none;
-            //background-color: none !important;
+          * {
+            border-radius: 0px;
+            border-radius: 0px !important;
+          }
+          td {
+            padding: 0px;
+            .item {
+              //background-color: none;
+              //background-color: none !important;
+              .calendar.monthview {
+                background-color: $gris4;
+                padding: 0 0 2px 0;
+                * {
+                  font-size: 11px;
+                  line-height: 15px;
+                  text-transform: uppercase;
+                  & > a,
+                  .field {
+                    padding: 0 4px 0 8px;
+                    display: inline-block;
+                  }
+                }
+                .field-name-field-sala {
+                  margin-top: 4px;
+                }
+                .field-name-field-url-compra-reserva {
+                  padding: 0px;
+                  display: block;
+                  clear: both;
+                  width: 100%;
+                  margin-top: 8px;
+                  a {
+                    @include boto();
+                    font-size: 9px;
+                    line-height: 13px;
+                    color: white;
+                    width: 50%;
+                    float: right;
+                    display: block;
+                    min-height: inherit;
+                    height: 13px;
+                    
+                    &:hover {
+                      text-decoration: none;
+                    }
+                  }
+                }
+              }
+              &.current {
+                border: 1px solid $blau1;
+              }
+            }
+          }
+        }
+        tr.single-day td.past,
+        tr.date-box td.past {
+          background-color: $gris4;
+          .inner div {
+            background-color: $gris4;
+            &.num-day {
+              background-color: $gris3;
+            }
           }
         }
       }
