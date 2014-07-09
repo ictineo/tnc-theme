@@ -273,12 +273,12 @@ $zen-auto-include-item-base: false;
               @include zen-clear();
               $zen-column-count: 3;
               @include zen-grid-container();
-              .field-item.odd .field-collection-item-field-artista-carrec.carrec-tid-11 {
+              .field-item.odd .field-collection-item-field-artista-carrec.carrec-tid-9 {
                 @include zen-grid-item(1,1);
               }
-              .field-item.even .field-collection-item-field-artista-carrec.carrec-tid-14 {
-                @include zen-grid-item(1,1);
+              .field-item.even .field-collection-item-field-artista-carrec.carrec-tid-15 {
                 @include zen-clear();
+                @include zen-grid-item(1,1);
               }
               .field-item.odd .field-collection-item-field-artista-carrec {
                 @include zen-grid-item(1,2);
