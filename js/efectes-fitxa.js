@@ -51,6 +51,31 @@ jQuery(document).ready(function () {
       //jQuery('#images-wrapper .cycle-slideshow.pager').cycle('add', jQuery(this).parent().html());
     //});
   //});
+  /**
+   * Sincronitzacio de carousels pager
+   */
+  jQuery('#images-wrapper .pager figure').click(function() {
+    var index = jQuery('#images-wrapper .pager').data('cycle.API').getSlideIndex(this);
+    jQuery('#images-wrapper .main').cycle('goto', index);
+  });
+  jQuery('#video-wrapper .pager figure').click(function() {
+    var index = jQuery('#video-wrapper .pager').data('cycle.API').getSlideIndex(this);
+    jQuery('#video-wrapper .main').cycle('goto', index);
+    //var h = 0;
+    jQuery(Drupal.settings.tnc.mediavideo).each(function (i) {
+      if(index == i) {
+        this.play();
+      } else {
+        this.pause();
+      }
+      //if(jQuery('#video-wrapper .main figure:nth-child('+i+')').height() > h) {
+        //h = jQuery(this).height();
+      //}
+      //console.log(i + '  --  ' + jQuery('#video-wrapper .main figure:nth-child('+i+')').height());
+      //jQuery('#video-wrapper .main').css('height', h + 'px');
+
+    });
+  });
   if(jQuery('#mm-node-region').length) {
     jQuery('#mm-node-region').appendTo('#mm-wrapper');
   }

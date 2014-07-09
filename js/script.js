@@ -28,15 +28,16 @@ Drupal.behaviors.theme_tnc = {
  
         var options = {
             videoWidth: -1,
-            videoHeight: -1,
+            videoHeight: 200,
             audioWidth: w,
             startVolume: 0.8,
             loop: false,
             enableAutosize: true,
             features: ['playpause','progress','current','volume','fullscreen'],
           };
-        jQuery('#video-wrapper .main video, audio').mediaelementplayer(options);
-        jQuery('#video-wrapper .pager video').mediaelementplayer(options_pager);
+        Drupal.settings.tnc['mediaaudio'] = jQuery('audio').mediaelementplayer(options);
+        Drupal.settings.tnc['mediavideo'] = jQuery('#video-wrapper .main video').mediaelementplayer(options);
+        //jQuery('#video-wrapper .pager video').mediaelementplayer(options_pager);
 
     // Place your code here.
 

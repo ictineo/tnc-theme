@@ -24,6 +24,7 @@
       }
     }
    .pager {
+     position: relative;
       figure,
       figcaption,
       figure audio,
@@ -40,6 +41,23 @@
           display: none;
         }
       }
+      .carousel-pager {
+        @include bg_sprite();
+        height: 50%;
+        top: 25%;
+        width: 20px;
+        position: absolute;
+        cursor: pointer;
+        &.carousel-pager-prev {
+          background-position: 0 0;
+          left: 0px;
+        }
+        &.carousel-pager-next {
+          background-position: 0 0;
+          right: 0px;
+        }
+      }
+
     }
     margin-bottom: 17px;
     padding-bottom: 17px;
@@ -51,6 +69,7 @@
     padding-bottom: 17px;
   }
   #images-wrapper {
+    margin-left: 0px;
     .main {
       figure,
       figure img {
@@ -58,13 +77,33 @@
         height: auto;
       }
     }
+    h5 {
+      margin-top: 12px;
+    }
     .pager {
+      position: relative;
       figure {
         width: 20%;
         img {
-          height: 150px;
+          max-height: 150px;
           width: auto;
         }
+      }
+    }
+    .carousel-pager {
+      @include bg_sprite();
+      height: 50%;
+      top: 25%;
+      width: 20px;
+      position: absolute;
+      cursor: pointer;
+      &.carousel-pager-prev {
+        background-position: 0 0;
+        left: 0px;
+      }
+      &.carousel-pager-next {
+        background-position: 0 0;
+        right: 0px;
       }
     }
   }

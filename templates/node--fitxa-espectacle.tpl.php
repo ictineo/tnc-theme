@@ -46,21 +46,28 @@ drupal_add_js(array('tnc' => array('nid' => $node->nid)), 'setting');
              data-cycle-carousel-visible="5"
              data-cycle-carousel-fluid=true
              data-allow-wrap="false"
+             data-cycle-next="> .carousel-pager-next"
+             data-cycle-prev="> .carousel-pager-prev"
             >
           <?php print $audio_elements; ?>
+          <span class="carousel-pager carousel-pager-prev">&nbsp</span>
+          <span class="carousel-pager carousel-pager-next">&nbsp</span>
         </div>
       </div>
       <div id="right-media">
         <?php
         /** columna dreta **/
         $video_elements = "";
+        $video_pager = "";
         /** Video field **/
         foreach ($content['field_videos']['#items'] as $i => $trash):
           foreach ($content['field_videos'][$i]['node'] as $nid => $video):
-            foreach ($video['field_video']['#items'] as $j => $elem):
+            if(is_numeric($nid)) {
+              $poster = file_create_url($video['field_img_preview'][0]['#item']['uri']);
+              $elem = $video['field_video']['#items'][0];
               $path_to_file = file_create_url($elem['uri']);
               $video_elements .= '<figure class="video-figure">';
-              $video_elements .= '  <video id="audio-'.$i.'" preload="none">';
+              $video_elements .= '  <video id="audio-'.$i.'" preload="none" height="100" poster="'.$poster.'">';
               $video_elements .= '    <source type="'.$elem['filemime'].'" src="'.$path_to_file.'" />';
               $video_elements .= '  </video>';
               $video_elements .= '  <figcaption id="video-'.$i.'-description">';
@@ -68,7 +75,14 @@ drupal_add_js(array('tnc' => array('nid' => $node->nid)), 'setting');
               $video_elements .=      '<div><a href="'.$path_to_file.'" class="download-link">'.t('Download').'</a></div>';
               $video_elements .=   '</figcaption>';
               $video_elements .= '</figure>';
-            endforeach;
+              $video_pager .= '<figure class="video-figure">';
+              $video_pager .=    '<img src="'.$poster.'" alt="'.$video['field_img_preview'][0]['#item']['title'].'" />';
+              $video_pager .= '  <figcaption id="video-'.$i.'-description">';
+              $video_pager .=      $elem['description'];
+              $video_pager .=      '<div><a href="'.$path_to_file.'" class="download-link">'.t('Download').'</a></div>';
+              $video_pager .=   '</figcaption>';
+              $video_pager .= '</figure>';
+            }
           endforeach;
         endforeach;
         ?>
@@ -78,17 +92,23 @@ drupal_add_js(array('tnc' => array('nid' => $node->nid)), 'setting');
              data-cycle-fx="scrollHorz" 
              data-cycle-timeout="0"
              data-cycle-slides="> figure"
+             data-cycle-allow-wrap="false"
             >
           <?php print $video_elements; ?>
         </div>
         <div class="cycle-slideshow pager"
+             data-cycle-allow-wrap="false"
              data-cycle-timeout="0"
              data-cycle-slides="> figure"
              data-cycle-fx="carousel"
              data-cycle-carousel-visible="2"
              data-cycle-carousel-fluid=true
+             data-cycle-next="> .carousel-pager-next"
+             data-cycle-prev="> .carousel-pager-prev"
             >
-          <?php print $video_elements; ?>
+          <?php print $video_pager ?>
+          <span class="carousel-pager carousel-pager-prev">&nbsp</span>
+          <span class="carousel-pager carousel-pager-next">&nbsp</span>
         </div>
       </div>
 
