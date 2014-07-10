@@ -1,4 +1,5 @@
-jQuery(document).ready(function () {
+ Drupal.behaviors.theme_tnc_fitxa = {
+   attach: function(context, settings) {
   /** 
    * calendari
    */
@@ -118,7 +119,10 @@ jQuery(document).ready(function () {
     }
   })
   /** disposicio inicial tabs **/
-  jQuery('#main-wrapper .tnc-tabs .tnc-tab-1').addClass('active');
-  jQuery('#main-wrapper #text-wrapper .view-id-blo.view-display-id-block').hide();
-  jQuery('#main-wrapper #text-wrapper #moreinfo-wrapper').hide();
-});
+  if(jQuery('#main-wrapper .tnc-tabs .active').length == 0) {
+    jQuery('#main-wrapper .tnc-tabs .tnc-tab-1').addClass('active');
+    jQuery('#main-wrapper #text-wrapper .view-id-blo.view-display-id-block').hide();
+    jQuery('#main-wrapper #text-wrapper #moreinfo-wrapper').hide();
+  }
+   }
+ };

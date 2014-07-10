@@ -2346,7 +2346,11 @@ p {
    * efecte linia mes ample
    */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_fitxa-multimedia\.scss}line{font-family:\000034}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_fitxa-multimedia\.scss}line{font-family:\000032}}
+#mm-node-region .field-name-field-imatge-capcalera img {
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_fitxa-multimedia\.scss}line{font-family:\000037}}
 #mm-node-region h5.multimedia-title {
   font-size: 13px;
   font-family: 'Open Sans', sans-serif;
@@ -2357,7 +2361,7 @@ p {
   margin-top: 12px;
   margin-bottom: 6px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_fitxa-multimedia\.scss}line{font-family:\0000310}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_fitxa-multimedia\.scss}line{font-family:\0000313}}
 #mm-node-region figcaption div,
 #mm-node-region figcaption {
   font-size: 10px;
@@ -2368,22 +2372,22 @@ p {
   color: white;
   margin-top: 8px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_fitxa-multimedia\.scss}line{font-family:\0000312}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_fitxa-multimedia\.scss}line{font-family:\0000315}}
 #mm-node-region figcaption div a,
 #mm-node-region figcaption a {
   color: #58595b;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_fitxa-multimedia\.scss}line{font-family:\0000319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_fitxa-multimedia\.scss}line{font-family:\0000322}}
 #mm-node-region #video-wrapper {
   margin-bottom: 17px;
   padding-bottom: 17px;
   border-bottom: 1px solid white;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_fitxa-multimedia\.scss}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_fitxa-multimedia\.scss}line{font-family:\0000323}}
 #mm-node-region #video-wrapper .main {
   margin-bottom: 18px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_fitxa-multimedia\.scss}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_fitxa-multimedia\.scss}line{font-family:\0000327}}
 #mm-node-region #video-wrapper .main figure,
 #mm-node-region #video-wrapper .main figcaption,
 #mm-node-region #video-wrapper .main figure audio,
@@ -2391,35 +2395,35 @@ p {
   max-width: 100%;
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_fitxa-multimedia\.scss}line{font-family:\0000330}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_fitxa-multimedia\.scss}line{font-family:\0000333}}
 #mm-node-region #video-wrapper .pager {
   position: relative;
   height: 118px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_fitxa-multimedia\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_fitxa-multimedia\.scss}line{font-family:\0000343}}
 #mm-node-region #video-wrapper .pager figure {
   vertical-align: top;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_fitxa-multimedia\.scss}line{font-family:\0000342}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_fitxa-multimedia\.scss}line{font-family:\0000345}}
 #mm-node-region #video-wrapper .pager figure img {
   width: 95%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_fitxa-multimedia\.scss}line{font-family:\0000346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_fitxa-multimedia\.scss}line{font-family:\0000349}}
 #mm-node-region #video-wrapper .pager figcaption {
   width: 95%;
   max-width: 100%;
   white-space: normal;
   text-align: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_fitxa-multimedia\.scss}line{font-family:\0000351}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_fitxa-multimedia\.scss}line{font-family:\0000354}}
 #mm-node-region #video-wrapper .pager figcaption a {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_fitxa-multimedia\.scss}line{font-family:\0000356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_fitxa-multimedia\.scss}line{font-family:\0000359}}
 #mm-node-region #video-wrapper .outer-pager {
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_fitxa-multimedia\.scss}line{font-family:\0000359}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_fitxa-multimedia\.scss}line{font-family:\0000362}}
 #mm-node-region #video-wrapper .carousel-pager {
   background-image: url("../images/sprite.png");
   background-repeat: no-repeat;
@@ -2429,63 +2433,63 @@ p {
   position: absolute;
   cursor: pointer;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_fitxa-multimedia\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_fitxa-multimedia\.scss}line{font-family:\0000369}}
 #mm-node-region #video-wrapper .carousel-pager.carousel-pager-prev {
   background-position: -30px -30px;
   left: -20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_fitxa-multimedia\.scss}line{font-family:\0000370}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_fitxa-multimedia\.scss}line{font-family:\0000373}}
 #mm-node-region #video-wrapper .carousel-pager.carousel-pager-next {
   background-position: -10px -30px;
   right: -20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_fitxa-multimedia\.scss}line{font-family:\0000380}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_fitxa-multimedia\.scss}line{font-family:\0000383}}
 #mm-node-region #audio-wrapper {
   border-bottom: 1px solid white;
   margin-bottom: 17px;
   padding-bottom: 17px;
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_fitxa-multimedia\.scss}line{font-family:\0000385}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_fitxa-multimedia\.scss}line{font-family:\0000388}}
 #mm-node-region #audio-wrapper figure {
   width: 95%;
   margin-bottom: 12px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_fitxa-multimedia\.scss}line{font-family:\0000389}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_fitxa-multimedia\.scss}line{font-family:\0000392}}
 #mm-node-region #audio-wrapper figcaption {
   margin-bottom: 12px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_fitxa-multimedia\.scss}line{font-family:\0000395}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_fitxa-multimedia\.scss}line{font-family:\0000398}}
 #mm-node-region #images-wrapper {
   margin-bottom: 24px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_fitxa-multimedia\.scss}line{font-family:\0000399}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_fitxa-multimedia\.scss}line{font-family:\00003102}}
 #mm-node-region #images-wrapper .main figure,
 #mm-node-region #images-wrapper .main figure img {
   width: 100%;
   height: auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_fitxa-multimedia\.scss}line{font-family:\00003104}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_fitxa-multimedia\.scss}line{font-family:\00003107}}
 #mm-node-region #images-wrapper h5 {
   margin-top: 12px;
   padding-left: 40px;
   padding-left: 40px !important;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_fitxa-multimedia\.scss}line{font-family:\00003109}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_fitxa-multimedia\.scss}line{font-family:\00003112}}
 #mm-node-region #images-wrapper .pager {
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_fitxa-multimedia\.scss}line{font-family:\00003111}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_fitxa-multimedia\.scss}line{font-family:\00003114}}
 #mm-node-region #images-wrapper .pager figure {
   width: 20%;
   padding: 0 4px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_fitxa-multimedia\.scss}line{font-family:\00003114}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_fitxa-multimedia\.scss}line{font-family:\00003117}}
 #mm-node-region #images-wrapper .pager figure img {
   max-height: 150px;
   width: auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_fitxa-multimedia\.scss}line{font-family:\00003120}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_fitxa-multimedia\.scss}line{font-family:\00003123}}
 #mm-node-region #images-wrapper .carousel-pager {
   background-image: url("../images/sprite.png");
   background-repeat: no-repeat;
@@ -2495,25 +2499,25 @@ p {
   position: absolute;
   cursor: pointer;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_fitxa-multimedia\.scss}line{font-family:\00003127}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_fitxa-multimedia\.scss}line{font-family:\00003130}}
 #mm-node-region #images-wrapper .carousel-pager.carousel-pager-prev {
   background-position: -30px -30px;
   left: 0px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_fitxa-multimedia\.scss}line{font-family:\00003131}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_fitxa-multimedia\.scss}line{font-family:\00003134}}
 #mm-node-region #images-wrapper .carousel-pager.carousel-pager-next {
   background-position: -10px -30px;
   right: 0px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_fitxa-multimedia\.scss}line{font-family:\00003136}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_fitxa-multimedia\.scss}line{font-family:\00003139}}
 #mm-node-region #images-wrapper .cycle-carousel-wrap {
   margin-left: 40px !important;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_fitxa-multimedia\.scss}line{font-family:\00003141}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_fitxa-multimedia\.scss}line{font-family:\00003144}}
 #mm-node-region #document-wrapper div {
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_fitxa-multimedia\.scss}line{font-family:\00003144}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_fitxa-multimedia\.scss}line{font-family:\00003147}}
 #mm-node-region #document-wrapper a {
   font-size: 10px;
   line-height: 14px;
@@ -2523,7 +2527,7 @@ p {
   color: white;
   width: 95%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_fitxa-multimedia\.scss}line{font-family:\00003154}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_fitxa-multimedia\.scss}line{font-family:\00003157}}
 #mm-node-region #document-wrapper,
 #mm-node-region #audio-wrapper,
 #mm-node-region #video-wrapper {
@@ -3141,20 +3145,22 @@ body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper #xxs
   background-image: url("../images/sprite.png");
   background-repeat: no-repeat;
   margin: 0px;
+  background-position: -6px -92px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\0000351}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\0000352}}
 .view-blo .view-header .date-nav-wrapper ul li.date-next a {
   margin-top: -35px;
+  background-position: -38px -92px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\0000356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\0000358}}
 .view-blo .view-header .date-nav-wrapper {
   display: inline;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\0000361}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\0000363}}
 .view-blo .view-content .calendar-calendar .month-view table.full {
   border: 0px none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\0000368}}
 .view-blo .view-content .calendar-calendar .month-view table.full td.today,
 .view-blo .view-content .calendar-calendar .month-view table.full td.date-box.today,
 .view-blo .view-content .calendar-calendar .month-view table.full td.single-day.today,
@@ -3164,17 +3170,17 @@ body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper #xxs
   border-right: 6px solid white;
   border-left: 6px solid white;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\0000373}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\0000375}}
 .view-blo .view-content .calendar-calendar .month-view table.full thead {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\0000377}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\0000379}}
 .view-blo .view-content .calendar-calendar .month-view table.full tbody tr.date-box td {
   background-color: #dcdddf;
   padding: 0px;
   margin: 0px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\0000381}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\0000383}}
 .view-blo .view-content .calendar-calendar .month-view table.full tbody tr.date-box td .num-day {
   float: left;
   color: white;
@@ -3185,7 +3191,7 @@ body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper #xxs
   border-radius: 0 20px 20px 0;
   font-weight: 800;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\0000394}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\0000396}}
 .view-blo .view-content .calendar-calendar .month-view table.full tbody tr.date-box td .month,
 .view-blo .view-content .calendar-calendar .month-view table.full tbody tr.date-box td .txt-day {
   width: auto;
@@ -3197,51 +3203,51 @@ body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper #xxs
   font-weight: 600;
   line-height: 15px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003105}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003107}}
 .view-blo .view-content .calendar-calendar .month-view table.full tbody tr.date-box td .month {
   font-weight: 800;
   vertical-align: bottom;
   padding-top: 4px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003110}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003112}}
 .view-blo .view-content .calendar-calendar .month-view table.full tbody tr.date-box td .txt-day {
   vertical-align: top;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003113}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003115}}
 .view-blo .view-content .calendar-calendar .month-view table.full tbody tr.date-box td.day-box-current .num-day {
   background-color: #008991;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003118}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003120}}
 .view-blo .view-content .calendar-calendar .month-view table.full tbody tr.single-day * {
   border-radius: 0px;
   border-radius: 0px !important;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003122}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003124}}
 .view-blo .view-content .calendar-calendar .month-view table.full tbody tr.single-day td {
   padding: 0px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003127}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003129}}
 .view-blo .view-content .calendar-calendar .month-view table.full tbody tr.single-day td .item .calendar.monthview {
   background-color: #e9eaeb;
   padding: 0 0 2px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003130}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003132}}
 .view-blo .view-content .calendar-calendar .month-view table.full tbody tr.single-day td .item .calendar.monthview * {
   font-size: 11px;
   line-height: 15px;
   text-transform: uppercase;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003135}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003137}}
 .view-blo .view-content .calendar-calendar .month-view table.full tbody tr.single-day td .item .calendar.monthview * > a,
 .view-blo .view-content .calendar-calendar .month-view table.full tbody tr.single-day td .item .calendar.monthview * .field {
   padding: 0 4px 0 8px;
   display: inline-block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003140}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003142}}
 .view-blo .view-content .calendar-calendar .month-view table.full tbody tr.single-day td .item .calendar.monthview .field-name-field-sala {
   margin-top: 4px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003143}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003145}}
 .view-blo .view-content .calendar-calendar .month-view table.full tbody tr.single-day td .item .calendar.monthview .field-name-field-url-compra-reserva {
   padding: 0px;
   display: block;
@@ -3249,7 +3255,7 @@ body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper #xxs
   width: 100%;
   margin-top: 8px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003149}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003151}}
 .view-blo .view-content .calendar-calendar .month-view table.full tbody tr.single-day td .item .calendar.monthview .field-name-field-url-compra-reserva a {
   width: 100%;
   min-height: 32px;
@@ -3272,54 +3278,66 @@ body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper #xxs
   min-height: inherit;
   height: 13px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003160}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003162}}
 .view-blo .view-content .calendar-calendar .month-view table.full tbody tr.single-day td .item .calendar.monthview .field-name-field-url-compra-reserva a:hover {
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003166}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003168}}
 .view-blo .view-content .calendar-calendar .month-view table.full tbody tr.single-day td .item.current {
   border: 1px solid #008991;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003173}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003175}}
 .view-blo .view-content .calendar-calendar .month-view table.full tbody tr.single-day td.past,
 .view-blo .view-content .calendar-calendar .month-view table.full tbody tr.date-box td.past {
   background-color: #e9eaeb;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003175}}
-.view-blo .view-content .calendar-calendar .month-view table.full tbody tr.single-day td.past .inner div,
-.view-blo .view-content .calendar-calendar .month-view table.full tbody tr.date-box td.past .inner div {
-  background-color: #e9eaeb;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003177}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003179}}
 .view-blo .view-content .calendar-calendar .month-view table.full tbody tr.single-day td.past .inner div.num-day,
 .view-blo .view-content .calendar-calendar .month-view table.full tbody tr.date-box td.past .inner div.num-day {
   background-color: #dcdddf;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003182}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003183}}
+.view-blo .view-content .calendar-calendar .month-view table.full tbody tr.single-day td.past *,
+.view-blo .view-content .calendar-calendar .month-view table.full tbody tr.date-box td.past * {
+  color: #dcdddf;
+  border-color: #e9eaeb;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003187}}
+.view-blo .view-content .calendar-calendar .month-view table.full tbody tr.single-day td.past .item,
+.view-blo .view-content .calendar-calendar .month-view table.full tbody tr.date-box td.past .item {
+  border: 0px none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003190}}
+.view-blo .view-content .calendar-calendar .month-view table.full tbody tr.single-day td.past .field-name-field-url-compra-reserva a,
+.view-blo .view-content .calendar-calendar .month-view table.full tbody tr.date-box td.past .field-name-field-url-compra-reserva a {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003194}}
 .view-blo .view-content .calendar-calendar .month-view table.full tbody tr.single-day.collapsed {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003185}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003197}}
 .view-blo .view-content .calendar-calendar .month-view table.full tbody tr.arrow {
   cursor: pointer;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003187}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003199}}
 .view-blo .view-content .calendar-calendar .month-view table.full tbody tr.arrow td {
   height: 20px;
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003190}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003202}}
 .view-blo .view-content .calendar-calendar .month-view table.full tbody tr.arrow td .cal-arrow-wrapper {
-  width: 40px;
+  width: 30px;
   height: 20px;
+  background-position: -58px -62px;
   margin: 0 auto;
   display: block;
   background-image: url("../images/sprite.png");
   background-repeat: no-repeat;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003199}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003212}}
 .view-blo .view-content .calendar-calendar .month-view table.full tbody tr.arrow.collapsed td .cal-arrow-wrapper {
-  background-position: -40px 0;
+  background-position: -28px -62px;
 }
 
 /**

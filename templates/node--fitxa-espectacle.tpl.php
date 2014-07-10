@@ -270,26 +270,5 @@ drupal_add_js(array('tnc' => array('nid' => $node->nid)), 'setting');
     </div>
   </div>
 
-  <br />
-  <br />
-  <br />
-  <br />
-  <br />
-  <hr />
-  <hr />
-  <hr />
-  <hr />
-  <hr />
-  <?php
-    // We hide the comments and links now so that we can render them later.
-    //hide($content['comments']);
-    //hide($content['links']);
-    //print render($content);
-  ?>
-
-  <?php //print render($content['links']); ?>
-
-  <?php //print render($content['comments']); ?>
-
 </article>
 <?php drupal_add_js(drupal_get_path('theme','tnc') . '/js/efectes-fitxa.js'); ?>
