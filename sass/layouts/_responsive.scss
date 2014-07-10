@@ -322,14 +322,32 @@ $zen-auto-include-item-base: false;
           $zen-column-count: 4;
           @include zen-clear();
           @include zen-grid-item(3,1);
+          .easy_social_box {
+            @include zen-clear();
+            @include zen-grid-item(3,1);
+          }
           #xxss-external-content {
+            @include zen-clear();
             $zen-column-count: 2;
             @include zen-grid-container();
-            .facebook-comments-box {
+            .block-facebook {
+              //facebook-comments-box {
               @include zen-grid-item(1,1);
             }
-            .field.field-name-field-hashtag-tw {
+            .block-twitter {
+              //field.field-name-field-hashtag-tw {
               @include zen-grid-item(1,2);
+              #header-tw {
+                $zen-column-count: 2;
+                @include zen-grid-container();
+                h2 {
+                  @include zen-clear();
+                  @include zen-grid-item(1,1);
+                }
+                .follow {
+                  @include zen-grid-item(1,2);
+                }
+              }
             }
           }
         }   
@@ -338,9 +356,11 @@ $zen-auto-include-item-base: false;
     }
     #mm-node-region {
       $zen-column-count: 4;
+      $zen-gutter-width:  120px;
       @include zen-grid-container();
       #right-media {
         @include zen-grid-item(1, 4);
+        // Descentrat manual de la columna
         #video-wrapper,
         .slimScrollDiv {
         }
@@ -349,10 +369,18 @@ $zen-auto-include-item-base: false;
       }
       #images-wrapper {
         @include zen-grid-item(3,1);
+        padding-left: 0px;
+        padding-right: 0px;
         $zen-column-count: 4;
         @include zen-grid-container();
-        h5,
+        h5 {
+          $zen-gutter-width:  20px;
+          @include zen-grid-item(3,2);
+          // deixem per sobreescriure a fitxa-ultimedia
+          padding-left: inherit;
+        }
         .pager {
+          $zen-gutter-width:  80px;
           @include zen-grid-item(3,2);
         }
       }

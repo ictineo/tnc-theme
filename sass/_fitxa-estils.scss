@@ -49,6 +49,7 @@ body.node-type-fitxa-espectacle article.node-fitxa-espectacle {
       }
     }
     #sessions {
+      margin-top: 5px;
       div {
         //padding: 0 $column_padding;
       }
@@ -65,9 +66,10 @@ body.node-type-fitxa-espectacle article.node-fitxa-espectacle {
           line-height: 17px;
           font-family: 'Open Sans', sans-serif;
           font-weight: 700;
-          margin-top: 17px;
+          margin-top: 10px;
       }
       .view .view-content {
+        margin: 5px 0 10px;
         .field-name-field-dia-sessio span {
           font-size: 13px;
           line-height: 17px;
@@ -84,7 +86,7 @@ body.node-type-fitxa-espectacle article.node-fitxa-espectacle {
       .field-name-field-durada {
         /** forcem el display block per ppoder posar marge superior **/
         display: block;
-        margin-top: 17px;
+        margin-top: 10px;
         .field-label,
         .field-items div,
         .field-items {
@@ -97,6 +99,7 @@ body.node-type-fitxa-espectacle article.node-fitxa-espectacle {
       }
     }
     #tarifes {
+      margin-top: 5px;
       .view-id-eva_taxo_tarifes.view-display-id-entity_view_1 {
         .view-header {
           @include tit_mig;
@@ -104,11 +107,13 @@ body.node-type-fitxa-espectacle article.node-fitxa-espectacle {
           border-bottom: 1px solid $color_bora;
         }
         .view-content {
+          margin-top: 5px;
           .views-row {
             $zen-gutter-width:  0px;
             $zen-column-count: 8;
             @include zen-grid-container();
             border-bottom: 1px solid $color_bora;
+            margin: 5px 0 10px;
             &:last-child {
               border-bottom: 0px none;
             }
@@ -137,6 +142,9 @@ body.node-type-fitxa-espectacle article.node-fitxa-espectacle {
                 font-family: 'Open Sans', sans-serif;
                 font-weight: 400;
               }
+              p {
+                margin-bottom: 7px;
+              }
             }
           }
         }
@@ -164,6 +172,7 @@ body.node-type-fitxa-espectacle article.node-fitxa-espectacle {
         }
         article.node {
           @include caixa_petita;
+          margin: 25px 0;
         }
       }
 
@@ -186,9 +195,10 @@ body.node-type-fitxa-espectacle article.node-fitxa-espectacle {
       #main-text-wrapper,
       #moreinfo-wrapper {
         .destacats-wrapper {
+          margin-top: 35px;
           .field-name-field-destacats .field-items .field-item {
             background-color: $gris5;
-            margin: 25px 0 30px 0;
+            margin: 0 0 25px 0;
             .field-name-field-text .field-items .field-item {
               @include cita();
               @include destacat();
@@ -201,6 +211,9 @@ body.node-type-fitxa-espectacle article.node-fitxa-espectacle {
               text-align: right;
             }
           }
+        }
+        .presentation-col {
+          margin-top: 10px;
         }
         h5.field-title {
           @include tit_mig;
@@ -217,13 +230,13 @@ body.node-type-fitxa-espectacle article.node-fitxa-espectacle {
             .field-collection-item-field-artista-carrec.carrec-tid-9 {
               .field-name-field-carrec a {
                 @include estil_reset();
-                line-height: 17px;
+                line-height: 19px;
                 color: $titols_b; 
                 display: block;
               }
               .field-name-field-artista a {
                 @include estil_reset();
-                line-height: 17px;
+                line-height: 19px;
                 color: $titols_b;
                 font-weight: 700;
                 display: block;
@@ -234,11 +247,11 @@ body.node-type-fitxa-espectacle article.node-fitxa-espectacle {
         .field-name-field-artista-carrec {
           .field-collection-item-field-artista-carrec {
             .field-name-field-carrec a {
-              line-heigh: 17px;
+              line-heigh: 19px;
               font-weight: 800;
             }
             .field-name-field-artista a {
-              line-height: 17px;
+              line-height: 19px;
             }
           }
           .carrec-tid-15.field-collection-item-field-artista-carrec,
@@ -252,7 +265,50 @@ body.node-type-fitxa-espectacle article.node-fitxa-espectacle {
       }
         
     }
+    #xxss-wrapper {
+      .easy_social_box {
+        margin-bottom: 10px;
+        .easy_social-widget-facebook {
+          iframe {
+            width: 110px !important;
+          }
+        }
+      }
+      #xxss-external-content {
+        .block-title.facebook {
+          @include xxss;
+          }
+        .facebook-comments-box {
+          margin-top: 25px;
+        }
+        .block-twitter {
+          .block-title.twitter {
+            @include xxss;
+            &:before {
+              @include xxss_icon;
+              background-position: -60px 0;
+            }
+          }
+          .field-name-field-hashtag-tw {
+            .tweets-pulled-listing {
+              #header-tw {
+                border-bottom: 1px solid $gris4;
+                h2 {
+                  font-size: 18px;
+                  color: $gris1;
+                  font-weight: 700;
+                  line-height: 20px;
+                }
+                .follow {
+                  margin-top: 20px;
+                  text-align: right;
+                }
+              }
+            }
+          }
+        }
+      }
+
+    }
   }
-
-
 }

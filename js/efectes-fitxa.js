@@ -81,12 +81,17 @@ jQuery(document).ready(function () {
   }
   jQuery('#audio-wrapper .slider').slimScroll({
     alwaysVisible: true,
-    height: '200px'
+    railVisible: true,
+    color: "white",
+    height: '180px'
   });
   jQuery('#document-wrapper .slider').slimScroll({
     alwaysVisible: true,
-    height: '100px'
+    railVisible: true,
+    color: "white",
+    height: '60px'
   });
+  
   /**&
    * Tabs
    */

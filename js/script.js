@@ -35,8 +35,10 @@ Drupal.behaviors.theme_tnc = {
             enableAutosize: true,
             features: ['playpause','progress','current','volume','fullscreen'],
           };
-        Drupal.settings.tnc['mediaaudio'] = jQuery('audio').mediaelementplayer(options);
-        Drupal.settings.tnc['mediavideo'] = jQuery('#video-wrapper .main video').mediaelementplayer(options);
+        if(typeof(Drupal.settings.tnc) !== 'undefined') {
+          Drupal.settings.tnc['mediaaudio'] = jQuery('audio').mediaelementplayer(options);
+          Drupal.settings.tnc['mediavideo'] = jQuery('#video-wrapper .main video').mediaelementplayer(options);
+        }
         //jQuery('#video-wrapper .pager video').mediaelementplayer(options_pager);
 
     // Place your code here.

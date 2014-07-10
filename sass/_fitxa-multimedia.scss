@@ -3,6 +3,8 @@
   background-color: $negre;
   h5.multimedia-title {
     @include tit_multimedia();
+    margin-top: 12px;
+    margin-bottom: 6px;
   }
   figcaption div,
   figcaption {
@@ -10,6 +12,7 @@
     a {
       color: $gris1;
     }
+    margin-top: 8px;
   }
 
   /** esitls per regions **/
@@ -22,9 +25,11 @@
         max-width: 100%;
         width: 100%;
       }
+      margin-bottom: 18px;
     }
    .pager {
      position: relative;
+     height: 118px;
       figure,
       figcaption,
       figure audio,
@@ -32,8 +37,14 @@
         //width: 50%;
         //max-width: 50%;
       }
+      figure {
+        vertical-align: top;
+        img {
+          width: 95%;
+        }
+      }
       figcaption {
-        width: 100%;
+        width: 95%;
         max-width: 100%;
         white-space: normal;
         text-align: left;
@@ -41,24 +52,27 @@
           display: none;
         }
       }
-      .carousel-pager {
-        @include bg_sprite();
-        height: 50%;
-        top: 25%;
-        width: 20px;
-        position: absolute;
-        cursor: pointer;
-        &.carousel-pager-prev {
-          background-position: 0 0;
-          left: 0px;
-        }
-        &.carousel-pager-next {
-          background-position: 0 0;
-          right: 0px;
-        }
-      }
-
     }
+    .outer-pager {
+      position: relative;
+    }
+    .carousel-pager {
+      @include bg_sprite();
+      top: 20%;
+      width: 20px;
+      height: 30px;
+      position: absolute;
+      cursor: pointer;
+      &.carousel-pager-prev {
+        background-position: -30px -30px;
+        left: -20px;
+      }
+      &.carousel-pager-next {
+        background-position: -10px -30px;
+        right: -20px;
+      }
+    }
+
     margin-bottom: 17px;
     padding-bottom: 17px;
     border-bottom: 1px solid $blanc;
@@ -67,9 +81,19 @@
     border-bottom: 1px solid $blanc;
     margin-bottom: 17px;
     padding-bottom: 17px;
+    position: relative;
+    figure {
+      width: 95%;
+      margin-bottom: 12px;
+    }
+    figcaption {
+      margin-bottom: 12px;
+    }
+    a {
+    }
   }
   #images-wrapper {
-    margin-left: 0px;
+    margin-bottom: 24px;
     .main {
       figure,
       figure img {
@@ -79,11 +103,14 @@
     }
     h5 {
       margin-top: 12px;
+      padding-left: 40px;
+      padding-left: 40px !important;
     }
     .pager {
       position: relative;
       figure {
         width: 20%;
+        padding: 0 4px;
         img {
           max-height: 150px;
           width: auto;
@@ -92,19 +119,43 @@
     }
     .carousel-pager {
       @include bg_sprite();
-      height: 50%;
       top: 25%;
       width: 20px;
+      height: 30px;
       position: absolute;
       cursor: pointer;
       &.carousel-pager-prev {
-        background-position: 0 0;
+        background-position: -30px -30px;
         left: 0px;
       }
       &.carousel-pager-next {
-        background-position: 0 0;
+        background-position: -10px -30px;
         right: 0px;
       }
     }
+    .cycle-carousel-wrap {
+      margin-left: 40px !important;
+    }
   }
+  #document-wrapper {
+    div {
+      width: 100%;
+    }
+    a {
+      @include peus_multimedia();
+      width: 95%;
+    }
+  }
+  /**
+   * efecte linia mes ample
+   */
+  #document-wrapper,
+  #audio-wrapper,
+  #video-wrapper {
+    width: 108%;
+    margin-left: -4%;
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+
 }

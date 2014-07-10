@@ -199,15 +199,16 @@
   font-weight: 800;
   color: $gris2;
   text-transform: uppercase;
-  padding: 5px 20px;
+  padding: 10px 20px;
   display: inline-block;
+  background-color: $gris5;
 }
 @mixin pestanya_activa() {
   @include pestanya_inactiva();
   color: $gris1;
-  border-top: 1px solid $gris2;
+//  border-top: 1px solid $gris2;
   background-color: $gris3;
-  padding: 5px 20px;
+  padding: 10px 20px;
 }
 @mixin boto() {
   width: 100%;
@@ -233,6 +234,7 @@
 }
 @mixin peus_multimedia() {
   font-size: 10px;
+  line-height: 14px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   line-height: 100%;
@@ -248,10 +250,17 @@
   background-color: $gris5;
   text-align: center;
   h2.node-title a {
+    font-size: 16px;
+    line-height: 17px;
     color: $titols_b;
     text-transform: uppercase;
+    font-weight: 800;
+  }
+  .field-name-field-imatge-capcalera .field-item img {
+    width: 100%;
   }
   .field-name-field-tipus-entorn .field-item {
+    font-size: 11px;
     text-transform: uppercase;
     text-decoration: underline;
     font-weight: 600;
@@ -261,18 +270,36 @@
   }
   .field-name-field-tarifa .field-item {
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 700;
   }
   .field-name-field-url-compra-reserva a {
     @include boto();
-    width: 70%;
+    width: 55%;
   }
 }
 @mixin bg_sprite() {
   background-image: url('../images/sprite.png');
   background-repeat: no-repeat;
 }
-
+@mixin xxss {
+  font-weight: 800;
+  text-transform: uppercase;
+  background-color: $gris5;
+  color: $gris1;
+  line-height: 40px;
+}
+@mixin xxss_icon {
+  @include bg_sprite;
+  display: inline-block;
+  overflow: hidden;
+  content: " ";
+  height: 28px;
+  width: 28px;
+  margin-top: 5px;
+  margin-left: 15px;
+  float:left;
+  margin-right: 15px;
+}
 
 /**
  * apunts

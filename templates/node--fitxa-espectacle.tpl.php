@@ -46,8 +46,8 @@ drupal_add_js(array('tnc' => array('nid' => $node->nid)), 'setting');
              data-cycle-carousel-visible="5"
              data-cycle-carousel-fluid=true
              data-allow-wrap="false"
-             data-cycle-next="> .carousel-pager-next"
-             data-cycle-prev="> .carousel-pager-prev"
+             data-cycle-next="#images-wrapper .carousel-pager-next"
+             data-cycle-prev="#images-wrapper .carousel-pager-prev"
             >
           <?php print $audio_elements; ?>
           <span class="carousel-pager carousel-pager-prev">&nbsp</span>
@@ -96,17 +96,20 @@ drupal_add_js(array('tnc' => array('nid' => $node->nid)), 'setting');
             >
           <?php print $video_elements; ?>
         </div>
-        <div class="cycle-slideshow pager"
-             data-cycle-allow-wrap="false"
-             data-cycle-timeout="0"
-             data-cycle-slides="> figure"
-             data-cycle-fx="carousel"
-             data-cycle-carousel-visible="2"
-             data-cycle-carousel-fluid=true
-             data-cycle-next="> .carousel-pager-next"
-             data-cycle-prev="> .carousel-pager-prev"
-            >
-          <?php print $video_pager ?>
+        
+        <div class="outer-pager">
+          <div class="cycle-slideshow pager"
+               data-cycle-allow-wrap="false"
+               data-cycle-timeout="0"
+               data-cycle-slides="> figure"
+               data-cycle-fx="carousel"
+               data-cycle-carousel-visible="2"
+               data-cycle-carousel-fluid=true
+               data-cycle-next="#video-wrapper .carousel-pager-next"
+               data-cycle-prev="#video-wrapper .carousel-pager-prev"
+              >
+            <?php print $video_pager ?>
+          </div>
           <span class="carousel-pager carousel-pager-prev">&nbsp</span>
           <span class="carousel-pager carousel-pager-next">&nbsp</span>
         </div>
@@ -253,10 +256,16 @@ drupal_add_js(array('tnc' => array('nid' => $node->nid)), 'setting');
     <div id="xxss-wrapper">
       <?php print render($content['easy_social_1']); ?>
       <div id="xxss-external-content">
-        <?php $fb_block = module_invoke('facebook_comments_box', 'block_view', 'facebook_comments_box');
-              print render($fb_block['content']);
+        <div class="block-facebook">
+          <div class="block-title facebook"> <?php print t('Facebook'); ?></div>
+          <?php $fb_block = module_invoke('facebook_comments_box', 'block_view', 'facebook_comments_box'); ?>
+            <?php print render($fb_block['content']);
               ?>
-        <?php print render($content['field_hashtag_tw']); ?>
+        </div>
+        <div class="block-twitter">
+          <div class="block-title twitter"> <?php print t('Twitter'); ?></div>
+          <?php print render($content['field_hashtag_tw']); ?>
+        </div>
       </div>
     </div>
   </div>
