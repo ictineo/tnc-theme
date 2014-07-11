@@ -29,11 +29,10 @@
         <?php endif; ?>
       </div>
     <?php endif; ?>
-
     <?php print render($page['header']); ?>
-
   </header>
 
+  <?php /** contingut insertat dinàmicament via js **/ ?>
   <div id="mm-wrapper">
 
   </div>

@@ -7,6 +7,7 @@ body.node-type-fitxa-espectacle article.node-fitxa-espectacle {
           //padding-right: $column_padding;
         }
         #supraheader {
+          padding-bottom: 5px;
           .sala {
             font-size: 25px;
             color: $blau1;
@@ -26,12 +27,12 @@ body.node-type-fitxa-espectacle article.node-fitxa-espectacle {
         .title-region {
           h2 {
             @include titol();
-            margin: 0px;
+            margin: 5px 0;
             line-height: 100%;
           }
           h3 {
             @include sub_titol();
-            margin: 0px 0 5px;
+            margin: 0px 0 10px;
             line-height: 100%;
           }
           border-bottom: 1px solid $color_bora;
@@ -39,7 +40,7 @@ body.node-type-fitxa-espectacle article.node-fitxa-espectacle {
         .moreinfo-region {
           h4{
             @include tit_autor();
-            margin: 5px 0px 15px;
+            margin: 10px 0px 0px;
           }
           h5{
             @include tit_director();
@@ -60,6 +61,7 @@ body.node-type-fitxa-espectacle article.node-fitxa-espectacle {
         @include tit_mig;
         text-transform: uppercase;
         border-bottom: 1px solid $color_bora;
+        padding-bottom: 5px;
       } 
       .view-id-sessions_node.view-display-id-entity_view_2 .view-header {
           font-size: 13px;
@@ -69,7 +71,7 @@ body.node-type-fitxa-espectacle article.node-fitxa-espectacle {
           margin-top: 10px;
       }
       .view .view-content {
-        margin: 5px 0 10px;
+        margin: 10px 0 10px;
         .field-name-field-dia-sessio span {
           font-size: 13px;
           line-height: 17px;
@@ -105,9 +107,10 @@ body.node-type-fitxa-espectacle article.node-fitxa-espectacle {
           @include tit_mig;
           text-transform: uppercase;
           border-bottom: 1px solid $color_bora;
+          padding-bottom: 5px;
         }
         .view-content {
-          margin-top: 5px;
+          margin-top: 10px;
           .views-row {
             $zen-gutter-width:  0px;
             $zen-column-count: 8;
@@ -185,10 +188,21 @@ body.node-type-fitxa-espectacle article.node-fitxa-espectacle {
       }
       .tnc-tabs {
         .tnc-tab {
+          position: relative;
           cursor: pointer;
           @include pestanya_inactiva();
           &.active {
             @include pestanya_activa();
+            &:before {
+              @include bg_sprite();
+              position: absolute;
+              width: 28px;
+              height: 28px;
+              content: " ";
+              display: block;
+              top: 39px;
+              background-position: -60px -102px;
+            }
           }
         }
       }
@@ -199,15 +213,20 @@ body.node-type-fitxa-espectacle article.node-fitxa-espectacle {
           .field-name-field-destacats .field-items .field-item {
             background-color: $gris5;
             margin: 0 0 25px 0;
-            .field-name-field-text .field-items .field-item {
-              @include cita();
-              @include destacat();
-              padding: 30px 30px 0 30px;
-            }
+            .field-name-field-text {
+              .field-items {
+                margin-bottom: -15px;
+                .field-item {
+                  @include cita();
+                  @include destacat();
+                  padding: 30px 30px 0 30px;
+                 }
+               }
+             }
             .field-name-field-enllac .field-items .field-item {
               @include destacat();
               font-size: 13px;
-              padding: 10px 30px 30px 30px;
+              padding: 10px 30px 20px 30px;
               text-align: right;
             }
           }
@@ -271,13 +290,17 @@ body.node-type-fitxa-espectacle article.node-fitxa-espectacle {
         .easy_social-widget-facebook {
           iframe {
             width: 110px !important;
+            height: 25px !important;
           }
         }
       }
       #xxss-external-content {
         .block-title.facebook {
           @include xxss;
+          &:before {
+            @include xxss_icon;
           }
+        }
         .facebook-comments-box {
           margin-top: 25px;
         }

@@ -114,6 +114,7 @@
           }
           &.day-box-current .num-day {
             background-color: $blau1;
+            color: white;
           }
         }
         tr.single-day {
@@ -128,7 +129,8 @@
               //background-color: none !important;
               .calendar.monthview {
                 background-color: $gris4;
-                padding: 0 0 2px 0;
+                padding: 0 0 5px 0;
+                margin: 0;
                 * {
                   font-size: 11px;
                   line-height: 15px;
@@ -153,11 +155,11 @@
                     font-size: 9px;
                     line-height: 13px;
                     color: white;
-                    width: 50%;
+                    width: 55%;
                     float: right;
                     display: block;
                     min-height: inherit;
-                    height: 13px;
+                    height: 20px;
                     
                     &:hover {
                       text-decoration: none;
@@ -178,6 +180,7 @@
             //background-color: $gris4;
             &.num-day {
               background-color: $gris3;
+              color: white;
             }
           }
           * {
