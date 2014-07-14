@@ -4,6 +4,7 @@
   }
   /** etils generals **/
   background-color: $negre;
+  min-height: 600px;
   h5.multimedia-title {
     @include tit_multimedia();
     margin-top: 12px;

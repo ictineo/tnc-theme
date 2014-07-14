@@ -1,7 +1,8 @@
 <?php
 //dsm($content);
-$tid_dir = 9;
-$tid_acc = 15;
+$tid_dir = 88;
+$tid_diro = 110;
+$tid_acc = 106;
 /**
  * @file
  * Returns the HTML for a node.
@@ -13,6 +14,67 @@ drupal_add_js(array('tnc' => array('nid' => $node->nid)), 'setting');
 ?>
 <article class="node-<?php print $node->nid; ?> <?php print $classes; ?> clearfix"<?php print $attributes; ?>>
   <div id="mm-node-region">
+
+                        <style>
+                          .mMLateral{
+                            position:absolute;
+                            z-index:10000;
+                            height: 680px;
+                          }
+                          .mMenuLateralLogo{
+                            width:191px;
+                            height:503px;
+                            background:url('../media/img/esfera.png') no-repeat;
+                          }
+                          .mMenuLogoImg{
+                            position: absolute;
+                            top: 175px;
+                            left: 18px;
+                          }
+                          #mMenuLateral{
+                            position: relative;
+                            top: -151px;
+                            width: 353px;
+                            
+                          }
+                          #mMenuLateral ul{
+                            margin: 0;
+                            padding: 0;
+                          }
+                          #mMenuLateral ul li{
+                            list-style: none;
+                            text-transform: uppercase;
+                            color:#FFFFFF;
+                            font-size:17px;
+                            font-weight:700;
+                            background:#e2007a;
+                            padding: 5px 35px;
+                            display: table;
+                            margin: 5px 0px;
+                          }
+                        </style>
+                        <div class="mMLateral">
+                          <div class="mMenuLateralLogo">
+                            <div class="mMenuLogoImg">
+                              <img src="<?php global $base_url;  print($base_url . '/' . drupal_get_path('theme', 'tnc') . '/media/images/LogoTNC-Menu-lateral.png'); ?>"><br><br>
+                              </div>
+                          </div>
+                          <div id="mMenuLateral">
+                            <ul>
+                              <li>Projecte artistic</li>
+                              <li>Temporada 2014-2015</li>
+                              <li>TNC</li>
+                              <li>Projecte pedagogic</li>
+                              <li>Compromís social</li>
+                              <li>Mediateca</li>
+                              <li>Patrocinadors</li>
+                            </ul>
+                          </div>
+                          <div class="desplegamenu">
+                            
+                          </div>	
+                        </div>
+ 
   <?php if(isset($content['field_estrenat']['#items'][0]['value']) && $content['field_estrenat']['#items'][0]['value'] == '0'):?>
     <?php print render($content['field_imatge_capcalera']); ?>
   <?php else: ?>

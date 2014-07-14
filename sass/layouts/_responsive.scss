@@ -289,10 +289,17 @@ $zen-auto-include-item-base: false;
                 .field-name-field-artista-carrec {
                   @include zen-grid-item (1,1); 
                   @include zen-nested-container();
-                  .field-item.odd .field-collection-item-field-artista-carrec.carrec-tid-9 {
+                  .field-item.odd .field-collection-item-field-artista-carrec.carrec-tid-110,
+                  .field-item.even .field-collection-item-field-artista-carrec.carrec-tid-110 {
                     @include zen-grid-item(3,1);
                   }
-                  .field-item.even .field-collection-item-field-artista-carrec.carrec-tid-15 {
+                  .field-item.odd .field-collection-item-field-artista-carrec.carrec-tid-106,
+                  .field-item.even .field-collection-item-field-artista-carrec.carrec-tid-106 {
+                    @include zen-clear();
+                    @include zen-grid-item(3,1);
+                  }
+                  .field-item.odd .field-collection-item-field-artista-carrec.carrec-tid-88,
+                  .field-item.even .field-collection-item-field-artista-carrec.carrec-tid-88 {
                     @include zen-clear();
                     @include zen-grid-item(3,1);
                   }
@@ -301,10 +308,11 @@ $zen-auto-include-item-base: false;
               .field-name-field-artista-carrec {
                 $zen-column-count: 3;
                 @include zen-grid-container();
-                .field-item.odd .field-collection-item-field-artista-carrec {
+                .field-item.even .field-collection-item-field-artista-carrec {
+                  @include zen-clear();
                   @include zen-grid-item(1,2);
                 }
-                .field-item.even .field-collection-item-field-artista-carrec {
+                .field-item.odd .field-collection-item-field-artista-carrec {
                   @include zen-grid-item(1,3);
                 }
               }
