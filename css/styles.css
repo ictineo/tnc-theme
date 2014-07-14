@@ -2345,6 +2345,10 @@ p {
 #page #name-and-slogan {
   display: none;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_general\.scss}line{font-family:\000037}}
+#page #main {
+  margin-bottom: 48px;
+}
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_ttt\/sites\/all\/themes\/tnc\/sass\/_fitxa-multimedia\.scss}line{font-family:\000031}}
 #mm-node-region {
