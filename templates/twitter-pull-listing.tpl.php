@@ -29,7 +29,7 @@
   <?php if (!empty($title)): ?>
     <div id="header-tw">
       <h2><?php print t('Tweets'); ?></h2>
-      <span class="follow"><a href="https://twitter.com/teatrenacional" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false">Follow @teatrenacional</a>
+      <span class="follow"><a href="https://twitter.com/teatrenacional" target="_blank" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false">Follow @teatrenacional</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
       </span>
     </div>

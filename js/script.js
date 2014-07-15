@@ -42,6 +42,9 @@ Drupal.behaviors.theme_tnc = {
         //jQuery('#video-wrapper .pager video').mediaelementplayer(options_pager);
 
     // Place your code here.
+  //if(jQuery('.field-name-field-imatge-capcalera').length) {
+    //jQuery('.field-name-field-imatge-capcalera').appendTo('#mm-wrapper');
+  //}
 
   }
 };

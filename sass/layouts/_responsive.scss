@@ -284,35 +284,59 @@ $zen-auto-include-item-base: false;
               .artista-carrec-left {
                 @include zen-clear();
                 @include zen-grid-item(3,1);
+                margin-left: 0px;
+                padding-left: 0px;
                 $zen-column-count: 3;
                 @include zen-grid-container();
                 .field-name-field-artista-carrec {
-                  @include zen-grid-item (1,1); 
-                  @include zen-nested-container();
-                  .field-item.odd .field-collection-item-field-artista-carrec.carrec-tid-110,
-                  .field-item.even .field-collection-item-field-artista-carrec.carrec-tid-110 {
-                    @include zen-grid-item(3,1);
-                  }
-                  .field-item.odd .field-collection-item-field-artista-carrec.carrec-tid-106,
-                  .field-item.even .field-collection-item-field-artista-carrec.carrec-tid-106 {
-                    @include zen-clear();
-                    @include zen-grid-item(3,1);
-                  }
-                  .field-item.odd .field-collection-item-field-artista-carrec.carrec-tid-88,
-                  .field-item.even .field-collection-item-field-artista-carrec.carrec-tid-88 {
-                    @include zen-clear();
-                    @include zen-grid-item(3,1);
+                  margin-left: 0px;
+                  padding-left: 0px;
+                  &> .field-items{
+                    @include zen-grid-item (1,1); 
+                    @include zen-nested-container();
+                    &>.field-item.even,
+                    &>.field-item.odd {
+                      width: 100%;
+                      float: none;
+                      margin: 0px;
+                      padding-left: 0px;
+                    }
+                    &>.field-item.odd .field-collection-item-field-artista-carrec,
+                    &>.field-item.even .field-collection-item-field-artista-carrec{
+                      margin-left: 0px;
+                    }
+                    &>.field-item.odd .field-collection-item-field-artista-carrec.carrec-tid-110,
+                    &>.field-item.even .field-collection-item-field-artista-carrec.carrec-tid-110 {
+                      @include zen-grid-item(3,1);
+                    }
+                    &>.field-item.odd .field-collection-item-field-artista-carrec.carrec-tid-12,
+                    &>.field-item.even .field-collection-item-field-artista-carrec.carrec-tid-12 {
+                      @include zen-clear();
+                      @include zen-grid-item(3,1);
+                    }
+                    &>.field-item.odd .field-collection-item-field-artista-carrec.carrec-tid-106,
+                    &>.field-item.even .field-collection-item-field-artista-carrec.carrec-tid-106 {
+                      @include zen-clear();
+                      @include zen-grid-item(3,1);
+                    }
+                    &>.field-item.odd .field-collection-item-field-artista-carrec.carrec-tid-88,
+                    &>.field-item.even .field-collection-item-field-artista-carrec.carrec-tid-88 {
+                      @include zen-clear();
+                      @include zen-grid-item(3,1);
+                    }
                   }
                 }
               }
-              .field-name-field-artista-carrec {
+              .field-name-field-artista-carrec > .field-items{
                 $zen-column-count: 3;
                 @include zen-grid-container();
-                .field-item.even .field-collection-item-field-artista-carrec {
+                //.field-item.even .field-collection-item-field-artista-carrec {
+                &>.field-item:nth-child(2n+1) {
                   @include zen-clear();
                   @include zen-grid-item(1,2);
                 }
-                .field-item.odd .field-collection-item-field-artista-carrec {
+                //.field-item.odd .field-collection-item-field-artista-carrec {
+                &>.field-item:nth-child(2n) {
                   @include zen-grid-item(1,3);
                 }
               }

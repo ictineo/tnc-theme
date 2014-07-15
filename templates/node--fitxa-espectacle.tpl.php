@@ -271,7 +271,7 @@ drupal_add_js(array('tnc' => array('nid' => $node->nid)), 'setting');
 
   <div id="main-wrapper">
     <div id="right-col">
-    <h3 class="col-title"><?php print t('Surroundings'); ?></h3>
+    <h3 class="col-title"><?php print t("L'entorn"); ?></h3>
       <?php print render($content['field_entorn']); ?>
     </div>
     <div id="text-wrapper">

@@ -92,6 +92,12 @@
     color: "white",
     height: '60px'
   });
+  jQuery('.field-name-field-hashtag-tw').slimScroll({
+    alwaysVisible: true,
+    railVisible: true,
+    color: "white",
+    height: '300px'
+  });
   
   /**&
    * Tabs
