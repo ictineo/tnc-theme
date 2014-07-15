@@ -14,67 +14,480 @@ drupal_add_js(array('tnc' => array('nid' => $node->nid)), 'setting');
 ?>
 <article class="node-<?php print $node->nid; ?> <?php print $classes; ?> clearfix"<?php print $attributes; ?>>
   <div id="mm-node-region">
+    <!-- inici codi impacte -->
+<script src="http://www.impactecomunicacio.cat/clients/tncweb/media/js/jquery-ui-1.10.4.custom.min.js" type="text/javascript"></script>
+<style>
+	.mMLateral{
+		position:absolute;
+		z-index:100;
+		height: 680px;
+	}
+	.mMenuLateralLogo{
+		width:191px;
+		height:503px;
+		background:url('http://188.165.131.21/tnc_entregapv1/sites/default/files/esfera.png') no-repeat;
+	}
+	.mMenuLogoImg{
+		position: absolute;
+		top: 198px;
+		left: 18px;
+	}
+	#mMenuLateral{
+		position: relative;
+		top: -151px;
+		width: 353px;
+		
+	}
+	#mMenuLateral ul{
+		margin: 0;
+		padding: 0;
+	}
+	#mMenuLateral ul li{
+		list-style: none;
+		text-transform: uppercase;
+		color: #FFF;
+		font-size: 15px;
+		font-weight: 700;
+		background: #E2007A;
+		padding: 2px 35px;
+		display: table;
+		margin: 3px 0px;
+	}
+	.mayus{
+	text-transform:uppercase;
+}
+.negreta{
+		font-weight:800;
+	}
+</style>
+<div>
+	<div class="mMLateral">
+		<div class="mMenuLateralLogo">
+			<div class="mMenuLogoImg"><img src="http://188.165.131.21/tnc_entregapv1/sites/default/files/logotnc-menu-lateral.png"></div>
+		</div>
+		<div id="mMenuLateral">
+			<ul>
+				<li id="pArt">Projecte artistic</li>
+				<li id="t1415">Temporada 2014-2015</li>
+				<li id="tnc">TNC</li>
+				<li id="pPeda">Projecte pedagogic</li>
+				<li>Compromís social</li>
+				<li>Mediateca</li>
+				<li>Patrocinadors</li>
+			</ul>
+		</div>
+	</div>
+	
+	<script>
+		function slideLeft(id){
+			jQuery('#'+id).toggle("slide");
+		}
+		
+		jQuery(document).ready(function(){
+			jQuery('#pArt').click(function(){
+				//jQuery('.mMenuDesplegat:visible').toggle("slide",function(){
+					slideLeft('pArtistic');
+				//});
+				
+			});
+			jQuery('#t1415').click(function(){
+				//jQuery('.mMenuDesplegat:visible').toggle("slide",function(){
+					slideLeft('temporada1415');
+				//});
+			});
+			jQuery('#tnc').click(function(){
+				//jQuery('.mMenuDesplegat:visible').toggle("slide",function(){
+					slideLeft('eTNC');
+				//});
+			});
+			jQuery('#pPeda').click(function(){
+				//jQuery('.mMenuDesplegat:visible').toggle("slide",function(){
+					slideLeft('pPedagogic');
+				//});
+			});
+		});
+	</script>
+	<style>
+		.desplegamenu{
+			width:100%;
+			height: 584px;
+			position: absolute;
+			z-index: 90;
+		}
+		.menusLateralscontent{
+			position:relative;
+		}
+		.mMenuDesplegat{
+			background:#008F95;
+			width:100%;
+			overflow: auto;
+			padding-bottom: 45px;
+			display:none;
+			top: 0px;
+			position: absolute;
+			border-bottom:2px solid #FFFFFF;
+		}
+		.mMenuDesplegat .mDBlock{
+			width: 214px;
+			float: left;
+			padding-left: 20px;
+			padding-top: 26px;
+			color:#FFFFFF;
+		}
+		.mMenuDesplegat .mDBlock.primer{
+			padding-left: 280px;
+		}
+		.mMenuDesplegat .mDBlock h4{
+			clear:both;
+			font-weight:800;
+			font-size:13px;
+			color:#000;
+			margin-bottom: 12px;
+			text-transform:uppercase;
+		}
+		.mMenuDesplegat .mDBlock h5{
+			clear:both;
+			font-weight:700;
+			font-size:13px;
+			line-height:13px;
+			color:#000;
+			margin-bottom: 3px;
+			margin-top:18px;
+			text-transform:uppercase;
+		}
+		.mMenuDesplegat .mDBlock .blockImatge{
+			clear:both;
+			overflow: auto;
+			padding-bottom: 6px;
+			padding-top:5px;
 
-                        <style>
-                          .mMLateral{
-                            position:absolute;
-                            z-index:10000;
-                            height: 680px;
-                          }
-                          .mMenuLateralLogo{
-                            width:191px;
-                            height:503px;
-                            background:url('../media/img/esfera.png') no-repeat;
-                          }
-                          .mMenuLogoImg{
-                            position: absolute;
-                            top: 175px;
-                            left: 18px;
-                          }
-                          #mMenuLateral{
-                            position: relative;
-                            top: -151px;
-                            width: 353px;
-                            
-                          }
-                          #mMenuLateral ul{
-                            margin: 0;
-                            padding: 0;
-                          }
-                          #mMenuLateral ul li{
-                            list-style: none;
-                            text-transform: uppercase;
-                            color:#FFFFFF;
-                            font-size:17px;
-                            font-weight:700;
-                            background:#e2007a;
-                            padding: 5px 35px;
-                            display: table;
-                            margin: 5px 0px;
-                          }
-                        </style>
-                        <div class="mMLateral">
-                          <div class="mMenuLateralLogo">
-                            <div class="mMenuLogoImg">
-                              <img src="<?php global $base_url;  print($base_url . '/' . drupal_get_path('theme', 'tnc') . '/media/images/LogoTNC-Menu-lateral.png'); ?>"><br><br>
-                              </div>
-                          </div>
-                          <div id="mMenuLateral">
-                            <ul>
-                              <li>Projecte artistic</li>
-                              <li>Temporada 2014-2015</li>
-                              <li>TNC</li>
-                              <li>Projecte pedagogic</li>
-                              <li>Compromís social</li>
-                              <li>Mediateca</li>
-                              <li>Patrocinadors</li>
-                            </ul>
-                          </div>
-                          <div class="desplegamenu">
-                            
-                          </div>	
-                        </div>
+		}
+		.mMenuDesplegat .mDBlock .blockImatge img{
+			float:left;
+			width:70px;
+		}
+		.mMenuDesplegat .mDBlock .blockImatge div{
+			float: left;
+			text-transform: uppercase;
+			width: 138px;
+			padding-left: 5px;
+			font-size: 10px;
+			font-weight: 400;
+			color: #FFF;
+			line-height: normal;
+		}
+		.mMenuDesplegat .mDBlock .blockImatge div span{
+			text-transform: uppercase;
+			color: #FFF;
+			line-height: 14px;
+		}
+		.mMenuDesplegat .mDBlock .blockImatge div span a{
+			text-transform: uppercase;
+			color: #FFF;
+			line-height: 14px;
+		}
+		.minus{
+			text-transform:none;
+		}
+		.mMenuDesplegat a:hover{
+			text-transform:uppercase;
+		}
+		.mMenuDesplegat a{
+			color: #FFFFFF;
+			font-weight: 800;
+			font-size: 13px;
+			line-height: 14px;
+		}
+		.mMenuDesplegat .mDBlock .blockllistat ul{
+			margin: 0px;
+			padding: 0;
+		}
+		 .mMenuDesplegat .mDBlock .blockllistat ul li{
+			text-transform:uppercase;
+			font-size:11px;
+			font-weight:600;
+			list-style: none;
+			color:#FFFFFF;
+			margin-bottom: 8px;
+			line-height: 14px;
+		}
+		.mMenuDesplegat .mDBlock .blockllistat ul li a{
+			color:#FFFFFF;
+			font-weight: 600;
+		}
+		.minus{
+			text-transform: none;
+		}
+		.mMenuDesplegat .mDBlock .blockllistatObres ul{
+			margin:0px;
+			padding:0px;
+		}
+		.mMenuDesplegat .mDBlock .blockllistatObres ul li{
+line-height: 14px;
+			font-size:11px;
+			list-style: none;
+			color:#FFFFFF;
+			margin-bottom: 13px;
+			font-weight: normal;
+		}
+.mMenuDesplegat .mDBlock .blockllistatObres ul li span{
+			line-height: 14px;
+			
+		}
+		.mMenuDesplegat .mDBlock .blockllistatObres ul li a{
+			color:#FFFFFF;
+			font-weight: normal;
+			font-size:10px;
+			text-transform:normal;
+		}
+		.mMenuDesplegat .mDBlock .blockllistatObres ul li a span{
+			color:#FFFFFF;
+		}
+		.mMenuDesplegat .mDBlock .blockllistatObres ul li span.titul{
+			text-transform: uppercase;
+			font-weight:800;
+			font-size:13px;
+		}
+		.mMenuDesplegat .mDBlock .blockImatgeSol{
+			clear:both;
+			overflow: auto;
+			padding-bottom: 3px;
+		}
+		.mMenuDesplegat .mDBlock .blockImatgeSol img{
+			
+			width:70px;
+		}
+		.mMenuDesplegat .mDBlock .blockImatgeSol div{
+			color:#FFFFFF;
+			font-size: 11px;
+			line-height:13px;
+			font-weight: 600;
+			text-transform: uppercase;
+			padding-top: 4px;
+		}
+		.mMenuDesplegat .mDBlock .blockImatgeSol div span{
+			color:#FFFFFF;
+		}
+	</style>
+	<div class="desplegamenu">
+		<div class="menusLateralscontent">
+			<div id="pArtistic" class="mMenuDesplegat">
+				<div class="mDBlock primer">
+					<h4>Direcció Artística</h4>
+					<div class="blockImatgeSol">
+						<img src="http://188.165.131.21/tnc_entregapv1/sites/default/files/alberti.jpg">
+						<div>
+							<span class="negreta">Xavier Albertí</span><br>
+							Director Artístic del TNC
+						</div>
+					</div>
+					<a href="#"><h5>> Editorial temporada<br /> 2014-2015</h5></a>
+					
+				</div>
+				<div class="mDBlock">
+					<h4>Projecte Artístic</h4>
+					<div class="blockllistat">
+						<ul>
+							<li><a>> Eixos Temàtics</a></li>
+							<li><a>> Epicentre patrimonial</a></li>
+							<li><a>> Jove Companyia del TNC</a></li>
+							<li><a>> Descobrint nous autors</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			
+			<div id="temporada1415" class="mMenuDesplegat">
+				<div class="mDBlock primer">
+					<h4>Espectacles</h4>
+					<h5 style="border:none;">> Inagural</h5>
+					<div class="blockImatge">
+						<img src="http://188.165.131.21/tnc_entregapv1/sites/default/files/alberti.jpg">
+						<div>
+							Sala gran<br>
+							<span class="negreta"><a href="">Per Començar, sarsuela!</a></span><br>
+							<span class="minus">Del 2 al 5 d'octubre</span>
+						</div>
+					</div>
+					<h5>> Properament</h5>
+					<div class="blockImatge">
+						<img src="http://188.165.131.21/tnc_entregapv1/sites/default/files/alberti.jpg">
+						<div>
+							Sala petita<br>
+							<span class="negreta"><a href="">Liceistas i cruzados</a></span><br>
+							<span class="minus">Del 9-10 al 9-11</span>
+						</div>
+					</div>
+					<div class="blockImatge">
+						<img src="http://188.165.131.21/tnc_entregapv1/sites/default/files/alberti.jpg">
+						<div>
+							Sala gran<br>
+							<span class="negreta"><a href="">Montenegro</a></span><br>
+							<span class="minus">Del 15 al 26 d'octubre</span>
+						</div>
+					</div>
+					<h5>> Tota la programació</h5>
+				</div>
+				<div class="mDBlock">
+					<h4>A l'entorn</h4>
+					<h5 style="border:none;">> A fons</h5>
+					<div class="blockllistatObres">
+						<ul>
+							<li><a>
+									> <span class="mayus">Restaurant del TNC</span><br>
+									<span>Conferència Musicada</span><br> 
+									<span class="titul">Joan Viladomat, compositor universal i mestre de cupletistes<!--(Viatge a la Barcelona descordada dels anys 20)--></span><br>
+									3 d'octubre 18:30h.<br> 
+									<!--Jaume Collell-->
+								</a></li>
+						</ul>
+					</div>
+					<h5>> Properament</h5>
+					<div class="blockllistatObres">
+						<ul>
+							<li><a>
+									> <span class="mayus">Restaurant del TNC</span><br>
+									<span>Conferència</span><br>
+									<span class="titul">Lo sobrenatural en <br>Valle-Inclán</span><br>
+									22 d'octubre 18:30h.<br><!-- Ignacio García May-->
+								</a></li>
+							<li><a>
+									> <span class="mayus">Restaurant del TNC</span><br> 
+									Col·loqui<br> 
+									<span class="titul">Montenegro</span><br>
+									17 d'octubre<br>
+									
+								</a></li>
+						</ul>
+					</div>
+					<h5>> Totes les activitats</h5>
+				</div>
+				<div class="mDBlock">
+					<h4>Calendari</h4>
+					<h5 style="border:none;">> Setembre 2014</h5>
+					
+					<h5 style="border:none;">> Tot el calendari Temporada</h5>
+				</div>
+				<div class="mDBlock">
+					<h4>Més TNC</h4>
+					<h5 style="border:none;">> Exposició</h5>
+					<div class="blockllistatObres">
+						<ul>
+							<li><a>
+									> <span class="mayus">Vestíbul principal del TNC</span><br>
+									<span class="titul">Shakespeare a Catalunya</span><br />
+									Novembre 2014 - Gener 2015<br> 
+									
+								</a></li>
+						</ul>
+					</div>
+					
+					<h5 style="border:none;">> Tot el calendari Temporada</h5>
+				</div>
+			</div>
+			
+			
+			<div id="eTNC" class="mMenuDesplegat">
+				<div class="mDBlock primer">
+					<h4>Informació institucional</h4>
+					<div class="blockllistat">
+						<ul>
+							<li><a href="http://188.165.131.21/tnc_entregapv1/content/missio-visio-i-objectius">> Missió, visió i objectius</a></li>
+							<li><a href="http://188.165.131.21/tnc_entregapv1/content/edifici-i-els-espais">> L'edifici i espais</a></li>
+							<li><a href="http://188.165.131.21/tnc_entregapv1/content/historia">> Història</a></li>
+							<li><a href="http://188.165.131.21/tnc_entregapv1/content/equip-huma">> Equip Humà</a></li>
+							<li><a>> TNC en xifres</a></li>
+							<li><a>> Treballa al TNC</a></li>
+							<li><a>> Perfil de contractant</a></li>
+						</ul>
+					</div>
+					
+				</div>
+				<div class="mDBlock">
+					<h4>Informació pràctica</h4>
+					<div class="blockllistat">
+						<ul>
+							<li><a>> Com arribar al TNC</a></li>
+							<li><a>> Horaris</a></li>
+							<li><a href="http://188.165.131.21/tnc_entregapv1/content/tarifes">> Preus</a></li>
+							<li><a>> Com comprar entrades i abonaments</a></li>
+							<li><a>> Reserves de grups</a></li>
+							<li><a>> Atenció a l'espectador</a></li>
+							<li><a>> Accessibilitat</a></li>
+							<li><a>> Què fer en cas de suspensió d'una funció</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="mDBlock">
+					<h4>Serveis</h4>
+					<div class="blockllistat">
+						<ul>
+							<li><a href="http://188.165.131.21/tnc_entregapv1/content/publicacions">> Publicacions</a></li>
+							<li><a>> Visites guiades</a></li>
+							<li><a>> Videoteca</a></li>
+							<li><a href="http://188.165.131.21/tnc_entregapv1/content/restaurant">> Restaurant</a></li>
+							<li><a href="http://188.165.131.21/tnc_entregapv1/content/cafeteria">> Cafeteria</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			
+			<div id="pPedagogic" class="mMenuDesplegat">
+				<div class="mDBlock primer">
+					<h4>Projecte pedagògic</h4>
+					<div class="blockllistat">
+						<ul>
+							<li><a>> Presentació</a></li>
+						</ul>
+					</div>
+					
+				</div>
+				<div class="mDBlock">
+					<h4>Escola de l'espectador</h4>
+					<div class="blockllistat">
+						<ul>
+							<li><a>> Vers a vers</a></li>
+							<li><a>> Un xic de circ a les teves mans</a></li>
+							<li><a href="http://188.165.131.21/tnc_entregapv1/content/biblioteques-de-catalunya">> Llegir el teatre</a></li>
+							<li><a>> Llegir l'escena</a></li>
+							<li><a>> Conferències</a></li>
+							<li><a>> Col·loquis</a></li>
+							<li><a>> Exposicions</a></li>
+							<li><a>> Cine a la Filmoteca</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="mDBlock">
+					<h4>Escoles</h4>
+					<div class="blockllistat">
+						<ul>
+							<li><a>> Vine al Teatre</a></li>
+							<li><a>> Un dia al TNC</a></li>
+							<li><a>> Treball de Síntesi</a></li>
+							<li><a>> Visites guiades</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="mDBlock">
+					<h4>Universitats</h4>
+					<div class="blockllistat">
+						<ul>
+							<li><a>> Vine al Teatre</a></li>
+							<li><a href="http://188.165.131.21/tnc_entregapv1/content/ub-primer-acte">> UB:Primer acte. Quaderns de direcció escènica</a></li>
+							<li><a>> Conferències a les Universitats</a></li>
+							<li><a>> Cicle de lectures dramatitzades</a></li>
+							<li><a>> Curs d'estiu a Els Juliols de la UB</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			
+			
+		</div>
+	</div>	
+</div>			
  
+    <!-- final codi impacte -->
   <?php if(isset($content['field_estrenat']['#items'][0]['value']) && $content['field_estrenat']['#items'][0]['value'] == '0'):?>
     <?php print render($content['field_imatge_capcalera']); ?>
   <?php else: ?>
