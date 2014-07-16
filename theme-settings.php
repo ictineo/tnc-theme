@@ -15,14 +15,77 @@ function tnc_form_system_theme_settings_alter(&$form, &$form_state, $form_id = N
 
   // Create the form using Forms API: http://api.drupal.org/api/7
 
-  /* -- Delete this line if you want to use this setting
-  $form['tnc_example'] = array(
-    '#type'          => 'checkbox',
-    '#title'         => t('tnc sample setting'),
-    '#default_value' => theme_get_setting('tnc_example'),
-    '#description'   => t("This option doesn't do anything; it's just an example."),
+  $form['tnc_frontlink_1'] = array(
+    '#type'          => 'fieldset',
+    '#title'         => t('Links for first front links row'),
+    '#collapsible'   => TRUE,
+    '#collapsed'     => FALSE,
   );
-  // */
+  $form['tnc_frontlink_1']['tnc_frontlink_1_enable'] = array(
+    '#type'          => 'checkbox',
+    '#title'         => t('Enable first links row on front page'),
+    '#default_value' => theme_get_setting('tnc_frontlink_1_enable'),
+    '#description'   => t(""),
+  );
+  for ($i = 0; $i < 4; $i++) {
+    $form['tnc_frontlink_1']['tnc_frontlink_1_'.$i] = array(
+      '#type'          => 'link_field',
+      '#title'         => t('Link '. $i .' for first link row'),
+      '#default_value' => theme_get_setting('tnc_frontlink_1_'.$i),
+    );
+  }
+
+  $form['tnc_frontlink_2'] = array(
+    '#type'          => 'fieldset',
+    '#title'         => t('Links for first front links row'),
+    '#collapsible'   => TRUE,
+    '#collapsed'     => FALSE,
+  );
+  $form['tnc_frontlink_2']['tnc_frontlink_2_enable'] = array(
+    '#type'          => 'checkbox',
+    '#title'         => t('Enable second links row on front page'),
+    '#default_value' => theme_get_setting('tnc_frontlink_2_enable'),
+    '#description'   => t(""),
+  );
+  for ($i = 0; $i < 4; $i++) {
+    $form['tnc_frontlink_2']['tnc_frontlink_2_'.$i] = array(
+      '#type'          => 'link_field',
+      '#title'         => t('Link '. $i .' for first link row'),
+      '#default_value' => theme_get_setting('tnc_frontlink_2_'.$i),
+    );
+  }
+
+  $form['tnc_xxss'] = array(
+    '#type'          => 'fieldset',
+    '#title'         => t('Social networks'),
+    '#collapsible'   => TRUE,
+    '#collapsed'     => FALSE,
+  );
+  $form['tnc_xxss']['tnc_xxss_fb'] = array(
+    '#type'          => 'textfield',
+    '#title'         => t('Facebook'),
+    '#default_value' => theme_get_setting('tnc_xxss_fb'),
+    '#description'   => t("Enter url to link"),
+  );
+  $form['tnc_xxss']['tnc_xxss_inst'] = array(
+    '#type'          => 'textfield',
+    '#title'         => t('Instagram'),
+    '#default_value' => theme_get_setting('tnc_xxss_inst'),
+    '#description'   => t("Enter url to link"),
+  );
+  $form['tnc_xxss']['tnc_xxss_twt'] = array(
+    '#type'          => 'textfield',
+    '#title'         => t('Twitter'),
+    '#default_value' => theme_get_setting('tnc_xxss_twt'),
+    '#description'   => t("Enter url to link"),
+  );
+  $form['tnc_xxss']['tnc_xxss_you'] = array(
+    '#type'          => 'textfield',
+    '#title'         => t('Youtube'),
+    '#default_value' => theme_get_setting('tnc_xxss_you'),
+    '#description'   => t("Enter url to link"),
+  );
+
 
   // Remove some of the base theme's settings.
   /* -- Delete this line if you want to turn off this setting.
