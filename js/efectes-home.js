@@ -29,58 +29,63 @@ Drupal.behaviors.theme_tnc_homeslide = {
             $({deg: orig}).animate({deg: angle}, args);
         });
     };
-//$('.views-field-nothing ').click(function() {
-$('#mm-wrapper').click(function() {
-  var obj = jQuery(this).find('.view-carrousel .active > .views-field-nothing');
-  $.when(
-    // Agafem tots els 'tab'
-    $(obj).parent().parent().find('.tab').each(function () {
-      $(this).animate({top: "+=600"})
-    }).promise()
-  ).done(function () {
-     $(obj).animateRotate(0, -180, 800,'swing', function () {
-        $(obj).parent().removeClass('active').addClass('passive-in');
-        // Ubiquem les taba sota per fer l'efecte de pujada
-        $('.tab').each(function () {$(this).css('top', '1200px');});
-        $(obj).animateRotate(-180, -360, 800, 'swing', function () {
+    //$('.views-field-nothing ').click(function() {
+    // el element clickable ha de ser nomes el boto de fletxeta?
+    $('#mm-wrapper').click(function() {
+      if(!$(this).hasClass('animated')){
+        $(this).addClass('animated');
+        var obj = jQuery(this).find('.view-carrousel .active > .views-field-nothing');
         $.when(
-          $('#mm-wrapper .views-row').each(function () {
-            if($(this).hasClass('passive-in')) {
-              $(this).removeClass('passive-in');
-              $(this).addClass('passive');
-            } else if($(this).hasClass('passive')) {
-              $(this).removeClass('passive');
-              $(this).addClass('active');
-            }
+          // Agafem tots els 'tab'
+          $(obj).parent().parent().find('.tab').each(function () {
+            $(this).animate({top: "+=600"})
           }).promise()
         ).done(function () {
-          if($(this).hasClass('active')) {
-            $(this).find('.tab-big').animate({top: 650});
-          }
-          if($(this).hasClass('passive')) {
-            $(this).find('.tab-small').animate({top: 800});
-          }
+           $(obj).animateRotate(0, -180, 800,'swing', function () {
+              $(obj).parent().removeClass('active').addClass('passive-in');
+              // Ubiquem les taba sota per fer l'efecte de pujada
+              $('.tab').each(function () {$(this).css('top', '1200px');});
+              $(obj).animateRotate(-180, -360, 800, 'swing', function () {
+              $.when(
+                $('#mm-wrapper .views-row').each(function () {
+                  if($(this).hasClass('passive-in')) {
+                    $(this).removeClass('passive-in');
+                    $(this).addClass('passive');
+                  } else if($(this).hasClass('passive')) {
+                    $(this).removeClass('passive');
+                    $(this).addClass('active');
+                  }
+                }).promise()
+              ).done(function () {
+                if($(this).hasClass('active')) {
+                  $(this).find('.tab-big').animate({top: 650});
+                }
+                if($(this).hasClass('passive')) {
+                  $(this).find('.tab-small').animate({top: 800});
+                }
+              });
+            });
+         });
         });
-      });
-   });
-  });
-});
-// TODO unbind el click mentres dura l'animacio
-$('.view-carrousel.view-display-id-block_5 .views-row-1').addClass('active');
-$('.view-carrousel.view-display-id-block_5 .views-row-2').addClass('passive');
+        $(this).removeClass('animated');
+      } // endif animate
+    });
+    // TODO unbind el click mentres dura l'animacio
+    $('.view-carrousel.view-display-id-block_5 .views-row-1').addClass('active');
+    $('.view-carrousel.view-display-id-block_5 .views-row-2').addClass('passive');
+
+    /**
+     * Calendari
+     */
+    jQuery('#cal-line .events').hide();
+    jQuery('#cal-line .event').hover(function () {
+      jQuery(this).find('.events').show();
+    }, function () {
+      jQuery(this).find('.events').hide();
+    });
   }
+  };
 
-/**
- * Calendari
- */
-jQuery('#cal-line .events').hide();
-jQuery('#cal-line .event').hover(function () {
-  jQuery(this).find('.events').show();
-}, function () {
-  jQuery(this).find('.events').hide();
-});
-
-};
 
 
 })(jQuery, Drupal, this, this.document);
