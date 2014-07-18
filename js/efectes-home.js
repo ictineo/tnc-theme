@@ -69,6 +69,17 @@ $('#mm-wrapper').click(function() {
 $('.view-carrousel.view-display-id-block_5 .views-row-1').addClass('active');
 $('.view-carrousel.view-display-id-block_5 .views-row-2').addClass('passive');
   }
+
+/**
+ * Calendari
+ */
+jQuery('#cal-line .events').hide();
+jQuery('#cal-line .event').hover(function () {
+  jQuery(this).find('.events').show();
+}, function () {
+  jQuery(this).find('.events').hide();
+});
+
 };
 
 
