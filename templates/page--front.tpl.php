@@ -72,9 +72,49 @@
 
       <?php print render($page['navigation']); ?>
 
+
+
     </div>
 
   </div-->
+<?php /** slides varis...*/
+<?php
+ /** botoneres configurables
+  */
+  $c_r1 = theme_get_setting('tnc_frontlink_1_enable');
+  if ($c_r1) :
+  ?>
+    <div class="buttons-region buttons-region-1">
+    <?php
+    for ($i = 0; $i < 4; $i++) :
+    ?>
+      <?php
+      $txt_1 = theme_get_setting('tnc_t_frontlink_1_' . $i);
+      $lnk_1 = theme_get_setting('tnc_l_frontlink_1_' . $i);
+      if (!empty($lnk_1) && !empty($txt_1)) :
+      ?>
+        <a href="<?php print $lnk_1 ?>"><?php print $txt_1 ?></a>
+      <?php endif; endfor; ?>
+    </div>
+
+  <?php
+  endif;
+  $c_r2 = theme_get_setting('tnc_frontlink_2_enable');
+  if ($c_r2) :
+  ?>
+    <div class="buttons-region buttons-region-2">
+    <?php
+    for ($i = 0; $i < 4; $i++) :
+    ?>
+    <?php
+      $txt_2 = theme_get_setting('tnc_t_frontlink_2_' . $i);
+      $lnk_2 = theme_get_setting('tnc_l_frontlink_2_' . $i);
+      if (!empty($lnk_2) && !empty($txt_2)) :
+      ?>
+        <a href="<?php print $lnk_2 ?>"><?php print $txt_2 ?></a>
+      <?php endif; endfor; ?>
+      </div>
+<?php endif; ?>
 
 
 </div>

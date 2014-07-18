@@ -28,10 +28,15 @@ function tnc_form_system_theme_settings_alter(&$form, &$form_state, $form_id = N
     '#description'   => t(""),
   );
   for ($i = 0; $i < 4; $i++) {
-    $form['tnc_frontlink_1']['tnc_frontlink_1_'.$i] = array(
-      '#type'          => 'link_field',
-      '#title'         => t('Link '. $i .' for first link row'),
-      '#default_value' => theme_get_setting('tnc_frontlink_1_'.$i),
+    $form['tnc_frontlink_1']['tnc_t_frontlink_1_'.$i] = array(
+      '#type'          => 'textfield',
+      '#title'         => t('Link text '. $i .' for first link row'),
+      '#default_value' => theme_get_setting('tnc_t_frontlink_1_'.$i),
+    );
+    $form['tnc_frontlink_1']['tnc_l_frontlink_1_'.$i] = array(
+      '#type'          => 'textfield',
+      '#title'         => t('Link link '. $i .' for first link row'),
+      '#default_value' => theme_get_setting('tnc_l_frontlink_1_'.$i),
     );
   }
 
@@ -48,10 +53,15 @@ function tnc_form_system_theme_settings_alter(&$form, &$form_state, $form_id = N
     '#description'   => t(""),
   );
   for ($i = 0; $i < 4; $i++) {
-    $form['tnc_frontlink_2']['tnc_frontlink_2_'.$i] = array(
-      '#type'          => 'link_field',
-      '#title'         => t('Link '. $i .' for first link row'),
-      '#default_value' => theme_get_setting('tnc_frontlink_2_'.$i),
+    $form['tnc_frontlink_2']['tnc_t_frontlink_2_'.$i] = array(
+      '#type'          => 'textfield',
+      '#title'         => t('Link text '. $i .' for first link row'),
+      '#default_value' => theme_get_setting('tnc_t_frontlink_2_'.$i),
+    );
+    $form['tnc_frontlink_2']['tnc_l_frontlink_2_'.$i] = array(
+      '#type'          => 'textfield',
+      '#title'         => t('Link link '. $i .' for first link row'),
+      '#default_value' => theme_get_setting('tnc_l_frontlink_2_'.$i),
     );
   }
 
