@@ -7,7 +7,7 @@
  * @see https://drupal.org/node/1728148
  */
 ?>
-<h1> FRONT </h1>
+      <?php print $messages; ?>
 <div id="page">
 
   <header class="header" id="header" role="banner">
@@ -78,6 +78,7 @@
 
   </div-->
 <?php /** slides varis...*/
+ print views_embed_view('calendar', 'block_1');
  print views_embed_view('carrousel', 'block_7');
  print views_embed_view('carrousel', 'block_1');
  print views_embed_view('carrousel', 'block_3');
