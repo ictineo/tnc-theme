@@ -29,10 +29,7 @@ for ($i = 0 ; $i < 30; $i++) {
 <?php 
   /* coprovem que el dia de levent esta en els 30seguents */
 
-dsm(date('Y-m-d', strtotime($row[0]->calendar_start)));
-dsm($days);
 if (array_key_exists(date('Y-m-d', strtotime($row[0]->calendar_start)), $days)) {
-  dsm($row);
   $days[date('Y-m-d', strtotime($row[0]->calendar_start))] = $row[0]->rendered;
 }
 ?>
@@ -40,7 +37,6 @@ if (array_key_exists(date('Y-m-d', strtotime($row[0]->calendar_start)), $days)) 
 
 <div id="cal-line">
 <?php 
-dsm($days);
 /** mostrem el html que volem **/
 $j = 0;
 foreach ($days as $date => $rendered) {
