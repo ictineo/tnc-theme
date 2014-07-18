@@ -78,6 +78,10 @@
 
   </div-->
 <?php /** slides varis...*/
+ print views_embed_view('carrousel', 'block_7');
+ print views_embed_view('carrousel', 'block_1');
+ print views_embed_view('carrousel', 'block_3');
+?>
 <?php
  /** botoneres configurables
   */
