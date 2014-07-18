@@ -1,0 +1,179 @@
+@import "compass/css3";
+
+$min-height-mm: 800px;
+$main-tab-height: 450px;
+$main-tab-top: 650px;
+$min-tab-height: 200pxpx;
+$min-tab-top: 800px;
+
+body.front #mm-wrapper {
+  $zen-gutter-method: "margin";
+  $zen-column-count:  5;
+  $zen-gutter-width:  80px;
+  @include zen-grid-container();
+  overflow: hidden;
+  display: block;
+  height: $min-height-mm;
+  position: relative;
+  
+
+
+  .views-row.passive .views-field-nothing {
+    @include zen-grid-item(5, 1);
+    @include transform-origin(-300px, 50%);
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    min-height: $min-height-mm;
+    &> .field-content {
+      width:  100%;
+      @include zen-grid-container();
+      /// efecte de gir **/
+      .field-name-field-imatge-capcalera {
+        @include zen-grid-item(5, 1);
+        margin: 0px;
+        padding: 0px;
+        .field-item {
+          display: block;
+          position: absolute;
+          width: 100%;
+          //overflow: hidden;
+          //@include rotate(3deg);
+          //padding: 0 100px; // talls laterals
+          //margin: -400px -100px 0 -100px;
+          img {
+            //top: 400px; // compensacio
+            display: block;
+            //z-index: -1;
+            //@include rotate(-3deg); // compensacio
+            width: 100%;
+            position: relative;
+          }
+        }
+      }
+      .tab.tab-small {
+        padding: 0px;
+        display: block;
+        height: $min-tab-height;
+        top: $min-tab-top;
+
+      }
+      //@include zen-clear();
+    }
+  }
+
+  .views-row.active .views-field-nothing {
+    @include zen-grid-item(5, 1);
+    @include transform-origin(-300px, 50%);
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    z-index: 100;
+    min-height: $min-height-mm;
+    &> .field-content {
+      width:  100%;
+      @include zen-grid-container();
+      /// efecte de gir **/
+      display: block;
+      position: absolute;
+      width: 100%;
+      overflow: hidden;
+      @include rotate(3deg);
+      border-bottom: 4px solid white;
+      padding: 0 100px; // talls laterals
+      margin: -400px -100px 0 -100px;
+      height: 900px;
+
+      & > * {
+        @include rotate(-3deg); // compensacio
+      }
+      .field-name-field-imatge-capcalera {
+        @include zen-grid-item(5, 1);
+        margin: 0px;
+        padding: 0px;
+        .field-item {
+         img {
+            top: 400px; // compensacio
+            display: block;
+            z-index: -1;
+            width: 110%;
+            position: relative;
+            //right: -20px; //AJUISTar js?
+          }
+        }
+      }
+      .tab.tab-big {
+        //@include zen-grid-item(1, 4);
+        padding: 0px;
+        display: block;
+        height: $main-tab-height;
+        top: $main-tab-top;
+      }
+      //@include zen-clear();
+    }
+  }
+
+  .views-row.passive-in .views-field-nothing {
+    @include zen-grid-item(5, 1);
+    @include transform-origin(-300px, 50%);
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    z-index: 100;
+    min-height: $min-height-mm;
+    @include rotate(-180deg);
+    &> .field-content {
+      width:  100%;
+      @include zen-grid-container();
+      /// efecte de gir **/
+      .field-name-field-imatge-capcalera {
+        @include zen-grid-item(5, 1);
+        margin: 0px;
+        padding: 0px;
+        .field-item {
+          display: block;
+          position: absolute;
+          width: 100%;
+          overflow: hidden;
+          @include rotate(3deg);
+          padding: 0 100px; // talls laterals
+          margin: 0 -100px ;
+          top: 600px;
+          border-top: 4px solid white;
+          img {
+            bottom: 600px; // compensacio
+            display: block;
+            z-index: -1;
+            @include rotate(-3deg); // compensacio
+            width: 100%;
+            position: relative;
+            //right: 32px; //AJUISTar js?
+            margin-left: -30px; //AJUSTAR
+          }
+        }
+      }
+      .tab {
+        //@include zen-grid-item(1, 5);
+        padding: 0px;
+      }
+      //@include zen-clear();
+    }
+  }
+
+  .views-row.active  .views-field-nothing,
+  .views-row.passive .views-field-nothing,
+  .views-row.passive-in .views-field-nothing {
+    .tab {
+      position: absolute;
+      //background-color: $blau2;
+      z-index: 9999;
+      width: 250px;
+      @include caixa_dig($fons_actiu );
+      padding: 0px;
+      right: 20%;
+      display: none;
+    }
+
+  }
+
+}
