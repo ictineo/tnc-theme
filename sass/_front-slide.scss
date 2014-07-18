@@ -11,10 +11,16 @@ body.front #mm-wrapper {
   $zen-column-count:  5;
   $zen-gutter-width:  80px;
   @include zen-grid-container();
-  overflow: hidden;
   display: block;
   height: $min-height-mm;
   position: relative;
+  .view-id-carrousel.view-display-id-block_5 {
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+  }
   
 
 
