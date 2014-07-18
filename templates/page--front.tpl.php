@@ -7,7 +7,7 @@
  * @see https://drupal.org/node/1728148
  */
 ?>
-
+<h1> FRONT </h1>
 <div id="page">
 
   <header class="header" id="header" role="banner">
@@ -34,12 +34,14 @@
 
   <?php /** contingut insertat dinàmicament via js **/ ?>
   <div id="mm-wrapper">
+<?php print views_embed_view('carrousel', 'block_5'); ?>
   </div>
 
   <div id="main">
 
     <div id="content" class="column" role="main">
-      <?php print render($page['content']); ?>
+      <?php 
+  // A print render($page['content']); ?>
     </div>
 
     <!--div id="navigation">
@@ -71,9 +73,9 @@
 
   </div-->
 
-  <?php //print render($page['footer']); ?>
 
 </div>
 
 <?php print render($page['bottom']); ?>
 
+<?php drupal_add_js(drupal_get_path('theme','tnc') . '/js/efectes-home.js'); ?>

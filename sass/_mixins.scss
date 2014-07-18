@@ -66,13 +66,14 @@
     background-repeat: no-repeat;
     background-size: cover;
     @include border-radius(12px 12px 0 0);
-    border: 1px solid pink;
+    position: relative;
+    margin-top: -#{$h};
   }
-  & > * {
+  //& > * {
     background-color: $bg;
     width: #{$w};
     height: #{$h};
-  }
+  //}
 }
 
 /**
