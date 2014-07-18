@@ -29,8 +29,9 @@ Drupal.behaviors.theme_tnc_homeslide = {
             $({deg: orig}).animate({deg: angle}, args);
         });
     };
-$('.views-field-nothing ').click(function() {
-  var obj = this;
+//$('.views-field-nothing ').click(function() {
+$('#mm-wrapper').click(function() {
+  var obj = jQuery(this).find('.view-carrousel .active > .views-field-nothing');
   $.when(
     // Agafem tots els 'tab'
     $(obj).parent().parent().find('.tab').each(function () {
