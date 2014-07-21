@@ -135,6 +135,7 @@ body.node-type-fitxa-espectacle article.node-fitxa-espectacle {
                 @include tit_mig;
                 text-transform: uppercase;
                 line-height: 17px;
+                margin-bottom: 10px;
               }
             }
             .views-field-field-descripcio-tarifa {
@@ -147,6 +148,7 @@ body.node-type-fitxa-espectacle article.node-fitxa-espectacle {
               }
               p {
                 margin-bottom: 7px;
+                margin-top: 20px;
               }
             }
           }
@@ -156,6 +158,9 @@ body.node-type-fitxa-espectacle article.node-fitxa-espectacle {
         margin-bottom: 17px;
         a {
         @include boto();
+        height: 29px;
+        line-height: 29px;
+        min-height: 29px;
         }
       }
     }

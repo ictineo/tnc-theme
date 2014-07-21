@@ -66,14 +66,13 @@
     background-repeat: no-repeat;
     background-size: cover;
     @include border-radius(12px 12px 0 0);
-    position: relative;
-    margin-top: -#{$h};
+    border: 1px solid pink;
   }
-  //& > * {
+  & > * {
     background-color: $bg;
     width: #{$w};
     height: #{$h};
-  //}
+  }
 }
 
 /**
@@ -117,10 +116,12 @@
     position: relative;
   }
   &:after {
-    content: '\201D';
+    font-family:'Lily Script One';
+    content: '\201C';
   }
   &:before {
-    content: '\201C';
+    font-family:'Lily Script One';
+    content: '\201D';
   }
 }
 
@@ -219,7 +220,7 @@
   text-align: center;
   font-size: 11px;
   font-family: 'Open Sans', sans-serif;
-  font-weight: 800;
+  font-weight: 700;
   background-color: $destacat;
   color: $blanc;
   text-transform: uppercase;
@@ -258,6 +259,7 @@
   }
   h2 {
     line-height: 17px;
+    margin-bottom: 5px;
   }
   .field-name-field-imatge-capcalera .field-item img {
     width: 100%;
@@ -289,6 +291,9 @@
   }
   .field-name-field-url-compra-reserva a {
     @include boto();
+    min-height: 25px;
+    line-height: 25px;
+    height: 25px;
     width: 55%;
   }
 }

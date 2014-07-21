@@ -128,7 +128,7 @@
               //background-color: none;
               //background-color: none !important;
               .calendar.monthview {
-                background-color: $gris4;
+                background-color: $gris5;
                 padding: 0 0 5px 0;
                 margin: 0;
                 * {
@@ -209,6 +209,7 @@
               margin: 0 auto;
               display: block;
               @include bg_sprite();
+              margin-bottom: 2px;
             }
           }
           &.collapsed {
