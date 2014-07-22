@@ -74,6 +74,7 @@ scripts[] = js/slimscroll/jquery.slimscroll.min.js
 ;scripts[] = js/slimscroll/slimscroll-extend.js
 scripts[] = js/mediaelement/build/mediaelement-and-player.min.js
 scripts[] = js/script.js
+scripts[] = js/efectes-calendari-general.js
 
 
 
