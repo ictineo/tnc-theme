@@ -4,12 +4,12 @@
    * calendari
    */
   /** marca de dies i events actius **/
-  var nid = Drupal.settings.tnc.nid;
+ // var nid = Drupal.settings.tnc.nid;
   var flag_td = false;
   jQuery('.view-calendar .calendar-calendar td.single-day').each(function () {
     flag_td = false;
-    jQuery(this).find('.views-field-nothing .host-entity-nid-' + nid).each(function () {
-      jQuery(this).parent().parent().parent().parent().parent().parent().addClass('current');
+    jQuery(this).find('.view-item .calendar .monthview').each(function () {
+      jQuery(this).addClass('current');
       flag_td = true;
     });
     if(flag_td) {
