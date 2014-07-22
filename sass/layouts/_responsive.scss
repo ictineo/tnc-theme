@@ -217,8 +217,10 @@ $zen-auto-include-item-base: false;
     }
   }
 
-  body.node-type-fitxa-espectacle {
-    article.node-fitxa-espectacle {
+  body.node-type-fitxa-espectacle,
+  body.node-type-fitxa-entorn {
+    article.node-fitxa-espectacle, 
+    article.node-fitxa-entorn {
       header {
         $zen-column-count: 4;
         $zen-auto-include-item-base: true;
