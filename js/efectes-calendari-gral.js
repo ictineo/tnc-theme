@@ -6,15 +6,16 @@
   /** marca de dies i events actius **/
  // var nid = Drupal.settings.tnc.nid;
   var flag_td = false;
-  jQuery('.view-calendar .calendar-calendar td.single-day').each(function () {
+  jQuery('.view-calendar .calendar-calendar table tr.single-day').each(function () {
     flag_td = false;
-    jQuery(this).find('.view-item .calendar .monthview').each(function () {
-      jQuery(this).addClass('current');
+    jQuery(this).find('.view-item .calendar').each(function () {
+      jQuery(this).parent().parent().addClass('current');
       flag_td = true;
     });
     if(flag_td) {
       var act_date = jQuery(this).attr('data-date');
       jQuery('.view-calendar .calendar-calendar td.date-box[data-date="' + act_date + '"]').each(function () {
+//        alert("hola");
         jQuery(this).addClass('day-box-current');
       });
     }
