@@ -1,8 +1,8 @@
 <?php
 //dsm($content);
-$tid_dir = 88;
-$tid_diro = 110;
-$tid_acc = 106;
+//$tid_dir = 88;
+//$tid_diro = 110;
+//$tid_acc = 106;
 /**
  * @file
  * Returns the HTML for a node.
