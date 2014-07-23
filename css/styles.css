@@ -4498,10 +4498,12 @@ body.front #mm-wrapper .views-row.passive-in .views-field-nothing .tab > * {
   color: #58595b;
   text-transform: none;
   text-decoration: none;
-  font-size: 21px;
+  font-size: 19px;
   margin-left: 60px;
+  margin-top: 0;
+  line-height: 21px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/_estatica\.scss}line{font-family:\0000319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/_estatica\.scss}line{font-family:\0000321}}
 .node-projecte-artistic .field-name-field-destacat-lateral .field-item,
 .node-page .field-name-field-destacat-lateral .field-item {
   font-size: 25px;

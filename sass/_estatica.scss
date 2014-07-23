@@ -13,8 +13,10 @@
   }
   .entradeta p {
     @include estil_reset();
-    font-size: 21px;
+    font-size: 19px;
     margin-left: 60px;
+    margin-top:0;
+    line-height: 21px;
   }
   .field-name-field-destacat-lateral .field-item {
     font-size: 25px;
