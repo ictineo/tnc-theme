@@ -133,6 +133,13 @@ function tnc_preprocess_block(&$variables, $hook) {
 function tnc_preprocess_calendar_month_col(&$variables) {
   //dsm($variables['item']['class']);
 }
-//function tnc_preprocess_preprocess_date_views_pager(&$vars) {
+///function tnc_preprocess_preprocess_date_views_pager(&$vars) {
   //dsm($vars);
 //}
+//function tnc_preprocess_node(&$vars) {
+// if($vars['view_mode'] == 'Entity') {
+//   $vars['theme_hook_suggestions'][] = 'node__' . $vars['node']->type . '__default';   
+// }
+//}
+
+//

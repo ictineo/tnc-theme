@@ -1,5 +1,7 @@
 <?php
-//dsm($content);
+
+//$content['field_entorn']['#view_mode'] = 'View Widget Display';
+//dsm($content['field_entorn']);
 $tid_dir = 88;
 $tid_diro = 110;
 $tid_acc = 106;
@@ -685,7 +687,10 @@ line-height: 14px;
   <div id="main-wrapper">
     <div id="right-col">
     <h3 class="col-title"><?php print t("L'entorn"); ?></h3>
-      <?php print render($content['field_entorn']); ?>
+      <?php // $node = node_load($nid = $content['field_entorn']['0']['#markup']);?>
+<?php //print_r ($content['field_entorn']['0']['#markup']); ?>
+      <?php //dsm($node); ?>
+      <?php print render($content['field_entorn']);// (node_view($node, $view_mode='teaser')); ?>
     </div>
     <div id="text-wrapper">
       <span class="separator-left separator">&nbsp; </span>

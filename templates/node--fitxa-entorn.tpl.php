@@ -676,8 +676,8 @@ line-height: 14px;
       </div>
     </div>
     <div id="tarifes">
-      <?php print $content['eva_taxo_tarifes_entity_view_1']['#markup']; ?>
-      <?php print render($content['field_url_compra_reserva']); ?>
+      <?php  print $content['eva_caixa_espectacle_entity_view_1']['#markup']; ?>
+      <?php // print render($content['field_url_compra_reserva']); ?>
     </div>
   </header>
 
@@ -700,7 +700,6 @@ line-height: 14px;
         </div>
         <div class="presentation-col">
           <?php print render($content['body']); ?>
-          <h5 class="field-title"> <?php print t('Artistic team'); ?></h5>
   <?php 
             //$field_left = $content['field_artista_carrec'];
             //foreach($content['field_artista_carrec']['#items'] as $id => $itm) {
