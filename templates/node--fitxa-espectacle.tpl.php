@@ -686,7 +686,7 @@ line-height: 14px;
 
   <div id="main-wrapper">
     <div id="right-col">
-    <h3 class="col-title"><?php print t("L'entorn"); ?></h3>
+    <h3 class="col-title"><?php print t('Surroundings'); ?></h3>
       <?php // $node = node_load($nid = $content['field_entorn']['0']['#markup']);?>
 <?php //print_r ($content['field_entorn']['0']['#markup']); ?>
       <?php //dsm($node); ?>
@@ -695,8 +695,8 @@ line-height: 14px;
     <div id="text-wrapper">
       <span class="separator-left separator">&nbsp; </span>
       <span class="tnc-tabs">
-        <span class="tnc-tab tnc-tab-1"><?php print t('Presentation'); ?></span>
-        <span class="tnc-tab tnc-tab-2"><?php print t('More information'); ?></span>
+        <span class="tnc-tab tnc-tab-1"><?php print t('Introduction'); ?></span>
+        <span class="tnc-tab tnc-tab-2"><?php print t('In-depth'); ?></span>
         <span class="tnc-tab tnc-tab-3"><?php print t('Calendar'); ?></span>
       </span>
       <div id="main-text-wrapper">
@@ -705,7 +705,7 @@ line-height: 14px;
         </div>
         <div class="presentation-col">
           <?php print render($content['body']); ?>
-          <h5 class="field-title"> <?php print t('Artistic team'); ?></h5>
+          <h5 class="field-title"> <?php print t('Artistic details'); ?></h5>
   <?php 
             //$field_left = $content['field_artista_carrec'];
             //foreach($content['field_artista_carrec']['#items'] as $id => $itm) {
