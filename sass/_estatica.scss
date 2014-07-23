@@ -1,0 +1,13 @@
+.node-projecte-artistic,
+.node-page {
+  p {
+    margin-left: 60px;
+  }
+  .field-name-field-destacat-lateral .field-item {
+    font-size: 25px;
+    color: $verd1; 
+    line-height: 27px;
+    @include cita();
+  }
+}
+
