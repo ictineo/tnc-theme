@@ -635,6 +635,7 @@ table {
 /**
  * Variables d'estils
  */
+/**Caixa subtítols pàgina estàtica **/
 /* Layout rules */
 /**
  * @file
@@ -4315,6 +4316,56 @@ body.front #mm-wrapper .views-row.passive-in .views-field-nothing .tab > * {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\0000386}}
 #mm-wrapper .view-id-carrega_megamenu.view-display-id-block_3 .views-row {
   left: -100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/_ckeditor\.scss}line{font-family:\000031}}
+.cos_text {
+  font-size: 13px;
+  line-height: 19px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #58595b;
+  text-transform: none;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/_ckeditor\.scss}line{font-family:\000035}}
+.entradeta {
+  font-size: 13px;
+  line-height: 19px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #58595b;
+  text-transform: none;
+  text-decoration: none;
+  font-size: 21px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/_ckeditor\.scss}line{font-family:\000039}}
+.subtitol_text {
+  margin-left: -10px;
+  text-indent: 10px;
+  background-color: #008991;
+  vertical-align: middle;
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/_ckeditor\.scss}line{font-family:\0000317}}
+.titol_seccio {
+  font-size: 13px;
+  line-height: 19px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #58595b;
+  text-transform: none;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+  color: #008f95;
 }
 
 /**
