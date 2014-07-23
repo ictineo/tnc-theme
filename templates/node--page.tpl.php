@@ -37,7 +37,7 @@
     hide($content['links']);
   ?>
   <?php print render($content['field_imatge_capcalera']);?>
-  <h2 class="tit_pagina"><?php print render ($title);?></h2>
+  <div class="tit_pagina"><h2><?php print render ($title);?></h2></div>
   <?php print render($content);?>
 
   <?php print render($content['links']); ?>
