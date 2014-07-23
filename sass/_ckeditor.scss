@@ -1,0 +1,23 @@
+.cos_text {
+  @include estil_reset();
+  font-size: 14px;
+}
+.entradeta {
+  @include estil_reset();
+  font-size: 21px;
+}
+.subtitol_text {
+  @include titol_bg($m,$bg:$blau1);
+  color: $blanc;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+
+}
+.titol_seccio {
+  @include estil_reset();
+  font-size: 14px;
+  font-weight: 700;
+  color: $verd2;
+}
+
