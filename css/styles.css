@@ -1733,16 +1733,97 @@ table {
   }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass-extensions\/zen-grids\/stylesheets\/zen\/_grids\.scss}line{font-family:\0000346}}
-  body.node-projecte-artistic:before, body.node-projecte-artistic:after,
-  body.node-page:before,
-  body.node-page:after {
+  body.node-type-projecte-artistic article.node-projecte-artistic:before, body.node-type-projecte-artistic article.node-projecte-artistic:after,
+  body.node-type-projecte-artistic article.node-page:before,
+  body.node-type-projecte-artistic article.node-page:after,
+  body.node-type-page article.node-projecte-artistic:before,
+  body.node-type-page article.node-projecte-artistic:after,
+  body.node-type-page article.node-page:before,
+  body.node-type-page article.node-page:after {
     content: "";
     display: table;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass-extensions\/zen-grids\/stylesheets\/zen\/_grids\.scss}line{font-family:\0000350}}
-  body.node-projecte-artistic:after,
-  body.node-page:after {
+  body.node-type-projecte-artistic article.node-projecte-artistic:after,
+  body.node-type-projecte-artistic article.node-page:after,
+  body.node-type-page article.node-projecte-artistic:after,
+  body.node-type-page article.node-page:after {
     clear: both;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003430}}
+  body.node-type-projecte-artistic article.node-projecte-artistic .field-name-field-imatge-capcalera,
+  body.node-type-projecte-artistic article.node-projecte-artistic .tit_pagina,
+  body.node-type-projecte-artistic article.node-page .field-name-field-imatge-capcalera,
+  body.node-type-projecte-artistic article.node-page .tit_pagina,
+  body.node-type-page article.node-projecte-artistic .field-name-field-imatge-capcalera,
+  body.node-type-page article.node-projecte-artistic .tit_pagina,
+  body.node-type-page article.node-page .field-name-field-imatge-capcalera,
+  body.node-type-page article.node-page .tit_pagina {
+    clear: left;
+    float: left;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: -100%;
+    padding-left: 40px;
+    padding-right: 40px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    word-wrap: break-word;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003434}}
+  body.node-type-projecte-artistic article.node-projecte-artistic .entradeta,
+  body.node-type-projecte-artistic article.node-page .entradeta,
+  body.node-type-page article.node-projecte-artistic .entradeta,
+  body.node-type-page article.node-page .entradeta {
+    clear: left;
+    float: left;
+    width: 75%;
+    margin-left: 0%;
+    margin-right: -75%;
+    padding-left: 40px;
+    padding-right: 40px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    word-wrap: break-word;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003438}}
+  body.node-type-projecte-artistic article.node-projecte-artistic .col_esq,
+  body.node-type-projecte-artistic article.node-page .col_esq,
+  body.node-type-page article.node-projecte-artistic .col_esq,
+  body.node-type-page article.node-page .col_esq {
+    clear: left;
+    float: left;
+    width: 75%;
+    margin-left: 0%;
+    margin-right: -75%;
+    padding-left: 40px;
+    padding-right: 40px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    word-wrap: break-word;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003442}}
+  body.node-type-projecte-artistic article.node-projecte-artistic .col_dreta,
+  body.node-type-projecte-artistic article.node-page .col_dreta,
+  body.node-type-page article.node-projecte-artistic .col_dreta,
+  body.node-type-page article.node-page .col_dreta {
+    float: left;
+    width: 25%;
+    margin-left: 75%;
+    margin-right: -100%;
+    padding-left: 40px;
+    padding-right: 40px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    word-wrap: break-word;
   }
 }
 /* Component (SMACSS module) rules */
@@ -4392,11 +4473,42 @@ body.front #mm-wrapper .views-row.passive-in .views-field-nothing .tab > * {
   margin-left: 60px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/_estatica\.scss}line{font-family:\000036}}
+.node-projecte-artistic .tit_pagina h2,
+.node-page .tit_pagina h2 {
+  margin-left: 0;
+  background-color: #e2007a;
+  vertical-align: middle;
+  font-size: 44px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  color: #008991;
+  text-transform: uppercase;
+  color: white;
+  display: inline;
+  padding-left: 60px;
+  padding-right: 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/_estatica\.scss}line{font-family:\0000314}}
+.node-projecte-artistic .entradeta p,
+.node-page .entradeta p {
+  font-size: 13px;
+  line-height: 19px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #58595b;
+  text-transform: none;
+  text-decoration: none;
+  font-size: 21px;
+  margin-left: 60px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/_estatica\.scss}line{font-family:\0000319}}
 .node-projecte-artistic .field-name-field-destacat-lateral .field-item,
 .node-page .field-name-field-destacat-lateral .field-item {
   font-size: 25px;
   color: #6bb2b8;
   line-height: 27px;
+  font-weight: 800;
+  margin-bottom: 30px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/_mixins\.scss}line{font-family:\00003113}}
 .node-projecte-artistic .field-name-field-destacat-lateral .field-item:after, .node-projecte-artistic .field-name-field-destacat-lateral .field-item:before,

@@ -3,10 +3,25 @@
   p {
     margin-left: 60px;
   }
+  .tit_pagina h2 {
+    @include titol_bg($m,$bg:$rosa);
+    @include titol();
+    color: $blanc;
+    display: inline;
+    padding-left: 60px;
+    padding-right: 15px;
+  }
+  .entradeta p {
+    @include estil_reset();
+    font-size: 21px;
+    margin-left: 60px;
+  }
   .field-name-field-destacat-lateral .field-item {
     font-size: 25px;
     color: $verd1; 
     line-height: 27px;
+    font-weight: 800;
+    margin-bottom: 30px;
     @include cita();
   }
 }
