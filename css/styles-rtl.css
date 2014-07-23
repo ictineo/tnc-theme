@@ -1089,6 +1089,19 @@ ul {
     box-sizing: border-box;
     word-wrap: break-word;
   }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass-extensions\/zen-grids\/stylesheets\/zen\/_grids\.scss}line{font-family:\0000346}}
+  body.node-projecte-artistic:before, body.node-projecte-artistic:after,
+  body.node-page:before,
+  body.node-page:after {
+    content: "";
+    display: table;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass-extensions\/zen-grids\/stylesheets\/zen\/_grids\.scss}line{font-family:\0000350}}
+  body.node-projecte-artistic:after,
+  body.node-page:after {
+    clear: both;
+  }
 }
 /* Component (SMACSS module) rules */
 /**

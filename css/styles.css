@@ -1731,6 +1731,19 @@ table {
     box-sizing: border-box;
     word-wrap: break-word;
   }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass-extensions\/zen-grids\/stylesheets\/zen\/_grids\.scss}line{font-family:\0000346}}
+  body.node-projecte-artistic:before, body.node-projecte-artistic:after,
+  body.node-page:before,
+  body.node-page:after {
+    content: "";
+    display: table;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass-extensions\/zen-grids\/stylesheets\/zen\/_grids\.scss}line{font-family:\0000350}}
+  body.node-projecte-artistic:after,
+  body.node-page:after {
+    clear: both;
+  }
 }
 /* Component (SMACSS module) rules */
 /**
@@ -4346,15 +4359,14 @@ body.front #mm-wrapper .views-row.passive-in .views-field-nothing .tab > * {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/_ckeditor\.scss}line{font-family:\0000311}}
 .subtitol_text {
-  margin-left: -10px;
-  text-indent: 10px;
+  margin-left: 0;
   background-color: #008991;
   vertical-align: middle;
   color: white;
   font-size: 24px;
   font-weight: 700;
   text-transform: uppercase;
-  padding-left: 70px;
+  padding-left: 60px;
   padding-right: 15px;
   display: inline;
 }
@@ -4372,6 +4384,41 @@ body.front #mm-wrapper .views-row.passive-in .views-field-nothing .tab > * {
   font-weight: 700;
   color: #008f95;
   margin-left: 60px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/_estatica\.scss}line{font-family:\000033}}
+.node-projecte-artistic p,
+.node-page p {
+  margin-left: 60px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/_estatica\.scss}line{font-family:\000036}}
+.node-projecte-artistic .field-name-field-destacat-lateral .field-item,
+.node-page .field-name-field-destacat-lateral .field-item {
+  font-size: 25px;
+  color: #6bb2b8;
+  line-height: 27px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/_mixins\.scss}line{font-family:\00003113}}
+.node-projecte-artistic .field-name-field-destacat-lateral .field-item:after, .node-projecte-artistic .field-name-field-destacat-lateral .field-item:before,
+.node-page .field-name-field-destacat-lateral .field-item:after,
+.node-page .field-name-field-destacat-lateral .field-item:before {
+  font-family: 'Lily Script One';
+  font-weight: 400;
+  display: inline-block;
+  font-size: 325%;
+  vertical-align: bottom;
+  bottom: -23px;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/_mixins\.scss}line{font-family:\00003122}}
+.node-projecte-artistic .field-name-field-destacat-lateral .field-item:after,
+.node-page .field-name-field-destacat-lateral .field-item:after {
+  content: '\201C';
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/_mixins\.scss}line{font-family:\00003125}}
+.node-projecte-artistic .field-name-field-destacat-lateral .field-item:before,
+.node-page .field-name-field-destacat-lateral .field-item:before {
+  content: '\201D';
 }
 
 /**

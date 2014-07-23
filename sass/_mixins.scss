@@ -135,8 +135,8 @@
  * param2 color de fons
  */
 @mixin titol_bg($m,$bg:$destacat) {
-  margin-left: -$m;
-  text-indent: $m;
+  margin-left: 0;
+//  text-indent: $m;
   background-color: $bg;
   vertical-align: middle;
   
