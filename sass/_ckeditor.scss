@@ -1,10 +1,12 @@
 .cos_text {
   @include estil_reset();
   font-size: 14px;
+  margin-left: 60px;
 }
 .entradeta {
   @include estil_reset();
   font-size: 21px;
+  margin-left: 60px;
 }
 .subtitol_text {
   @include titol_bg($m,$bg:$blau1);
@@ -12,12 +14,15 @@
   font-size: 24px;
   font-weight: 700;
   text-transform: uppercase;
-
+  padding-left: 70px;
+  padding-right: 15px;
+  display:inline;
 }
 .titol_seccio {
   @include estil_reset();
   font-size: 14px;
   font-weight: 700;
   color: $verd2;
+  margin-left: 60px;
 }
 

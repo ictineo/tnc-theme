@@ -4328,9 +4328,10 @@ body.front #mm-wrapper .views-row.passive-in .views-field-nothing .tab > * {
   text-transform: none;
   text-decoration: none;
   font-size: 14px;
+  margin-left: 60px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/_ckeditor\.scss}line{font-family:\000035}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/_ckeditor\.scss}line{font-family:\000036}}
 .entradeta {
   font-size: 13px;
   line-height: 19px;
@@ -4340,9 +4341,10 @@ body.front #mm-wrapper .views-row.passive-in .views-field-nothing .tab > * {
   text-transform: none;
   text-decoration: none;
   font-size: 21px;
+  margin-left: 60px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/_ckeditor\.scss}line{font-family:\000039}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/_ckeditor\.scss}line{font-family:\0000311}}
 .subtitol_text {
   margin-left: -10px;
   text-indent: 10px;
@@ -4352,9 +4354,12 @@ body.front #mm-wrapper .views-row.passive-in .views-field-nothing .tab > * {
   font-size: 24px;
   font-weight: 700;
   text-transform: uppercase;
+  padding-left: 70px;
+  padding-right: 15px;
+  display: inline;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/_ckeditor\.scss}line{font-family:\0000317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/_ckeditor\.scss}line{font-family:\0000321}}
 .titol_seccio {
   font-size: 13px;
   line-height: 19px;
@@ -4366,6 +4371,7 @@ body.front #mm-wrapper .views-row.passive-in .views-field-nothing .tab > * {
   font-size: 14px;
   font-weight: 700;
   color: #008f95;
+  margin-left: 60px;
 }
 
 /**
