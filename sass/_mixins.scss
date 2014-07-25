@@ -252,12 +252,15 @@
 @mixin caixa_petita {
   background-color: $gris5;
   text-align: center;
-  h2.node-title a {
-    font-size: 16px;
-    line-height: 17px;
-    color: $titols_b;
-    text-transform: uppercase;
-    font-weight: 800;
+  h2.node-title {
+    margin-top: 5px;
+    a {
+      font-size: 16px;
+      line-height: 17px;
+      color: $titols_b;
+      text-transform: uppercase;
+      font-weight: 800;
+    }
   }
   h2 {
     line-height: 17px;

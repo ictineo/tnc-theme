@@ -180,7 +180,7 @@ body.node-type-fitxa-entorn article.node-fitxa-entorn {
         .field-label {
           display: none;
         }
-        article.node {
+        .entorn_lateral {/*article.node {*/
           @include caixa_petita;
           margin: 25px 0;
         }

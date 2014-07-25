@@ -3253,40 +3253,46 @@ body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #right-col .
   display: none;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/_fitxa-estils\.scss}line{font-family:\00003183}}
-body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper #right-col .field-name-field-entorn article.node,
-body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #right-col .field-name-field-entorn article.node {
+body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper #right-col .field-name-field-entorn .entorn_lateral,
+body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #right-col .field-name-field-entorn .entorn_lateral {
+  /*article.node {*/
   background-color: #f4f4f5;
   text-align: center;
   margin: 25px 0;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/_mixins\.scss}line{font-family:\00003255}}
-body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper #right-col .field-name-field-entorn article.node h2.node-title a,
-body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #right-col .field-name-field-entorn article.node h2.node-title a {
+body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper #right-col .field-name-field-entorn .entorn_lateral h2.node-title,
+body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #right-col .field-name-field-entorn .entorn_lateral h2.node-title {
+  margin-top: 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/_mixins\.scss}line{font-family:\00003257}}
+body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper #right-col .field-name-field-entorn .entorn_lateral h2.node-title a,
+body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #right-col .field-name-field-entorn .entorn_lateral h2.node-title a {
   font-size: 16px;
   line-height: 17px;
   color: #008991;
   text-transform: uppercase;
   font-weight: 800;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/_mixins\.scss}line{font-family:\00003262}}
-body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper #right-col .field-name-field-entorn article.node h2,
-body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #right-col .field-name-field-entorn article.node h2 {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/_mixins\.scss}line{font-family:\00003265}}
+body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper #right-col .field-name-field-entorn .entorn_lateral h2,
+body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #right-col .field-name-field-entorn .entorn_lateral h2 {
   line-height: 17px;
   margin-bottom: 5px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/_mixins\.scss}line{font-family:\00003266}}
-body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper #right-col .field-name-field-entorn article.node .field-name-field-imatge-capcalera .field-item img,
-body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #right-col .field-name-field-entorn article.node .field-name-field-imatge-capcalera .field-item img {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/_mixins\.scss}line{font-family:\00003269}}
+body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper #right-col .field-name-field-entorn .entorn_lateral .field-name-field-imatge-capcalera .field-item img,
+body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #right-col .field-name-field-entorn .entorn_lateral .field-name-field-imatge-capcalera .field-item img {
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/_mixins\.scss}line{font-family:\00003269}}
-body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper #right-col .field-name-field-entorn article.node .field-name-field-tipus-entorn .field-items,
-body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #right-col .field-name-field-entorn article.node .field-name-field-tipus-entorn .field-items {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/_mixins\.scss}line{font-family:\00003272}}
+body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper #right-col .field-name-field-entorn .entorn_lateral .field-name-field-tipus-entorn .field-items,
+body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #right-col .field-name-field-entorn .entorn_lateral .field-name-field-tipus-entorn .field-items {
   display: inline-block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/_mixins\.scss}line{font-family:\00003271}}
-body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper #right-col .field-name-field-entorn article.node .field-name-field-tipus-entorn .field-items .field-item,
-body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #right-col .field-name-field-entorn article.node .field-name-field-tipus-entorn .field-items .field-item {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/_mixins\.scss}line{font-family:\00003274}}
+body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper #right-col .field-name-field-entorn .entorn_lateral .field-name-field-tipus-entorn .field-items .field-item,
+body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #right-col .field-name-field-entorn .entorn_lateral .field-name-field-tipus-entorn .field-items .field-item {
   font-size: 11px;
   text-transform: uppercase;
   font-weight: 600;
@@ -3295,27 +3301,27 @@ body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #right-col .
   line-height: 13px;
   margin-bottom: 5px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/_mixins\.scss}line{font-family:\00003282}}
-body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper #right-col .field-name-field-entorn article.node .field-name-field-sala .field-item,
-body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #right-col .field-name-field-entorn article.node .field-name-field-sala .field-item {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/_mixins\.scss}line{font-family:\00003285}}
+body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper #right-col .field-name-field-entorn .entorn_lateral .field-name-field-sala .field-item,
+body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #right-col .field-name-field-entorn .entorn_lateral .field-name-field-sala .field-item {
   text-transform: uppercase;
   line-height: 16px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/_mixins\.scss}line{font-family:\00003286}}
-body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper #right-col .field-name-field-entorn article.node .field-name-field-data .field-item span,
-body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #right-col .field-name-field-entorn article.node .field-name-field-data .field-item span {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/_mixins\.scss}line{font-family:\00003289}}
+body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper #right-col .field-name-field-entorn .entorn_lateral .field-name-field-data .field-item span,
+body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #right-col .field-name-field-entorn .entorn_lateral .field-name-field-data .field-item span {
   line-height: 16px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/_mixins\.scss}line{font-family:\00003289}}
-body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper #right-col .field-name-field-entorn article.node .field-name-field-tarifa .field-item,
-body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #right-col .field-name-field-entorn article.node .field-name-field-tarifa .field-item {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/_mixins\.scss}line{font-family:\00003292}}
+body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper #right-col .field-name-field-entorn .entorn_lateral .field-name-field-tarifa .field-item,
+body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #right-col .field-name-field-entorn .entorn_lateral .field-name-field-tarifa .field-item {
   text-transform: uppercase;
   font-weight: 700;
   margin-bottom: 5px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/_mixins\.scss}line{font-family:\00003294}}
-body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper #right-col .field-name-field-entorn article.node .field-name-field-url-compra-reserva a,
-body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #right-col .field-name-field-entorn article.node .field-name-field-url-compra-reserva a {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/_mixins\.scss}line{font-family:\00003297}}
+body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper #right-col .field-name-field-entorn .entorn_lateral .field-name-field-url-compra-reserva a,
+body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #right-col .field-name-field-entorn .entorn_lateral .field-name-field-url-compra-reserva a {
   width: 100%;
   min-height: 32px;
   line-height: 32px;

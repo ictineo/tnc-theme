@@ -1,3 +1,28 @@
+<?php if($view_mode == 'entityreference_view_widget'): ?>
+<!--  tpl dels entorns al lateral de la fitxa espectacle -->
+<div class='entorn_lateral'>
+<?php $path=drupal_get_path_alias('node/'.$nid);?>
+  <?php print render($content['field_imatge_capcalera']);?>
+  <?php print render($content['field_tipus_entorn']);?>
+  <h2 class="node-title"><a href=<?php '$path'?>><?php print render($title);?></a></h2>
+  <?php print render($content['field_sala']);?>
+  <?php print render($content['field_data']);?>
+  <?php print render($content['field_tarifa']);?>
+  <?php print render($content['field_url_compra_reserva']);?>
+</div>
+<?php elseif($view_mode == 'teaser'): ?>
+<div class='entorn_teaser'>
+  <?php print render($content['field_sala']); ?>
+  <?php print render($content['field_data']);?>
+  <?php print render($content['field_tipus_entorn']);?>
+  <h2 class="node-title"><a href=<?php '$path'?>><?php print render($title);?></a></h2>
+  <?php print render($content['field_autor']);?>
+</div>
+
+<?php else:?>
+<!-- El tpl per la resta de displays -->
+
+
 <?php
 //dsm($content);
 //$tid_dir = 88;
@@ -746,3 +771,4 @@ line-height: 14px;
 
 </article>
 <?php drupal_add_js(drupal_get_path('theme','tnc') . '/js/efectes-fitxa.js'); ?>
+<?php endif ?>
