@@ -502,6 +502,7 @@ $zen-auto-include-item-base: false;
       tr {
         @include zen-clear();
         $zen-column-count: 4;
+        $zen-gutter-width: 20px;
         @include zen-grid-container();
         .col-1 {
           @include zen-grid-item (1,1);

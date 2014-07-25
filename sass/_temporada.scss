@@ -1,6 +1,9 @@
 body.page-temporada {
   .view-temporada {
     tr {
+      td {
+        margin-bottom: 30px;
+      }
       .espectacle,
       .entorn {
         background-color: $gris5;
@@ -42,6 +45,60 @@ body.page-temporada {
         .field-name-field-autor div {
           font-weight: 700;
           margin-top: 5px;
+        }
+        .grup_entorn {
+          padding: 5px 0 0 10px;
+          text-transform: uppercase;
+          font-weight: 800;
+          font-size: 11px;
+          color: $verd2;
+        }
+        .field-name-field-entorn {
+          text-transform: uppercase;
+          color: $gris0;
+          padding: 0 40px 0 10px;
+          .field-item  {
+            border-bottom : 1px solid $bora_temporada;
+            &:last-of-type {
+              border: none;
+            }
+          }
+          .field-item .entorn_teaser {
+            padding-bottom: 5px;
+            .field-name-field-sala,
+            .field-name-field-sala div,
+            .field-name-field-sala .field-item,
+            .field-name-field-data,
+            .field-name-field-data span,
+            .field-name-field-data .field-item,
+            .field-name-field-tipus-entorn .field-item,
+            .field-name-field-tipus-entorn {
+              display: inline-block;
+              font-size: 11px;
+              line-height: 13px;
+              background-color: $gris5;
+              color: $gris0;
+              font-weight: 400;
+              padding: 0;
+            }
+            h2.node-title,
+            h2.node-title a {
+              font-weight: 800;
+              font-size: 11px;
+              line-height: 13px;
+              margin: 0;
+              display: block;
+            }
+            .field-name-field-autor div {
+              display: inline-block;
+              font-size: 11px;
+              color: $gris0;
+              font-weight: 400;
+              padding: 0;
+              text-transform: none;
+              margin-top: 0;
+            }
+          }
         }
       }
     }
