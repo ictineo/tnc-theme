@@ -1,0 +1,49 @@
+body.page-temporada {
+  .view-temporada {
+    tr {
+      .espectacle,
+      .entorn {
+        background-color: $gris5;
+        .field-name-field-data .field-item,
+        .field-name-field-data span,
+        .field-name-field-sala, 
+        .field-name-field-sala .field-item {
+          font-family: 'Open Sans', sans-serif;
+          font-size: 14px;
+          background-color: $verd2;
+          color: $blanc;
+          padding-left: 5px;
+        }
+        .field-name-field-sala,
+        .field-name-field-sala .field-item {
+          font-weight: 800;
+          text-transform: uppercase;
+          display: block;
+        }
+        .view-field-title {
+          font-size: 24px;
+          text-transform: uppercase;
+          font-weight: 800;
+          padding-left: 10px;
+          margin-top: 5px;
+          a {
+            color: $verd2;
+            line-heigh: 26px;
+          }
+        }
+        .field-name-field-autor div,
+        .field-name-field-rol-destacat div {
+          font-size: 14px;
+          text-transform: uppercase;
+          color: $gris0;
+          padding-left: 5px;
+          line-height: 16px;
+        }
+        .field-name-field-autor div {
+          font-weight: 700;
+          margin-top: 5px;
+        }
+      }
+    }
+  }
+}
