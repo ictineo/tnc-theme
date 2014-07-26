@@ -1,10 +1,10 @@
 <?php if($view_mode == 'entityreference_view_widget'): ?>
 <!--  tpl dels entorns al lateral de la fitxa espectacle -->
 <div class='entorn_lateral'>
-<?php $path=drupal_get_path_alias('node/'.$nid);?>
+<?php print_r($node); // $alias=drupal_get_path_alias('node/'. $node->nid); ?>
   <?php print render($content['field_imatge_capcalera']);?>
   <?php print render($content['field_tipus_entorn']);?>
-  <h2 class="node-title"><a href=<?php '$path'?>><?php print render($title);?></a></h2>
+  <h2 class="node-title"><a href=<?php url('node/'); ?>><?php print render($title);?></a></h2>
   <?php print render($content['field_sala']);?>
   <?php print render($content['field_data']);?>
   <?php print render($content['field_tarifa']);?>
