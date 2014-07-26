@@ -12,13 +12,13 @@
       jQuery(this).parent().parent().addClass('current');
       flag_td = true;
     });
-//    if(flag_td) {
-//     var act_date = jQuery(this).attr('data-date');
-//     jQuery('.view-calendar .calendar-calendar table td.date-box').each(function () {
-//        alert("hola");
-//        jQuery(this).addClass('day-box-current');
-//      });
-//    }
+    if(flag_td) {
+      var act_date = jQuery(this).attr('data-date');
+      jQuery('.view-calendar .calendar-calendar table td.date-box[data-date="' + act_date + '"]').each(function () {
+        alert("hola");
+        jQuery(this).addClass('day-box-current');
+      });
+    }
   });
   /** marca de fileres de passat **/
   flag_td = false
