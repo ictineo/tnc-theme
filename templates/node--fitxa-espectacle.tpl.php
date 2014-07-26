@@ -687,10 +687,7 @@ line-height: 14px;
   <div id="main-wrapper">
     <div id="right-col">
     <h3 class="col-title"><?php print t('Surroundings'); ?></h3>
-      <?php // $node = node_load($nid = $content['field_entorn']['0']['#markup']);?>
-<?php //print_r ($content['field_entorn']['0']['#markup']); ?>
-      <?php //dsm($node); ?>
-      <?php print render($content['field_entorn']);// (node_view($node, $view_mode='teaser')); ?>
+      <?php print render($content['field_entorn']); ?>
     </div>
     <div id="text-wrapper">
       <span class="separator-left separator">&nbsp; </span>
