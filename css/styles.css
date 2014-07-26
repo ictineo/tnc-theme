@@ -4673,9 +4673,10 @@ body.page-temporada .view-temporada tr td {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/_temporada\.scss}line{font-family:\000038}}
 body.page-temporada .view-temporada tr .espectacle,
 body.page-temporada .view-temporada tr .entorn {
+  min-height: 265px;
   background-color: #f4f4f5;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/_temporada\.scss}line{font-family:\0000313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/_temporada\.scss}line{font-family:\0000314}}
 body.page-temporada .view-temporada tr .espectacle .field-name-field-data .field-item,
 body.page-temporada .view-temporada tr .espectacle .field-name-field-data span,
 body.page-temporada .view-temporada tr .espectacle .field-name-field-sala,
@@ -4690,7 +4691,7 @@ body.page-temporada .view-temporada tr .entorn .field-name-field-sala .field-ite
   color: white;
   padding-left: 5px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/_temporada\.scss}line{font-family:\0000321}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/_temporada\.scss}line{font-family:\0000322}}
 body.page-temporada .view-temporada tr .espectacle .field-name-field-sala,
 body.page-temporada .view-temporada tr .espectacle .field-name-field-sala .field-item,
 body.page-temporada .view-temporada tr .entorn .field-name-field-sala,
@@ -4699,7 +4700,7 @@ body.page-temporada .view-temporada tr .entorn .field-name-field-sala .field-ite
   text-transform: uppercase;
   display: block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/_temporada\.scss}line{font-family:\0000326}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/_temporada\.scss}line{font-family:\0000327}}
 body.page-temporada .view-temporada tr .espectacle .view-field-title,
 body.page-temporada .view-temporada tr .entorn .view-field-title {
   font-size: 24px;
@@ -4708,13 +4709,13 @@ body.page-temporada .view-temporada tr .entorn .view-field-title {
   padding-left: 10px;
   margin-top: 5px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/_temporada\.scss}line{font-family:\0000332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/_temporada\.scss}line{font-family:\0000333}}
 body.page-temporada .view-temporada tr .espectacle .view-field-title a,
 body.page-temporada .view-temporada tr .entorn .view-field-title a {
   color: #008f95;
   line-heigh: 26px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/_temporada\.scss}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/_temporada\.scss}line{font-family:\0000339}}
 body.page-temporada .view-temporada tr .espectacle .field-name-field-autor div,
 body.page-temporada .view-temporada tr .espectacle .field-name-field-rol-destacat div,
 body.page-temporada .view-temporada tr .entorn .field-name-field-autor div,
@@ -4725,13 +4726,13 @@ body.page-temporada .view-temporada tr .entorn .field-name-field-rol-destacat di
   padding-left: 5px;
   line-height: 16px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/_temporada\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/_temporada\.scss}line{font-family:\0000346}}
 body.page-temporada .view-temporada tr .espectacle .field-name-field-autor div,
 body.page-temporada .view-temporada tr .entorn .field-name-field-autor div {
   font-weight: 700;
   margin-top: 5px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/_temporada\.scss}line{font-family:\0000349}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/_temporada\.scss}line{font-family:\0000350}}
 body.page-temporada .view-temporada tr .espectacle .grup_entorn,
 body.page-temporada .view-temporada tr .entorn .grup_entorn {
   padding: 5px 0 0 10px;
@@ -4740,29 +4741,29 @@ body.page-temporada .view-temporada tr .entorn .grup_entorn {
   font-size: 11px;
   color: #008f95;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/_temporada\.scss}line{font-family:\0000356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/_temporada\.scss}line{font-family:\0000357}}
 body.page-temporada .view-temporada tr .espectacle .field-name-field-entorn,
 body.page-temporada .view-temporada tr .entorn .field-name-field-entorn {
   text-transform: uppercase;
   color: #58595a;
   padding: 0 40px 0 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/_temporada\.scss}line{font-family:\0000360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/_temporada\.scss}line{font-family:\0000361}}
 body.page-temporada .view-temporada tr .espectacle .field-name-field-entorn .field-item,
 body.page-temporada .view-temporada tr .entorn .field-name-field-entorn .field-item {
   border-bottom: 1px solid #cdcecf;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/_temporada\.scss}line{font-family:\0000362}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/_temporada\.scss}line{font-family:\0000363}}
 body.page-temporada .view-temporada tr .espectacle .field-name-field-entorn .field-item:last-of-type,
 body.page-temporada .view-temporada tr .entorn .field-name-field-entorn .field-item:last-of-type {
   border: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/_temporada\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/_temporada\.scss}line{font-family:\0000367}}
 body.page-temporada .view-temporada tr .espectacle .field-name-field-entorn .field-item .entorn_teaser,
 body.page-temporada .view-temporada tr .entorn .field-name-field-entorn .field-item .entorn_teaser {
   padding-bottom: 5px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/_temporada\.scss}line{font-family:\0000375}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/_temporada\.scss}line{font-family:\0000376}}
 body.page-temporada .view-temporada tr .espectacle .field-name-field-entorn .field-item .entorn_teaser .field-name-field-sala,
 body.page-temporada .view-temporada tr .espectacle .field-name-field-entorn .field-item .entorn_teaser .field-name-field-sala div,
 body.page-temporada .view-temporada tr .espectacle .field-name-field-entorn .field-item .entorn_teaser .field-name-field-sala .field-item,
@@ -4787,7 +4788,7 @@ body.page-temporada .view-temporada tr .entorn .field-name-field-entorn .field-i
   font-weight: 400;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/_temporada\.scss}line{font-family:\0000385}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/_temporada\.scss}line{font-family:\0000386}}
 body.page-temporada .view-temporada tr .espectacle .field-name-field-entorn .field-item .entorn_teaser h2.node-title,
 body.page-temporada .view-temporada tr .espectacle .field-name-field-entorn .field-item .entorn_teaser h2.node-title a,
 body.page-temporada .view-temporada tr .entorn .field-name-field-entorn .field-item .entorn_teaser h2.node-title,
@@ -4798,7 +4799,7 @@ body.page-temporada .view-temporada tr .entorn .field-name-field-entorn .field-i
   margin: 0;
   display: block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/_temporada\.scss}line{font-family:\0000392}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/_temporada\.scss}line{font-family:\0000393}}
 body.page-temporada .view-temporada tr .espectacle .field-name-field-entorn .field-item .entorn_teaser .field-name-field-autor div,
 body.page-temporada .view-temporada tr .entorn .field-name-field-entorn .field-item .entorn_teaser .field-name-field-autor div {
   display: inline-block;
