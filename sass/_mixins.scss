@@ -252,7 +252,8 @@
 @mixin caixa_petita {
   background-color: $gris5;
   text-align: center;
-  h2.node-title {
+  h2.node-title,
+  .views-field.views-field-title {
     margin-top: 5px;
     a {
       font-size: 16px;
@@ -262,7 +263,8 @@
       font-weight: 800;
     }
   }
-  h2 {
+  h2, 
+  .views-field.views-field-title {
     line-height: 17px;
     margin-bottom: 5px;
   }

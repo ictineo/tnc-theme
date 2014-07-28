@@ -180,12 +180,30 @@ body.node-type-fitxa-entorn article.node-fitxa-entorn {
         .field-label {
           display: none;
         }
-        .entorn_lateral {/*article.node {*/
+        .entorn_lateral {
           @include caixa_petita;
           margin: 25px 0;
         }
       }
-
+      .view-eva-espectacle .views-row {/*article.node {*/
+        @include caixa_petita;
+        margin: 25px 0;
+        .field-name-field-autor div {
+          text-transform: uppercase;
+        }
+        .field-name-field-rol-destacat div {
+          text-transform: none;
+        }
+        .field-name-field-url-compra-reserva a {
+          margin-top: 5px;
+        }
+        .views-field-view {
+          padding-top: 30px;
+          background-color: $blanc;
+          h3 {
+          }
+        }
+      }
     }
     #text-wrapper{
       .separator-left {
