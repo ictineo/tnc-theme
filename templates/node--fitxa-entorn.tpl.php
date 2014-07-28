@@ -703,8 +703,8 @@ line-height: 14px;
         <?php print render($content['field_durada']); ?>
       </div>
     </div>
-    <div id="espectacle_mare">
-      <?php  print $content['eva_espectacle_entity_view_1']['#markup']; ?>
+    <div id="tarifes">
+      <?php  print $content['eva_caixa_espectacle_entity_view_1']['#markup']; ?>
       <?php // print render($content['field_url_compra_reserva']); ?>
     </div>
   </header>
@@ -712,8 +712,10 @@ line-height: 14px;
 
   <div id="main-wrapper">
     <div id="right-col">
-    <h3 class="col-title"><?php print t("L'entorn"); ?></h3>
-      <?php print render($content['field_entorn']); ?>
+      <div id="parent_espectacle">
+        <h3 class="col-title"><?php print t("Show"); ?></h3>
+          <?php  print $content['eva_espectacle_entity_view_1']['#markup']; ?>
+      </div>
     </div>
     <div id="text-wrapper">
       <span class="separator-left separator">&nbsp; </span>
