@@ -27,7 +27,7 @@
 
 
 <?php
-//dsm($content);
+dsm($content);
 //$tid_dir = 88;
 //$tid_diro = 110;
 //$tid_acc = 106;
@@ -703,8 +703,8 @@ line-height: 14px;
         <?php print render($content['field_durada']); ?>
       </div>
     </div>
-    <div id="tarifes">
-      <?php  print $content['eva_caixa_espectacle_entity_view_1']['#markup']; ?>
+    <div id="espectacle_mare">
+      <?php  print $content['eva_espectacle_entity_view_1']['#markup']; ?>
       <?php // print render($content['field_url_compra_reserva']); ?>
     </div>
   </header>
