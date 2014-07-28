@@ -713,7 +713,7 @@ line-height: 14px;
   <div id="main-wrapper">
     <div id="right-col">
       <div id="parent_espectacle">
-        <h3 class="col-title"><?php print t("Show"); ?></h3>
+        <h3 class="col-title"><?php print t('Espectacle');//s'ha de canviar aquesta cadena! ?></h3> 
           <?php  print $content['eva_espectacle_entity_view_1']['#markup']; ?>
       </div>
     </div>
