@@ -1,22 +1,24 @@
 <?php if($view_mode == 'entityreference_view_widget'): ?>
 <!--  tpl dels entorns al lateral de la fitxa espectacle -->
 <div class='entorn_lateral'>
-<?php $url=url('node/'. $node->nid);// $alias=drupal_get_path_alias('node/'. $node->nid); ?>
-<?php //print_r($node); ?>
+<?php $options = array('absolute' => TRUE);
+      $url = url('node/' . $node->nid, $options); ?>
   <?php print render($content['field_imatge_capcalera']);?>
   <?php print render($content['field_tipus_entorn']);?>
-  <h2 class="node-title"><a href=<?php '$url'; ?>><?php print render($title);?></a></h2>
+  <h2 class="node-title"><a href="<?php print($url);?>"><?php print render($title);?></a></h2>
   <?php print render($content['field_sala']);?>
   <?php print render($content['field_data']);?>
   <?php print render($content['field_tarifa']);?>
   <?php print render($content['field_url_compra_reserva']);?>
 </div>
 <?php elseif($view_mode == 'teaser'): ?>
+<?php $options = array('absolute' => TRUE);
+      $url = url('node/' . $node->nid, $options); ?>
 <div class='entorn_teaser'>
   <?php print render($content['field_sala']); ?>
   <?php print render($content['field_data']);?>
   <?php print render($content['field_tipus_entorn']);?>
-  <h2 class="node-title"><a href=<?php '$path'?>><?php print render($title);?></a></h2>
+  <h2 class="node-title"><a href="<?php print($url);?>"><?php print render($title);?></a></h2>
   <?php print render($content['field_autor']);?>
 </div>
 
