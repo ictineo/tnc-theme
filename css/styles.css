@@ -4972,10 +4972,9 @@ body.front #mm-wrapper .views-row.passive-in .views-field-nothing .tab > * {
   text-transform: none;
   text-decoration: none;
   font-size: 14px;
-  margin-left: 60px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/_ckeditor\.scss}line{font-family:\000036}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/_ckeditor\.scss}line{font-family:\000035}}
 .entradeta {
   font-size: 13px;
   line-height: 19px;
@@ -4988,7 +4987,7 @@ body.front #mm-wrapper .views-row.passive-in .views-field-nothing .tab > * {
   margin-left: 60px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/_ckeditor\.scss}line{font-family:\0000311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/_ckeditor\.scss}line{font-family:\0000310}}
 .subtitol_text {
   margin-left: 0;
   background-color: #008991;
@@ -5002,7 +5001,7 @@ body.front #mm-wrapper .views-row.passive-in .views-field-nothing .tab > * {
   display: inline;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/_ckeditor\.scss}line{font-family:\0000321}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/_ckeditor\.scss}line{font-family:\0000320}}
 .titol_seccio {
   font-size: 13px;
   line-height: 19px;
@@ -5023,6 +5022,11 @@ body.front #mm-wrapper .views-row.passive-in .views-field-nothing .tab > * {
   margin-left: 60px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/_estatica\.scss}line{font-family:\000036}}
+.node-projecte-artistic .cos-text,
+.node-page .cos-text {
+  margin-left: 60px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/_estatica\.scss}line{font-family:\000039}}
 .node-projecte-artistic .tit_pagina h2,
 .node-page .tit_pagina h2 {
   margin-left: 0;
@@ -5038,7 +5042,7 @@ body.front #mm-wrapper .views-row.passive-in .views-field-nothing .tab > * {
   padding-left: 60px;
   padding-right: 15px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/_estatica\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/_estatica\.scss}line{font-family:\0000317}}
 .node-projecte-artistic .entradeta p,
 .node-page .entradeta p {
   font-size: 13px;
@@ -5053,7 +5057,7 @@ body.front #mm-wrapper .views-row.passive-in .views-field-nothing .tab > * {
   margin-top: 0;
   line-height: 21px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/_estatica\.scss}line{font-family:\0000321}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/_estatica\.scss}line{font-family:\0000324}}
 .node-projecte-artistic .field-name-field-destacat-lateral .field-item,
 .node-page .field-name-field-destacat-lateral .field-item {
   font-size: 25px;

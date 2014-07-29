@@ -3,6 +3,9 @@
   p {
     margin-left: 60px;
   }
+  .cos-text {
+    margin-left: 60px;
+  }
   .tit_pagina h2 {
     @include titol_bg($m,$bg:$rosa);
     @include titol();
