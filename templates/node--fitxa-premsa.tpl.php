@@ -1,31 +1,3 @@
-<?php if($view_mode == 'entityreference_view_widget'): ?>
-<!--  tpl dels entorns al lateral de la fitxa espectacle -->
-<div class='entorn_lateral'>
-<?php $options = array('absolute' => TRUE);
-      $url = url('node/' . $node->nid, $options); ?>
-  <?php print render($content['field_imatge_capcalera']);?>
-  <?php print render($content['field_tipus_entorn']);?>
-  <h2 class="node-title"><a href="<?php print($url);?>"><?php print render($title);?></a></h2>
-  <?php print render($content['field_sala']);?>
-  <?php print render($content['field_data']);?>
-  <?php print render($content['field_tarifa']);?>
-  <?php print render($content['field_url_compra_reserva']);?>
-</div>
-<?php elseif($view_mode == 'teaser'): ?>
-<?php $options = array('absolute' => TRUE);
-      $url = url('node/' . $node->nid, $options); ?>
-<div class='entorn_teaser'>
-  <?php print render($content['field_sala']); ?>
-  <?php print render($content['field_data']);?>
-  <?php print render($content['field_tipus_entorn']);?>
-  <h2 class="node-title"><a href="<?php print($url);?>"><?php print render($title);?></a></h2>
-  <?php print render($content['field_autor']);?>
-</div>
-
-<?php else:?>
-<!-- El tpl per la resta de displays -->
-
-
 <?php
 //dsm($content);
 //$tid_dir = 88;
@@ -697,10 +669,10 @@ line-height: 14px;
         </div>
       </div><!-- /top-left3-wrapper -->
       <div id="sessions">
-        <?php //print views_embed_view('sessions_node', 'entity_view_1', $node->nid); ?>
-        <?php print $content['sessions_node_entity_view_1']['#markup']; ?>
-        <?php print $content['sessions_node_entity_view_2']['#markup']; ?>
-        <?php print render($content['field_durada']); ?>
+        <?php print t('Press conference'); ?>
+        <?php print render($content['field_entrada']); ?>
+        <?php print render($content['field_dia']); ?>
+        <?php print render($content['field_hora']); ?>
       </div>
     </div>
     <div id="tarifes">
@@ -776,4 +748,3 @@ line-height: 14px;
 
 </article>
 <?php drupal_add_js(drupal_get_path('theme','tnc') . '/js/efectes-fitxa.js'); ?>
-<?php endif ?>
