@@ -704,9 +704,13 @@ line-height: 14px;
       </div>
     </div>
     <div id="tarifes">
-      <?php  print $content['eva_caixa_espectacle_entity_view_1']['#markup']; ?>
-      <?php // print render($content['field_url_compra_reserva']); ?>
+      <?php print $content['eva_taxo_tarifes_entity_view_1']['#markup']; ?>
+      <?php print render($content['field_url_compra_reserva']); ?>
     </div>
+<!--    <div id="tarifes">
+      <?php  //print $content['eva_caixa_espectacle_entity_view_1']['#markup']; ?>
+      <?php // print render($content['field_url_compra_reserva']); ?>
+    </div> -->
   </header>
 
 
@@ -714,6 +718,7 @@ line-height: 14px;
     <div id="right-col">
       <div id="parent_espectacle">
         <h3 class="col-title"><?php print t('The show'); ?></h3> 
+<?php dsm($content);?>
           <?php  print $content['eva_espectacle_entity_view_1']['#markup']; ?>
       </div>
     </div>

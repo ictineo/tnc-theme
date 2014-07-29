@@ -285,6 +285,9 @@ $zen-auto-include-item-base: false;
         #tarifes {
           @include zen-grid-item(1,4);
         }
+        #right-col-premsa {
+          @include zen-grid-item(1,4);
+        }
         /** tarifes ha d'anar a dalt abans de canviar el count **/
         #top-left4-wrapper {
           @include zen-grid-item(3, 1);

@@ -675,20 +675,17 @@ line-height: 14px;
         <?php print render($content['field_hora']); ?>
       </div>
     </div>
-    <div id="tarifes">
-      <?php  print $content['eva_caixa_espectacle_entity_view_1']['#markup']; ?>
-      <?php // print render($content['field_url_compra_reserva']); ?>
+    <div id="right-col-premsa">
+      <div id="parent_espectacle">
+        <h3 class="col-title"><?php print t('The show'); ?></h3> 
+<?php dsm($content);?>
+          <?php print $content['eva_espectacle_entity_view_3']['#markup']; ?>
+      </div>
     </div>
   </header>
 
 
   <div id="main-wrapper">
-    <div id="right-col">
-      <div id="parent_espectacle">
-        <h3 class="col-title"><?php print t('The show'); ?></h3> 
-          <?php  print $content['eva_espectacle_entity_view_1']['#markup']; ?>
-      </div>
-    </div>
     <div id="text-wrapper">
       <span class="separator-left separator">&nbsp; </span>
       <span class="tnc-tabs">
@@ -728,21 +725,6 @@ line-height: 14px;
         <?php print render($content['field_a_fons']); ?>
       </div>
       <?php print views_embed_view('blo', 'block'); ?>
-    </div>
-    <div id="xxss-wrapper">
-      <?php print render($content['easy_social_1']); ?>
-      <div id="xxss-external-content">
-        <div class="block-facebook">
-          <div class="block-title facebook"> <?php print t('Facebook'); ?></div>
-          <?php $fb_block = module_invoke('facebook_comments_box', 'block_view', 'facebook_comments_box'); ?>
-            <?php print render($fb_block['content']);
-              ?>
-        </div>
-        <div class="block-twitter">
-          <div class="block-title twitter"> <?php print t('Twitter'); ?></div>
-          <?php print render($content['field_hashtag_tw']); ?>
-        </div>
-      </div>
     </div>
   </div>
 

@@ -102,6 +102,25 @@ body.node-type-fitxa-premsa article.node-fitxa-premsa {
         }
       }
     }
+    #right-col-premsa {
+      h3.col-title {
+        @include sub_titol();
+        @include bora_top;
+        @include bora_bot;
+        padding: 5px 0;
+        margin: 0;
+        text-align: left;
+      }
+      .field-name-field-entorn {
+        .field-label {
+          display: none;
+        }
+        .entorn_lateral {
+          @include caixa_petita;
+          margin: 25px 0;
+        }
+      }
+    }
     #tarifes {
       margin-top: 5px;
       .view-id-eva_taxo_tarifes.view-display-id-entity_view_1 {
@@ -169,7 +188,7 @@ body.node-type-fitxa-premsa article.node-fitxa-premsa {
   }
   #main-wrapper {
     margin-top: 17px;
-    #right-col /*> div*/{/*Jude comenta*/
+    #right-col {
       h3.col-title {
         @include sub_titol();
         @include bora_top;
