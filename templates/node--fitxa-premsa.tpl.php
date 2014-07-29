@@ -721,7 +721,7 @@ line-height: 14px;
       <span class="separator-left separator">&nbsp; </span>
       <span class="tnc-tabs">
         <span class="tnc-tab tnc-tab-1"><?php print t('Introduction'); ?></span>
-        <span class="tnc-tab tnc-tab-2"><?php print t('In-depth'); ?></span>
+<!--        <span class="tnc-tab tnc-tab-2"><?php// print t('In-depth'); ?></span> -->
         <span class="tnc-tab tnc-tab-3"><?php print t('Calendar'); ?></span>
       </span>
       <div id="main-text-wrapper">
