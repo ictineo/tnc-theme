@@ -646,7 +646,7 @@ line-height: 14px;
   </div><!-- /mm-node-region -->
 
   <header>
-    <div id="3_col">
+    <div id="left-col-premsa">
       <div id="top-left4-wrapper">
         <div id="top-left3-wrapper">
           <div id="supraheader">

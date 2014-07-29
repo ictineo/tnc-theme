@@ -419,19 +419,20 @@ $zen-auto-include-item-base: false;
             @include zen-grid-item(1,1);
           }
           .block-twitter {
-            //field.field-name-field-hashtag-tw 
-              @include zen-grid-item(1,2);
-              #header-tw {
-                $zen-column-count: 2;
-                @include zen-grid-container();
-                h2 {
-                  @include zen-clear();
-                  @include zen-grid-item(1,1);
-                }
-                .follow {
-                  @include zen-grid-item(1,2);
-                }
-              }
+            // field.field-name-field-hashtag-tw {
+            //  @include zen-grid-item(1,2);
+            //  #header-tw {
+            //    $zen-column-count: 2;
+            //    @include zen-grid-container();
+            //    h2 {
+            //      @include zen-clear();
+            //      @include zen-grid-item(1,1);
+            //    }
+            //    .follow {
+            //      @include zen-grid-item(1,2);
+            //    }
+            //  }
+            // }
           }
         }
       }   
@@ -468,6 +469,7 @@ $zen-auto-include-item-base: false;
       }
     }
   }
+  }
   body.node-type-fitxa-premsa { 
     article.node-fitxa-premsa { 
       header {
@@ -475,36 +477,25 @@ $zen-auto-include-item-base: false;
         $zen-auto-include-item-base: true;
         $zen-gutter-width:  20px;
         @include zen-grid-container();
-        #3_col {
+        #right-col-premsa {
+          @include zen-grid-item(1,4);
+        }
+        #left-col-premsa {
           @include zen-grid-item(3,1);
-          @include zen-grid-container();
           #top-left4-wrapper {
-            @include zen-grid-item(3,1);
+            $zen-column-count:3;
             @include zen-grid-container();
             #top-left3-wrapper {
-              @include zen-grid-item(3,1);
+              @include zen-grid-item(2,1);
               @include zen-nested-container();
-              #superheader {
-                @include zen-grid-item(2,1);
-              }
-              .title-region {
-                @include zen-clear();
-                @include zen-grid-item(2,1);
-              }
-              .moreinfo-region {
-                @include zen-clear();
-                @include zen-grid-item(2,1);
-              }
             }
+            $zen-column-count:3;
             #sessions {
+              @include zen-grid-item(1,3);
             }
           }
           #main-wrapper {
           }
-        }
-        $zen-column-count:4;
-        #right-col-premsa {
-          @include zen-grid-item(1,4);
         }
       }
     }
