@@ -419,6 +419,7 @@ $zen-auto-include-item-base: false;
             @include zen-grid-item(1,1);
           }
           .block-twitter {
+            @include zen-grid-item(1,2);
             // field.field-name-field-hashtag-tw {
             //  @include zen-grid-item(1,2);
             //  #header-tw {

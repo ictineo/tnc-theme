@@ -670,7 +670,7 @@ line-height: 14px;
           </div>
         </div><!-- /top-left3-wrapper -->
         <div id="sessions">
-          <?php print t('Press conference'); ?>
+          <div class="press-conf"><?php print t('Press conference'); ?></div>
           <?php print render($content['field_entrada']); ?>
           <?php print render($content['field_dia']); ?>
           <?php print render($content['field_hora']); ?>

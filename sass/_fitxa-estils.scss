@@ -59,6 +59,7 @@ body.node-type-fitxa-premsa article.node-fitxa-premsa {
       .views-row div {
         display: inline;
       }
+      .press-conf,
       .view-id-sessions_node.view-display-id-entity_view_1 .view-header {
         @include tit_mig;
         text-transform: uppercase;
@@ -72,6 +73,20 @@ body.node-type-fitxa-premsa article.node-fitxa-premsa {
           font-weight: 700;
           margin-top: 10px;
       }
+      .field-name-field-entrada .field-items .field-item {
+        font-weight: 700;
+      }
+      .field-name-field-dia,
+      .field-name-field-hora {
+        .field-label,
+        .field-items {
+          display:inline-block;
+        }
+        .field-items {
+          margin-right: 140px;
+        }
+      }
+      .field-name-field-entrada,
       .view .view-content {
         margin: 10px 0 10px;
         .field-name-field-dia-sessio span {
@@ -86,6 +101,9 @@ body.node-type-fitxa-premsa article.node-fitxa-premsa {
           font-family: 'Open Sans', sans-serif;
           font-weight: 400;
         }
+      }
+      .field-name-field-entrada {
+        margin: 10px 0 5px;
       }
       .field-name-field-durada {
         /** forcem el display block per ppoder posar marge superior **/
@@ -103,6 +121,9 @@ body.node-type-fitxa-premsa article.node-fitxa-premsa {
       }
     }
     #right-col-premsa {
+      #parent_espectacle {
+        margin-top: 30px;
+      }
       h3.col-title {
         @include sub_titol();
         @include bora_top;
@@ -118,6 +139,23 @@ body.node-type-fitxa-premsa article.node-fitxa-premsa {
         .entorn_lateral {
           @include caixa_petita;
           margin: 25px 0;
+        }
+      }
+      .view-eva-espectacle .views-row {/*article.node {*/
+        @include caixa_petita;
+        margin: 25px 0;
+        .field-name-field-autor div {
+          text-transform: uppercase;
+        }
+        .field-name-field-rol-destacat div {
+          text-transform: none;
+        }
+        .field-name-field-url-compra-reserva a {
+          margin-top: 5px;
+        }
+        .views-field-view {
+          padding-top: 30px;
+          background-color: $blanc;
         }
       }
     }
