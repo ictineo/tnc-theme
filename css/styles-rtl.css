@@ -308,73 +308,43 @@ ul {
     margin-left: -100%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003278}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003276}}
   body.node-type-fitxa-espectacle article.node-fitxa-espectacle,
   body.node-type-fitxa-espectacle article.node-fitxa-entorn,
-  body.node-type-fitxa-espectacle article.node-fitxa-premsa,
   body.node-type-fitxa-entorn article.node-fitxa-espectacle,
-  body.node-type-fitxa-entorn article.node-fitxa-entorn,
-  body.node-type-fitxa-entorn article.node-fitxa-premsa,
-  body.node-type-fitxa-premsa article.node-fitxa-espectacle,
-  body.node-type-fitxa-premsa article.node-fitxa-entorn,
-  body.node-type-fitxa-premsa article.node-fitxa-premsa {
+  body.node-type-fitxa-entorn article.node-fitxa-entorn {
     /** recuperem el column count **/
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003279}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003277}}
   body.node-type-fitxa-espectacle article.node-fitxa-espectacle header,
   body.node-type-fitxa-espectacle article.node-fitxa-entorn header,
-  body.node-type-fitxa-espectacle article.node-fitxa-premsa header,
   body.node-type-fitxa-entorn article.node-fitxa-espectacle header,
-  body.node-type-fitxa-entorn article.node-fitxa-entorn header,
-  body.node-type-fitxa-entorn article.node-fitxa-premsa header,
-  body.node-type-fitxa-premsa article.node-fitxa-espectacle header,
-  body.node-type-fitxa-premsa article.node-fitxa-entorn header,
-  body.node-type-fitxa-premsa article.node-fitxa-premsa header {
+  body.node-type-fitxa-entorn article.node-fitxa-entorn header {
     /** tarifes ha d'anar a dalt abans de canviar el count **/
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass-extensions\/zen-grids\/stylesheets\/zen\/_grids\.scss}line{font-family:\0000346}}
   body.node-type-fitxa-espectacle article.node-fitxa-espectacle header:before, body.node-type-fitxa-espectacle article.node-fitxa-espectacle header:after,
   body.node-type-fitxa-espectacle article.node-fitxa-entorn header:before,
   body.node-type-fitxa-espectacle article.node-fitxa-entorn header:after,
-  body.node-type-fitxa-espectacle article.node-fitxa-premsa header:before,
-  body.node-type-fitxa-espectacle article.node-fitxa-premsa header:after,
   body.node-type-fitxa-entorn article.node-fitxa-espectacle header:before,
   body.node-type-fitxa-entorn article.node-fitxa-espectacle header:after,
   body.node-type-fitxa-entorn article.node-fitxa-entorn header:before,
-  body.node-type-fitxa-entorn article.node-fitxa-entorn header:after,
-  body.node-type-fitxa-entorn article.node-fitxa-premsa header:before,
-  body.node-type-fitxa-entorn article.node-fitxa-premsa header:after,
-  body.node-type-fitxa-premsa article.node-fitxa-espectacle header:before,
-  body.node-type-fitxa-premsa article.node-fitxa-espectacle header:after,
-  body.node-type-fitxa-premsa article.node-fitxa-entorn header:before,
-  body.node-type-fitxa-premsa article.node-fitxa-entorn header:after,
-  body.node-type-fitxa-premsa article.node-fitxa-premsa header:before,
-  body.node-type-fitxa-premsa article.node-fitxa-premsa header:after {
+  body.node-type-fitxa-entorn article.node-fitxa-entorn header:after {
     content: "";
     display: table;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass-extensions\/zen-grids\/stylesheets\/zen\/_grids\.scss}line{font-family:\0000350}}
   body.node-type-fitxa-espectacle article.node-fitxa-espectacle header:after,
   body.node-type-fitxa-espectacle article.node-fitxa-entorn header:after,
-  body.node-type-fitxa-espectacle article.node-fitxa-premsa header:after,
   body.node-type-fitxa-entorn article.node-fitxa-espectacle header:after,
-  body.node-type-fitxa-entorn article.node-fitxa-entorn header:after,
-  body.node-type-fitxa-entorn article.node-fitxa-premsa header:after,
-  body.node-type-fitxa-premsa article.node-fitxa-espectacle header:after,
-  body.node-type-fitxa-premsa article.node-fitxa-entorn header:after,
-  body.node-type-fitxa-premsa article.node-fitxa-premsa header:after {
+  body.node-type-fitxa-entorn article.node-fitxa-entorn header:after {
     clear: both;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003285}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003282}}
   body.node-type-fitxa-espectacle article.node-fitxa-espectacle header #tarifes,
   body.node-type-fitxa-espectacle article.node-fitxa-entorn header #tarifes,
-  body.node-type-fitxa-espectacle article.node-fitxa-premsa header #tarifes,
   body.node-type-fitxa-entorn article.node-fitxa-espectacle header #tarifes,
-  body.node-type-fitxa-entorn article.node-fitxa-entorn header #tarifes,
-  body.node-type-fitxa-entorn article.node-fitxa-premsa header #tarifes,
-  body.node-type-fitxa-premsa article.node-fitxa-espectacle header #tarifes,
-  body.node-type-fitxa-premsa article.node-fitxa-entorn header #tarifes,
-  body.node-type-fitxa-premsa article.node-fitxa-premsa header #tarifes {
+  body.node-type-fitxa-entorn article.node-fitxa-entorn header #tarifes {
     float: right;
     width: 25%;
     margin-right: 75%;
@@ -387,38 +357,11 @@ ul {
     box-sizing: border-box;
     word-wrap: break-word;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003288}}
-  body.node-type-fitxa-espectacle article.node-fitxa-espectacle header #right-col-premsa,
-  body.node-type-fitxa-espectacle article.node-fitxa-entorn header #right-col-premsa,
-  body.node-type-fitxa-espectacle article.node-fitxa-premsa header #right-col-premsa,
-  body.node-type-fitxa-entorn article.node-fitxa-espectacle header #right-col-premsa,
-  body.node-type-fitxa-entorn article.node-fitxa-entorn header #right-col-premsa,
-  body.node-type-fitxa-entorn article.node-fitxa-premsa header #right-col-premsa,
-  body.node-type-fitxa-premsa article.node-fitxa-espectacle header #right-col-premsa,
-  body.node-type-fitxa-premsa article.node-fitxa-entorn header #right-col-premsa,
-  body.node-type-fitxa-premsa article.node-fitxa-premsa header #right-col-premsa {
-    float: right;
-    width: 25%;
-    margin-right: 75%;
-    margin-left: -100%;
-    padding-left: 10px;
-    padding-right: 10px;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -ms-box-sizing: border-box;
-    box-sizing: border-box;
-    word-wrap: break-word;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003292}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003286}}
   body.node-type-fitxa-espectacle article.node-fitxa-espectacle header #top-left4-wrapper,
   body.node-type-fitxa-espectacle article.node-fitxa-entorn header #top-left4-wrapper,
-  body.node-type-fitxa-espectacle article.node-fitxa-premsa header #top-left4-wrapper,
   body.node-type-fitxa-entorn article.node-fitxa-espectacle header #top-left4-wrapper,
-  body.node-type-fitxa-entorn article.node-fitxa-entorn header #top-left4-wrapper,
-  body.node-type-fitxa-entorn article.node-fitxa-premsa header #top-left4-wrapper,
-  body.node-type-fitxa-premsa article.node-fitxa-espectacle header #top-left4-wrapper,
-  body.node-type-fitxa-premsa article.node-fitxa-entorn header #top-left4-wrapper,
-  body.node-type-fitxa-premsa article.node-fitxa-premsa header #top-left4-wrapper {
+  body.node-type-fitxa-entorn article.node-fitxa-entorn header #top-left4-wrapper {
     float: right;
     width: 75%;
     margin-right: 0%;
@@ -431,16 +374,11 @@ ul {
     box-sizing: border-box;
     word-wrap: break-word;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003295}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003289}}
   body.node-type-fitxa-espectacle article.node-fitxa-espectacle header #top-left4-wrapper #top-left3-wrapper,
   body.node-type-fitxa-espectacle article.node-fitxa-entorn header #top-left4-wrapper #top-left3-wrapper,
-  body.node-type-fitxa-espectacle article.node-fitxa-premsa header #top-left4-wrapper #top-left3-wrapper,
   body.node-type-fitxa-entorn article.node-fitxa-espectacle header #top-left4-wrapper #top-left3-wrapper,
-  body.node-type-fitxa-entorn article.node-fitxa-entorn header #top-left4-wrapper #top-left3-wrapper,
-  body.node-type-fitxa-entorn article.node-fitxa-premsa header #top-left4-wrapper #top-left3-wrapper,
-  body.node-type-fitxa-premsa article.node-fitxa-espectacle header #top-left4-wrapper #top-left3-wrapper,
-  body.node-type-fitxa-premsa article.node-fitxa-entorn header #top-left4-wrapper #top-left3-wrapper,
-  body.node-type-fitxa-premsa article.node-fitxa-premsa header #top-left4-wrapper #top-left3-wrapper {
+  body.node-type-fitxa-entorn article.node-fitxa-entorn header #top-left4-wrapper #top-left3-wrapper {
     float: right;
     width: 66.66667%;
     margin-right: 0%;
@@ -453,16 +391,11 @@ ul {
     box-sizing: border-box;
     word-wrap: break-word;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003298}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003292}}
   body.node-type-fitxa-espectacle article.node-fitxa-espectacle header #top-left4-wrapper #sessions,
   body.node-type-fitxa-espectacle article.node-fitxa-entorn header #top-left4-wrapper #sessions,
-  body.node-type-fitxa-espectacle article.node-fitxa-premsa header #top-left4-wrapper #sessions,
   body.node-type-fitxa-entorn article.node-fitxa-espectacle header #top-left4-wrapper #sessions,
-  body.node-type-fitxa-entorn article.node-fitxa-entorn header #top-left4-wrapper #sessions,
-  body.node-type-fitxa-entorn article.node-fitxa-premsa header #top-left4-wrapper #sessions,
-  body.node-type-fitxa-premsa article.node-fitxa-espectacle header #top-left4-wrapper #sessions,
-  body.node-type-fitxa-premsa article.node-fitxa-entorn header #top-left4-wrapper #sessions,
-  body.node-type-fitxa-premsa article.node-fitxa-premsa header #top-left4-wrapper #sessions {
+  body.node-type-fitxa-entorn article.node-fitxa-entorn header #top-left4-wrapper #sessions {
     float: right;
     width: 33.33333%;
     margin-right: 66.66667%;
@@ -479,45 +412,25 @@ ul {
   body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper:before, body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper:after,
   body.node-type-fitxa-espectacle article.node-fitxa-entorn #main-wrapper:before,
   body.node-type-fitxa-espectacle article.node-fitxa-entorn #main-wrapper:after,
-  body.node-type-fitxa-espectacle article.node-fitxa-premsa #main-wrapper:before,
-  body.node-type-fitxa-espectacle article.node-fitxa-premsa #main-wrapper:after,
   body.node-type-fitxa-entorn article.node-fitxa-espectacle #main-wrapper:before,
   body.node-type-fitxa-entorn article.node-fitxa-espectacle #main-wrapper:after,
   body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper:before,
-  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper:after,
-  body.node-type-fitxa-entorn article.node-fitxa-premsa #main-wrapper:before,
-  body.node-type-fitxa-entorn article.node-fitxa-premsa #main-wrapper:after,
-  body.node-type-fitxa-premsa article.node-fitxa-espectacle #main-wrapper:before,
-  body.node-type-fitxa-premsa article.node-fitxa-espectacle #main-wrapper:after,
-  body.node-type-fitxa-premsa article.node-fitxa-entorn #main-wrapper:before,
-  body.node-type-fitxa-premsa article.node-fitxa-entorn #main-wrapper:after,
-  body.node-type-fitxa-premsa article.node-fitxa-premsa #main-wrapper:before,
-  body.node-type-fitxa-premsa article.node-fitxa-premsa #main-wrapper:after {
+  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper:after {
     content: "";
     display: table;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass-extensions\/zen-grids\/stylesheets\/zen\/_grids\.scss}line{font-family:\0000350}}
   body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper:after,
   body.node-type-fitxa-espectacle article.node-fitxa-entorn #main-wrapper:after,
-  body.node-type-fitxa-espectacle article.node-fitxa-premsa #main-wrapper:after,
   body.node-type-fitxa-entorn article.node-fitxa-espectacle #main-wrapper:after,
-  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper:after,
-  body.node-type-fitxa-entorn article.node-fitxa-premsa #main-wrapper:after,
-  body.node-type-fitxa-premsa article.node-fitxa-espectacle #main-wrapper:after,
-  body.node-type-fitxa-premsa article.node-fitxa-entorn #main-wrapper:after,
-  body.node-type-fitxa-premsa article.node-fitxa-premsa #main-wrapper:after {
+  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper:after {
     clear: both;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003309}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003303}}
   body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper #right-col,
   body.node-type-fitxa-espectacle article.node-fitxa-entorn #main-wrapper #right-col,
-  body.node-type-fitxa-espectacle article.node-fitxa-premsa #main-wrapper #right-col,
   body.node-type-fitxa-entorn article.node-fitxa-espectacle #main-wrapper #right-col,
-  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #right-col,
-  body.node-type-fitxa-entorn article.node-fitxa-premsa #main-wrapper #right-col,
-  body.node-type-fitxa-premsa article.node-fitxa-espectacle #main-wrapper #right-col,
-  body.node-type-fitxa-premsa article.node-fitxa-entorn #main-wrapper #right-col,
-  body.node-type-fitxa-premsa article.node-fitxa-premsa #main-wrapper #right-col {
+  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #right-col {
     float: right;
     width: 25%;
     margin-right: 75%;
@@ -530,16 +443,11 @@ ul {
     box-sizing: border-box;
     word-wrap: break-word;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003312}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003306}}
   body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper #text-wrapper,
   body.node-type-fitxa-espectacle article.node-fitxa-entorn #main-wrapper #text-wrapper,
-  body.node-type-fitxa-espectacle article.node-fitxa-premsa #main-wrapper #text-wrapper,
   body.node-type-fitxa-entorn article.node-fitxa-espectacle #main-wrapper #text-wrapper,
-  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #text-wrapper,
-  body.node-type-fitxa-entorn article.node-fitxa-premsa #main-wrapper #text-wrapper,
-  body.node-type-fitxa-premsa article.node-fitxa-espectacle #main-wrapper #text-wrapper,
-  body.node-type-fitxa-premsa article.node-fitxa-entorn #main-wrapper #text-wrapper,
-  body.node-type-fitxa-premsa article.node-fitxa-premsa #main-wrapper #text-wrapper {
+  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #text-wrapper {
     float: right;
     width: 75%;
     margin-right: 0%;
@@ -552,28 +460,18 @@ ul {
     box-sizing: border-box;
     word-wrap: break-word;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003308}}
   body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper #text-wrapper .separator-left,
   body.node-type-fitxa-espectacle article.node-fitxa-entorn #main-wrapper #text-wrapper .separator-left,
-  body.node-type-fitxa-espectacle article.node-fitxa-premsa #main-wrapper #text-wrapper .separator-left,
   body.node-type-fitxa-entorn article.node-fitxa-espectacle #main-wrapper #text-wrapper .separator-left,
-  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #text-wrapper .separator-left,
-  body.node-type-fitxa-entorn article.node-fitxa-premsa #main-wrapper #text-wrapper .separator-left,
-  body.node-type-fitxa-premsa article.node-fitxa-espectacle #main-wrapper #text-wrapper .separator-left,
-  body.node-type-fitxa-premsa article.node-fitxa-entorn #main-wrapper #text-wrapper .separator-left,
-  body.node-type-fitxa-premsa article.node-fitxa-premsa #main-wrapper #text-wrapper .separator-left {
+  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #text-wrapper .separator-left {
     margin: 0 10px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003318}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003312}}
   body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper #text-wrapper .tnc-tabs,
   body.node-type-fitxa-espectacle article.node-fitxa-entorn #main-wrapper #text-wrapper .tnc-tabs,
-  body.node-type-fitxa-espectacle article.node-fitxa-premsa #main-wrapper #text-wrapper .tnc-tabs,
   body.node-type-fitxa-entorn article.node-fitxa-espectacle #main-wrapper #text-wrapper .tnc-tabs,
-  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #text-wrapper .tnc-tabs,
-  body.node-type-fitxa-entorn article.node-fitxa-premsa #main-wrapper #text-wrapper .tnc-tabs,
-  body.node-type-fitxa-premsa article.node-fitxa-espectacle #main-wrapper #text-wrapper .tnc-tabs,
-  body.node-type-fitxa-premsa article.node-fitxa-entorn #main-wrapper #text-wrapper .tnc-tabs,
-  body.node-type-fitxa-premsa article.node-fitxa-premsa #main-wrapper #text-wrapper .tnc-tabs {
+  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #text-wrapper .tnc-tabs {
     float: right;
     width: 75%;
     margin-right: 0%;
@@ -590,54 +488,29 @@ ul {
   body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper #text-wrapper .tnc-tabs:before, body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper #text-wrapper .tnc-tabs:after,
   body.node-type-fitxa-espectacle article.node-fitxa-entorn #main-wrapper #text-wrapper .tnc-tabs:before,
   body.node-type-fitxa-espectacle article.node-fitxa-entorn #main-wrapper #text-wrapper .tnc-tabs:after,
-  body.node-type-fitxa-espectacle article.node-fitxa-premsa #main-wrapper #text-wrapper .tnc-tabs:before,
-  body.node-type-fitxa-espectacle article.node-fitxa-premsa #main-wrapper #text-wrapper .tnc-tabs:after,
   body.node-type-fitxa-entorn article.node-fitxa-espectacle #main-wrapper #text-wrapper .tnc-tabs:before,
   body.node-type-fitxa-entorn article.node-fitxa-espectacle #main-wrapper #text-wrapper .tnc-tabs:after,
   body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #text-wrapper .tnc-tabs:before,
-  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #text-wrapper .tnc-tabs:after,
-  body.node-type-fitxa-entorn article.node-fitxa-premsa #main-wrapper #text-wrapper .tnc-tabs:before,
-  body.node-type-fitxa-entorn article.node-fitxa-premsa #main-wrapper #text-wrapper .tnc-tabs:after,
-  body.node-type-fitxa-premsa article.node-fitxa-espectacle #main-wrapper #text-wrapper .tnc-tabs:before,
-  body.node-type-fitxa-premsa article.node-fitxa-espectacle #main-wrapper #text-wrapper .tnc-tabs:after,
-  body.node-type-fitxa-premsa article.node-fitxa-entorn #main-wrapper #text-wrapper .tnc-tabs:before,
-  body.node-type-fitxa-premsa article.node-fitxa-entorn #main-wrapper #text-wrapper .tnc-tabs:after,
-  body.node-type-fitxa-premsa article.node-fitxa-premsa #main-wrapper #text-wrapper .tnc-tabs:before,
-  body.node-type-fitxa-premsa article.node-fitxa-premsa #main-wrapper #text-wrapper .tnc-tabs:after {
+  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #text-wrapper .tnc-tabs:after {
     content: "";
     display: table;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass-extensions\/zen-grids\/stylesheets\/zen\/_grids\.scss}line{font-family:\0000350}}
   body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper #text-wrapper .tnc-tabs:after,
   body.node-type-fitxa-espectacle article.node-fitxa-entorn #main-wrapper #text-wrapper .tnc-tabs:after,
-  body.node-type-fitxa-espectacle article.node-fitxa-premsa #main-wrapper #text-wrapper .tnc-tabs:after,
   body.node-type-fitxa-entorn article.node-fitxa-espectacle #main-wrapper #text-wrapper .tnc-tabs:after,
-  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #text-wrapper .tnc-tabs:after,
-  body.node-type-fitxa-entorn article.node-fitxa-premsa #main-wrapper #text-wrapper .tnc-tabs:after,
-  body.node-type-fitxa-premsa article.node-fitxa-espectacle #main-wrapper #text-wrapper .tnc-tabs:after,
-  body.node-type-fitxa-premsa article.node-fitxa-entorn #main-wrapper #text-wrapper .tnc-tabs:after,
-  body.node-type-fitxa-premsa article.node-fitxa-premsa #main-wrapper #text-wrapper .tnc-tabs:after {
+  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #text-wrapper .tnc-tabs:after {
     clear: both;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003318}}
   body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper,
   body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper #text-wrapper #moreinfo-wrapper,
   body.node-type-fitxa-espectacle article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper,
   body.node-type-fitxa-espectacle article.node-fitxa-entorn #main-wrapper #text-wrapper #moreinfo-wrapper,
-  body.node-type-fitxa-espectacle article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper,
-  body.node-type-fitxa-espectacle article.node-fitxa-premsa #main-wrapper #text-wrapper #moreinfo-wrapper,
   body.node-type-fitxa-entorn article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper,
   body.node-type-fitxa-entorn article.node-fitxa-espectacle #main-wrapper #text-wrapper #moreinfo-wrapper,
   body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper,
-  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #text-wrapper #moreinfo-wrapper,
-  body.node-type-fitxa-entorn article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper,
-  body.node-type-fitxa-entorn article.node-fitxa-premsa #main-wrapper #text-wrapper #moreinfo-wrapper,
-  body.node-type-fitxa-premsa article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper,
-  body.node-type-fitxa-premsa article.node-fitxa-espectacle #main-wrapper #text-wrapper #moreinfo-wrapper,
-  body.node-type-fitxa-premsa article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper,
-  body.node-type-fitxa-premsa article.node-fitxa-entorn #main-wrapper #text-wrapper #moreinfo-wrapper,
-  body.node-type-fitxa-premsa article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper,
-  body.node-type-fitxa-premsa article.node-fitxa-premsa #main-wrapper #text-wrapper #moreinfo-wrapper {
+  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #text-wrapper #moreinfo-wrapper {
     clear: right;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass-extensions\/zen-grids\/stylesheets\/zen\/_grids\.scss}line{font-family:\0000346}}
@@ -648,10 +521,6 @@ ul {
   body.node-type-fitxa-espectacle article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper:after,
   body.node-type-fitxa-espectacle article.node-fitxa-entorn #main-wrapper #text-wrapper #moreinfo-wrapper:before,
   body.node-type-fitxa-espectacle article.node-fitxa-entorn #main-wrapper #text-wrapper #moreinfo-wrapper:after,
-  body.node-type-fitxa-espectacle article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper:before,
-  body.node-type-fitxa-espectacle article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper:after,
-  body.node-type-fitxa-espectacle article.node-fitxa-premsa #main-wrapper #text-wrapper #moreinfo-wrapper:before,
-  body.node-type-fitxa-espectacle article.node-fitxa-premsa #main-wrapper #text-wrapper #moreinfo-wrapper:after,
   body.node-type-fitxa-entorn article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper:before,
   body.node-type-fitxa-entorn article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper:after,
   body.node-type-fitxa-entorn article.node-fitxa-espectacle #main-wrapper #text-wrapper #moreinfo-wrapper:before,
@@ -659,23 +528,7 @@ ul {
   body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper:before,
   body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper:after,
   body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #text-wrapper #moreinfo-wrapper:before,
-  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #text-wrapper #moreinfo-wrapper:after,
-  body.node-type-fitxa-entorn article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper:before,
-  body.node-type-fitxa-entorn article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper:after,
-  body.node-type-fitxa-entorn article.node-fitxa-premsa #main-wrapper #text-wrapper #moreinfo-wrapper:before,
-  body.node-type-fitxa-entorn article.node-fitxa-premsa #main-wrapper #text-wrapper #moreinfo-wrapper:after,
-  body.node-type-fitxa-premsa article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper:before,
-  body.node-type-fitxa-premsa article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper:after,
-  body.node-type-fitxa-premsa article.node-fitxa-espectacle #main-wrapper #text-wrapper #moreinfo-wrapper:before,
-  body.node-type-fitxa-premsa article.node-fitxa-espectacle #main-wrapper #text-wrapper #moreinfo-wrapper:after,
-  body.node-type-fitxa-premsa article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper:before,
-  body.node-type-fitxa-premsa article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper:after,
-  body.node-type-fitxa-premsa article.node-fitxa-entorn #main-wrapper #text-wrapper #moreinfo-wrapper:before,
-  body.node-type-fitxa-premsa article.node-fitxa-entorn #main-wrapper #text-wrapper #moreinfo-wrapper:after,
-  body.node-type-fitxa-premsa article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper:before,
-  body.node-type-fitxa-premsa article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper:after,
-  body.node-type-fitxa-premsa article.node-fitxa-premsa #main-wrapper #text-wrapper #moreinfo-wrapper:before,
-  body.node-type-fitxa-premsa article.node-fitxa-premsa #main-wrapper #text-wrapper #moreinfo-wrapper:after {
+  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #text-wrapper #moreinfo-wrapper:after {
     content: "";
     display: table;
   }
@@ -684,41 +537,21 @@ ul {
   body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper #text-wrapper #moreinfo-wrapper:after,
   body.node-type-fitxa-espectacle article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper:after,
   body.node-type-fitxa-espectacle article.node-fitxa-entorn #main-wrapper #text-wrapper #moreinfo-wrapper:after,
-  body.node-type-fitxa-espectacle article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper:after,
-  body.node-type-fitxa-espectacle article.node-fitxa-premsa #main-wrapper #text-wrapper #moreinfo-wrapper:after,
   body.node-type-fitxa-entorn article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper:after,
   body.node-type-fitxa-entorn article.node-fitxa-espectacle #main-wrapper #text-wrapper #moreinfo-wrapper:after,
   body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper:after,
-  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #text-wrapper #moreinfo-wrapper:after,
-  body.node-type-fitxa-entorn article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper:after,
-  body.node-type-fitxa-entorn article.node-fitxa-premsa #main-wrapper #text-wrapper #moreinfo-wrapper:after,
-  body.node-type-fitxa-premsa article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper:after,
-  body.node-type-fitxa-premsa article.node-fitxa-espectacle #main-wrapper #text-wrapper #moreinfo-wrapper:after,
-  body.node-type-fitxa-premsa article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper:after,
-  body.node-type-fitxa-premsa article.node-fitxa-entorn #main-wrapper #text-wrapper #moreinfo-wrapper:after,
-  body.node-type-fitxa-premsa article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper:after,
-  body.node-type-fitxa-premsa article.node-fitxa-premsa #main-wrapper #text-wrapper #moreinfo-wrapper:after {
+  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #text-wrapper #moreinfo-wrapper:after {
     clear: both;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003322}}
   body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper .destacats-wrapper,
   body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper #text-wrapper #moreinfo-wrapper .destacats-wrapper,
   body.node-type-fitxa-espectacle article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .destacats-wrapper,
   body.node-type-fitxa-espectacle article.node-fitxa-entorn #main-wrapper #text-wrapper #moreinfo-wrapper .destacats-wrapper,
-  body.node-type-fitxa-espectacle article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper .destacats-wrapper,
-  body.node-type-fitxa-espectacle article.node-fitxa-premsa #main-wrapper #text-wrapper #moreinfo-wrapper .destacats-wrapper,
   body.node-type-fitxa-entorn article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper .destacats-wrapper,
   body.node-type-fitxa-entorn article.node-fitxa-espectacle #main-wrapper #text-wrapper #moreinfo-wrapper .destacats-wrapper,
   body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .destacats-wrapper,
-  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #text-wrapper #moreinfo-wrapper .destacats-wrapper,
-  body.node-type-fitxa-entorn article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper .destacats-wrapper,
-  body.node-type-fitxa-entorn article.node-fitxa-premsa #main-wrapper #text-wrapper #moreinfo-wrapper .destacats-wrapper,
-  body.node-type-fitxa-premsa article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper .destacats-wrapper,
-  body.node-type-fitxa-premsa article.node-fitxa-espectacle #main-wrapper #text-wrapper #moreinfo-wrapper .destacats-wrapper,
-  body.node-type-fitxa-premsa article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .destacats-wrapper,
-  body.node-type-fitxa-premsa article.node-fitxa-entorn #main-wrapper #text-wrapper #moreinfo-wrapper .destacats-wrapper,
-  body.node-type-fitxa-premsa article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper .destacats-wrapper,
-  body.node-type-fitxa-premsa article.node-fitxa-premsa #main-wrapper #text-wrapper #moreinfo-wrapper .destacats-wrapper {
+  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #text-wrapper #moreinfo-wrapper .destacats-wrapper {
     float: right;
     width: 33.33333%;
     margin-right: 66.66667%;
@@ -731,16 +564,11 @@ ul {
     box-sizing: border-box;
     word-wrap: break-word;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003327}}
   body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper .presentation-col,
   body.node-type-fitxa-espectacle article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col,
-  body.node-type-fitxa-espectacle article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper .presentation-col,
   body.node-type-fitxa-entorn article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper .presentation-col,
-  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col,
-  body.node-type-fitxa-entorn article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper .presentation-col,
-  body.node-type-fitxa-premsa article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper .presentation-col,
-  body.node-type-fitxa-premsa article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col,
-  body.node-type-fitxa-premsa article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper .presentation-col {
+  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col {
     float: right;
     width: 66.66667%;
     margin-right: 0%;
@@ -755,16 +583,11 @@ ul {
     padding-left: 0;
     padding-right: 0;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003330}}
   body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper .presentation-col h5.field-title,
   body.node-type-fitxa-espectacle article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col h5.field-title,
-  body.node-type-fitxa-espectacle article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper .presentation-col h5.field-title,
   body.node-type-fitxa-entorn article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper .presentation-col h5.field-title,
-  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col h5.field-title,
-  body.node-type-fitxa-entorn article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper .presentation-col h5.field-title,
-  body.node-type-fitxa-premsa article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper .presentation-col h5.field-title,
-  body.node-type-fitxa-premsa article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col h5.field-title,
-  body.node-type-fitxa-premsa article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper .presentation-col h5.field-title {
+  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col h5.field-title {
     clear: right;
     float: right;
     width: 100%;
@@ -778,25 +601,15 @@ ul {
     box-sizing: border-box;
     word-wrap: break-word;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003341}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003335}}
   body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .field-name-body,
   body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .field-name-field-artista-carrec,
   body.node-type-fitxa-espectacle article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .field-name-body,
   body.node-type-fitxa-espectacle article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .field-name-field-artista-carrec,
-  body.node-type-fitxa-espectacle article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .field-name-body,
-  body.node-type-fitxa-espectacle article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .field-name-field-artista-carrec,
   body.node-type-fitxa-entorn article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .field-name-body,
   body.node-type-fitxa-entorn article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .field-name-field-artista-carrec,
   body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .field-name-body,
-  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .field-name-field-artista-carrec,
-  body.node-type-fitxa-entorn article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .field-name-body,
-  body.node-type-fitxa-entorn article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .field-name-field-artista-carrec,
-  body.node-type-fitxa-premsa article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .field-name-body,
-  body.node-type-fitxa-premsa article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .field-name-field-artista-carrec,
-  body.node-type-fitxa-premsa article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .field-name-body,
-  body.node-type-fitxa-premsa article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .field-name-field-artista-carrec,
-  body.node-type-fitxa-premsa article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .field-name-body,
-  body.node-type-fitxa-premsa article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .field-name-field-artista-carrec {
+  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .field-name-field-artista-carrec {
     float: right;
     width: 100%;
     margin-right: 0%;
@@ -809,16 +622,11 @@ ul {
     box-sizing: border-box;
     word-wrap: break-word;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003344}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003338}}
   body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left,
   body.node-type-fitxa-espectacle article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left,
-  body.node-type-fitxa-espectacle article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left,
   body.node-type-fitxa-entorn article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left,
-  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left,
-  body.node-type-fitxa-entorn article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left,
-  body.node-type-fitxa-premsa article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left,
-  body.node-type-fitxa-premsa article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left,
-  body.node-type-fitxa-premsa article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left {
+  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left {
     clear: right;
     float: right;
     width: 100%;
@@ -838,58 +646,33 @@ ul {
   body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left:before, body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left:after,
   body.node-type-fitxa-espectacle article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left:before,
   body.node-type-fitxa-espectacle article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left:after,
-  body.node-type-fitxa-espectacle article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left:before,
-  body.node-type-fitxa-espectacle article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left:after,
   body.node-type-fitxa-entorn article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left:before,
   body.node-type-fitxa-entorn article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left:after,
   body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left:before,
-  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left:after,
-  body.node-type-fitxa-entorn article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left:before,
-  body.node-type-fitxa-entorn article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left:after,
-  body.node-type-fitxa-premsa article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left:before,
-  body.node-type-fitxa-premsa article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left:after,
-  body.node-type-fitxa-premsa article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left:before,
-  body.node-type-fitxa-premsa article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left:after,
-  body.node-type-fitxa-premsa article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left:before,
-  body.node-type-fitxa-premsa article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left:after {
+  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left:after {
     content: "";
     display: table;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass-extensions\/zen-grids\/stylesheets\/zen\/_grids\.scss}line{font-family:\0000350}}
   body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left:after,
   body.node-type-fitxa-espectacle article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left:after,
-  body.node-type-fitxa-espectacle article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left:after,
   body.node-type-fitxa-entorn article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left:after,
-  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left:after,
-  body.node-type-fitxa-entorn article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left:after,
-  body.node-type-fitxa-premsa article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left:after,
-  body.node-type-fitxa-premsa article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left:after,
-  body.node-type-fitxa-premsa article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left:after {
+  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left:after {
     clear: both;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003351}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003345}}
   body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec,
   body.node-type-fitxa-espectacle article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec,
-  body.node-type-fitxa-espectacle article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec,
   body.node-type-fitxa-entorn article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec,
-  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec,
-  body.node-type-fitxa-entorn article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec,
-  body.node-type-fitxa-premsa article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec,
-  body.node-type-fitxa-premsa article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec,
-  body.node-type-fitxa-premsa article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec {
+  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec {
     margin-left: 0px;
     padding-left: 0px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003354}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003348}}
   body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items,
   body.node-type-fitxa-espectacle article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items,
-  body.node-type-fitxa-espectacle article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items,
   body.node-type-fitxa-entorn article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items,
-  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items,
-  body.node-type-fitxa-entorn article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items,
-  body.node-type-fitxa-premsa article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items,
-  body.node-type-fitxa-premsa article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items,
-  body.node-type-fitxa-premsa article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items {
+  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items {
     float: right;
     width: 33.33333%;
     margin-right: 0%;
@@ -904,67 +687,37 @@ ul {
     padding-left: 0;
     padding-right: 0;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003358}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003352}}
   body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.even, body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.odd,
   body.node-type-fitxa-espectacle article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.even,
   body.node-type-fitxa-espectacle article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.odd,
-  body.node-type-fitxa-espectacle article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.even,
-  body.node-type-fitxa-espectacle article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.odd,
   body.node-type-fitxa-entorn article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.even,
   body.node-type-fitxa-entorn article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.odd,
   body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.even,
-  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.odd,
-  body.node-type-fitxa-entorn article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.even,
-  body.node-type-fitxa-entorn article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.odd,
-  body.node-type-fitxa-premsa article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.even,
-  body.node-type-fitxa-premsa article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.odd,
-  body.node-type-fitxa-premsa article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.even,
-  body.node-type-fitxa-premsa article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.odd,
-  body.node-type-fitxa-premsa article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.even,
-  body.node-type-fitxa-premsa article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.odd {
+  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.odd {
     width: 100%;
     float: none;
     margin: 0px;
     padding-left: 0px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003359}}
   body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.odd .field-collection-item-field-artista-carrec, body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.even .field-collection-item-field-artista-carrec,
   body.node-type-fitxa-espectacle article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.odd .field-collection-item-field-artista-carrec,
   body.node-type-fitxa-espectacle article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.even .field-collection-item-field-artista-carrec,
-  body.node-type-fitxa-espectacle article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.odd .field-collection-item-field-artista-carrec,
-  body.node-type-fitxa-espectacle article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.even .field-collection-item-field-artista-carrec,
   body.node-type-fitxa-entorn article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.odd .field-collection-item-field-artista-carrec,
   body.node-type-fitxa-entorn article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.even .field-collection-item-field-artista-carrec,
   body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.odd .field-collection-item-field-artista-carrec,
-  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.even .field-collection-item-field-artista-carrec,
-  body.node-type-fitxa-entorn article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.odd .field-collection-item-field-artista-carrec,
-  body.node-type-fitxa-entorn article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.even .field-collection-item-field-artista-carrec,
-  body.node-type-fitxa-premsa article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.odd .field-collection-item-field-artista-carrec,
-  body.node-type-fitxa-premsa article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.even .field-collection-item-field-artista-carrec,
-  body.node-type-fitxa-premsa article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.odd .field-collection-item-field-artista-carrec,
-  body.node-type-fitxa-premsa article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.even .field-collection-item-field-artista-carrec,
-  body.node-type-fitxa-premsa article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.odd .field-collection-item-field-artista-carrec,
-  body.node-type-fitxa-premsa article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.even .field-collection-item-field-artista-carrec {
+  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.even .field-collection-item-field-artista-carrec {
     margin-left: 0px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003369}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003363}}
   body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.odd .field-collection-item-field-artista-carrec.carrec-tid-110, body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.even .field-collection-item-field-artista-carrec.carrec-tid-110,
   body.node-type-fitxa-espectacle article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.odd .field-collection-item-field-artista-carrec.carrec-tid-110,
   body.node-type-fitxa-espectacle article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.even .field-collection-item-field-artista-carrec.carrec-tid-110,
-  body.node-type-fitxa-espectacle article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.odd .field-collection-item-field-artista-carrec.carrec-tid-110,
-  body.node-type-fitxa-espectacle article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.even .field-collection-item-field-artista-carrec.carrec-tid-110,
   body.node-type-fitxa-entorn article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.odd .field-collection-item-field-artista-carrec.carrec-tid-110,
   body.node-type-fitxa-entorn article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.even .field-collection-item-field-artista-carrec.carrec-tid-110,
   body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.odd .field-collection-item-field-artista-carrec.carrec-tid-110,
-  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.even .field-collection-item-field-artista-carrec.carrec-tid-110,
-  body.node-type-fitxa-entorn article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.odd .field-collection-item-field-artista-carrec.carrec-tid-110,
-  body.node-type-fitxa-entorn article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.even .field-collection-item-field-artista-carrec.carrec-tid-110,
-  body.node-type-fitxa-premsa article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.odd .field-collection-item-field-artista-carrec.carrec-tid-110,
-  body.node-type-fitxa-premsa article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.even .field-collection-item-field-artista-carrec.carrec-tid-110,
-  body.node-type-fitxa-premsa article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.odd .field-collection-item-field-artista-carrec.carrec-tid-110,
-  body.node-type-fitxa-premsa article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.even .field-collection-item-field-artista-carrec.carrec-tid-110,
-  body.node-type-fitxa-premsa article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.odd .field-collection-item-field-artista-carrec.carrec-tid-110,
-  body.node-type-fitxa-premsa article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.even .field-collection-item-field-artista-carrec.carrec-tid-110 {
+  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.even .field-collection-item-field-artista-carrec.carrec-tid-110 {
     float: right;
     width: 100%;
     margin-right: 0%;
@@ -977,24 +730,14 @@ ul {
     box-sizing: border-box;
     word-wrap: break-word;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003373}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003367}}
   body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.odd .field-collection-item-field-artista-carrec.carrec-tid-12, body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.even .field-collection-item-field-artista-carrec.carrec-tid-12,
   body.node-type-fitxa-espectacle article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.odd .field-collection-item-field-artista-carrec.carrec-tid-12,
   body.node-type-fitxa-espectacle article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.even .field-collection-item-field-artista-carrec.carrec-tid-12,
-  body.node-type-fitxa-espectacle article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.odd .field-collection-item-field-artista-carrec.carrec-tid-12,
-  body.node-type-fitxa-espectacle article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.even .field-collection-item-field-artista-carrec.carrec-tid-12,
   body.node-type-fitxa-entorn article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.odd .field-collection-item-field-artista-carrec.carrec-tid-12,
   body.node-type-fitxa-entorn article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.even .field-collection-item-field-artista-carrec.carrec-tid-12,
   body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.odd .field-collection-item-field-artista-carrec.carrec-tid-12,
-  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.even .field-collection-item-field-artista-carrec.carrec-tid-12,
-  body.node-type-fitxa-entorn article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.odd .field-collection-item-field-artista-carrec.carrec-tid-12,
-  body.node-type-fitxa-entorn article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.even .field-collection-item-field-artista-carrec.carrec-tid-12,
-  body.node-type-fitxa-premsa article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.odd .field-collection-item-field-artista-carrec.carrec-tid-12,
-  body.node-type-fitxa-premsa article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.even .field-collection-item-field-artista-carrec.carrec-tid-12,
-  body.node-type-fitxa-premsa article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.odd .field-collection-item-field-artista-carrec.carrec-tid-12,
-  body.node-type-fitxa-premsa article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.even .field-collection-item-field-artista-carrec.carrec-tid-12,
-  body.node-type-fitxa-premsa article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.odd .field-collection-item-field-artista-carrec.carrec-tid-12,
-  body.node-type-fitxa-premsa article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.even .field-collection-item-field-artista-carrec.carrec-tid-12 {
+  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.even .field-collection-item-field-artista-carrec.carrec-tid-12 {
     clear: right;
     float: right;
     width: 100%;
@@ -1008,24 +751,14 @@ ul {
     box-sizing: border-box;
     word-wrap: break-word;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003378}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003372}}
   body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.odd .field-collection-item-field-artista-carrec.carrec-tid-106, body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.even .field-collection-item-field-artista-carrec.carrec-tid-106,
   body.node-type-fitxa-espectacle article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.odd .field-collection-item-field-artista-carrec.carrec-tid-106,
   body.node-type-fitxa-espectacle article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.even .field-collection-item-field-artista-carrec.carrec-tid-106,
-  body.node-type-fitxa-espectacle article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.odd .field-collection-item-field-artista-carrec.carrec-tid-106,
-  body.node-type-fitxa-espectacle article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.even .field-collection-item-field-artista-carrec.carrec-tid-106,
   body.node-type-fitxa-entorn article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.odd .field-collection-item-field-artista-carrec.carrec-tid-106,
   body.node-type-fitxa-entorn article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.even .field-collection-item-field-artista-carrec.carrec-tid-106,
   body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.odd .field-collection-item-field-artista-carrec.carrec-tid-106,
-  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.even .field-collection-item-field-artista-carrec.carrec-tid-106,
-  body.node-type-fitxa-entorn article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.odd .field-collection-item-field-artista-carrec.carrec-tid-106,
-  body.node-type-fitxa-entorn article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.even .field-collection-item-field-artista-carrec.carrec-tid-106,
-  body.node-type-fitxa-premsa article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.odd .field-collection-item-field-artista-carrec.carrec-tid-106,
-  body.node-type-fitxa-premsa article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.even .field-collection-item-field-artista-carrec.carrec-tid-106,
-  body.node-type-fitxa-premsa article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.odd .field-collection-item-field-artista-carrec.carrec-tid-106,
-  body.node-type-fitxa-premsa article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.even .field-collection-item-field-artista-carrec.carrec-tid-106,
-  body.node-type-fitxa-premsa article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.odd .field-collection-item-field-artista-carrec.carrec-tid-106,
-  body.node-type-fitxa-premsa article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.even .field-collection-item-field-artista-carrec.carrec-tid-106 {
+  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.even .field-collection-item-field-artista-carrec.carrec-tid-106 {
     clear: right;
     float: right;
     width: 100%;
@@ -1039,24 +772,14 @@ ul {
     box-sizing: border-box;
     word-wrap: break-word;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003383}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003377}}
   body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.odd .field-collection-item-field-artista-carrec.carrec-tid-88, body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.even .field-collection-item-field-artista-carrec.carrec-tid-88,
   body.node-type-fitxa-espectacle article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.odd .field-collection-item-field-artista-carrec.carrec-tid-88,
   body.node-type-fitxa-espectacle article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.even .field-collection-item-field-artista-carrec.carrec-tid-88,
-  body.node-type-fitxa-espectacle article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.odd .field-collection-item-field-artista-carrec.carrec-tid-88,
-  body.node-type-fitxa-espectacle article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.even .field-collection-item-field-artista-carrec.carrec-tid-88,
   body.node-type-fitxa-entorn article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.odd .field-collection-item-field-artista-carrec.carrec-tid-88,
   body.node-type-fitxa-entorn article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.even .field-collection-item-field-artista-carrec.carrec-tid-88,
   body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.odd .field-collection-item-field-artista-carrec.carrec-tid-88,
-  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.even .field-collection-item-field-artista-carrec.carrec-tid-88,
-  body.node-type-fitxa-entorn article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.odd .field-collection-item-field-artista-carrec.carrec-tid-88,
-  body.node-type-fitxa-entorn article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.even .field-collection-item-field-artista-carrec.carrec-tid-88,
-  body.node-type-fitxa-premsa article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.odd .field-collection-item-field-artista-carrec.carrec-tid-88,
-  body.node-type-fitxa-premsa article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.even .field-collection-item-field-artista-carrec.carrec-tid-88,
-  body.node-type-fitxa-premsa article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.odd .field-collection-item-field-artista-carrec.carrec-tid-88,
-  body.node-type-fitxa-premsa article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.even .field-collection-item-field-artista-carrec.carrec-tid-88,
-  body.node-type-fitxa-premsa article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.odd .field-collection-item-field-artista-carrec.carrec-tid-88,
-  body.node-type-fitxa-premsa article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.even .field-collection-item-field-artista-carrec.carrec-tid-88 {
+  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .artista-carrec-left .field-name-field-artista-carrec > .field-items > .field-item.even .field-collection-item-field-artista-carrec.carrec-tid-88 {
     clear: right;
     float: right;
     width: 100%;
@@ -1074,45 +797,25 @@ ul {
   body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .field-name-field-artista-carrec > .field-items:before, body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .field-name-field-artista-carrec > .field-items:after,
   body.node-type-fitxa-espectacle article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .field-name-field-artista-carrec > .field-items:before,
   body.node-type-fitxa-espectacle article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .field-name-field-artista-carrec > .field-items:after,
-  body.node-type-fitxa-espectacle article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .field-name-field-artista-carrec > .field-items:before,
-  body.node-type-fitxa-espectacle article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .field-name-field-artista-carrec > .field-items:after,
   body.node-type-fitxa-entorn article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .field-name-field-artista-carrec > .field-items:before,
   body.node-type-fitxa-entorn article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .field-name-field-artista-carrec > .field-items:after,
   body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .field-name-field-artista-carrec > .field-items:before,
-  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .field-name-field-artista-carrec > .field-items:after,
-  body.node-type-fitxa-entorn article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .field-name-field-artista-carrec > .field-items:before,
-  body.node-type-fitxa-entorn article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .field-name-field-artista-carrec > .field-items:after,
-  body.node-type-fitxa-premsa article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .field-name-field-artista-carrec > .field-items:before,
-  body.node-type-fitxa-premsa article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .field-name-field-artista-carrec > .field-items:after,
-  body.node-type-fitxa-premsa article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .field-name-field-artista-carrec > .field-items:before,
-  body.node-type-fitxa-premsa article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .field-name-field-artista-carrec > .field-items:after,
-  body.node-type-fitxa-premsa article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .field-name-field-artista-carrec > .field-items:before,
-  body.node-type-fitxa-premsa article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .field-name-field-artista-carrec > .field-items:after {
+  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .field-name-field-artista-carrec > .field-items:after {
     content: "";
     display: table;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass-extensions\/zen-grids\/stylesheets\/zen\/_grids\.scss}line{font-family:\0000350}}
   body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .field-name-field-artista-carrec > .field-items:after,
   body.node-type-fitxa-espectacle article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .field-name-field-artista-carrec > .field-items:after,
-  body.node-type-fitxa-espectacle article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .field-name-field-artista-carrec > .field-items:after,
   body.node-type-fitxa-entorn article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .field-name-field-artista-carrec > .field-items:after,
-  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .field-name-field-artista-carrec > .field-items:after,
-  body.node-type-fitxa-entorn article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .field-name-field-artista-carrec > .field-items:after,
-  body.node-type-fitxa-premsa article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .field-name-field-artista-carrec > .field-items:after,
-  body.node-type-fitxa-premsa article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .field-name-field-artista-carrec > .field-items:after,
-  body.node-type-fitxa-premsa article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .field-name-field-artista-carrec > .field-items:after {
+  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .field-name-field-artista-carrec > .field-items:after {
     clear: both;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003394}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003387}}
   body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .field-name-field-artista-carrec > .field-items > .field-item:nth-child(2n+1),
   body.node-type-fitxa-espectacle article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .field-name-field-artista-carrec > .field-items > .field-item:nth-child(2n+1),
-  body.node-type-fitxa-espectacle article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .field-name-field-artista-carrec > .field-items > .field-item:nth-child(2n+1),
   body.node-type-fitxa-entorn article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .field-name-field-artista-carrec > .field-items > .field-item:nth-child(2n+1),
-  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .field-name-field-artista-carrec > .field-items > .field-item:nth-child(2n+1),
-  body.node-type-fitxa-entorn article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .field-name-field-artista-carrec > .field-items > .field-item:nth-child(2n+1),
-  body.node-type-fitxa-premsa article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .field-name-field-artista-carrec > .field-items > .field-item:nth-child(2n+1),
-  body.node-type-fitxa-premsa article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .field-name-field-artista-carrec > .field-items > .field-item:nth-child(2n+1),
-  body.node-type-fitxa-premsa article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .field-name-field-artista-carrec > .field-items > .field-item:nth-child(2n+1) {
+  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .field-name-field-artista-carrec > .field-items > .field-item:nth-child(2n+1) {
     clear: right;
     float: right;
     width: 33.33333%;
@@ -1126,16 +829,11 @@ ul {
     box-sizing: border-box;
     word-wrap: break-word;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003399}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003391}}
   body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .field-name-field-artista-carrec > .field-items > .field-item:nth-child(2n),
   body.node-type-fitxa-espectacle article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .field-name-field-artista-carrec > .field-items > .field-item:nth-child(2n),
-  body.node-type-fitxa-espectacle article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .field-name-field-artista-carrec > .field-items > .field-item:nth-child(2n),
   body.node-type-fitxa-entorn article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .field-name-field-artista-carrec > .field-items > .field-item:nth-child(2n),
-  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .field-name-field-artista-carrec > .field-items > .field-item:nth-child(2n),
-  body.node-type-fitxa-entorn article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .field-name-field-artista-carrec > .field-items > .field-item:nth-child(2n),
-  body.node-type-fitxa-premsa article.node-fitxa-espectacle #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .field-name-field-artista-carrec > .field-items > .field-item:nth-child(2n),
-  body.node-type-fitxa-premsa article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .field-name-field-artista-carrec > .field-items > .field-item:nth-child(2n),
-  body.node-type-fitxa-premsa article.node-fitxa-premsa #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .field-name-field-artista-carrec > .field-items > .field-item:nth-child(2n) {
+  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #text-wrapper #main-text-wrapper .presentation-col .field-name-field-artista-carrec > .field-items > .field-item:nth-child(2n) {
     float: right;
     width: 33.33333%;
     margin-right: 66.66667%;
@@ -1149,48 +847,28 @@ ul {
     word-wrap: break-word;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass-extensions\/zen-grids\/stylesheets\/zen\/_grids\.scss}line{font-family:\0000346}}
-  body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper #moreinfo-wrapper:before, body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper #moreinfo-wrapper:after,
-  body.node-type-fitxa-espectacle article.node-fitxa-entorn #main-wrapper #moreinfo-wrapper:before,
-  body.node-type-fitxa-espectacle article.node-fitxa-entorn #main-wrapper #moreinfo-wrapper:after,
-  body.node-type-fitxa-espectacle article.node-fitxa-premsa #main-wrapper #moreinfo-wrapper:before,
-  body.node-type-fitxa-espectacle article.node-fitxa-premsa #main-wrapper #moreinfo-wrapper:after,
-  body.node-type-fitxa-entorn article.node-fitxa-espectacle #main-wrapper #moreinfo-wrapper:before,
-  body.node-type-fitxa-entorn article.node-fitxa-espectacle #main-wrapper #moreinfo-wrapper:after,
-  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #moreinfo-wrapper:before,
-  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #moreinfo-wrapper:after,
-  body.node-type-fitxa-entorn article.node-fitxa-premsa #main-wrapper #moreinfo-wrapper:before,
-  body.node-type-fitxa-entorn article.node-fitxa-premsa #main-wrapper #moreinfo-wrapper:after,
-  body.node-type-fitxa-premsa article.node-fitxa-espectacle #main-wrapper #moreinfo-wrapper:before,
-  body.node-type-fitxa-premsa article.node-fitxa-espectacle #main-wrapper #moreinfo-wrapper:after,
-  body.node-type-fitxa-premsa article.node-fitxa-entorn #main-wrapper #moreinfo-wrapper:before,
-  body.node-type-fitxa-premsa article.node-fitxa-entorn #main-wrapper #moreinfo-wrapper:after,
-  body.node-type-fitxa-premsa article.node-fitxa-premsa #main-wrapper #moreinfo-wrapper:before,
-  body.node-type-fitxa-premsa article.node-fitxa-premsa #main-wrapper #moreinfo-wrapper:after {
+  body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper #text-wrapper #moreinfo-wrapper:before, body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper #text-wrapper #moreinfo-wrapper:after,
+  body.node-type-fitxa-espectacle article.node-fitxa-entorn #main-wrapper #text-wrapper #moreinfo-wrapper:before,
+  body.node-type-fitxa-espectacle article.node-fitxa-entorn #main-wrapper #text-wrapper #moreinfo-wrapper:after,
+  body.node-type-fitxa-entorn article.node-fitxa-espectacle #main-wrapper #text-wrapper #moreinfo-wrapper:before,
+  body.node-type-fitxa-entorn article.node-fitxa-espectacle #main-wrapper #text-wrapper #moreinfo-wrapper:after,
+  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #text-wrapper #moreinfo-wrapper:before,
+  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #text-wrapper #moreinfo-wrapper:after {
     content: "";
     display: table;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass-extensions\/zen-grids\/stylesheets\/zen\/_grids\.scss}line{font-family:\0000350}}
-  body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper #moreinfo-wrapper:after,
-  body.node-type-fitxa-espectacle article.node-fitxa-entorn #main-wrapper #moreinfo-wrapper:after,
-  body.node-type-fitxa-espectacle article.node-fitxa-premsa #main-wrapper #moreinfo-wrapper:after,
-  body.node-type-fitxa-entorn article.node-fitxa-espectacle #main-wrapper #moreinfo-wrapper:after,
-  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #moreinfo-wrapper:after,
-  body.node-type-fitxa-entorn article.node-fitxa-premsa #main-wrapper #moreinfo-wrapper:after,
-  body.node-type-fitxa-premsa article.node-fitxa-espectacle #main-wrapper #moreinfo-wrapper:after,
-  body.node-type-fitxa-premsa article.node-fitxa-entorn #main-wrapper #moreinfo-wrapper:after,
-  body.node-type-fitxa-premsa article.node-fitxa-premsa #main-wrapper #moreinfo-wrapper:after {
+  body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper #text-wrapper #moreinfo-wrapper:after,
+  body.node-type-fitxa-espectacle article.node-fitxa-entorn #main-wrapper #text-wrapper #moreinfo-wrapper:after,
+  body.node-type-fitxa-entorn article.node-fitxa-espectacle #main-wrapper #text-wrapper #moreinfo-wrapper:after,
+  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #text-wrapper #moreinfo-wrapper:after {
     clear: both;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003409}}
-  body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper #moreinfo-wrapper .field-name-field-a-fons,
-  body.node-type-fitxa-espectacle article.node-fitxa-entorn #main-wrapper #moreinfo-wrapper .field-name-field-a-fons,
-  body.node-type-fitxa-espectacle article.node-fitxa-premsa #main-wrapper #moreinfo-wrapper .field-name-field-a-fons,
-  body.node-type-fitxa-entorn article.node-fitxa-espectacle #main-wrapper #moreinfo-wrapper .field-name-field-a-fons,
-  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #moreinfo-wrapper .field-name-field-a-fons,
-  body.node-type-fitxa-entorn article.node-fitxa-premsa #main-wrapper #moreinfo-wrapper .field-name-field-a-fons,
-  body.node-type-fitxa-premsa article.node-fitxa-espectacle #main-wrapper #moreinfo-wrapper .field-name-field-a-fons,
-  body.node-type-fitxa-premsa article.node-fitxa-entorn #main-wrapper #moreinfo-wrapper .field-name-field-a-fons,
-  body.node-type-fitxa-premsa article.node-fitxa-premsa #main-wrapper #moreinfo-wrapper .field-name-field-a-fons {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003400}}
+  body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper #text-wrapper #moreinfo-wrapper .field-name-field-a-fons,
+  body.node-type-fitxa-espectacle article.node-fitxa-entorn #main-wrapper #text-wrapper #moreinfo-wrapper .field-name-field-a-fons,
+  body.node-type-fitxa-entorn article.node-fitxa-espectacle #main-wrapper #text-wrapper #moreinfo-wrapper .field-name-field-a-fons,
+  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #text-wrapper #moreinfo-wrapper .field-name-field-a-fons {
     float: right;
     width: 66.66667%;
     margin-right: 0%;
@@ -1203,16 +881,11 @@ ul {
     box-sizing: border-box;
     word-wrap: break-word;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003413}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003405}}
   body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper #xxss-wrapper,
   body.node-type-fitxa-espectacle article.node-fitxa-entorn #main-wrapper #xxss-wrapper,
-  body.node-type-fitxa-espectacle article.node-fitxa-premsa #main-wrapper #xxss-wrapper,
   body.node-type-fitxa-entorn article.node-fitxa-espectacle #main-wrapper #xxss-wrapper,
-  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #xxss-wrapper,
-  body.node-type-fitxa-entorn article.node-fitxa-premsa #main-wrapper #xxss-wrapper,
-  body.node-type-fitxa-premsa article.node-fitxa-espectacle #main-wrapper #xxss-wrapper,
-  body.node-type-fitxa-premsa article.node-fitxa-entorn #main-wrapper #xxss-wrapper,
-  body.node-type-fitxa-premsa article.node-fitxa-premsa #main-wrapper #xxss-wrapper {
+  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #xxss-wrapper {
     clear: right;
     float: right;
     width: 75%;
@@ -1226,16 +899,11 @@ ul {
     box-sizing: border-box;
     word-wrap: break-word;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003417}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003409}}
   body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper #xxss-wrapper .easy_social_box,
   body.node-type-fitxa-espectacle article.node-fitxa-entorn #main-wrapper #xxss-wrapper .easy_social_box,
-  body.node-type-fitxa-espectacle article.node-fitxa-premsa #main-wrapper #xxss-wrapper .easy_social_box,
   body.node-type-fitxa-entorn article.node-fitxa-espectacle #main-wrapper #xxss-wrapper .easy_social_box,
-  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #xxss-wrapper .easy_social_box,
-  body.node-type-fitxa-entorn article.node-fitxa-premsa #main-wrapper #xxss-wrapper .easy_social_box,
-  body.node-type-fitxa-premsa article.node-fitxa-espectacle #main-wrapper #xxss-wrapper .easy_social_box,
-  body.node-type-fitxa-premsa article.node-fitxa-entorn #main-wrapper #xxss-wrapper .easy_social_box,
-  body.node-type-fitxa-premsa article.node-fitxa-premsa #main-wrapper #xxss-wrapper .easy_social_box {
+  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #xxss-wrapper .easy_social_box {
     clear: right;
     float: right;
     width: 75%;
@@ -1249,61 +917,36 @@ ul {
     box-sizing: border-box;
     word-wrap: break-word;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003421}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003413}}
   body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper #xxss-wrapper #xxss-external-content,
   body.node-type-fitxa-espectacle article.node-fitxa-entorn #main-wrapper #xxss-wrapper #xxss-external-content,
-  body.node-type-fitxa-espectacle article.node-fitxa-premsa #main-wrapper #xxss-wrapper #xxss-external-content,
   body.node-type-fitxa-entorn article.node-fitxa-espectacle #main-wrapper #xxss-wrapper #xxss-external-content,
-  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #xxss-wrapper #xxss-external-content,
-  body.node-type-fitxa-entorn article.node-fitxa-premsa #main-wrapper #xxss-wrapper #xxss-external-content,
-  body.node-type-fitxa-premsa article.node-fitxa-espectacle #main-wrapper #xxss-wrapper #xxss-external-content,
-  body.node-type-fitxa-premsa article.node-fitxa-entorn #main-wrapper #xxss-wrapper #xxss-external-content,
-  body.node-type-fitxa-premsa article.node-fitxa-premsa #main-wrapper #xxss-wrapper #xxss-external-content {
+  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #xxss-wrapper #xxss-external-content {
     clear: right;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass-extensions\/zen-grids\/stylesheets\/zen\/_grids\.scss}line{font-family:\0000346}}
   body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper #xxss-wrapper #xxss-external-content:before, body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper #xxss-wrapper #xxss-external-content:after,
   body.node-type-fitxa-espectacle article.node-fitxa-entorn #main-wrapper #xxss-wrapper #xxss-external-content:before,
   body.node-type-fitxa-espectacle article.node-fitxa-entorn #main-wrapper #xxss-wrapper #xxss-external-content:after,
-  body.node-type-fitxa-espectacle article.node-fitxa-premsa #main-wrapper #xxss-wrapper #xxss-external-content:before,
-  body.node-type-fitxa-espectacle article.node-fitxa-premsa #main-wrapper #xxss-wrapper #xxss-external-content:after,
   body.node-type-fitxa-entorn article.node-fitxa-espectacle #main-wrapper #xxss-wrapper #xxss-external-content:before,
   body.node-type-fitxa-entorn article.node-fitxa-espectacle #main-wrapper #xxss-wrapper #xxss-external-content:after,
   body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #xxss-wrapper #xxss-external-content:before,
-  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #xxss-wrapper #xxss-external-content:after,
-  body.node-type-fitxa-entorn article.node-fitxa-premsa #main-wrapper #xxss-wrapper #xxss-external-content:before,
-  body.node-type-fitxa-entorn article.node-fitxa-premsa #main-wrapper #xxss-wrapper #xxss-external-content:after,
-  body.node-type-fitxa-premsa article.node-fitxa-espectacle #main-wrapper #xxss-wrapper #xxss-external-content:before,
-  body.node-type-fitxa-premsa article.node-fitxa-espectacle #main-wrapper #xxss-wrapper #xxss-external-content:after,
-  body.node-type-fitxa-premsa article.node-fitxa-entorn #main-wrapper #xxss-wrapper #xxss-external-content:before,
-  body.node-type-fitxa-premsa article.node-fitxa-entorn #main-wrapper #xxss-wrapper #xxss-external-content:after,
-  body.node-type-fitxa-premsa article.node-fitxa-premsa #main-wrapper #xxss-wrapper #xxss-external-content:before,
-  body.node-type-fitxa-premsa article.node-fitxa-premsa #main-wrapper #xxss-wrapper #xxss-external-content:after {
+  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #xxss-wrapper #xxss-external-content:after {
     content: "";
     display: table;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass-extensions\/zen-grids\/stylesheets\/zen\/_grids\.scss}line{font-family:\0000350}}
   body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper #xxss-wrapper #xxss-external-content:after,
   body.node-type-fitxa-espectacle article.node-fitxa-entorn #main-wrapper #xxss-wrapper #xxss-external-content:after,
-  body.node-type-fitxa-espectacle article.node-fitxa-premsa #main-wrapper #xxss-wrapper #xxss-external-content:after,
   body.node-type-fitxa-entorn article.node-fitxa-espectacle #main-wrapper #xxss-wrapper #xxss-external-content:after,
-  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #xxss-wrapper #xxss-external-content:after,
-  body.node-type-fitxa-entorn article.node-fitxa-premsa #main-wrapper #xxss-wrapper #xxss-external-content:after,
-  body.node-type-fitxa-premsa article.node-fitxa-espectacle #main-wrapper #xxss-wrapper #xxss-external-content:after,
-  body.node-type-fitxa-premsa article.node-fitxa-entorn #main-wrapper #xxss-wrapper #xxss-external-content:after,
-  body.node-type-fitxa-premsa article.node-fitxa-premsa #main-wrapper #xxss-wrapper #xxss-external-content:after {
+  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #xxss-wrapper #xxss-external-content:after {
     clear: both;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003425}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003417}}
   body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper #xxss-wrapper #xxss-external-content .block-facebook,
   body.node-type-fitxa-espectacle article.node-fitxa-entorn #main-wrapper #xxss-wrapper #xxss-external-content .block-facebook,
-  body.node-type-fitxa-espectacle article.node-fitxa-premsa #main-wrapper #xxss-wrapper #xxss-external-content .block-facebook,
   body.node-type-fitxa-entorn article.node-fitxa-espectacle #main-wrapper #xxss-wrapper #xxss-external-content .block-facebook,
-  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #xxss-wrapper #xxss-external-content .block-facebook,
-  body.node-type-fitxa-entorn article.node-fitxa-premsa #main-wrapper #xxss-wrapper #xxss-external-content .block-facebook,
-  body.node-type-fitxa-premsa article.node-fitxa-espectacle #main-wrapper #xxss-wrapper #xxss-external-content .block-facebook,
-  body.node-type-fitxa-premsa article.node-fitxa-entorn #main-wrapper #xxss-wrapper #xxss-external-content .block-facebook,
-  body.node-type-fitxa-premsa article.node-fitxa-premsa #main-wrapper #xxss-wrapper #xxss-external-content .block-facebook {
+  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #xxss-wrapper #xxss-external-content .block-facebook {
     float: right;
     width: 50%;
     margin-right: 0%;
@@ -1316,16 +959,11 @@ ul {
     box-sizing: border-box;
     word-wrap: break-word;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003429}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003421}}
   body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper #xxss-wrapper #xxss-external-content .block-twitter,
   body.node-type-fitxa-espectacle article.node-fitxa-entorn #main-wrapper #xxss-wrapper #xxss-external-content .block-twitter,
-  body.node-type-fitxa-espectacle article.node-fitxa-premsa #main-wrapper #xxss-wrapper #xxss-external-content .block-twitter,
   body.node-type-fitxa-entorn article.node-fitxa-espectacle #main-wrapper #xxss-wrapper #xxss-external-content .block-twitter,
-  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #xxss-wrapper #xxss-external-content .block-twitter,
-  body.node-type-fitxa-entorn article.node-fitxa-premsa #main-wrapper #xxss-wrapper #xxss-external-content .block-twitter,
-  body.node-type-fitxa-premsa article.node-fitxa-espectacle #main-wrapper #xxss-wrapper #xxss-external-content .block-twitter,
-  body.node-type-fitxa-premsa article.node-fitxa-entorn #main-wrapper #xxss-wrapper #xxss-external-content .block-twitter,
-  body.node-type-fitxa-premsa article.node-fitxa-premsa #main-wrapper #xxss-wrapper #xxss-external-content .block-twitter {
+  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #xxss-wrapper #xxss-external-content .block-twitter {
     float: right;
     width: 50%;
     margin-right: 50%;
@@ -1342,45 +980,25 @@ ul {
   body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper #xxss-wrapper #xxss-external-content .block-twitter #header-tw:before, body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper #xxss-wrapper #xxss-external-content .block-twitter #header-tw:after,
   body.node-type-fitxa-espectacle article.node-fitxa-entorn #main-wrapper #xxss-wrapper #xxss-external-content .block-twitter #header-tw:before,
   body.node-type-fitxa-espectacle article.node-fitxa-entorn #main-wrapper #xxss-wrapper #xxss-external-content .block-twitter #header-tw:after,
-  body.node-type-fitxa-espectacle article.node-fitxa-premsa #main-wrapper #xxss-wrapper #xxss-external-content .block-twitter #header-tw:before,
-  body.node-type-fitxa-espectacle article.node-fitxa-premsa #main-wrapper #xxss-wrapper #xxss-external-content .block-twitter #header-tw:after,
   body.node-type-fitxa-entorn article.node-fitxa-espectacle #main-wrapper #xxss-wrapper #xxss-external-content .block-twitter #header-tw:before,
   body.node-type-fitxa-entorn article.node-fitxa-espectacle #main-wrapper #xxss-wrapper #xxss-external-content .block-twitter #header-tw:after,
   body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #xxss-wrapper #xxss-external-content .block-twitter #header-tw:before,
-  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #xxss-wrapper #xxss-external-content .block-twitter #header-tw:after,
-  body.node-type-fitxa-entorn article.node-fitxa-premsa #main-wrapper #xxss-wrapper #xxss-external-content .block-twitter #header-tw:before,
-  body.node-type-fitxa-entorn article.node-fitxa-premsa #main-wrapper #xxss-wrapper #xxss-external-content .block-twitter #header-tw:after,
-  body.node-type-fitxa-premsa article.node-fitxa-espectacle #main-wrapper #xxss-wrapper #xxss-external-content .block-twitter #header-tw:before,
-  body.node-type-fitxa-premsa article.node-fitxa-espectacle #main-wrapper #xxss-wrapper #xxss-external-content .block-twitter #header-tw:after,
-  body.node-type-fitxa-premsa article.node-fitxa-entorn #main-wrapper #xxss-wrapper #xxss-external-content .block-twitter #header-tw:before,
-  body.node-type-fitxa-premsa article.node-fitxa-entorn #main-wrapper #xxss-wrapper #xxss-external-content .block-twitter #header-tw:after,
-  body.node-type-fitxa-premsa article.node-fitxa-premsa #main-wrapper #xxss-wrapper #xxss-external-content .block-twitter #header-tw:before,
-  body.node-type-fitxa-premsa article.node-fitxa-premsa #main-wrapper #xxss-wrapper #xxss-external-content .block-twitter #header-tw:after {
+  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #xxss-wrapper #xxss-external-content .block-twitter #header-tw:after {
     content: "";
     display: table;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass-extensions\/zen-grids\/stylesheets\/zen\/_grids\.scss}line{font-family:\0000350}}
   body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper #xxss-wrapper #xxss-external-content .block-twitter #header-tw:after,
   body.node-type-fitxa-espectacle article.node-fitxa-entorn #main-wrapper #xxss-wrapper #xxss-external-content .block-twitter #header-tw:after,
-  body.node-type-fitxa-espectacle article.node-fitxa-premsa #main-wrapper #xxss-wrapper #xxss-external-content .block-twitter #header-tw:after,
   body.node-type-fitxa-entorn article.node-fitxa-espectacle #main-wrapper #xxss-wrapper #xxss-external-content .block-twitter #header-tw:after,
-  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #xxss-wrapper #xxss-external-content .block-twitter #header-tw:after,
-  body.node-type-fitxa-entorn article.node-fitxa-premsa #main-wrapper #xxss-wrapper #xxss-external-content .block-twitter #header-tw:after,
-  body.node-type-fitxa-premsa article.node-fitxa-espectacle #main-wrapper #xxss-wrapper #xxss-external-content .block-twitter #header-tw:after,
-  body.node-type-fitxa-premsa article.node-fitxa-entorn #main-wrapper #xxss-wrapper #xxss-external-content .block-twitter #header-tw:after,
-  body.node-type-fitxa-premsa article.node-fitxa-premsa #main-wrapper #xxss-wrapper #xxss-external-content .block-twitter #header-tw:after {
+  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #xxss-wrapper #xxss-external-content .block-twitter #header-tw:after {
     clear: both;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003435}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003427}}
   body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper #xxss-wrapper #xxss-external-content .block-twitter #header-tw h2,
   body.node-type-fitxa-espectacle article.node-fitxa-entorn #main-wrapper #xxss-wrapper #xxss-external-content .block-twitter #header-tw h2,
-  body.node-type-fitxa-espectacle article.node-fitxa-premsa #main-wrapper #xxss-wrapper #xxss-external-content .block-twitter #header-tw h2,
   body.node-type-fitxa-entorn article.node-fitxa-espectacle #main-wrapper #xxss-wrapper #xxss-external-content .block-twitter #header-tw h2,
-  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #xxss-wrapper #xxss-external-content .block-twitter #header-tw h2,
-  body.node-type-fitxa-entorn article.node-fitxa-premsa #main-wrapper #xxss-wrapper #xxss-external-content .block-twitter #header-tw h2,
-  body.node-type-fitxa-premsa article.node-fitxa-espectacle #main-wrapper #xxss-wrapper #xxss-external-content .block-twitter #header-tw h2,
-  body.node-type-fitxa-premsa article.node-fitxa-entorn #main-wrapper #xxss-wrapper #xxss-external-content .block-twitter #header-tw h2,
-  body.node-type-fitxa-premsa article.node-fitxa-premsa #main-wrapper #xxss-wrapper #xxss-external-content .block-twitter #header-tw h2 {
+  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #xxss-wrapper #xxss-external-content .block-twitter #header-tw h2 {
     clear: right;
     float: right;
     width: 50%;
@@ -1394,16 +1012,11 @@ ul {
     box-sizing: border-box;
     word-wrap: break-word;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003439}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003431}}
   body.node-type-fitxa-espectacle article.node-fitxa-espectacle #main-wrapper #xxss-wrapper #xxss-external-content .block-twitter #header-tw .follow,
   body.node-type-fitxa-espectacle article.node-fitxa-entorn #main-wrapper #xxss-wrapper #xxss-external-content .block-twitter #header-tw .follow,
-  body.node-type-fitxa-espectacle article.node-fitxa-premsa #main-wrapper #xxss-wrapper #xxss-external-content .block-twitter #header-tw .follow,
   body.node-type-fitxa-entorn article.node-fitxa-espectacle #main-wrapper #xxss-wrapper #xxss-external-content .block-twitter #header-tw .follow,
-  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #xxss-wrapper #xxss-external-content .block-twitter #header-tw .follow,
-  body.node-type-fitxa-entorn article.node-fitxa-premsa #main-wrapper #xxss-wrapper #xxss-external-content .block-twitter #header-tw .follow,
-  body.node-type-fitxa-premsa article.node-fitxa-espectacle #main-wrapper #xxss-wrapper #xxss-external-content .block-twitter #header-tw .follow,
-  body.node-type-fitxa-premsa article.node-fitxa-entorn #main-wrapper #xxss-wrapper #xxss-external-content .block-twitter #header-tw .follow,
-  body.node-type-fitxa-premsa article.node-fitxa-premsa #main-wrapper #xxss-wrapper #xxss-external-content .block-twitter #header-tw .follow {
+  body.node-type-fitxa-entorn article.node-fitxa-entorn #main-wrapper #xxss-wrapper #xxss-external-content .block-twitter #header-tw .follow {
     float: right;
     width: 50%;
     margin-right: 50%;
@@ -1419,22 +1032,18 @@ ul {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass-extensions\/zen-grids\/stylesheets\/zen\/_grids\.scss}line{font-family:\0000346}}
   body.node-type-fitxa-espectacle #mm-node-region:before, body.node-type-fitxa-espectacle #mm-node-region:after,
   body.node-type-fitxa-entorn #mm-node-region:before,
-  body.node-type-fitxa-entorn #mm-node-region:after,
-  body.node-type-fitxa-premsa #mm-node-region:before,
-  body.node-type-fitxa-premsa #mm-node-region:after {
+  body.node-type-fitxa-entorn #mm-node-region:after {
     content: "";
     display: table;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass-extensions\/zen-grids\/stylesheets\/zen\/_grids\.scss}line{font-family:\0000350}}
   body.node-type-fitxa-espectacle #mm-node-region:after,
-  body.node-type-fitxa-entorn #mm-node-region:after,
-  body.node-type-fitxa-premsa #mm-node-region:after {
+  body.node-type-fitxa-entorn #mm-node-region:after {
     clear: both;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003453}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003445}}
   body.node-type-fitxa-espectacle #mm-node-region #right-media,
-  body.node-type-fitxa-entorn #mm-node-region #right-media,
-  body.node-type-fitxa-premsa #mm-node-region #right-media {
+  body.node-type-fitxa-entorn #mm-node-region #right-media {
     float: right;
     width: 25%;
     margin-right: 75%;
@@ -1447,10 +1056,9 @@ ul {
     box-sizing: border-box;
     word-wrap: break-word;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003462}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003454}}
   body.node-type-fitxa-espectacle #mm-node-region #images-wrapper,
-  body.node-type-fitxa-entorn #mm-node-region #images-wrapper,
-  body.node-type-fitxa-premsa #mm-node-region #images-wrapper {
+  body.node-type-fitxa-entorn #mm-node-region #images-wrapper {
     float: right;
     width: 75%;
     margin-right: 0%;
@@ -1468,22 +1076,18 @@ ul {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass-extensions\/zen-grids\/stylesheets\/zen\/_grids\.scss}line{font-family:\0000346}}
   body.node-type-fitxa-espectacle #mm-node-region #images-wrapper:before, body.node-type-fitxa-espectacle #mm-node-region #images-wrapper:after,
   body.node-type-fitxa-entorn #mm-node-region #images-wrapper:before,
-  body.node-type-fitxa-entorn #mm-node-region #images-wrapper:after,
-  body.node-type-fitxa-premsa #mm-node-region #images-wrapper:before,
-  body.node-type-fitxa-premsa #mm-node-region #images-wrapper:after {
+  body.node-type-fitxa-entorn #mm-node-region #images-wrapper:after {
     content: "";
     display: table;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass-extensions\/zen-grids\/stylesheets\/zen\/_grids\.scss}line{font-family:\0000350}}
   body.node-type-fitxa-espectacle #mm-node-region #images-wrapper:after,
-  body.node-type-fitxa-entorn #mm-node-region #images-wrapper:after,
-  body.node-type-fitxa-premsa #mm-node-region #images-wrapper:after {
+  body.node-type-fitxa-entorn #mm-node-region #images-wrapper:after {
     clear: both;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003468}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003460}}
   body.node-type-fitxa-espectacle #mm-node-region #images-wrapper h5,
-  body.node-type-fitxa-entorn #mm-node-region #images-wrapper h5,
-  body.node-type-fitxa-premsa #mm-node-region #images-wrapper h5 {
+  body.node-type-fitxa-entorn #mm-node-region #images-wrapper h5 {
     float: right;
     width: 75%;
     margin-right: 25%;
@@ -1497,16 +1101,145 @@ ul {
     word-wrap: break-word;
     padding-left: inherit;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003474}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003466}}
   body.node-type-fitxa-espectacle #mm-node-region #images-wrapper .pager,
-  body.node-type-fitxa-entorn #mm-node-region #images-wrapper .pager,
-  body.node-type-fitxa-premsa #mm-node-region #images-wrapper .pager {
+  body.node-type-fitxa-entorn #mm-node-region #images-wrapper .pager {
     float: right;
     width: 75%;
     margin-right: 25%;
     margin-left: -100%;
     padding-left: 40px;
     padding-right: 40px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    word-wrap: break-word;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass-extensions\/zen-grids\/stylesheets\/zen\/_grids\.scss}line{font-family:\0000346}}
+  body.node-type-fitxa-premsa article.node-fitxa-premsa header:before, body.node-type-fitxa-premsa article.node-fitxa-premsa header:after {
+    content: "";
+    display: table;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass-extensions\/zen-grids\/stylesheets\/zen\/_grids\.scss}line{font-family:\0000350}}
+  body.node-type-fitxa-premsa article.node-fitxa-premsa header:after {
+    clear: both;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003480}}
+  body.node-type-fitxa-premsa article.node-fitxa-premsa header #3_col {
+    float: right;
+    width: 75%;
+    margin-right: 0%;
+    margin-left: -75%;
+    padding-left: 10px;
+    padding-right: 10px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    word-wrap: break-word;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass-extensions\/zen-grids\/stylesheets\/zen\/_grids\.scss}line{font-family:\0000346}}
+  body.node-type-fitxa-premsa article.node-fitxa-premsa header #3_col:before, body.node-type-fitxa-premsa article.node-fitxa-premsa header #3_col:after {
+    content: "";
+    display: table;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass-extensions\/zen-grids\/stylesheets\/zen\/_grids\.scss}line{font-family:\0000350}}
+  body.node-type-fitxa-premsa article.node-fitxa-premsa header #3_col:after {
+    clear: both;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003483}}
+  body.node-type-fitxa-premsa article.node-fitxa-premsa header #3_col #top-left4-wrapper {
+    float: right;
+    width: 75%;
+    margin-right: 0%;
+    margin-left: -75%;
+    padding-left: 10px;
+    padding-right: 10px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    word-wrap: break-word;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass-extensions\/zen-grids\/stylesheets\/zen\/_grids\.scss}line{font-family:\0000346}}
+  body.node-type-fitxa-premsa article.node-fitxa-premsa header #3_col #top-left4-wrapper:before, body.node-type-fitxa-premsa article.node-fitxa-premsa header #3_col #top-left4-wrapper:after {
+    content: "";
+    display: table;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass-extensions\/zen-grids\/stylesheets\/zen\/_grids\.scss}line{font-family:\0000350}}
+  body.node-type-fitxa-premsa article.node-fitxa-premsa header #3_col #top-left4-wrapper:after {
+    clear: both;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003486}}
+  body.node-type-fitxa-premsa article.node-fitxa-premsa header #3_col #top-left4-wrapper #top-left3-wrapper {
+    float: right;
+    width: 75%;
+    margin-right: 0%;
+    margin-left: -75%;
+    padding-left: 10px;
+    padding-right: 10px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    padding-left: 0;
+    padding-right: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003489}}
+  body.node-type-fitxa-premsa article.node-fitxa-premsa header #3_col #top-left4-wrapper #top-left3-wrapper #superheader {
+    float: right;
+    width: 50%;
+    margin-right: 0%;
+    margin-left: -50%;
+    padding-left: 10px;
+    padding-right: 10px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    word-wrap: break-word;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003492}}
+  body.node-type-fitxa-premsa article.node-fitxa-premsa header #3_col #top-left4-wrapper #top-left3-wrapper .title-region {
+    clear: right;
+    float: right;
+    width: 50%;
+    margin-right: 0%;
+    margin-left: -50%;
+    padding-left: 10px;
+    padding-right: 10px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    word-wrap: break-word;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003496}}
+  body.node-type-fitxa-premsa article.node-fitxa-premsa header #3_col #top-left4-wrapper #top-left3-wrapper .moreinfo-region {
+    clear: right;
+    float: right;
+    width: 50%;
+    margin-right: 0%;
+    margin-left: -50%;
+    padding-left: 10px;
+    padding-right: 10px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    word-wrap: break-word;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003508}}
+  body.node-type-fitxa-premsa article.node-fitxa-premsa header #right-col-premsa {
+    float: right;
+    width: 25%;
+    margin-right: 75%;
+    margin-left: -100%;
+    padding-left: 10px;
+    padding-right: 10px;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -ms-box-sizing: border-box;
@@ -1532,7 +1265,7 @@ ul {
   body.node-type-page article.node-page:after {
     clear: both;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003488}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003522}}
   body.node-type-projecte-artistic article.node-projecte-artistic .field-name-field-imatge-capcalera,
   body.node-type-projecte-artistic article.node-projecte-artistic .tit_pagina,
   body.node-type-projecte-artistic article.node-page .field-name-field-imatge-capcalera,
@@ -1546,15 +1279,15 @@ ul {
     width: 100%;
     margin-right: 0%;
     margin-left: -100%;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -ms-box-sizing: border-box;
     box-sizing: border-box;
     word-wrap: break-word;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003492}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003526}}
   body.node-type-projecte-artistic article.node-projecte-artistic .entradeta,
   body.node-type-projecte-artistic article.node-page .entradeta,
   body.node-type-page article.node-projecte-artistic .entradeta,
@@ -1564,15 +1297,15 @@ ul {
     width: 75%;
     margin-right: 0%;
     margin-left: -75%;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -ms-box-sizing: border-box;
     box-sizing: border-box;
     word-wrap: break-word;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003496}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003530}}
   body.node-type-projecte-artistic article.node-projecte-artistic .col_esq,
   body.node-type-projecte-artistic article.node-page .col_esq,
   body.node-type-page article.node-projecte-artistic .col_esq,
@@ -1582,15 +1315,15 @@ ul {
     width: 75%;
     margin-right: 0%;
     margin-left: -75%;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -ms-box-sizing: border-box;
     box-sizing: border-box;
     word-wrap: break-word;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003500}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003534}}
   body.node-type-projecte-artistic article.node-projecte-artistic .col_dreta,
   body.node-type-projecte-artistic article.node-page .col_dreta,
   body.node-type-page article.node-projecte-artistic .col_dreta,
@@ -1599,8 +1332,8 @@ ul {
     width: 25%;
     margin-right: 75%;
     margin-left: -100%;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -ms-box-sizing: border-box;
@@ -1608,7 +1341,7 @@ ul {
     word-wrap: break-word;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003507}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003541}}
   body.page-temporada .view-temporada tr {
     clear: right;
   }
@@ -1621,7 +1354,7 @@ ul {
   body.page-temporada .view-temporada tr:after {
     clear: both;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003512}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003546}}
   body.page-temporada .view-temporada tr .col-1 {
     float: right;
     width: 25%;
@@ -1635,7 +1368,7 @@ ul {
     box-sizing: border-box;
     word-wrap: break-word;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003515}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003549}}
   body.page-temporada .view-temporada tr .col-2 {
     float: right;
     width: 25%;
@@ -1649,7 +1382,7 @@ ul {
     box-sizing: border-box;
     word-wrap: break-word;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003518}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003552}}
   body.page-temporada .view-temporada tr .col-3 {
     float: right;
     width: 25%;
@@ -1663,7 +1396,7 @@ ul {
     box-sizing: border-box;
     word-wrap: break-word;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003521}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mega\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003555}}
   body.page-temporada .view-temporada tr .col-4 {
     float: right;
     width: 25%;

@@ -718,7 +718,6 @@ line-height: 14px;
     <div id="right-col">
       <div id="parent_espectacle">
         <h3 class="col-title"><?php print t('The show'); ?></h3> 
-<?php dsm($content);?>
           <?php  print $content['eva_espectacle_entity_view_1']['#markup']; ?>
       </div>
     </div>

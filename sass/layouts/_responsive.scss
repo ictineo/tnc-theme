@@ -271,21 +271,15 @@ $zen-auto-include-item-base: false;
   }
 
   body.node-type-fitxa-espectacle,
-  body.node-type-fitxa-entorn, 
-  body.node-type-fitxa-premsa {
+  body.node-type-fitxa-entorn { 
     article.node-fitxa-espectacle, 
-    article.node-fitxa-entorn, 
-    article.node-fitxa-premsa {
+    article.node-fitxa-entorn { 
       header {
         $zen-column-count: 4;
         $zen-auto-include-item-base: true;
         $zen-gutter-width:  20px;
         @include zen-grid-container();
-
         #tarifes {
-          @include zen-grid-item(1,4);
-        }
-        #right-col-premsa {
           @include zen-grid-item(1,4);
         }
         /** tarifes ha d'anar a dalt abans de canviar el count **/
@@ -387,22 +381,19 @@ $zen-auto-include-item-base: false;
                   }
                 }
               }
-              .field-name-field-artista-carrec > .field-items{
+              .field-name-field-artista-carrec > .field-items {
                 $zen-column-count: 3;
                 @include zen-grid-container();
-                //.field-item.even .field-collection-item-field-artista-carrec {
                 &>.field-item:nth-child(2n+1) {
                   @include zen-clear();
                   @include zen-grid-item(1,2);
                 }
-                //.field-item.odd .field-collection-item-field-artista-carrec {
                 &>.field-item:nth-child(2n) {
                   @include zen-grid-item(1,3);
                 }
               }
             }
           }
-        }
         #moreinfo-wrapper {
           $zen-column-count: 3;
           @include zen-grid-container();
@@ -410,24 +401,25 @@ $zen-auto-include-item-base: false;
             @include zen-grid-item(2,1);
           }
         }
-        #xxss-wrapper {
-          $zen-column-count: 4;
+      }
+      #xxss-wrapper {
+        $zen-column-count: 4;
+        @include zen-clear();
+        @include zen-grid-item(3,1);
+        .easy_social_box {
           @include zen-clear();
           @include zen-grid-item(3,1);
-          .easy_social_box {
-            @include zen-clear();
-            @include zen-grid-item(3,1);
+        }
+        #xxss-external-content {
+          @include zen-clear();
+          $zen-column-count: 2;
+          @include zen-grid-container();
+          .block-facebook {
+              //facebook-comments-box
+            @include zen-grid-item(1,1);
           }
-          #xxss-external-content {
-            @include zen-clear();
-            $zen-column-count: 2;
-            @include zen-grid-container();
-            .block-facebook {
-              //facebook-comments-box {
-              @include zen-grid-item(1,1);
-            }
-            .block-twitter {
-              //field.field-name-field-hashtag-tw {
+          .block-twitter {
+            //field.field-name-field-hashtag-tw 
               @include zen-grid-item(1,2);
               #header-tw {
                 $zen-column-count: 2;
@@ -440,11 +432,9 @@ $zen-auto-include-item-base: false;
                   @include zen-grid-item(1,2);
                 }
               }
-            }
           }
-        }   
-      }
-
+        }
+      }   
     }
     #mm-node-region {
       $zen-column-count: 4;
@@ -478,6 +468,48 @@ $zen-auto-include-item-base: false;
       }
     }
   }
+  body.node-type-fitxa-premsa { 
+    article.node-fitxa-premsa { 
+      header {
+        $zen-column-count: 4;
+        $zen-auto-include-item-base: true;
+        $zen-gutter-width:  20px;
+        @include zen-grid-container();
+        #3_col {
+          @include zen-grid-item(3,1);
+          @include zen-grid-container();
+          #top-left4-wrapper {
+            @include zen-grid-item(3,1);
+            @include zen-grid-container();
+            #top-left3-wrapper {
+              @include zen-grid-item(3,1);
+              @include zen-nested-container();
+              #superheader {
+                @include zen-grid-item(2,1);
+              }
+              .title-region {
+                @include zen-clear();
+                @include zen-grid-item(2,1);
+              }
+              .moreinfo-region {
+                @include zen-clear();
+                @include zen-grid-item(2,1);
+              }
+            }
+            #sessions {
+            }
+          }
+          #main-wrapper {
+          }
+        }
+        $zen-column-count:4;
+        #right-col-premsa {
+          @include zen-grid-item(1,4);
+        }
+      }
+    }
+  }
+
   body.node-type-projecte-artistic,
   body.node-type-page {
     article.node-projecte-artistic,
@@ -522,8 +554,6 @@ $zen-auto-include-item-base: false;
           @include zen-grid-item (1,4);
         }
       }
-
     }
   }
-
 }

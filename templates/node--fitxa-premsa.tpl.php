@@ -15,7 +15,7 @@ drupal_add_js(array('tnc' => array('nid' => $node->nid)), 'setting');
 <article class="node-<?php print $node->nid; ?> <?php print $classes; ?> clearfix"<?php print $attributes; ?>>
   <div id="mm-node-region">
     <!-- inici codi impacte -->
-<script src="http://www.impactecomunicacio.cat/clients/tncweb/media/js/jquery-ui-1.10.4.custom.min.js" type="text/javascript"></script>
+<!--<script src="http://www.impactecomunicacio.cat/clients/tncweb/media/js/jquery-ui-1.10.4.custom.min.js" type="text/javascript"></script>-->
 <style>
 	.mMLateral{
 		position:absolute;
@@ -646,87 +646,60 @@ line-height: 14px;
   </div><!-- /mm-node-region -->
 
   <header>
-    <div id="top-left4-wrapper">
-      <div id="top-left3-wrapper">
-        <div id="supraheader">
-          <!--span class="sala"><?php print render($content['field_sala']);?>.</span><span class="data"><?php print render($content['field_data']); ?></span-->
-          <span class="sala"><?php print $content['field_sala'][0]['#markup'];?>.</span> 
-          <span class="data"><?php 
-            $date_vals = $content['field_data']['#items'][0];
-            print date('d/m/Y', strtotime($date_vals['value']));
-            if($date_vals['value'] != $date_vals['value2']) {
-              print ' > ' . date('d/m/Y', strtotime($date_vals['value2']));
-            }
-            ?></span>
+    <div id="3_col">
+      <div id="top-left4-wrapper">
+        <div id="top-left3-wrapper">
+          <div id="supraheader">
+            <!--span class="sala"><?php print render($content['field_sala']);?>.</span><span class="data"><?php print render($content['field_data']); ?></span-->
+            <span class="sala"><?php print $content['field_sala'][0]['#markup'];?>.</span> 
+            <span class="data"><?php 
+              $date_vals = $content['field_data']['#items'][0];
+              print date('d/m/Y', strtotime($date_vals['value']));
+              if($date_vals['value'] != $date_vals['value2']) {
+                print ' > ' . date('d/m/Y', strtotime($date_vals['value2']));
+              }
+              ?></span>
+          </div>
+          <div class="title-region">
+            <h2><?php print $title; ?></h2>
+            <h3><?php print $content['field_subtitol'][0]['#markup']; ?></h3>
+          </div>
+          <div class="moreinfo-region">
+            <h4><?php print $content['field_autor'][0]['#markup']; ?></h4>
+            <h5><?php print $content['field_rol_destacat'][0]['#markup']; ?></h5>
+          </div>
+        </div><!-- /top-left3-wrapper -->
+        <div id="sessions">
+          <?php print t('Press conference'); ?>
+          <?php print render($content['field_entrada']); ?>
+          <?php print render($content['field_dia']); ?>
+          <?php print render($content['field_hora']); ?>
         </div>
-        <div class="title-region">
-          <h2><?php print $title; ?></h2>
-          <h3><?php print $content['field_subtitol'][0]['#markup']; ?></h3>
+      </div>
+      <div id="main-wrapper">
+        <div id="text-wrapper">
+          <span class="separator-left separator">&nbsp; </span>
+          <span class="tnc-tabs">
+            <span class="tnc-tab tnc-tab-1"><?php print t('Introduction'); ?></span>
+            <span class="tnc-tab tnc-tab-3"><?php print t('Calendar'); ?></span>
+          </span>
+          <div id="main-text-wrapper">
+            <div class="destacats-wrapper">
+              <?php print render($content['field_destacats']); ?>
+            </div>
+            <div class="presentation-col">
+              <?php print render($content['body']); ?>
+            </div>
+          </div>
         </div>
-        <div class="moreinfo-region">
-          <h4><?php print $content['field_autor'][0]['#markup']; ?></h4>
-          <h5><?php print $content['field_rol_destacat'][0]['#markup']; ?></h5>
-        </div>
-      </div><!-- /top-left3-wrapper -->
-      <div id="sessions">
-        <?php print t('Press conference'); ?>
-        <?php print render($content['field_entrada']); ?>
-        <?php print render($content['field_dia']); ?>
-        <?php print render($content['field_hora']); ?>
       </div>
     </div>
     <div id="right-col-premsa">
       <div id="parent_espectacle">
         <h3 class="col-title"><?php print t('The show'); ?></h3> 
-<?php dsm($content);?>
           <?php print $content['eva_espectacle_entity_view_3']['#markup']; ?>
       </div>
     </div>
   </header>
-
-
-  <div id="main-wrapper">
-    <div id="text-wrapper">
-      <span class="separator-left separator">&nbsp; </span>
-      <span class="tnc-tabs">
-        <span class="tnc-tab tnc-tab-1"><?php print t('Introduction'); ?></span>
-<!--        <span class="tnc-tab tnc-tab-2"><?php// print t('In-depth'); ?></span> -->
-        <span class="tnc-tab tnc-tab-3"><?php print t('Calendar'); ?></span>
-      </span>
-      <div id="main-text-wrapper">
-        <div class="destacats-wrapper">
-          <?php print render($content['field_destacats']); ?>
-        </div>
-        <div class="presentation-col">
-          <?php print render($content['body']); ?>
-  <?php 
-            //$field_left = $content['field_artista_carrec'];
-            //foreach($content['field_artista_carrec']['#items'] as $id => $itm) {
-              //if (array_shift($content['field_artista_carrec'][$id]['entity']['field_collection_item'])['field_carrec']['#items'][0]['tid'] == $tid_dir
-                //|| array_shift($content['field_artista_carrec'][$id]['entity']['field_collection_item'])['field_carrec']['#items'][0]['tid'] == $tid_act) {
-                  //unset($content['field_artista_carrec']['#items'][$id]);
-                  //unset($content['field_artista_carrec'][$id]);
-                //} else {
-                  //unset($field_left['#items'][$id]);
-                  //unset($field_left[$id]);
-                //}
-              //}
-  ?>
-          <div class="artista-carrec-left">
-            <?php print render($content['field_artista_carrec']); ?>
-          </div>
-          <?php print render($content['field_artista_carrec']); ?>
-        </div>
-      </div>
-      <div id="moreinfo-wrapper">
-        <div class="destacats-wrapper">
-          <?php print render($content['field_destacats']); ?>
-        </div>
-        <?php print render($content['field_a_fons']); ?>
-      </div>
-      <?php print views_embed_view('blo', 'block'); ?>
-    </div>
-  </div>
-
 </article>
 <?php drupal_add_js(drupal_get_path('theme','tnc') . '/js/efectes-fitxa.js'); ?>
