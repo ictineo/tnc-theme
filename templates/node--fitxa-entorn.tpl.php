@@ -516,6 +516,7 @@ line-height: 14px;
 </div>			
  
     <!-- final codi impacte -->
+  
   <?php if(isset($content['field_estrenat']['#items'][0]['value']) && $content['field_estrenat']['#items'][0]['value'] == '0'):?>
     <?php print render($content['field_imatge_capcalera']); ?>
   <?php else: ?>
@@ -719,7 +720,7 @@ line-height: 14px;
       <div id="parent_espectacle">
         <h3 class="col-title"><?php print t('The show'); ?></h3> 
           <?php  print $content['eva_espectacle_entity_view_1']['#markup']; ?>
-      </div>
+        </div>
     </div>
     <div id="text-wrapper">
       <span class="separator-left separator">&nbsp; </span>
@@ -759,7 +760,32 @@ line-height: 14px;
         </div>
         <?php print render($content['field_a_fons']); ?>
       </div>
-      <?php print views_embed_view('blo', 'block'); ?>
+       <?php  
+          // -------------------------------- Joangi++ ------------------ Projecte Ictineo S.C.C.L -------------------------------- 
+          // Extraurem les session de l'espectacle relacionat amb l'entorn, filtrarem les passades, buscarem la futura mes propera,
+          // extraurem el mes i li passarem al calendari, a fi de que aquest comenci per al més on hi han session
+          // ---------------------------------------------------------------------------------------------------------------------  
+          //Extraccio de l'espectacle relacionat amb l'entorn via la view que ja tenim construida       
+          $view_results=views_get_view_result('eva_espectacle','entity_view 1',$node->nid);
+          $espectacle = node_load($view_results['0']->nid);
+          $i=0;   //auxiliars
+          $p=0;   //auxiliars
+          foreach ($espectacle->field_dia_hora['und'] as $k => $sessio): 
+            $myfield[$i] = entity_load('field_collection_item', array($sessio['value']));      
+          //filtrem les passades amb granualirtat de segons
+            if (strtotime($myfield[$i][$sessio['value']]->field_dia_sessio['und']['0']['value']) >= time()){ 
+              $sessiofutura[$p] = $myfield[$i][$sessio['value']]->field_dia_sessio['und']['0']['value']; 
+              $p = $p + 1;
+            }
+            $i = $i + 1;
+          endforeach;        
+          //ordenem de mes petita a mes gran, i la més petita serà la més propera
+          sort($sessiofutura);
+          //formatem amb el format que vol el filtre de la view Block Calendari  
+          $primera_sessiofutura = substr($sessiofutura['0'], 0, 7);
+       ?> 
+       <?php print views_embed_view('blo', 'block',$primera_sessiofutura.'/'.$sessio['value']); ?>
+       <?php // ------------------------------- Fi del devel ---------------------------------------------------------------------- ?>
     </div>
     <div id="xxss-wrapper">
       <?php print render($content['easy_social_1']); ?>
