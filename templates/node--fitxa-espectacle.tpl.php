@@ -749,7 +749,7 @@ line-height: 14px;
           $primera_sessiofutura = substr($sessiofutura['0'], 0, 7);
         ?>
         <?php print views_embed_view('blo', 'block',$primera_sessiofutura.'/'.$node->nid); ?>
-        <?php //---------------------------------- fi del devel ------------------------------------
+        <!---------------------------------- fi del devel ------------------------------------ -->
     </div>
     <div id="xxss-wrapper">
       <?php print render($content['easy_social_1']); ?>
