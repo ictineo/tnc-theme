@@ -277,16 +277,46 @@ $zen-auto-include-item-base: false;
       .field-name-field-columna-1 {
         &>.field-items {
           @include zen-grid-item(1,3);
-          @include zen-nested-container();
-          .field {
-            @include zen-clear();
-          }
-          .views-row {
-            margin-top: 30px;
-            @include zen-clear();
+          .field-item {
             @include zen-grid-item(1,3);
-            div.field {
+            @include zen-nested-container();
+            .field-name-field-titol {
+              @include zen-grid-item(6,1);
+            }
+            .field-name-field-espectacle-menu {
               @include zen-clear();
+              @include zen-grid-item(6,1);
+            }
+            .field-name-field-espectacle-prox {
+              @include zen-clear();
+              @include zen-grid-item(6,1);
+              .view-view-megamenu { 
+                .view-content {
+                  @include zen-clear();
+                  @include zen-grid-item(6,1);
+                  @include zen-nested-container();
+                  .views-row-odd {
+                    @include zen-clear();
+                    @include zen-grid-item(6,1);
+                    left: 0;
+                    margin-top: 30px;
+                    margin: 0 auto;
+                    div.field {
+                      @include zen-clear();
+                    }
+                  }
+                  .views-row-even {
+                    margin-top: 30px;
+                    @include zen-clear();
+                    @include zen-grid-item(6,1);
+                    left: 0;
+                    margin: 0 auto;
+                    div.field {
+                      @include zen-clear();
+                    }
+                  }
+                }
+              }
             }
           }
         }
