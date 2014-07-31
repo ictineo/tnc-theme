@@ -672,8 +672,7 @@ line-height: 14px;
         <div id="sessions">
           <div class="press-conf"><?php print t('Press conference'); ?></div>
           <?php print render($content['field_entrada']); ?>
-          <?php print render($content['field_dia']); ?>
-          <?php print render($content['field_hora']); ?>
+          <?php print $content['sessions_node_entity_view_3']['#markup']; ?>
         </div>
       </div>
       <div id="main-wrapper">
