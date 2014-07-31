@@ -4941,26 +4941,6 @@ body.node-type-fitxa-premsa article.node-fitxa-premsa #main-wrapper #xxss-wrappe
   background-position: -28px -62px;
 }
 
-/* Barra calendari home*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mmenu\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003232}}
-body.front #main .view-calendar .view-content #cal-line span.day {
-  border-radius: 0 100px 100px 0;
-  color: white;
-  float: left;
-  margin: 0 -16px 0 0;
-  padding: 10px 22px 10px 15px;
-  position: relative;
-  text-decoration: none;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
-  z-index: 1;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mmenu\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003243}}
-body.front #main .view-calendar .view-content #cal-line span.day:before {
-  background-image: linear-gradient(to right bottom, #bfc0b0 0%, #cecfc1 100%);
-  border: 1px solid #bfc0b0;
-  box-shadow: 4px 0 6px 0 #999a8a;
-}
-
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mmenu\/sites\/all\/themes\/tnc\/sass\/_front-slide\.scss}line{font-family:\000039}}
 body.front #mm-wrapper {
   display: block;
@@ -5639,6 +5619,21 @@ body.page-temporada .view-temporada tr .entorn .field-name-field-entorn .field-i
   padding: 0;
   text-transform: none;
   margin-top: 0;
+}
+
+/* Barra calendari home*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mmenu\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\000037}}
+body.front #main .view-calendar .view-content #cal-line span.day {
+  border-radius: 0 100px 100px 0;
+  color: white;
+  float: left;
+  margin: 0 -16px 0 0;
+  padding: 10px 22px 10px 15px;
+  position: relative;
+  text-decoration: none;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  z-index: 1;
+  background-color: #008991;
 }
 
 /**
