@@ -60,6 +60,7 @@ body.node-type-fitxa-premsa article.node-fitxa-premsa {
         display: inline;
       }
       .press-conf,
+      .view-id-sessions_node.view-display-id-entity_view_3 .view-header,
       .view-id-sessions_node.view-display-id-entity_view_1 .view-header {
         @include tit_mig;
         text-transform: uppercase;
@@ -117,6 +118,20 @@ body.node-type-fitxa-premsa article.node-fitxa-premsa {
           line-height: 17px;
           font-family: 'Open Sans', sans-serif;
           font-weight: 400;
+        }
+      }
+      /**especifiquem estils pel block sessions de premsa*/
+      
+      .views-label.views-label-field-dia-sessio.press {
+        font-weight: 700;
+      }
+      .view-display-id-entity_view_3 .view-content .field-name-field-dia-sessio span {
+        font-weight: 400;
+      }
+      .view-display-id-entity_view_3 .views-field.views-field-field-hora-sessio {
+        display: block;
+        .views-label-field-hora-sessio.press {
+          font-weight: 700;
         }
       }
     }
