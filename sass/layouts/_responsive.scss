@@ -668,4 +668,16 @@ $zen-auto-include-item-base: false;
       }
     }
   }
+  body.front #main {
+    .view-carrousel.view-display-id-block_7 .jcarousel-skin-default .jcarousel-container-horizontal .jcarousel-clip-horizontal .jcarrousel .jcarrousel-item {
+      $zen-column-count:7;
+      @include zen-grid-container();
+      .field-name-field-imatge {
+        @include zen-grid-item(1,1);
+      }
+      .field-name-body {
+        @include zen-grid-item(2,6);
+      }
+    }
+  }
 }
