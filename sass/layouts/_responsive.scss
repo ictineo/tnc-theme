@@ -275,57 +275,42 @@ $zen-auto-include-item-base: false;
       $zen-column-count: 6;
       @include zen-grid-container();
       .field-name-field-columna-1 {
-        .field-items .field-item {
-          @include zen-grid-item(1,3);
-          @include zen-nested-container();
-          .field-name-field-titol .field-item {
-            @include zen-clear();
-            @include zen-grid-item(6,1);
-          }
-          .field-name-field-espectacle-menu .field-item {
-            @include zen-clear();
-            @include zen-grid-item(6,1);
-          }
-          .field-name-field-espectacle-prox .field-items .field-item {
-            $zen-column-count: 6;
-            .view-id-view_megamenu.view-display-id-block_2 {
+        @include zen-grid-item(1,3);
+        .field-items {
+          $zen-column-count:1;
+          @include zen-grid-container;
+          .field-item  {
               @include zen-clear();
-              @include zen-grid-item(6,6);
-              @include zen-nested-container();
-              .views-row.views-row-odd {
+            @include zen-grid-item(1,1);
+            .field-name-field-titol {    
+              $zen-column-count:1;
+              @include zen-clear();
+              @include zen-grid-item(1,1);
+            }
+            .field .view-content {
+              position:relative;
+              $zen-column-count:1;
+              @include zen-clear();
+              @include zen-grid-item(1,1);
+              top: 30px;
+              .views-row {
                 @include zen-clear();
-                //@include zen-grid-item(6,1);
-                //@include zen-nested-container();
+                $zen-column-count:5;
+                $zen-gutter-width: 3px;
+                @include zen-grid-container();
+                //@include zen-grid-background();
                 left: 0;
-                margin-top: 30px;
-                margin: 0 auto;
-                .field.field-name-field-data .field-items .field-item {
-                  @include zen-clear();
-                  span.date-display-start,
-                  span.date-display-end {
+                position:relative;
+                .field.field-name-field-imatge-capcalera {
+                  @include zen-grid-item(2,1);
+                }
+                .views-field.views-field-nothing .nested {
+                  @include zen-grid-item (2,3);
+                  @include zen-nested-container();
+                  .field {
                     @include zen-clear();
-                    @include zen-grid-item(6,1);
-                    //  display: inline-block;
+                    @include zen-grid-item(5,1);
                   }
-                }
-            $zen-column-count: 6;
-                .field-name-field-sala .field-items .field-item {
-                  @include zen-clear();
-                  @include zen-grid-item(6,1);
-                }
-                .field-name-field-title span.field-content {
-                  @include zen-clear();
-                  @include zen-grid-item(6,1);
-                }
-              }
-              .views-row-even {
-                margin-top: 30px;
-                @include zen-clear();
-                @include zen-grid-item(6,1);
-                left: 0;
-                margin: 0 auto;
-                div.field {
-                  @include zen-clear();
                 }
               }
             }
