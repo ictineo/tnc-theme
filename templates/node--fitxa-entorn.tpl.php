@@ -42,7 +42,8 @@ drupal_add_js(array('tnc' => array('nid' => $node->nid)), 'setting');
 ?>
 <article class="node-<?php print $node->nid; ?> <?php print $classes; ?> clearfix"<?php print $attributes; ?>>
   <div id="mm-node-region">
-    <!-- inici codi impacte -->
+
+    <!-- inici codi impacte 
 <script src="http://www.impactecomunicacio.cat/clients/tncweb/media/js/jquery-ui-1.10.4.custom.min.js" type="text/javascript"></script>
 <style>
 	.mMLateral{
@@ -364,9 +365,9 @@ line-height: 14px;
 							<li><a>
 									> <span class="mayus">Restaurant del TNC</span><br>
 									<span>Conferència Musicada</span><br> 
-									<span class="titul">Joan Viladomat, compositor universal i mestre de cupletistes<!--(Viatge a la Barcelona descordada dels anys 20)--></span><br>
+									<span class="titul">Joan Viladomat, compositor universal i mestre de cupletistes (Viatge a la Barcelona descordada dels anys 20</span><br>
 									3 d'octubre 18:30h.<br> 
-									<!--Jaume Collell-->
+									Jaume Collell
 								</a></li>
 						</ul>
 					</div>
@@ -377,7 +378,7 @@ line-height: 14px;
 									> <span class="mayus">Restaurant del TNC</span><br>
 									<span>Conferència</span><br>
 									<span class="titul">Lo sobrenatural en <br>Valle-Inclán</span><br>
-									22 d'octubre 18:30h.<br><!-- Ignacio García May-->
+									22 d'octubre 18:30h.<br> Ignacio García May
 								</a></li>
 							<li><a>
 									> <span class="mayus">Restaurant del TNC</span><br> 
@@ -515,7 +516,7 @@ line-height: 14px;
 	</div>	
 </div>			
  
-    <!-- final codi impacte -->
+ final codi impacte -->
   
   <?php if(isset($content['field_estrenat']['#items'][0]['value']) && $content['field_estrenat']['#items'][0]['value'] == '0'):?>
     <?php print render($content['field_imatge_capcalera']); ?>

@@ -339,9 +339,9 @@ line-height: 14px;
 							<li><a>
 									> <span class="mayus">Restaurant del TNC</span><br>
 									<span>Conferència Musicada</span><br> 
-									<span class="titul">Joan Viladomat, compositor universal i mestre de cupletistes<!--(Viatge a la Barcelona descordada dels anys 20)--></span><br>
+									<span class="titul">Joan Viladomat, compositor universal i mestre de cupletistes<-(Viatge a la Barcelona descordada dels anys 20)-></span><br>
 									3 d'octubre 18:30h.<br> 
-									<!--Jaume Collell-->
+									Jaume Collell->
 								</a></li>
 						</ul>
 					</div>
@@ -352,7 +352,7 @@ line-height: 14px;
 									> <span class="mayus">Restaurant del TNC</span><br>
 									<span>Conferència</span><br>
 									<span class="titul">Lo sobrenatural en <br>Valle-Inclán</span><br>
-									22 d'octubre 18:30h.<br><!-- Ignacio García May-->
+									22 d'octubre 18:30h.<br><- Ignacio García May->
 								</a></li>
 							<li><a>
 									> <span class="mayus">Restaurant del TNC</span><br> 
