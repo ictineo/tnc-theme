@@ -1,8 +1,11 @@
+.front #mm-node-region {
+  display: none; //jude added
+}
 #mm-node-region {
   .field-name-field-imatge-capcalera img{
     width: 100%;
   }
-  /** etils generals **/
+  /** estils generals **/
   background-color: $negre;
   min-height: 600px;
   h5.multimedia-title {
