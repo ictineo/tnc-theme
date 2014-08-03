@@ -132,7 +132,7 @@ $top-menu-h: 80px;
           }
         }
       }
-      .field { //-name-field-espectacle-menu {
+      .field { 
         .view-content .views-row {
           margin-bottom: 10px;
           margin-top: 10px;
@@ -173,7 +173,6 @@ $top-menu-h: 80px;
         .view-display-id-block_3 .view-header {
           border: none;
         }
-
         .view-content .views-row {
         }
         .field-name-field-data {
@@ -253,4 +252,13 @@ $top-menu-h: 80px;
       }
     }
   }
+}
+
+/* Slide capçalera*/
+#mm-wrapper {
+  .view.view-carrousel {
+
+  }
+
+
 }
