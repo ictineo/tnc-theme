@@ -270,11 +270,13 @@ $zen-auto-include-item-base: false;
     }
   }
 
-  #mm-wrapper .view-id-carrega_megamenu.view-display-id-block_3, #mm-wrapper .view-id-carrega_megamenu.view-display-id-block_1 {
+  #mm-wrapper .view-id-carrega_megamenu {
+        //.view-display-id-block_3, #mm-wrapper .view-id-carrega_megamenu.view-display-id-block_1 {
     .mm-slide-wrapper .mm-content {
       $zen-column-count: 6;
+      $zen-gutters: 30px;
       @include zen-grid-container();
-                @include zen-grid-background();
+               // @include zen-grid-background();
       .field-name-field-columna-1 {
         @include zen-grid-item(1,3);
       }
@@ -290,9 +292,9 @@ $zen-auto-include-item-base: false;
 
       .field-items {
         $zen-column-count:1;
-        $zen-gutter-width: 5px;
+        $zen-gutters: 5px;
         @include zen-grid-container;
-                @include zen-grid-background($grid-color:#C0DEED);
+               // @include zen-grid-background($grid-color:#C0DEED);
         .field-item  {
             @include zen-clear();
           @include zen-grid-item(1,1);
@@ -306,7 +308,6 @@ $zen-auto-include-item-base: false;
             $zen-column-count:1;
             @include zen-clear();
             @include zen-grid-item(1,1);
-            top: 30px;
             .views-row {
               @include zen-clear();
               $zen-column-count:5;

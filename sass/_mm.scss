@@ -90,3 +90,105 @@ $top-menu-h: 80px;
 
   }
 }
+
+/** Dins el megamenu **/
+
+#mm-wrapper {
+  .view-id-carrega_megamenu.view-display-id-block_1,
+  .view-id-carrega_megamenu.view-display-id-block_3 {
+    .views-row {
+       background-color: $gris5;
+     }
+    .mm-slide-wrapper .mm-content {
+      margin-top: 15px;
+      .view-header p {
+        text-transform: uppercase;
+        font-size: 12px;
+        font-weight: 700;
+        color: $titols_b;
+        margin: 0;
+      }
+      .field-name-field-titol {
+        .field-items {
+          margin-right: 30px;
+          border-top: 1px solid $gris2;
+          border-bottom: 1px solid $gris2;
+          padding-top: 2px;
+          padding-bottom: 2px;
+          margin-bottom: 10px;
+          .field-item {
+            font-size: 14px;
+            line-height: 17px;
+            color: $titols_b;
+            text-transform: uppercase;
+            font-weight: 800;
+          }
+        }
+      }
+      .field { //-name-field-espectacle-menu {
+        .view-content .views-row {
+          margin-bottom: 10px;
+          margin-top: 10px;
+          .views-field.views-field-nothing {
+            margin-right: 11px;
+            .nested {
+              .field-item, a {
+                padding-left: 10px;
+                line-height: 12px;
+              }
+              .field-name-field-sala .field-item {
+                text-transform: uppercase;
+                font-size: 12px;
+                font-weight: 600;
+              }
+              .field.titol a {
+                text-transform: uppercase;
+                font-size: 12px;
+                font-weight: 800;
+                color: $titols_b;
+              }
+              .field-name-field-subtitol .field-item {
+                font-size: 10px;
+                color: $titols_b;
+                font-weight: 700;
+              }
+            }
+          }
+        }
+      }
+      .field-name-field-espectacle-prox {
+        .view-header {
+          border-bottom: 1px solid $bora_temporada;
+          margin-right: 30px;
+        }
+        .field-name-field-data {
+          display: inline-block;
+          span.date-display-single {
+            font-size: 12px;
+            &:before {
+              content:'> ';
+            }
+            &:after {
+              content:'.';
+            }
+          }
+        }
+        .field-name-field-sala {
+          display: inline-block;
+          .field-item {
+            font-size: 12px;
+            text-transform: uppercase;
+          }
+        }
+        .views-field-title {
+          display: block;
+          margin-top: -10px;
+          a {
+            font-weight: 700;
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+}
