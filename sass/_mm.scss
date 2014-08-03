@@ -63,7 +63,11 @@ $top-menu-h: 80px;
       padding-right: 8px;
       background-color: $destacat;
       line-height: 26px;
-
+      margin-bottom: 3px;
+      margin-top :0;
+      font-size: 17px;
+      text-transform: uppercase;
+      font-weight: 700;
     }
   }
   .view-id-carrega_megamenu.view-display-id-block_1 {
@@ -156,10 +160,18 @@ $top-menu-h: 80px;
           }
         }
       }
+      .field-name-field-text-lliure,
+      .field-name-field-altres-llistats,
       .field-name-field-espectacle-prox {
         .view-header {
           border-bottom: 1px solid $bora_temporada;
           margin-right: 30px;
+        }
+        .view-display-id-block_3 .view-header {
+          border: none;
+        }
+
+        .view-content .views-row {
         }
         .field-name-field-data {
           display: inline-block;
@@ -173,19 +185,66 @@ $top-menu-h: 80px;
             }
           }
         }
+        .field-name-field-tipus-entorn {
+          display: inline-block;
+          margin-right: 13px;
+          .field-items .field-item {
+            font-size: 12px;
+            line-height: 18px;
+          }
+        }
         .field-name-field-sala {
           display: inline-block;
-          .field-item {
+          .field-items .field-item {
             font-size: 12px;
+            line-height: 18px;
             text-transform: uppercase;
           }
         }
         .views-field-title {
           display: block;
-          margin-top: -10px;
+          margin-top: -5px;
+          margin-right: 13px;
+          font-size: 12px;
+          line-height: 14px;
+          .field-content {
+            font-size: 12px;
+            line-height: 8px;
+          }
           a {
             font-weight: 700;
             font-size: 12px;
+            text-transform: uppercase;
+            line-height: 8px;
+          }
+        }
+        .field-items {
+          font-size: 12px;
+          line-height: 14px;
+          .field-item {
+            font-size: 12px;
+            line-height: 14px;
+            p {
+              margin: 0 30px 0 0;
+              font-size: 12px;
+              line-height: 14px;
+              &.cos_text {
+                font-size: 12px !important; 
+              }
+              img {
+                margin-right: 5px;
+              }
+            }
+          }
+        }
+      }
+      .field-name-field-enllac-megamenu {
+        margin-top: 10px;
+        a {
+          text-transform: uppercase;
+          font-size: 12px;
+          &:before {
+            content: '> ';
           }
         }
       }
