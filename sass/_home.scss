@@ -1,34 +1,61 @@
-/* Barra calendari home*/
-
-body.front #main {
-  .view-calendar {
-    .view-content {
-      #cal-line {
-        span.day {
-          border-radius: 0 100px 100px 0;
-          color: $blanc;
-          float: left;
-          margin: 0 -16px 0 0;
-          padding: 10px 22px 10px 15px;
-          position: relative;
-          text-decoration: none;
-          text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
-          z-index: 1;
-          background-color: $blau1;
+body.front {
+  /*Switcher idioma*/
+  #header {
+    #block-locale-language {
+      float: right;
+      margin: 0;
+      h2.block__title.block-title {
+        display: none;
+      }
+      ul {
+        list-style: none;
+        li {
+          display: inline-block;
+          font-size: 11px;
+          text-transform: uppercase;
+          &.active {
+            font-weight: 700;
+          }
+        }
+        li.es {
+          &:after,
           &:before {
-
+            content: ' | ';
           }
         }
       }
     }
   }
-  .view-carrousel.view-display-id-block_7 {
-    .jcarousel-skin-default .jcarousel-container-horizontal {
-      width: 90%;
-      .jcarousel-clip-horizontal {
-        width: 100%;
+  #main {
+/* Barra calendari home*/
+    .view-calendar {
+      .view-content {
+        #cal-line {
+          span.day {
+            border-radius: 0 100px 100px 0;
+            color: $blanc;
+            float: left;
+            margin: 0 -16px 0 0;
+            padding: 10px 22px 10px 15px;
+            position: relative;
+            text-decoration: none;
+            text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+            z-index: 1;
+            background-color: $blau1;
+            &:before {
+
+            }
+          }
+        }
+      }
+    }
+    .view-carrousel.view-display-id-block_7 {
+      .jcarousel-skin-default .jcarousel-container-horizontal {
+        width: 90%;
+        .jcarousel-clip-horizontal {
+          width: 100%;
+        }
       }
     }
   }
 }
-
