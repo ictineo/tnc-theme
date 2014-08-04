@@ -3,7 +3,7 @@
 $min-height-mm: 800px;
 $main-tab-height: 450px;
 $main-tab-top: 650px;
-$min-tab-height: 200pxpx;
+$min-tab-height: 200px;
 $min-tab-top: 800px;
 
 body.front #mm-wrapper {
@@ -88,7 +88,7 @@ body.front #mm-wrapper {
       border-bottom: 4px solid white;
       padding: 0 100px; // talls laterals
       margin: -400px -100px 0 -100px;
-      height: 900px;
+      height: 1010px; //900px;
 
       & > * {
         @include rotate(-3deg); // compensacio
@@ -112,7 +112,7 @@ body.front #mm-wrapper {
         //@include zen-grid-item(1, 4);
         padding: 0px;
         display: block;
-        height: $main-tab-height;
+        height: 100%;//$main-tab-height;
         top: $main-tab-top;
       }
       //@include zen-clear();
