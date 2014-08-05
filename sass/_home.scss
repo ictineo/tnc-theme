@@ -27,23 +27,107 @@ body.front {
     }
   }
   #main {
+    padding-top: 15px;
 /* Barra calendari home*/
     .view-calendar {
+      margin-top: 0px;
+      .view-header {
+        .date-nav.item-list {
+          margin: 0;
+          padding: 0;
+        }
+        .pager {
+          .date-heading h3 {
+            word-spacing: 2px;
+            font-size: 13px;
+          }
+          .date-prev,
+          .date-next {
+            display: none;
+          }
+        }
+      }
       .view-content {
         #cal-line {
+          div.month-label {
+            display: inline-block;
+            position: relative;
+            bottom: 28px;
+            word-spacing: 2px;
+            font-size: 13px;
+            color: $gris1;
+            text-transform: uppercase;
+            font-weight: 800;
+          }
+          div.month-label + span.day {
+            margin-left: -55px;
+          }
           span.day {
             border-radius: 0 100px 100px 0;
             color: $blanc;
-            float: left;
             margin: 0 -16px 0 0;
-            padding: 10px 22px 10px 15px;
+            padding: 10px 20px 10px 15px;
             position: relative;
             text-decoration: none;
             text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
-            z-index: 1;
+            z-index: 50;
             background-color: $blau1;
-            &:before {
-
+            border-right: 3px solid $blanc;
+          }
+          span.day.event {
+            background-color: $blau3;
+            color: $blau2;
+            font-weight: 800;
+            .events {
+              min-height: 40px;
+              position: absolute;
+              //background-color: $blau3;
+              bottom: 60px;
+              @include caixa_dig($bg:$blau4, $w:'250px',$h:'52px');
+              &:before {
+                margin-bottom: -40px;
+                background-position: 0 -20px;
+                border-radius: 10px 13px 0 0;
+              }
+              
+              .views-field, 
+              .field {
+                padding-left: 20px;
+                width: 230px;
+                height: auto;
+                .field-content,
+                .field-content a {
+                  color: $blau1;
+                  text-transform: uppercase;
+                  font-size: 11px;
+                  line-height: 15px;
+                  font-weight: 600;
+                }
+                .field-content a {
+                  font-weight: 800;
+                }
+              }
+              .field-name-field-hora-sessio {
+                border-radius: 0 0 5px 5px;
+                &:before {
+                  @include bg_sprite();
+                  content: " ";
+                  width: 28px;
+                  height: 28px;
+                  background-position: -87px -66px;
+                  position: absolute;
+                  display: block;
+                  top: 104px;
+                  left: 200px;
+                }
+                .field-items .field-item {
+                  color: $blau1;
+                  font-size: 11px;
+                  line-height: 15px;
+                  font-weight: 600;
+                  min-height: 60px;
+                }
+              }
             }
           }
         }
