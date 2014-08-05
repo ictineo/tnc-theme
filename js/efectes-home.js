@@ -61,7 +61,7 @@ Drupal.behaviors.theme_tnc_homeslide = {
                   $(this).find('.tab-big').animate({top: 650});
                 }
                 if($(this).hasClass('passive')) {
-                  $(this).find('.tab-small').animate({top: 800});
+                  $(this).find('.tab-small').animate({top: 680});//jude canvia de 800 a 680
                 }
               });
             });

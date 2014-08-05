@@ -60,8 +60,9 @@ body.front #mm-wrapper {
       .tab.tab-small {
         padding: 0px;
         display: block;
-        height: 300px;// $min-tab-height; jude comenta
-        top:650px;// $min-tab-top; jude comenta
+        height: auto;// $min-tab-height; jude comenta
+        top:680px;// $min-tab-top; jude comenta
+        overfloww: hidden;
         
 
       }
