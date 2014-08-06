@@ -69,20 +69,29 @@ body.front {
           }
           span.day {
             border-radius: 0 100px 100px 0;
-            color: $blanc;
             margin: 0 -16px 0 0;
-            padding: 5px 14px 8px 16px;
+            padding: 8px 14px 8px 19px;
             position: relative;
-            text-decoration: none;
             text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
             background-color: $blau1;
-            border-right: 3px solid $blanc;
-            font-size: 19px;
-            font-weight: 800;
+            border-right: 2px solid $blanc;
+            span.num {
+              text-decoration: none;
+              font-size: 17px;
+              font-weight: 700;
+              color: $blanc;
+              vertical-align: middle;
+            }
           }
           span.day.event {
             background-color: $blau3;
-            color: $blau2;
+            span.num {
+              color: $blau2;
+              text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+              font-weight: 800;
+              font-size: 17px;
+              vertical-align: middle;
+            }
             .events {
               min-height: 40px;
               position: absolute;
@@ -139,17 +148,17 @@ body.front {
             display: inline-block;
             color: $blau3;
             background-color: $blau3;
-            bottom: 3px;
-            height: 26px;
-            margin-left: -12px;
+            top: 1px;
+            height: 18px;
+            margin-left: -22px;
             a {
               color: $blau3;
               @include bg_sprite();
-              background-position: -2px -58px;
+              background-position: 0px -66px;
               width: 28px;
               height: 28px;
-              margin-right: -5px;
-              padding-right: 17px;
+              margin-right: -3px;
+              padding-right: 22px;
             }
           }
         }
@@ -192,7 +201,7 @@ body.front {
     }
     .view-carrousel.view-display-id-block_3,
     .view-carrousel.view-display-id-block_1 {
-      height: 400px;
+      height: 360px;
       .view-content {
         .jcarousel-skin-default {
           .jcarousel-container.jcarousel-container-horizontal {
@@ -212,7 +221,7 @@ body.front {
                         width: 250px;
                         text-align: left;
                         height: 500px;
-                        margin-top: 5%;
+                        margin-top: 2%;
                         @include caixa_dig($bg:$blanc, $w:'250px',$h:'52px');
                         &:before {
                           margin-bottom: -70px;
@@ -401,8 +410,12 @@ body.front {
       }
     }
     .view-carrousel.view-display-id-block_3 {
-      height: 200px;
-      margin-top: 15px;
+      height: 320px;
+      margin-top: 0px;
+      li.jcarousel-item {
+        @include caixa_petita;
+      }
+
     }
   }
 }

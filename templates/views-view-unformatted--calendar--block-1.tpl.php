@@ -44,9 +44,9 @@ foreach ($days as $date => $rendered) {
     print('<div class="month-label">'.t(date('F', strtotime($date))).'</div>');
   }
   if(!empty($rendered)) {
-    print('<span class="day event">' . date('d', strtotime($date)) . '<div class="events">'.$rendered.'</div></span>');
+    print('<span class="day event"><span class="num">' . date('d', strtotime($date)) . '</span><div class="events">'.$rendered.'</div></span>');
   } else {
-    print('<span class="day">' . date('d', strtotime($date)) . '</span>');
+    print('<span class="day"><span class="num">' . date('d', strtotime($date)) . '</span></span>');
   }
 }
 ?>
