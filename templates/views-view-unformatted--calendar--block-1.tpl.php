@@ -20,8 +20,6 @@ for ($i = 0 ; $i < 30; $i++) {
   $days[date('Y-m-d', $today)] = array();
   /* incrementem el timestap amb un dia */
   $today = strtotime("+1 day", $today);
-  
-
 }
 ?>
 
@@ -52,5 +50,8 @@ foreach ($days as $date => $rendered) {
   }
 }
 ?>
-<div class="cal_link"><?php print('cal'); ?></div>
+<?php $options = array('absolute' => TRUE);
+      $url = url('calendari'); ?>
+?>    
+  <span class="day cal_link"><a href="<?php print($url);?>">.</a></span>
 </div>
