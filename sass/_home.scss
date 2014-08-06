@@ -157,11 +157,252 @@ body.front {
     }
     .view-carrousel.view-display-id-block_7 {
       .jcarousel-skin-default .jcarousel-container-horizontal {
-        width: 90%;
+        width: 100%;
+        padding-left: 0;
         .jcarousel-clip-horizontal {
           width: 100%;
+          height: 80px;
+          li {
+            border: none;
+            background-color: $gris5;
+            .field-name-field-imatge {
+              display: inline-block;
+              float: left;
+              .field-item {
+                margin-top: 4px;
+                img {
+                  height: 75px !important;
+                }
+              }
+            }
+            .field-name-body {
+              .field-item {
+                p {
+                  float: left;
+                  font-size: 19px;
+                  color: $rosa;
+                  margin-left: 15px;
+                  text-transform: uppercase;
+                }
+              }
+            }
+          }
         }
       }
+    }
+    .view-carrousel.view-display-id-block_3,
+    .view-carrousel.view-display-id-block_1 {
+      height: 400px;
+      .view-content {
+        .jcarousel-skin-default {
+          .jcarousel-container.jcarousel-container-horizontal {
+            width: 100%;
+            padding: 0;
+            .jcarousel-clip {
+              width: 100%;
+              ul.jcarousel {
+                li.jcarousel-item {
+                  height: auto;
+                  border: none;
+                  .views-field-nothing {
+                    .field-content {
+                      .tab {
+                        position: absolute;
+                        margin-left: 14%;
+                        width: 250px;
+                        text-align: left;
+                        height: 500px;
+                        margin-top: 5%;
+                        @include caixa_dig($bg:$blanc, $w:'250px',$h:'52px');
+                        &:before {
+                          margin-bottom: -70px;
+                          background-position: 0 -20px;
+                          border-radius: 10px 13px 0 0;
+                        }
+                        .field-name-field-url-compra-reserva {
+                          width: 235px;
+                          height: 10px;
+                          background-color: transparent;
+                          .field-items {
+                            margin-left: 84%;
+                            width: 80px;
+                            a {
+                              @include bola_destc($t:"70px", $bg:$rosa);
+                              border-radius: 50px;
+                              text-transform: uppercase;
+                              font-weight: 800;
+                              font-size: 11px;
+                            }
+                          }
+                        }
+                        .field-name-field-sala .field-items .field-item {
+                          margin-top: 20px;
+                          color: $blau1;
+                        }
+                        .field-name-field-sala,
+                        .field-name-field-data {
+                          height: auto;
+                          padding-left: 15px;
+                          width: 235px;
+                          line-height: 16px;
+                          .field-items {
+                            .field-item,
+                            .field-item span {
+                              line-height: 16px;
+                              font-weight: 700;
+                              text-transform: uppercase;
+                            }
+                          }
+                        }
+                        h3.titol {
+                          width: 235px;
+                          margin-top: 0;
+                          margin-bottom: 0;
+                          padding-top: 15px;
+                          padding-left: 15px;
+                          height: auto;
+                          a {
+                            font-size: 24px;
+                            font-weight: 800;
+                            //line-height: 34px;
+                            color: $blau1;
+                          }
+                        }
+                        .field-name-field-autor,
+                        .field-name-field-rol-destacat {
+                          width: 235px;
+                          height: auto;
+                          padding-left: 15px;
+                          .field-items {
+                            .field-item {
+                              font-size: 13px;
+                              line-height: 16px;
+                              font-weight: 600;
+                              text-transform: uppercase;
+                            }
+                          }
+                        }
+                        .field-name-field-autor .field-items .field-item {
+                          font-weight: 800;
+                          padding-top: 10px;
+                        }
+                        .grup_entorn {
+                          width: 235px;
+                          height: auto;
+                          padding-left: 15px;
+                          font-size: 11px;
+                          font-weight: 800;
+                          padding-top: 10px;
+                          color: $blau1;
+                          text-transform: uppercase;
+                          padding-top: 5px;
+
+                        }
+                        .field-name-field-entorn {
+                          height: auto;
+                          width: 235px;
+                          padding-left: 15px;
+                          margin-top: -5px;
+                          .field-items {
+                            .field-item {
+                              margin-top: 5px;
+                              //margin-left: 15px;
+                              border-bottom: 0.5px solid $bora_temporada;
+                              &:last-of-type {
+                                border: none;
+                                padding-bottom: 50px;
+                              }
+                              .entorn_teaser {
+                                .field-name-field-autor, 
+                                .field-name-field-data,
+                                .field-name-field-tipus-entorn,
+                                .field-name-field-sala {
+                                  display: inline-block;
+                                  width: auto;
+                                  margin: 0;
+                                  padding: 0;
+                                  .field-items {
+                                    .field-item,
+                                    .field-item span {
+                                      font-size: 11px;
+                                      line-height: 15px;
+                                      font-weight: 600;
+                                      margin:0;
+                                      padding: 0;
+                                      color: $gris0;
+                                    }
+                                  }
+                                }
+                                .field-name-field-data {
+                                  .field-items {
+                                    .field-item span {
+                                      &:after {
+                                        content: '. ';
+                                      }
+                                    }
+                                  }
+                                }
+                                .field.field-name-field-sala {
+                                  .field-items {
+                                    div.field-item {
+                                      color: $gris0;
+                                      &:after {
+                                        content: '. ';
+                                      }
+                                    }
+                                  }
+                                }
+                                h2.node-title,
+                                .field-name-field-autor {  
+                                  font-size: 11px;
+                                  display: inline-block;
+                                  width: auto;
+                                  margin: 0;
+                                  padding: 0;
+                                  line-height: 15px;
+                                  a {
+                                    font-size: 11px;
+                                    font-weight: 800;
+                                    color: $gris0;
+                                    text-transform: uppercase;
+                                    &:after {
+                                      content: '. ';
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          a.jcarousel-prev.jcarousel-prev-horizontal,
+          a.jcarousel-prev.jcarousel-prev-horizontal:hover {
+            @include bg_sprite;
+            width: 28px;
+            height: 28px;
+            background-position: -30 -30px;
+            margin-top: 10%;
+          }
+          a.jcarousel-next.jcarousel-next-horizontal,
+          a.jcarousel-next.jcarousel-next-horizontal:hover {
+            @include bg_sprite;
+            width: 28px;
+            height: 28px;
+            background-position: -30 -30px;
+            margin-top: 10%;
+          }
+        }
+      }
+    }
+    .view-carrousel.view-display-id-block_3 {
+      height: 200px;
+      margin-top: 15px;
     }
   }
 }
