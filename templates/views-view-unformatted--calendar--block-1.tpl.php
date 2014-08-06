@@ -52,4 +52,5 @@ foreach ($days as $date => $rendered) {
   }
 }
 ?>
+<div class="cal_link"><?php print('cal'); ?></div>
 </div>

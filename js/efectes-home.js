@@ -83,16 +83,11 @@ Drupal.behaviors.theme_tnc_homeslide = {
     }, function () {
       jQuery(this).find('.events').hide();
     });
-    var set_zindex = function(){
-    var subsection = $('.day');
-    var subsections = subsection.length;
-    var z = 50;
-    var manue = 50;
-    subsection.each(function(i){
-    $(this).css('z-index', subsection.length-i);
+    var l = $('.day').length;
+    $('.day').each(function(i) {
+       $(this).css('z-index', l - i);
     });
-    }
-    set_zindex();
+    jQuery('.month-label').prev('.day').addClass('pre_month');
   }
   };
 

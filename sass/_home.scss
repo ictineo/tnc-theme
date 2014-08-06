@@ -49,10 +49,11 @@ body.front {
       }
       .view-content {
         #cal-line {
+          margin-top: 5px;
           div.month-label {
             display: inline-block;
             position: relative;
-            bottom: 28px;
+            bottom: 34px;
             word-spacing: 2px;
             font-size: 13px;
             color: $gris1;
@@ -60,24 +61,27 @@ body.front {
             font-weight: 800;
           }
           div.month-label + span.day {
-            margin-left: -55px;
+            margin-left: -75px;
+          }
+          span.day.pre_month {
+            border-right: 6px solid $blanc;
           }
           span.day {
             border-radius: 0 100px 100px 0;
             color: $blanc;
             margin: 0 -16px 0 0;
-            padding: 10px 20px 10px 15px;
+            padding: 5px 14px 8px 16px;
             position: relative;
             text-decoration: none;
             text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
-            z-index: 50;
             background-color: $blau1;
             border-right: 3px solid $blanc;
+            font-size: 19px;
+            font-weight: 800;
           }
           span.day.event {
             background-color: $blau3;
             color: $blau2;
-            font-weight: 800;
             .events {
               min-height: 40px;
               position: absolute;
