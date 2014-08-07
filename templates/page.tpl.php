@@ -34,6 +34,9 @@
 
   <?php /** contingut insertat dinàmicament via js **/ ?>
   <div id="mm-wrapper">
+<?php print views_embed_view('carrega_megamenu', 'block_1'); ?>
+<?php print views_embed_view('carrega_megamenu', 'block_3'); ?>
+<?php drupal_add_js(drupal_get_path('theme', 'tnc') . '/js/mm.js'); ?>
   </div>
 
   <div id="main">
