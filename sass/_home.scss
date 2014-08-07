@@ -483,7 +483,57 @@ body.front {
       li.jcarousel-item {
         @include caixa_petita;
       }
-
+    }
+    .buttons-region {
+      height: auto;
+      $zen-column-count:4;
+      @include zen-grid-container;
+      .wrapper:nth-child(1) {
+        @include zen-grid-item(1,1);
+      }
+      .wrapper:nth-child(2) {
+        @include zen-grid-item(1,2);
+      }
+      .wrapper:nth-child(3) {
+        @include zen-grid-item(1,3);
+      }
+      .wrapper:nth-child(4) {
+        @include zen-grid-item(1,4);
+      }
+      .wrapper {
+        height: 65px;
+        text-align: center;
+        display: table;
+        a {
+          font-size: 19px;
+          font-weight: 800;
+          text-transform: uppercase;
+          text-align: center;
+          vertical-align: middle;
+          display: table-cell;
+        }
+      }
+    }
+    .buttons-region-1 {
+      .wrapper:nth-child(1), 
+      .wrapper:nth-child(3) {
+        background-color: $gris4;
+      }
+      .wrapper:nth-child(2),
+      .wrapper:nth-child(4) {
+        background-color: $gris5;
+      }
+    }
+    .buttons-region-2 {
+      margin-top: 15px;
+      .wrapper:nth-child(1), 
+      .wrapper:nth-child(3) {
+        background-color: $gris5;
+      }
+      .wrapper:nth-child(2),
+      .wrapper:nth-child(4) {
+        background-color: $gris4;
+      }
     }
   }
 }

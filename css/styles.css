@@ -7125,6 +7125,114 @@ body.front #main .view-carrousel.view-display-id-block_3 li.jcarousel-item .fiel
   height: 25px;
   width: 55%;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_jj\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003487}}
+body.front #main .buttons-region {
+  height: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_jj\/sites\/all\/themes\/tnc\/sass-extensions\/zen-grids\/stylesheets\/zen\/_grids\.scss}line{font-family:\0000346}}
+body.front #main .buttons-region:before, body.front #main .buttons-region:after {
+  content: "";
+  display: table;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_jj\/sites\/all\/themes\/tnc\/sass-extensions\/zen-grids\/stylesheets\/zen\/_grids\.scss}line{font-family:\0000350}}
+body.front #main .buttons-region:after {
+  clear: both;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_jj\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003491}}
+body.front #main .buttons-region .wrapper:nth-child(1) {
+  float: left;
+  width: 25%;
+  margin-left: 0%;
+  margin-right: -25%;
+  padding-left: 40px;
+  padding-right: 40px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_jj\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003494}}
+body.front #main .buttons-region .wrapper:nth-child(2) {
+  float: left;
+  width: 25%;
+  margin-left: 25%;
+  margin-right: -50%;
+  padding-left: 40px;
+  padding-right: 40px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_jj\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003497}}
+body.front #main .buttons-region .wrapper:nth-child(3) {
+  float: left;
+  width: 25%;
+  margin-left: 50%;
+  margin-right: -75%;
+  padding-left: 40px;
+  padding-right: 40px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_jj\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003500}}
+body.front #main .buttons-region .wrapper:nth-child(4) {
+  float: left;
+  width: 25%;
+  margin-left: 75%;
+  margin-right: -100%;
+  padding-left: 40px;
+  padding-right: 40px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_jj\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003503}}
+body.front #main .buttons-region .wrapper {
+  height: 65px;
+  text-align: center;
+  display: table;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_jj\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003507}}
+body.front #main .buttons-region .wrapper a {
+  font-size: 19px;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_jj\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003519}}
+body.front #main .buttons-region-1 .wrapper:nth-child(1),
+body.front #main .buttons-region-1 .wrapper:nth-child(3) {
+  background-color: #e9eaeb;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_jj\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003523}}
+body.front #main .buttons-region-1 .wrapper:nth-child(2),
+body.front #main .buttons-region-1 .wrapper:nth-child(4) {
+  background-color: #f4f4f5;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_jj\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003527}}
+body.front #main .buttons-region-2 {
+  margin-top: 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_jj\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003530}}
+body.front #main .buttons-region-2 .wrapper:nth-child(1),
+body.front #main .buttons-region-2 .wrapper:nth-child(3) {
+  background-color: #f4f4f5;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_jj\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003534}}
+body.front #main .buttons-region-2 .wrapper:nth-child(2),
+body.front #main .buttons-region-2 .wrapper:nth-child(4) {
+  background-color: #e9eaeb;
+}
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_jj\/sites\/all\/themes\/tnc\/sass\/_peu\.scss}line{font-family:\000032}}
 body #page .region-bottom {

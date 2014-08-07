@@ -98,7 +98,7 @@
       $lnk_1 = theme_get_setting('tnc_l_frontlink_1_' . $i);
       if (!empty($lnk_1) && !empty($txt_1)) :
       ?>
-        <a href="<?php print $lnk_1 ?>"><?php print $txt_1 ?></a>
+        <div class="wrapper"><a href="<?php print $lnk_1 ?>"><?php print $txt_1 ?></a></div>
       <?php endif; endfor; ?>
     </div>
 
@@ -116,7 +116,7 @@
       $lnk_2 = theme_get_setting('tnc_l_frontlink_2_' . $i);
       if (!empty($lnk_2) && !empty($txt_2)) :
       ?>
-        <a href="<?php print $lnk_2 ?>"><?php print $txt_2 ?></a>
+        <div class="wrapper"><a href="<?php print $lnk_2 ?>"><?php print $txt_2 ?></a></div>
       <?php endif; endfor; ?>
       </div>
 <?php endif; ?>
