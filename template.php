@@ -142,4 +142,28 @@ function tnc_preprocess_calendar_month_col(&$variables) {
 // }
 //}
 
-//
+//Fem visibles les descripcions dels items de menú dels menús del bottom
+
+function tnc_menu_link(array $variables) {
+  $element = $variables['element'];
+  $sub_menu = '';
+  $element['#localized_options']['html'] = TRUE;
+  /* Even/odd class on menu items */
+  static $count = 0;
+  $zebra = ($count % 2) ? 'even' : 'odd';
+  $count++;
+  $element['#attributes']['class'][] = $zebra;
+  if ($element['#below']) {
+    $sub_menu = drupal_render($element['#below']);
+  }
+  /**
+   * Add menu item's description below the menu title
+   * Source: fusiondrupalthemes.com/forum/using-fusion/descriptions-under-main-menu
+   */
+  if ($element['#original_link']['menu_name'] == "menu-compra-d-abonaments" || "menu-peu" || "menu-compra-d-entrades" || "menu-regala-tnc"  && isset($element['#localized_options']['attributes']['title'])){
+    $element['#title'] .= '<em>' . $element['#localized_options']['attributes']['title'] . '</em>';
+  }
+  $output = l($element['#title'], $element['#href'], $element['#localized_options']);
+  return '<li' . drupal_attributes($element['#attributes']) . '>' . $output . $sub_menu . "</li>\n";
+}
+

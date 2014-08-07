@@ -642,3 +642,22 @@ $zen-auto-include-item-base: false;
     }
   }
 }
+body #page .region-bottom {
+  $zen-column-count: 5;
+  @include zen-grid-container();
+  #block-block-2 {
+    @include zen-grid-item(1,1);
+  }
+  #block-menu-menu-peu {
+    @include zen-grid-item(1,2);
+  }
+  #block-menu-menu-compra-d-abonaments {
+    @include zen-grid-item(1,3);
+  }
+  #block-menu-menu-compra-d-entrades {
+    @include zen-grid-item(1,4);
+  }
+  #block-menu-menu-regala-tnc {
+    @include zen-grid-item(1,5);
+  }
+}

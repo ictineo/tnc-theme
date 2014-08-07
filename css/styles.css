@@ -2176,6 +2176,86 @@ table {
     word-wrap: break-word;
   }
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_jj\/sites\/all\/themes\/tnc\/sass-extensions\/zen-grids\/stylesheets\/zen\/_grids\.scss}line{font-family:\0000346}}
+body #page .region-bottom:before, body #page .region-bottom:after {
+  content: "";
+  display: table;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_jj\/sites\/all\/themes\/tnc\/sass-extensions\/zen-grids\/stylesheets\/zen\/_grids\.scss}line{font-family:\0000350}}
+body #page .region-bottom:after {
+  clear: both;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_jj\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003648}}
+body #page .region-bottom #block-block-2 {
+  float: left;
+  width: 20%;
+  margin-left: 0%;
+  margin-right: -20%;
+  padding-left: 10px;
+  padding-right: 10px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_jj\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003651}}
+body #page .region-bottom #block-menu-menu-peu {
+  float: left;
+  width: 20%;
+  margin-left: 20%;
+  margin-right: -40%;
+  padding-left: 10px;
+  padding-right: 10px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_jj\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003654}}
+body #page .region-bottom #block-menu-menu-compra-d-abonaments {
+  float: left;
+  width: 20%;
+  margin-left: 40%;
+  margin-right: -60%;
+  padding-left: 10px;
+  padding-right: 10px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_jj\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003657}}
+body #page .region-bottom #block-menu-menu-compra-d-entrades {
+  float: left;
+  width: 20%;
+  margin-left: 60%;
+  margin-right: -80%;
+  padding-left: 10px;
+  padding-right: 10px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_jj\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003660}}
+body #page .region-bottom #block-menu-menu-regala-tnc {
+  float: left;
+  width: 20%;
+  margin-left: 80%;
+  margin-right: -100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+}
+
 /* Component (SMACSS module) rules */
 /**
  * @file
@@ -7044,6 +7124,68 @@ body.front #main .view-carrousel.view-display-id-block_3 li.jcarousel-item .fiel
   line-height: 25px;
   height: 25px;
   width: 55%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_jj\/sites\/all\/themes\/tnc\/sass\/_peu\.scss}line{font-family:\000032}}
+body #page .region-bottom {
+  background-color: #000000;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_jj\/sites\/all\/themes\/tnc\/sass\/_peu\.scss}line{font-family:\000034}}
+body #page .region-bottom .block {
+  margin-top: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_jj\/sites\/all\/themes\/tnc\/sass\/_peu\.scss}line{font-family:\000036}}
+body #page .region-bottom .block h2.block__title.block-title {
+  font-size: 11px;
+  font-weight: 800;
+  color: white;
+  text-transform: uppercase;
+  border-top: 1px solid #404040;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_jj\/sites\/all\/themes\/tnc\/sass\/_peu\.scss}line{font-family:\0000313}}
+body #page .region-bottom .block ul {
+  margin: 0;
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_jj\/sites\/all\/themes\/tnc\/sass\/_peu\.scss}line{font-family:\0000316}}
+body #page .region-bottom .block ul li {
+  list-style: none;
+  border-top: 1px solid #404040;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_jj\/sites\/all\/themes\/tnc\/sass\/_peu\.scss}line{font-family:\0000320}}
+body #page .region-bottom .block ul li span,
+body #page .region-bottom .block ul li a {
+  color: white;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_jj\/sites\/all\/themes\/tnc\/sass\/_peu\.scss}line{font-family:\0000325}}
+body #page .region-bottom .block ul li span:before,
+body #page .region-bottom .block ul li a:before {
+  content: '> ';
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_jj\/sites\/all\/themes\/tnc\/sass\/_peu\.scss}line{font-family:\0000328}}
+body #page .region-bottom .block ul li span em,
+body #page .region-bottom .block ul li a em {
+  display: inline-block;
+  font-size: 10px;
+  line-height: 12px;
+  font-weight: 400;
+  color: white;
+  text-transform: none;
+  margin-right: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_jj\/sites\/all\/themes\/tnc\/sass\/_peu\.scss}line{font-family:\0000341}}
+body #page .region-bottom #block-block-2 {
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_jj\/sites\/all\/themes\/tnc\/sass\/_peu\.scss}line{font-family:\0000343}}
+body #page .region-bottom #block-block-2 p {
+  font-size: 10px !important;
+  line-height: 13px !important;
+  margin: 0;
+  color: white;
 }
 
 /**

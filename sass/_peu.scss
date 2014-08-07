@@ -1,0 +1,52 @@
+body #page {
+  .region-bottom {
+    background-color: #000000;
+    .block {
+      margin-top: 20px;
+      h2.block__title.block-title {
+        font-size: 11px;
+        font-weight: 800;
+        color: $blanc;
+        text-transform: uppercase;
+        border-top: 1px solid $grisPeu;
+      }
+      ul {
+        margin: 0;
+        padding: 0;
+        li {
+          list-style: none;
+          border-top: 1px solid $grisPeu;
+          span,
+          a {
+            color: $blanc;
+            font-size: 11px;
+            font-weight: 600;
+            text-transform: uppercase;
+            &:before {
+              content: '> ';
+            }
+            em {
+              display: inline-block;
+              font-size: 10px;
+              line-height: 12px;
+              font-weight: 400;
+              color: $blanc;
+              text-transform: none;
+              margin-right: 20px;
+            }
+          }
+        }
+      }
+    }
+    #block-block-2 {
+      text-align: center;
+      p {
+        font-size: 10px !important;
+        line-height: 13px !important;
+        margin: 0;
+        color: $blanc;
+      }
+    }
+  }
+}
+
