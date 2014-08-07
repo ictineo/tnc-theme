@@ -2,6 +2,7 @@ Drupal.behaviors.theme_tnc_mm = {
   attach: function(context, settings) {
     /* afegim un contenidor a la part de dalt del mm */
     jQuery('#mm-wrapper').append('<div id="top-mm-wrapper"></div>');
+
     /* Lomplim amb els h4 de la view de top */
     jQuery('#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_1 h4').each(function( i ) {
       jQuery(this).attr('mm-t', i + 1).appendTo('#top-mm-wrapper');
