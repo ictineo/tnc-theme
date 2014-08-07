@@ -174,13 +174,14 @@ body.front {
           li {
             border: none;
             background-color: $gris5;
+            height: auto;
             .field-name-field-imatge {
               display: inline-block;
               float: left;
               .field-item {
                 margin-top: 4px;
                 img {
-                  height: 75px !important;
+                  height: 65px !important;
                 }
               }
             }
