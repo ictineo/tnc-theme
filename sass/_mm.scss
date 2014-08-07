@@ -1,4 +1,14 @@
 $top-menu-h: 40px;
+
+body.not-front #mm-wrapper {
+  #top-mm-wrapper {
+    top: 59px;
+  }
+  #left-mm-wrapper {
+    top: 100px;
+  }
+}
+
 #mm-wrapper {
   margin-top: $top-menu-h;
   
@@ -58,7 +68,8 @@ $top-menu-h: 40px;
       background-image: url('../images/cercle_logo.png');
       @include background-size(auto 100%);
       background-repeat: no-repeat;
-      z-index: 1005
+      z-index: 1005;
+      margin-bottom: -100px;
     }
     h4 {
       /** afinar! **/
