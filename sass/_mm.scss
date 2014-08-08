@@ -62,12 +62,17 @@ body.not-front #mm-wrapper {
       left: 0px;
       top: 5%;
       display: block;
-      width: 400px;
+      width: 380px;
       height: 500px;
       /* quina img??? */
-      background-image: url('../images/cercle_logo.png');
-      @include background-size(auto 100%);
+      background-image: url('../images/logotnc-menu-lateral.png');
+      border-top-right-radius: 250px;
+      border-bottom-right-radius: 250px;
+      margin-left: -200px;
+      background-color: $blanc;
+      @include background-size(30% auto);
       background-repeat: no-repeat;
+      background-position: 225px 200px;
       z-index: 1005;
       margin-bottom: -100px;
     }
@@ -119,15 +124,15 @@ body.not-front #mm-wrapper {
   .view-id-carrega_megamenu.view-display-id-block_1,
   .view-id-carrega_megamenu.view-display-id-block_3 {
     .views-row {
-       background-color: $gris5;
+       background-color: $blau1;
      }
     .mm-slide-wrapper .mm-content {
       margin-top: 15px;
       .view-header p {
         text-transform: uppercase;
-        font-size: 12px;
+        font-size: 13px;
         font-weight: 700;
-        color: $titols_b;
+        color: $blanc;
         margin: 0;
       }
       .field-name-field-titol {
@@ -139,9 +144,9 @@ body.not-front #mm-wrapper {
           padding-bottom: 2px;
           margin-bottom: 10px;
           .field-item {
-            font-size: 14px;
+            font-size: 15px;
             line-height: 17px;
-            color: $titols_b;
+            color: $blanc;
             text-transform: uppercase;
             font-weight: 800;
           }
@@ -167,11 +172,11 @@ body.not-front #mm-wrapper {
                 text-transform: uppercase;
                 font-size: 12px;
                 font-weight: 800;
-                color: $titols_b;
+                color: $blanc;
               }
               .field-name-field-subtitol .field-item {
                 font-size: 10px;
-                color: $titols_b;
+                color: $blanc;
                 font-weight: 700;
               }
             }
