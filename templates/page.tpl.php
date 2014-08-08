@@ -34,7 +34,7 @@
 
   <?php /** contingut insertat dinàmicament via js **/ ?>
   <div id="mm-wrapper">
-    <div id="xxss-wrapper"><?php $block = block_load('block','1');
+    <div class="xxss-wrapper"><?php $block = block_load('block','1');
     $output = drupal_render(_block_get_renderable_array(_block_render_blocks(array($block))));
        print $output; ?>
     </div>

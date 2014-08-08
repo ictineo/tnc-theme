@@ -3154,6 +3154,12 @@ p {
   margin-bottom: 48px;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_jj\/sites\/all\/themes\/tnc\/sass\/_general\.scss}line{font-family:\0000313}}
+body.page-user #page #mm-wrapper,
+body.logged-in #page #mm-wrapper {
+  display: none;
+}
+
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_jj\/sites\/all\/themes\/tnc\/sass\/_fitxa-multimedia\.scss}line{font-family:\000031}}
 .front #mm-node-region {
   display: none;

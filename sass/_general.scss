@@ -8,3 +8,10 @@
     margin-bottom: 48px;
   }
 }
+body.page-user,
+body.logged-in {
+  #page #mm-wrapper {
+    display: none;
+  }
+}
+
