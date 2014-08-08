@@ -34,6 +34,10 @@
 
   <?php /** contingut insertat dinàmicament via js **/ ?>
   <div id="mm-wrapper">
+    <div id="xxss-wrapper"><?php $block = block_load('block','1');
+    $output = drupal_render(_block_get_renderable_array(_block_render_blocks(array($block))));
+       print $output; ?>
+    </div>
 <?php print views_embed_view('carrega_megamenu', 'block_1'); ?>
 <?php print views_embed_view('carrega_megamenu', 'block_3'); ?>
 <?php drupal_add_js(drupal_get_path('theme', 'tnc') . '/js/mm.js'); ?>
