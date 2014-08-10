@@ -137,6 +137,26 @@ body.front {
         }
       }
     }
+/* Avisos portada */
+    .view-avis-portada {
+      .view-content {
+        border: 3px solid $rosa;
+        margin-top: 10px;
+        border-radius: 10px;
+        background-color: $rosa;
+        margin-left: 20px;
+        .field-item p{
+          text-transform: uppercase;
+          font-weight: 800px;
+          font-size: 20px;
+          color: #000000;
+          text-align: center;
+        }
+      }
+    }
+
+
+/* Carrousel teletips*/    
     .view-carrousel.view-display-id-block_7 {
       .jcarousel-skin-default .jcarousel-container-horizontal {
         width: 100%;
