@@ -81,8 +81,12 @@
     </div>
 
   </div-->
+
+<!-- Incrustem node-type-avis -->
+
 <?php /** slides varis...*/
  print views_embed_view('calendar', 'block_1');
+ print views_embed_view('avis_portada', 'block');
  print views_embed_view('carrousel', 'block_7');
  print views_embed_view('carrousel', 'block_1');
  print views_embed_view('carrousel', 'block_3');
