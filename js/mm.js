@@ -15,7 +15,8 @@ Drupal.behaviors.theme_tnc_mm = {
     });
 
     /** accions **/
-    jQuery('#mm-wrapper #left-mm-wrapper h4').click(function () {
+    jQuery('#mm-wrapper #left-mm-wrapper h4').click(function (e) {
+      e.stopPropagation();
       var act = '';
       jQuery('#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_1 > div > .views-row').each(function (i) {
         jQuery(this).animate({top: "-100%"});
@@ -31,7 +32,8 @@ Drupal.behaviors.theme_tnc_mm = {
         jQuery('#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_3 .views-row-' + jQuery(this).attr('mm-l')).animate({left: 0});
       }
     });
-    jQuery('#mm-wrapper #top-mm-wrapper h4').click(function () {
+    jQuery('#mm-wrapper #top-mm-wrapper h4').click(function (e) {
+      e.stopPropagation();
       var act = '';
       jQuery('#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_3 > div > .views-row').each(function (i) {
         jQuery(this).animate({left: "-100%"});
