@@ -29,6 +29,11 @@ Drupal.behaviors.theme_tnc_homeslide = {
             $({deg: orig}).animate({deg: angle}, args);
         });
     };
+    /* Evitem que giri si es clica sobre alguna regió del mm **/
+    $('#mm-wrapper .mm-slide-wrapper').click(function(e) {
+      e.stopPropagation();
+    });
+
     //$('.views-field-nothing ').click(function() {
     // el element clickable ha de ser nomes el boto de fletxeta?
     $('#mm-wrapper').click(function() {
