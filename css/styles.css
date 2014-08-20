@@ -7408,14 +7408,19 @@ body.front #main .buttons-region-2 .wrapper:nth-child(4) {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_jj\/sites\/all\/themes\/tnc\/sass\/_peu\.scss}line{font-family:\000032}}
+body #page #footer-wrapper {
+  width: 100%;
+  background-color: #000000;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_jj\/sites\/all\/themes\/tnc\/sass\/_peu\.scss}line{font-family:\000036}}
 body #page .region-bottom {
   background-color: #000000;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_jj\/sites\/all\/themes\/tnc\/sass\/_peu\.scss}line{font-family:\000034}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_jj\/sites\/all\/themes\/tnc\/sass\/_peu\.scss}line{font-family:\000038}}
 body #page .region-bottom .block {
   margin-top: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_jj\/sites\/all\/themes\/tnc\/sass\/_peu\.scss}line{font-family:\000036}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_jj\/sites\/all\/themes\/tnc\/sass\/_peu\.scss}line{font-family:\0000310}}
 body #page .region-bottom .block h2.block__title.block-title {
   font-size: 11px;
   font-weight: 800;
@@ -7423,17 +7428,17 @@ body #page .region-bottom .block h2.block__title.block-title {
   text-transform: uppercase;
   border-top: 1px solid #404040;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_jj\/sites\/all\/themes\/tnc\/sass\/_peu\.scss}line{font-family:\0000313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_jj\/sites\/all\/themes\/tnc\/sass\/_peu\.scss}line{font-family:\0000317}}
 body #page .region-bottom .block ul {
   margin: 0;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_jj\/sites\/all\/themes\/tnc\/sass\/_peu\.scss}line{font-family:\0000316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_jj\/sites\/all\/themes\/tnc\/sass\/_peu\.scss}line{font-family:\0000320}}
 body #page .region-bottom .block ul li {
   list-style: none;
   border-top: 1px solid #404040;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_jj\/sites\/all\/themes\/tnc\/sass\/_peu\.scss}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_jj\/sites\/all\/themes\/tnc\/sass\/_peu\.scss}line{font-family:\0000324}}
 body #page .region-bottom .block ul li span,
 body #page .region-bottom .block ul li a {
   color: white;
@@ -7441,12 +7446,12 @@ body #page .region-bottom .block ul li a {
   font-weight: 600;
   text-transform: uppercase;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_jj\/sites\/all\/themes\/tnc\/sass\/_peu\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_jj\/sites\/all\/themes\/tnc\/sass\/_peu\.scss}line{font-family:\0000329}}
 body #page .region-bottom .block ul li span:before,
 body #page .region-bottom .block ul li a:before {
   content: '> ';
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_jj\/sites\/all\/themes\/tnc\/sass\/_peu\.scss}line{font-family:\0000328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_jj\/sites\/all\/themes\/tnc\/sass\/_peu\.scss}line{font-family:\0000332}}
 body #page .region-bottom .block ul li span em,
 body #page .region-bottom .block ul li a em {
   display: inline-block;
@@ -7457,11 +7462,11 @@ body #page .region-bottom .block ul li a em {
   text-transform: none;
   margin-right: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_jj\/sites\/all\/themes\/tnc\/sass\/_peu\.scss}line{font-family:\0000341}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_jj\/sites\/all\/themes\/tnc\/sass\/_peu\.scss}line{font-family:\0000345}}
 body #page .region-bottom #block-block-2 {
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_jj\/sites\/all\/themes\/tnc\/sass\/_peu\.scss}line{font-family:\0000343}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_jj\/sites\/all\/themes\/tnc\/sass\/_peu\.scss}line{font-family:\0000347}}
 body #page .region-bottom #block-block-2 p {
   font-size: 10px !important;
   line-height: 13px !important;

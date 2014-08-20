@@ -132,6 +132,8 @@
 
 </div>
 
-<?php print render($page['bottom']); ?>
+<div id="footer-wrapper">
+  <?php print render($page['bottom']); ?>
+</div>
 
 <?php drupal_add_js(drupal_get_path('theme', 'tnc') . '/js/efectes-home.js'); ?>

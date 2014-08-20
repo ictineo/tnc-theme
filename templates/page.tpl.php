@@ -97,5 +97,7 @@
 
 </div>
 
-<?php print render($page['bottom']); ?>
+<div id="footer-wrapper">
+  <?php print render($page['bottom']); ?>
+</div>
 
