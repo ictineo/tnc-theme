@@ -27,7 +27,7 @@ Drupal.behaviors.theme_tnc_mm = {
         }
         jQuery(this).animate({left: "-100%"});
       });
-      console.log(act + '  ' + jQuery(this).attr('mm-l'));
+      //console.log(act + '  ' + jQuery(this).attr('mm-l'));
       if(act != jQuery(this).attr('mm-l')) {
         jQuery('#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_3 .views-row-' + jQuery(this).attr('mm-l')).animate({left: 0});
       }
@@ -44,7 +44,7 @@ Drupal.behaviors.theme_tnc_mm = {
         }
         jQuery(this).animate({top: "-100%"});
       });
-      console.log(act + '  ' + jQuery(this).attr('mm-t'));
+      //console.log(act + '  ' + jQuery(this).attr('mm-t'));
       if(act != jQuery(this).attr('mm-t')) {
         jQuery('#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_1 .views-row-' + jQuery(this).attr('mm-t')).animate({top: 0});
       }
