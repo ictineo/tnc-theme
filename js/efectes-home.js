@@ -37,7 +37,19 @@ Drupal.behaviors.theme_tnc_homeslide = {
     //$('.views-field-nothing ').click(function() {
     // el element clickable ha de ser nomes el boto de fletxeta?
     $('#mm-wrapper').click(function() {
-      if(!$(this).hasClass('animated')){
+      /* prevenim momviment si hi ha mm desplegat **/
+      var mm_act = false;
+      $(".view-id-carrega_megamenu.view-display-id-block_1 > div > .views-row").each(function () {
+        if($(this).css('top') == '0px') {
+          mm_act = true;
+        }
+      });
+      $(".view-id-carrega_megamenu.view-display-id-block_3 > div > .views-row").each(function () {
+        if($(this).css('left') == '0px') {
+          mm_act = true;
+        }
+      });
+      if(!$(this).hasClass('animated') && !mm_act ){
         $(this).addClass('animated');
         var obj = jQuery(this).find('.view-carrousel .active > .views-field-nothing');
         $.when(
