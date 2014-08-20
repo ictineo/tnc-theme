@@ -38,22 +38,29 @@ body.front {
             margin-left: -75px;
           }
           span.day.pre_month {
-            border-right: 6px solid $blanc;
+            /*quiron border-right: 6px solid $blanc; */
+            border-right-width: 6px;
           }
           span.day {
             border-radius: 0 100px 100px 0;
             margin: 0 -16px 0 0;
-            padding: 8px 14px 8px 19px;
+            /* quiron padding: 8px 14px 8px 19px; */
+            padding: 7px 13px 9px 18px;
             position: relative;
             text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
             background-color: $blau1;
-            border-right: 2px solid $blanc;
+            /* quiron border-right: 2px solid $blanc; */
+            border: 2px solid $blanc;
             span.num {
               text-decoration: none;
               font-size: 17px;
               font-weight: 700;
               color: $blanc;
               vertical-align: middle;
+            }
+            /*quiron*/
+            &:first-child {
+              padding-left: 10px;
             }
           }
           span.day.event {
@@ -411,7 +418,7 @@ body.front {
             @include bg_sprite;
             width: 28px;
             height: 28px;
-            background-position: -30 -30px;
+            background-position: -30px -30px;
             margin-top: 10%;
           }
           a.jcarousel-next.jcarousel-next-horizontal,
@@ -419,7 +426,7 @@ body.front {
             @include bg_sprite;
             width: 28px;
             height: 28px;
-            background-position: -30 -30px;
+            background-position: 0px -30px;
             margin-top: 10%;
           }
         }
