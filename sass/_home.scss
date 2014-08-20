@@ -191,6 +191,28 @@ body.front {
             }
           }
         }
+        /* treiem les fletxetes */
+        & > a {
+          display: none;
+        }
+        /* theaming del pager */
+        ul.jcarousel-navigation {
+          position: absolute;
+          right: 60px;
+          bottom: 60px;
+          li a span {
+            display: inline-block;
+            @include border-radius(100%);
+            width: 8px;
+            height: 8px;
+            overflow: hidden;
+            text-indent: -9999999px;
+            background-color: $gris1;
+          }
+          li.active a span{
+            background-color: $destacat;
+          }
+        }
       }
     }
     .view-carrousel.view-display-id-block_3,
