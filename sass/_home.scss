@@ -432,6 +432,29 @@ body.front {
         }
       }
     }
+    .view-carrousel.view-display-id-block_1 {
+      /** quiron
+       * sobreescritura pel carousel gran (block_1) per fer les
+       * caixes dinamiques daltura comencant des de baix (+ js)
+       */
+      .view-content  .jcarousel-skin-default  .jcarousel-container.jcarousel-container-horizontal .jcarousel-clip  ul.jcarousel li.jcarousel-item {
+        position: relative;
+        .views-field-nothing {
+          position: absolute;
+          bottom: 0px; //es sobreescriu via js
+          right: 300px; // ample de 250 mes una mica de marge
+          .field-content {
+            display: block;
+            .tab {
+              height: inherit;
+              margin-left: inherit;
+              margin-top: inherit;
+            }
+          }
+        }
+      }
+    }
+                      
     .view-carrousel.view-display-id-block_3 {
       height: 320px;
       margin-top: 0px;

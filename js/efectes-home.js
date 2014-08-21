@@ -108,6 +108,23 @@ Drupal.behaviors.theme_tnc_homeslide = {
   }
   };
 
+  /** 
+   * Carrousel gran, posicionament de les pestanyes
+   */
+  jQuery('.view-id-carrousel.view-display-id-block_1').ready(function () {
+    jQuery('.view-id-carrousel.view-display-id-block_1 ul.jcarousel li.jcarousel-item .views-field-nothing').each(function() {
+      /** corregim la view amagant el grup entorn si no hi ha contingut **/
+      if(!jQuery(this).find('.field-name-field-entorn.field-type-entityreference').length) {
+        jQuery(this).find('.grup_entorn').hide();
+        jQuery(this).find('.field-name-field-rol-destacat').css('padding-bottom', '12px');
+      }
+      /** ubiquem la pestanya en funcio de la seva altura, amb un limit i una correccio **/
+      var h = jQuery(this).find('.tab').height();
+      if( h > 300) { h = 300; }
+      jQuery(this).css('bottom', h + 'px');
+    });
+  });
+
 
 
 })(jQuery, Drupal, this, this.document);
