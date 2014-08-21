@@ -37,8 +37,10 @@ Drupal.behaviors.theme_tnc_homeslide = {
     $('.view-id-carrousel.view-display-id-block_5 .views-row').each(function () {
       var url = $(this).find('.views-field-view-node a').attr('href');
       $(this).find('.views-field-nothing .field-content').attr('rel', url);
-      $(this).find('.views-field-nothing .field-content .field-content-2wrapper').attr('rel', url);
       $(this).find('.views-field-view-node').remove();
+    });
+    $('.view-id-carrousel.view-display-id-block_5 .views-row .field-content').click(function () {
+      location.href = $(this).attr('rel');
     });
 
     //$('.views-field-nothing ').click(function() {
