@@ -40,15 +40,12 @@ Drupal.behaviors.theme_tnc_homeslide = {
       $(this).find('.views-field-view-node').remove();
     });
     $('.view-id-carrousel.view-display-id-block_5 .views-row .field-content').click(function () {
-      //if(!$('.mm-next-slide').hasClass('clicked')) {
         location.href = $(this).attr('rel');
-      //}
     });
 
     //$('.views-field-nothing ').click(function() {
     // el element clickable ha de ser nomes el boto de fletxeta?
     $('#mm-wrapper .mm-next-slide').click(function(e) {
-      //$(this).addClass('clicked');
       e.stopPropagation();
       var mmw  = '#mm-wrapper';
       /* prevenim momviment si hi ha mm desplegat **/
