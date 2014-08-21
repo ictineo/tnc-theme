@@ -23,15 +23,19 @@ body.front #mm-wrapper {
     overflow: hidden;
   }
   /** bola de passar slide **/
-  #mm-next-slide {
+  .passive .mm-next-slide {
+    display: none;
+  }
+  .mm-next-slide {
     width: 18px;
     height: 18px;
     display: block;
     background-image: url('../images/canvislide.png');
     background-repeat: no-repeat;
-    right: 0px;
-    bottom: 0px;
+    right: 250px;
+    bottom: -11px;
     position: absolute;
+    z-index: 8005; //sempre a sobre de tot
   }
   
 
@@ -83,6 +87,15 @@ body.front #mm-wrapper {
     }
   }
 
+  /** contenidor creat per ubicar la fletxa de canvi */
+  .field-content-2wrapper {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+  }
+
   .views-row.active .views-field-nothing {
     @include zen-grid-item(5, 1);
     @include transform-origin(-300px, 50%);
@@ -96,7 +109,10 @@ body.front #mm-wrapper {
       @include zen-grid-container();
       /// efecte de gir **/
       display: block;
-      position: absolute;
+      // quiron
+      //position: absolute;
+      // canviem per posicionar la fletxa de canvi de diapo
+      position: relative;
       width: 100%;
       @include rotate(3deg);
       border-bottom: 4px solid white;
@@ -104,14 +120,6 @@ body.front #mm-wrapper {
       margin: -400px -100px 0 -100px;
       height: 1010px; //900px;
 
-      /** contenidor creat per ubicar la fletxa de canvi */
-      .field-content-2wrapper {
-        overflow: hidden;
-        width: 100%;
-        height: 100%;
-        display: block;
-        position: absolute;
-      }
       & > div > * {
         @include rotate(-3deg); // compensacio
       }
@@ -136,6 +144,8 @@ body.front #mm-wrapper {
         display: block;
         height: 100%;//$main-tab-height;
         top: $main-tab-top;
+        //quiron correccio de desplacament
+        right: 25%;
       }
       //@include zen-clear();
     }

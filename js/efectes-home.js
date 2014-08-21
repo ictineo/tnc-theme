@@ -75,10 +75,12 @@ Drupal.behaviors.theme_tnc_homeslide = {
                 }).promise()
               ).done(function () {
                 if($(this).hasClass('active')) {
-                  $(this).find('.tab-big').animate({top: 650});
+                  /** quiron: $(this).find('.tab-big').animate({top: 650}); */
+                  $(this).find('.tab-big').animate({top: 570});
                 }
                 if($(this).hasClass('passive')) {
-                  $(this).find('.tab-small').animate({top: 680});//jude canvia de 800 a 680
+                  /** quiron $(this).find('.tab-small').animate({top: 680});//jude canvia de 800 a 680 */
+                  $(this).find('.tab-small').animate({top: 695});
                 }
               });
             });
