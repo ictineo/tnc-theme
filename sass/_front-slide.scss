@@ -37,7 +37,10 @@ body.front #mm-wrapper {
     position: absolute;
     z-index: 8005; //sempre a sobre de tot
   }
-  
+  .view-id-carrousel.view-display-id-block_5 .field-content-2wrapper,
+  .view-id-carrousel.view-display-id-block_5 .field-content {
+    cursor: pointer;
+  }
 
 
   .views-row.passive .views-field-nothing {
