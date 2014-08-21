@@ -30,10 +30,12 @@ Drupal.behaviors.theme_tnc_mm = {
       });
       jQuery('#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_3 > div > .views-row').each(function (i) {
         /* si esta desplegat guardem el index del que esta desplegat */
-        if(jQuery(this).css('left') == '0px'){
+        //if(jQuery(this).css('left') == '0px'){
+        if(jQuery(this).css('top') == '0px'){
           act = i+1;
         }
-        jQuery(this).animate({left: "-100%"}, function () {
+        //jQuery(this).animate({left: "-100%"}, function () {
+        jQuery(this).animate({top: "-100%"}, function () {
           //jQuery('.view-id-carrega_megamenu.view-display-id-block_3').css('zIndex',0);
             if(act == jQuery(clicked).attr('mm-l')) {
               jQuery('.view-id-carrega_megamenu.view-display-id-block_3').css('zIndex',0);
@@ -45,15 +47,20 @@ Drupal.behaviors.theme_tnc_mm = {
       // si sha clicat un que estava amagat es mostra
       if(act != jQuery(this).attr('mm-l')) {
         jQuery('.view-id-carrega_megamenu.view-display-id-block_3').css('zIndex','1005');
-        jQuery('#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_3 .views-row-' + jQuery(this).attr('mm-l')).animate({left: 0});
+        //jQuery('#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_3 .views-row-' + jQuery(this).attr('mm-l')).animate({left: 0});
+        jQuery('#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_3 .views-row-' + jQuery(this).attr('mm-l')).css({'left': '0px', 'top': '-100%'});
+        jQuery('#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_3 .views-row-' + jQuery(this).attr('mm-l')).animate({top: 0});
       }
     });
+
+
     jQuery('#mm-wrapper #top-mm-wrapper h4').click(function (e) {
       e.stopPropagation();
       var act = '';
       var clicked = this;
       jQuery('#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_3 > div > .views-row').each(function (i) {
-        jQuery(this).animate({left: "-100%"}, function () {
+        //jQuery(this).animate({left: "-100%"}, function () {
+        jQuery(this).animate({top: "-100%"}, function () {
           jQuery('.view-id-carrega_megamenu.view-display-id-block_3').css('zIndex',0);
         });
       });
