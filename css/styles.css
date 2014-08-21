@@ -5793,6 +5793,7 @@ body.front #mm-wrapper .views-row.passive-in .views-field-nothing .tab > * {
 #mm-wrapper .view-id-carrega_megamenu.view-display-id-block_3 {
   /* quiron height: 570px; */
   height: 668px;
+  /** calendari de les columnes **/
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003181}}
 #mm-wrapper .view-id-carrega_megamenu.view-display-id-block_1 .views-row,
@@ -5823,8 +5824,8 @@ body.front #mm-wrapper .views-row.passive-in .views-field-nothing .tab > * {
 #mm-wrapper .view-id-carrega_megamenu.view-display-id-block_1 .mm-slide-wrapper .mm-content .view-header p,
 #mm-wrapper .view-id-carrega_megamenu.view-display-id-block_3 .mm-slide-wrapper .mm-content .view-header p {
   text-transform: uppercase;
-  font-size: 13px;
-  font-weight: 700;
+  font-size: 12px;
+  font-weight: 400;
   color: white;
   margin: 0;
 }
@@ -5887,12 +5888,12 @@ body.front #mm-wrapper .views-row.passive-in .views-field-nothing .tab > * {
   font-weight: 700;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003262}}
-#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_1 .mm-slide-wrapper .mm-content .field-name-field-text-lliure .view-header,
-#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_1 .mm-slide-wrapper .mm-content .field-name-field-altres-llistats .view-header,
-#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_1 .mm-slide-wrapper .mm-content .field-name-field-espectacle-prox .view-header,
-#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_3 .mm-slide-wrapper .mm-content .field-name-field-text-lliure .view-header,
-#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_3 .mm-slide-wrapper .mm-content .field-name-field-altres-llistats .view-header,
-#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_3 .mm-slide-wrapper .mm-content .field-name-field-espectacle-prox .view-header {
+#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_1 .mm-slide-wrapper .mm-content .field-name-field-text-lliure .field-item .view .view-header.view-header,
+#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_1 .mm-slide-wrapper .mm-content .field-name-field-altres-llistats .field-item .view .view-header.view-header,
+#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_1 .mm-slide-wrapper .mm-content .field-name-field-espectacle-prox .field-item .view .view-header.view-header,
+#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_3 .mm-slide-wrapper .mm-content .field-name-field-text-lliure .field-item .view .view-header.view-header,
+#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_3 .mm-slide-wrapper .mm-content .field-name-field-altres-llistats .field-item .view .view-header.view-header,
+#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_3 .mm-slide-wrapper .mm-content .field-name-field-espectacle-prox .field-item .view .view-header.view-header {
   border-bottom: 1px solid white;
   margin-right: 30px;
   padding-bottom: 2px;
@@ -6098,27 +6099,88 @@ body.front #mm-wrapper .views-row.passive-in .views-field-nothing .tab > * {
 #mm-wrapper .view-id-carrega_megamenu.view-display-id-block_3 .mm-slide-wrapper .mm-content .field-name-field-enllac-megamenu a:before {
   content: '> ';
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003359}}
+#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_1 .view-id-calendar.view-display-id-block_2,
+#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_3 .view-id-calendar.view-display-id-block_2 {
+  margin-top: 0px;
+  margin-right: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003362}}
+#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_1 .view-id-calendar.view-display-id-block_2 .view-header,
+#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_3 .view-id-calendar.view-display-id-block_2 .view-header {
+  /** sobreescrivim l'estil de capcalera **/
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003364}}
+#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_1 .view-id-calendar.view-display-id-block_2 .view-header .date-prev,
+#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_1 .view-id-calendar.view-display-id-block_2 .view-header .date-next,
+#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_3 .view-id-calendar.view-display-id-block_2 .view-header .date-prev,
+#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_3 .view-id-calendar.view-display-id-block_2 .view-header .date-next {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003368}}
+#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_1 .view-id-calendar.view-display-id-block_2 .view-header .date-nav-wrapper .date-nav,
+#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_3 .view-id-calendar.view-display-id-block_2 .view-header .date-nav-wrapper .date-nav {
+  margin: 0 auto;
+  min-height: 0;
+  padding-bottom: 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003372}}
+#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_1 .view-id-calendar.view-display-id-block_2 .view-header .date-nav-wrapper .date-nav .date-heading,
+#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_3 .view-id-calendar.view-display-id-block_2 .view-header .date-nav-wrapper .date-nav .date-heading {
+  padding: 0px;
+  width: 100%;
+  height: 14px;
+  line-height: 14px;
+  text-align: left;
+  padding-bottom: 2px;
+  border-bottom: 1px solid white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003381}}
+#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_1 .view-id-calendar.view-display-id-block_2 .view-header .date-nav-wrapper .date-nav .date-heading h3,
+#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_1 .view-id-calendar.view-display-id-block_2 .view-header .date-nav-wrapper .date-nav .date-heading a,
+#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_3 .view-id-calendar.view-display-id-block_2 .view-header .date-nav-wrapper .date-nav .date-heading h3,
+#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_3 .view-id-calendar.view-display-id-block_2 .view-header .date-nav-wrapper .date-nav .date-heading a {
+  height: 14px;
+  line-height: 14px;
+  text-align: left;
+  background: none;
+  text-indent: 0;
+  overflow: visible;
+  display: inline;
+  width: auto;
+  font-size: 13px;
+  font-weight: 400;
+  width: 100%;
+  color: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003393}}
+#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_1 .view-id-calendar.view-display-id-block_2 .view-header .date-nav-wrapper .date-nav .date-heading h3:hover,
+#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_1 .view-id-calendar.view-display-id-block_2 .view-header .date-nav-wrapper .date-nav .date-heading a:hover,
+#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_3 .view-id-calendar.view-display-id-block_2 .view-header .date-nav-wrapper .date-nav .date-heading h3:hover,
+#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_3 .view-id-calendar.view-display-id-block_2 .view-header .date-nav-wrapper .date-nav .date-heading a:hover {
+  text-transform: uppercase;
+}
 
 /* Slide capçalera*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003368}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003412}}
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big:before,
 #mm-wrapper .view.view-carrousel .views-row.views-row-2 .views-field-nothing .tab.tab-big:before {
   margin-bottom: -76px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003371}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003415}}
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big .field-name-field-url-compra-reserva,
 #mm-wrapper .view.view-carrousel .views-row.views-row-2 .views-field-nothing .tab.tab-big .field-name-field-url-compra-reserva {
   width: 280px;
   height: 10px;
   background-color: transparent;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003375}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003419}}
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big .field-name-field-url-compra-reserva .field-items,
 #mm-wrapper .view.view-carrousel .views-row.views-row-2 .views-field-nothing .tab.tab-big .field-name-field-url-compra-reserva .field-items {
   margin-left: 84%;
   width: 80px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003378}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003422}}
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big .field-name-field-url-compra-reserva .field-items a,
 #mm-wrapper .view.view-carrousel .views-row.views-row-2 .views-field-nothing .tab.tab-big .field-name-field-url-compra-reserva .field-items a {
   background-color: #e2007a;
@@ -6145,12 +6207,12 @@ body.front #mm-wrapper .views-row.passive-in .views-field-nothing .tab > * {
   font-weight: 800;
   font-size: 14px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003387}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003431}}
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big .field-name-field-sala,
 #mm-wrapper .view.view-carrousel .views-row.views-row-2 .views-field-nothing .tab.tab-big .field-name-field-sala {
   margin-top: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003391}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003435}}
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big .field-name-field-sala,
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big .field-name-field-data,
 #mm-wrapper .view.view-carrousel .views-row.views-row-2 .views-field-nothing .tab.tab-big .field-name-field-sala,
@@ -6159,7 +6221,7 @@ body.front #mm-wrapper .views-row.passive-in .views-field-nothing .tab > * {
   padding-left: 20px;
   width: 280px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003397}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003441}}
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big .field-name-field-sala .field-items .field-item,
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big .field-name-field-sala .field-items .field-item span,
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big .field-name-field-data .field-items .field-item,
@@ -6173,7 +6235,7 @@ body.front #mm-wrapper .views-row.passive-in .views-field-nothing .tab > * {
   color: white;
   text-transform: uppercase;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003405}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003449}}
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big h4.titol,
 #mm-wrapper .view.view-carrousel .views-row.views-row-2 .views-field-nothing .tab.tab-big h4.titol {
   width: 280px;
@@ -6183,7 +6245,7 @@ body.front #mm-wrapper .views-row.passive-in .views-field-nothing .tab > * {
   padding-left: 20px;
   height: auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003412}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003456}}
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big h4.titol a,
 #mm-wrapper .view.view-carrousel .views-row.views-row-2 .views-field-nothing .tab.tab-big h4.titol a {
   font-size: 34px;
@@ -6191,14 +6253,14 @@ body.front #mm-wrapper .views-row.passive-in .views-field-nothing .tab > * {
   line-height: 34px;
   color: white;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003419}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003463}}
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big .field-name-field-subtitol,
 #mm-wrapper .view.view-carrousel .views-row.views-row-2 .views-field-nothing .tab.tab-big .field-name-field-subtitol {
   width: 280px;
   height: auto;
   padding-left: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003424}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003468}}
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big .field-name-field-subtitol .field-items .field-item,
 #mm-wrapper .view.view-carrousel .views-row.views-row-2 .views-field-nothing .tab.tab-big .field-name-field-subtitol .field-items .field-item {
   font-size: 18px;
@@ -6207,7 +6269,7 @@ body.front #mm-wrapper .views-row.passive-in .views-field-nothing .tab > * {
   color: white;
   text-transform: uppercase;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003434}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003478}}
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big .field-name-field-autor,
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big .field-name-field-rol-destacat,
 #mm-wrapper .view.view-carrousel .views-row.views-row-2 .views-field-nothing .tab.tab-big .field-name-field-autor,
@@ -6216,7 +6278,7 @@ body.front #mm-wrapper .views-row.passive-in .views-field-nothing .tab > * {
   height: auto;
   padding-left: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003439}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003483}}
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big .field-name-field-autor .field-items .field-item,
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big .field-name-field-rol-destacat .field-items .field-item,
 #mm-wrapper .view.view-carrousel .views-row.views-row-2 .views-field-nothing .tab.tab-big .field-name-field-autor .field-items .field-item,
@@ -6227,13 +6289,13 @@ body.front #mm-wrapper .views-row.passive-in .views-field-nothing .tab > * {
   color: white;
   text-transform: uppercase;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003448}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003492}}
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big .field-name-field-autor .field-items .field-item,
 #mm-wrapper .view.view-carrousel .views-row.views-row-2 .views-field-nothing .tab.tab-big .field-name-field-autor .field-items .field-item {
   font-weight: 800;
   padding-top: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003452}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003496}}
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big .grup_entorn,
 #mm-wrapper .view.view-carrousel .views-row.views-row-2 .views-field-nothing .tab.tab-big .grup_entorn {
   width: 280px;
@@ -6245,33 +6307,33 @@ body.front #mm-wrapper .views-row.passive-in .views-field-nothing .tab > * {
   color: white;
   text-transform: uppercase;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003462}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003506}}
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big .item-list,
 #mm-wrapper .view.view-carrousel .views-row.views-row-2 .views-field-nothing .tab.tab-big .item-list {
   height: auto;
   padding-bottom: 150px;
   margin-top: -20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003466}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003510}}
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big .item-list ul,
 #mm-wrapper .view.view-carrousel .views-row.views-row-2 .views-field-nothing .tab.tab-big .item-list ul {
   list-style: none;
   width: 280px;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003472}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003516}}
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big .item-list ul li .field-name-field-entorn .field-items .field-item,
 #mm-wrapper .view.view-carrousel .views-row.views-row-2 .views-field-nothing .tab.tab-big .item-list ul li .field-name-field-entorn .field-items .field-item {
   margin-top: 5px;
   margin-left: 20px;
   border-bottom: 1px solid #cdcecf;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003476}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003520}}
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big .item-list ul li .field-name-field-entorn .field-items .field-item:last-of-type,
 #mm-wrapper .view.view-carrousel .views-row.views-row-2 .views-field-nothing .tab.tab-big .item-list ul li .field-name-field-entorn .field-items .field-item:last-of-type {
   border: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003483}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003527}}
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big .item-list ul li .field-name-field-entorn .field-items .field-item .entorn_teaser .field-name-field-autor,
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big .item-list ul li .field-name-field-entorn .field-items .field-item .entorn_teaser .field-name-field-data,
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big .item-list ul li .field-name-field-entorn .field-items .field-item .entorn_teaser .field-name-field-tipus-entorn,
@@ -6285,7 +6347,7 @@ body.front #mm-wrapper .views-row.passive-in .views-field-nothing .tab > * {
   margin: 0;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003490}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003534}}
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big .item-list ul li .field-name-field-entorn .field-items .field-item .entorn_teaser .field-name-field-autor .field-items .field-item,
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big .item-list ul li .field-name-field-entorn .field-items .field-item .entorn_teaser .field-name-field-autor .field-items .field-item span,
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big .item-list ul li .field-name-field-entorn .field-items .field-item .entorn_teaser .field-name-field-data .field-items .field-item,
@@ -6309,22 +6371,22 @@ body.front #mm-wrapper .views-row.passive-in .views-field-nothing .tab > * {
   margin: 0;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003503}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003547}}
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big .item-list ul li .field-name-field-entorn .field-items .field-item .entorn_teaser .field-name-field-data .field-items .field-item span:after,
 #mm-wrapper .view.view-carrousel .views-row.views-row-2 .views-field-nothing .tab.tab-big .item-list ul li .field-name-field-entorn .field-items .field-item .entorn_teaser .field-name-field-data .field-items .field-item span:after {
   content: '. ';
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003512}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003556}}
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big .item-list ul li .field-name-field-entorn .field-items .field-item .entorn_teaser .field-name-field-sala .field-items .field-item:after,
 #mm-wrapper .view.view-carrousel .views-row.views-row-2 .views-field-nothing .tab.tab-big .item-list ul li .field-name-field-entorn .field-items .field-item .entorn_teaser .field-name-field-sala .field-items .field-item:after {
   content: '. ';
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003519}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003563}}
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big .item-list ul li .field-name-field-entorn .field-items .field-item .entorn_teaser .field-name-field-autor.field-name-field-autor,
 #mm-wrapper .view.view-carrousel .views-row.views-row-2 .views-field-nothing .tab.tab-big .item-list ul li .field-name-field-entorn .field-items .field-item .entorn_teaser .field-name-field-autor.field-name-field-autor {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003523}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003567}}
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big .item-list ul li .field-name-field-entorn .field-items .field-item .entorn_teaser h2.node-title,
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big .item-list ul li .field-name-field-entorn .field-items .field-item .entorn_teaser .field-name-field-autor,
 #mm-wrapper .view.view-carrousel .views-row.views-row-2 .views-field-nothing .tab.tab-big .item-list ul li .field-name-field-entorn .field-items .field-item .entorn_teaser h2.node-title,
@@ -6336,7 +6398,7 @@ body.front #mm-wrapper .views-row.passive-in .views-field-nothing .tab > * {
   padding: 0;
   line-height: 15px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003530}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003574}}
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big .item-list ul li .field-name-field-entorn .field-items .field-item .entorn_teaser h2.node-title a,
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big .item-list ul li .field-name-field-entorn .field-items .field-item .entorn_teaser .field-name-field-autor a,
 #mm-wrapper .view.view-carrousel .views-row.views-row-2 .views-field-nothing .tab.tab-big .item-list ul li .field-name-field-entorn .field-items .field-item .entorn_teaser h2.node-title a,
@@ -6346,27 +6408,27 @@ body.front #mm-wrapper .views-row.passive-in .views-field-nothing .tab > * {
   color: white;
   text-transform: uppercase;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003535}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003579}}
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big .item-list ul li .field-name-field-entorn .field-items .field-item .entorn_teaser h2.node-title a:after,
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big .item-list ul li .field-name-field-entorn .field-items .field-item .entorn_teaser .field-name-field-autor a:after,
 #mm-wrapper .view.view-carrousel .views-row.views-row-2 .views-field-nothing .tab.tab-big .item-list ul li .field-name-field-entorn .field-items .field-item .entorn_teaser h2.node-title a:after,
 #mm-wrapper .view.view-carrousel .views-row.views-row-2 .views-field-nothing .tab.tab-big .item-list ul li .field-name-field-entorn .field-items .field-item .entorn_teaser .field-name-field-autor a:after {
   content: '. ';
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003547}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003591}}
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-small,
 #mm-wrapper .view.view-carrousel .views-row.views-row-2 .views-field-nothing .tab.tab-small {
   right: 18%;
   margin-right: 3px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003551}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003595}}
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-small .field,
 #mm-wrapper .view.view-carrousel .views-row.views-row-2 .views-field-nothing .tab.tab-small .field {
   width: auto;
   height: auto;
   display: inline-block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003557}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003601}}
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-small .field .field-items .field-item,
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-small .field .field-items .field-item span,
 #mm-wrapper .view.view-carrousel .views-row.views-row-2 .views-field-nothing .tab.tab-small .field .field-items .field-item,
@@ -6376,23 +6438,23 @@ body.front #mm-wrapper .views-row.passive-in .views-field-nothing .tab > * {
   line-height: 15px;
   font-weight: 600;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003565}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003609}}
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-small .field-name-field-sala,
 #mm-wrapper .view.view-carrousel .views-row.views-row-2 .views-field-nothing .tab.tab-small .field-name-field-sala {
   padding-left: 20px;
   margin-top: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003569}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003613}}
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-small .field-name-field-sala .field-items .field-item,
 #mm-wrapper .view.view-carrousel .views-row.views-row-2 .views-field-nothing .tab.tab-small .field-name-field-sala .field-items .field-item {
   text-transform: uppercase;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003571}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003615}}
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-small .field-name-field-sala .field-items .field-item:after,
 #mm-wrapper .view.view-carrousel .views-row.views-row-2 .views-field-nothing .tab.tab-small .field-name-field-sala .field-items .field-item:after {
   content: '. ';
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003577}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003621}}
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-small a,
 #mm-wrapper .view.view-carrousel .views-row.views-row-2 .views-field-nothing .tab.tab-small a {
   color: white;
@@ -6406,7 +6468,7 @@ body.front #mm-wrapper .views-row.passive-in .views-field-nothing .tab > * {
   width: 280px;
   padding-top: 1px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003589}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003633}}
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-small .field-name-field-autor,
 #mm-wrapper .view.view-carrousel .views-row.views-row-2 .views-field-nothing .tab.tab-small .field-name-field-autor {
   padding-left: 20px;
