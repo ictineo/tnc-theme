@@ -62,7 +62,7 @@ Drupal.behaviors.theme_tnc_mm = {
           act = i+1;
         }
         jQuery(this).animate({top: "-100%"}, function () {
-            if(act == jQuery(clicked).attr('mm-l')) {
+            if(act == jQuery(clicked).attr('mm-t')) {
               jQuery('.view-id-carrega_megamenu.view-display-id-block_1').css('zIndex',0);
             }
           }
