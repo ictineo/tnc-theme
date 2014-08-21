@@ -30,6 +30,9 @@
       </div>
     <?php endif; ?>
     <?php print render($page['header']); ?>
+    <div id="logo-gencat">
+      <a href="http://www.gencat.cat"><img src="<?php print drupal_get_path('theme','tnc') . '/images/Logo-Generalitat-menu-superior.png'?>" /></a>
+    </div>
   </header>
 
   <?php /** contingut insertat dinàmicament via js **/ ?>
