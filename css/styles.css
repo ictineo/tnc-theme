@@ -3208,22 +3208,49 @@ body #header #block-locale-language h2.block__title.block-title {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_general\.scss}line{font-family:\0000326}}
 body #header #block-locale-language ul {
   list-style: none;
+  margin: 10px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_general\.scss}line{font-family:\0000328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_general\.scss}line{font-family:\0000329}}
 body #header #block-locale-language ul li {
   display: inline-block;
   font-size: 11px;
   text-transform: uppercase;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_general\.scss}line{font-family:\0000332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_general\.scss}line{font-family:\0000333}}
 body #header #block-locale-language ul li.active {
   font-weight: 700;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_general\.scss}line{font-family:\0000338}}
-body #header #block-locale-language ul li.es:after, body #header #block-locale-language ul li.es:before {
-  content: ' | ';
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_general\.scss}line{font-family:\0000336}}
+body #header #block-locale-language ul li a:hover {
+  text-transform: uppercase;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_general\.scss}line{font-family:\0000346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_general\.scss}line{font-family:\0000339}}
+body #header #block-locale-language ul li a {
+  padding: 0 8px;
+  line-height: 19px;
+  vertical-align: middle;
+  border-right: 1px solid #9c9e9f;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_general\.scss}line{font-family:\0000345}}
+body #header #block-locale-language ul li.last a {
+  border-right: 0px none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_general\.scss}line{font-family:\0000351}}
+body #header #logo-gencat {
+  display: block;
+  width: auto;
+  height: 40px;
+  line-height: 40px;
+  vertical-align: middle;
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_general\.scss}line{font-family:\0000358}}
+body #header #logo-gencat img {
+  vertical-align: middle;
+  display: inline;
+  line-height: 40px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_general\.scss}line{font-family:\0000366}}
 body #mm-wrapper .xxss-wrapper {
   position: absolute;
   top: -35px;
@@ -3241,7 +3268,7 @@ body #mm-wrapper .xxss-wrapper:before, body #mm-wrapper .xxss-wrapper:after {
 body #mm-wrapper .xxss-wrapper:after {
   clear: both;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_general\.scss}line{font-family:\0000361}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_general\.scss}line{font-family:\0000381}}
 body #mm-wrapper .xxss-wrapper .fb {
   float: left;
   width: 20%;
@@ -3255,7 +3282,7 @@ body #mm-wrapper .xxss-wrapper .fb {
   box-sizing: border-box;
   word-wrap: break-word;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_general\.scss}line{font-family:\0000363}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_general\.scss}line{font-family:\0000383}}
 body #mm-wrapper .xxss-wrapper .fb a {
   color: #e9eaeb;
   background-image: url("../images/sprite.png");
@@ -3265,7 +3292,7 @@ body #mm-wrapper .xxss-wrapper .fb a {
   background-position: 0px 0px;
   position: absolute;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_general\.scss}line{font-family:\0000372}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_general\.scss}line{font-family:\0000392}}
 body #mm-wrapper .xxss-wrapper .tw {
   float: left;
   width: 20%;
@@ -3279,7 +3306,7 @@ body #mm-wrapper .xxss-wrapper .tw {
   box-sizing: border-box;
   word-wrap: break-word;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_general\.scss}line{font-family:\0000374}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_general\.scss}line{font-family:\0000394}}
 body #mm-wrapper .xxss-wrapper .tw a {
   color: #e9eaeb;
   background-image: url("../images/sprite.png");
@@ -3289,7 +3316,7 @@ body #mm-wrapper .xxss-wrapper .tw a {
   background-position: -60px 0px;
   position: absolute;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_general\.scss}line{font-family:\0000383}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_general\.scss}line{font-family:\00003103}}
 body #mm-wrapper .xxss-wrapper span.instagram {
   float: left;
   width: 20%;
@@ -3303,7 +3330,7 @@ body #mm-wrapper .xxss-wrapper span.instagram {
   box-sizing: border-box;
   word-wrap: break-word;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_general\.scss}line{font-family:\0000385}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_general\.scss}line{font-family:\00003105}}
 body #mm-wrapper .xxss-wrapper span.instagram a {
   color: #e9eaeb;
   background-image: url("../images/sprite.png");
@@ -3313,7 +3340,7 @@ body #mm-wrapper .xxss-wrapper span.instagram a {
   background-position: -30px 0px;
   position: absolute;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_general\.scss}line{font-family:\0000394}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_general\.scss}line{font-family:\00003114}}
 body #mm-wrapper .xxss-wrapper span.youtube {
   float: left;
   width: 20%;
@@ -3327,7 +3354,7 @@ body #mm-wrapper .xxss-wrapper span.youtube {
   box-sizing: border-box;
   word-wrap: break-word;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_general\.scss}line{font-family:\0000396}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_general\.scss}line{font-family:\00003116}}
 body #mm-wrapper .xxss-wrapper span.youtube a {
   color: #e9eaeb;
   background-image: url("../images/sprite.png");
@@ -3337,7 +3364,7 @@ body #mm-wrapper .xxss-wrapper span.youtube a {
   background-position: -90px 0px;
   position: absolute;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_general\.scss}line{font-family:\00003105}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_general\.scss}line{font-family:\00003125}}
 body #mm-wrapper .xxss-wrapper span.feed {
   float: left;
   width: 20%;
@@ -3351,7 +3378,7 @@ body #mm-wrapper .xxss-wrapper span.feed {
   box-sizing: border-box;
   word-wrap: break-word;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_general\.scss}line{font-family:\00003107}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_general\.scss}line{font-family:\00003127}}
 body #mm-wrapper .xxss-wrapper span.feed a {
   color: #e9eaeb;
   background-image: url("../images/sprite.png");
@@ -3361,7 +3388,7 @@ body #mm-wrapper .xxss-wrapper span.feed a {
   background-position: -30px 0px;
   position: absolute;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_general\.scss}line{font-family:\00003118}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_general\.scss}line{font-family:\00003138}}
 body.front #mm-wrapper .xxss-wrapper {
   top: -35px;
 }

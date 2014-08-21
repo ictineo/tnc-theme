@@ -25,6 +25,7 @@ body {
       }
       ul {
         list-style: none;
+        margin: 10px 0;
         li {
           display: inline-block;
           font-size: 11px;
@@ -32,13 +33,32 @@ body {
           &.active {
             font-weight: 700;
           }
-        }
-        li.es {
-          &:after,
-          &:before {
-            content: ' | ';
+          a:hover {
+            text-transform: uppercase;
+          }
+          a {
+            padding: 0 8px;
+            line-height: 19px;
+            vertical-align: middle;
+            border-right: 1px solid $gris2;
+          }
+          &.last a {
+            border-right: 0px none;
           }
         }
+      }
+    }
+    #logo-gencat {
+      display: block;
+      width: auto;
+      height: 40px;
+      line-height: 40px;
+      vertical-align: middle;
+      float: left;
+      img {
+        vertical-align: middle;
+        display: inline;
+        line-height: 40px;
       }
     }
   }    /*Block XXSS*/
