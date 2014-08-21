@@ -2283,6 +2283,20 @@ body #page .region-bottom #block-menu-menu-regala-tnc {
   box-sizing: border-box;
   word-wrap: break-word;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003673}}
+body #page .region-bottom #block-menu-menu-restaurant-tnc {
+  float: left;
+  width: 20%;
+  margin-left: 80%;
+  margin-right: -100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+}
 
 /* Component (SMACSS module) rules */
 /**
@@ -7781,12 +7795,13 @@ body #page .region-bottom .block ul li a em {
   color: white;
   text-transform: none;
   margin-right: 20px;
+  font-style: normal;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_peu\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_peu\.scss}line{font-family:\0000346}}
 body #page .region-bottom #block-block-2 {
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_peu\.scss}line{font-family:\0000347}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_peu\.scss}line{font-family:\0000348}}
 body #page .region-bottom #block-block-2 p {
   font-size: 10px !important;
   line-height: 13px !important;
