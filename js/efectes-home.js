@@ -36,7 +36,8 @@ Drupal.behaviors.theme_tnc_homeslide = {
 
     //$('.views-field-nothing ').click(function() {
     // el element clickable ha de ser nomes el boto de fletxeta?
-    $('#mm-wrapper').click(function() {
+    $('#mm-wrapper .mm-next-slide').click(function() {
+      var mmw  = '#mm-wrapper';
       /* prevenim momviment si hi ha mm desplegat **/
       var mm_act = false;
       $(".view-id-carrega_megamenu.view-display-id-block_1 > div > .views-row").each(function () {
@@ -49,9 +50,9 @@ Drupal.behaviors.theme_tnc_homeslide = {
           mm_act = true;
         }
       });
-      if(!$(this).hasClass('animated') && !mm_act ){
-        $(this).addClass('animated');
-        var obj = jQuery(this).find('.view-carrousel .active > .views-field-nothing');
+      if(!$(mmw).hasClass('animated') && !mm_act ){
+        $(mmw).addClass('animated');
+        var obj = jQuery(mmw).find('.view-carrousel .active > .views-field-nothing');
         $.when(
           // Agafem tots els 'tab'
           $(obj).parent().parent().find('.tab').each(function () {
@@ -86,7 +87,7 @@ Drupal.behaviors.theme_tnc_homeslide = {
             });
          });
         });
-        $(this).removeClass('animated');
+        $(mmw).removeClass('animated');
       } // endif animate
     });
     // TODO unbind el click mentres dura l'animacio
