@@ -33,6 +33,12 @@ Drupal.behaviors.theme_tnc_homeslide = {
     $('#mm-wrapper .mm-slide-wrapper').click(function(e) {
       e.stopPropagation();
     });
+    /** guardem a on ha de linkar i borrem el element que ens passa la view **/
+    $('.view-id-carrousel.view-display-id-block_5 .views-row').each(function () {
+      var url = $(this).find('.views-field-view-node a').attr('href');
+      $(this).find('.views-field-nothing .field-content').attr('rel', url);
+      $(this).find('.views-field-view-node').remove();
+    });
 
     //$('.views-field-nothing ').click(function() {
     // el element clickable ha de ser nomes el boto de fletxeta?
