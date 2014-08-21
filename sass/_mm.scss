@@ -275,7 +275,7 @@ $top-menu-h: 40px;
             font-size: 13px;
             color:$blanc;
             &:before {
-              content:'> ';
+              //content:'> ';
             }
             &:after {
               content:'.';
@@ -286,7 +286,7 @@ $top-menu-h: 40px;
           display: inline-block;
           margin-right: 13px;
           .field-items .field-item {
-            font-size: 12px;
+            font-size: 11px;
             line-height: 18px;
             color:$blanc;
           }
@@ -346,12 +346,34 @@ $top-menu-h: 40px;
       }
       .field-name-field-enllac-megamenu {
         margin-top: 10px;
+        margin-right: 30px;
         a {
           font-size: 13px;
           color: $blanc;
           &:before {
             content: '> ';
           }
+        }
+        .field-item {
+          padding-top: 5px;
+          padding-bottom: 5px;
+        }
+        .field-item:first-child {
+          margin-top: 6px;
+        }
+      }
+
+      /** selector per agafar nomes en el cas que estiguin despres del titol **/
+      .field-name-field-titol + .field-name-field-enllac-megamenu.field-label-hidden {
+        /** simulem el titol amb la franja inferior si es el primer element del llistat*/
+        &:before {
+          content: " ";
+          height: 16px;
+          border-bottom: 1px solid white;
+          display: block;
+          width: 100%;
+          margin-right: 30px;
+          margin-top: 31px;
         }
       }
     }
