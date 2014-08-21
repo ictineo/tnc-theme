@@ -202,16 +202,16 @@ $top-menu-h: 40px;
       margin-top: 15px;
       .view-header p {
         text-transform: uppercase;
-        font-size: 13px;
-        font-weight: 700;
+        font-size: 12px;
+        font-weight: 400;
         color: $blanc;
         margin: 0;
       }
       .field-name-field-titol {
         .field-items {
           margin-right: 30px;
-          border-top: 1px solid $blanc;
-          border-bottom: 1px solid $blanc;
+          //border-top: 1px solid $blanc;
+          //border-bottom: 1px solid $blanc;
           padding-top: 2px;
           padding-bottom: 2px;
           margin-bottom: 10px;
@@ -354,6 +354,10 @@ $top-menu-h: 40px;
           }
         }
       }
+    }
+    /** calendari de les columnes **/
+    .view-id-calendar.view-display-id-block_2 {
+
     }
   }
 }
