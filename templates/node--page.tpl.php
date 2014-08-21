@@ -6,6 +6,16 @@
  * Complete documentation for this file is available online.
  * @see https://drupal.org/node/1728164
  */
+
+/* Si la col dreta est buida no la mostrem i fem la de l'esquerra
+ * a tot l'ample
+ */
+$has_right = true;
+if ( render($content['field_destacat_lateral']) == '') {
+  $has_right = false;
+  $classes .= ' full-width';
+}
+
 ?>
 <article class="node-<?php print $node->nid; ?> <?php print $classes; ?> clearfix"<?php print $attributes; ?>>
 
@@ -42,9 +52,11 @@
   <div class="col_esq">
     <div class="field-name-body"><?php print render ($content['body']);?></div>
   </div>
-  <div class="col_dreta">
-    <div class="field-name-field-destacat-lateral"><?php print render ($content['field_destacat_lateral']);?></div>
-  </div>
+  <?php if($has_right): ?>
+    <div class="col_dreta">
+      <div class="field-name-field-destacat-lateral"><?php print render ($content['field_destacat_lateral']);?></div>
+    </div>
+  <?php endif; ?>
   <?php print render($content['links']); ?>
 
   <?php print render($content['comments']); ?>
