@@ -417,17 +417,17 @@ body.front {
           a.jcarousel-prev.jcarousel-prev-horizontal:hover {
             @include bg_sprite;
             width: 28px;
-            height: 28px;
-            background-position: -30px -30px;
-            margin-top: 10%;
+            height: 60px;
+            background-position: -120px 0px;
+            margin-top: 7%;
           }
           a.jcarousel-next.jcarousel-next-horizontal,
           a.jcarousel-next.jcarousel-next-horizontal:hover {
             @include bg_sprite;
             width: 28px;
-            height: 28px;
-            background-position: 0px -30px;
-            margin-top: 10%;
+            height: 60px;
+            background-position: -120px -60px;
+            margin-top: 7%;
           }
         }
       }
@@ -437,6 +437,16 @@ body.front {
       margin-top: 0px;
       li.jcarousel-item {
         @include caixa_petita;
+      }
+      a.jcarousel-next.jcarousel-next-horizontal,
+      a.jcarousel-next.jcarousel-next-horizontal:hover {
+        height: 28px;
+        background-position: -90px -90px;
+      }
+      a.jcarousel-prev.jcarousel-prev-horizontal,
+      a.jcarousel-prev.jcarousel-prev-horizontal:hover {
+        height: 28px;
+        background-position: -90px -60px;
       }
     }
     .buttons-region {
