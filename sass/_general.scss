@@ -44,11 +44,16 @@ body {
   }    /*Block XXSS*/
   #mm-wrapper {
     .xxss-wrapper {
-      position: relative;
-      top: -53px;
-      z-index: 999;
+      // quiron changed fro absolute
+      // positioning an control z-index
+      // posicio relativa al mm-wrapper
+      //position: relative;
+      position: absolute;
+      //top: -53px;
+      top: -35px;
+      z-index: 1010;
       width: 190px;
-      float:left;
+      //float:left;
       margin-left: 50px;
       height: 0;
       $zen-column-count:5;
@@ -109,6 +114,12 @@ body {
         }
       }
     }
+  }
+  &.front #mm-wrapper .xxss-wrapper {
+    // corregim la posicio per que a portada el 
+    // mm-wrapper es relative enlloc d'absolute per tant
+    // el top ha de ser diferent
+    top: -35px;
   }
  
 }

@@ -1,16 +1,21 @@
 $top-menu-h: 40px;
 
-body.not-front #mm-wrapper {
-  #top-mm-wrapper {
-    top: 59px;
-  }
-  #left-mm-wrapper {
-    top: 100px;
-  }
-}
+// ho treiem per que ara tot el mm-wrapper
+// posiciona com a relative i no hi ha
+// diferencia entre home i internes
+//body.not-front #mm-wrapper {
+  //#top-mm-wrapper {
+    //top: 59px;
+  //}
+  //#left-mm-wrapper {
+    //top: 100px;
+  //}
+//}
 
 #mm-wrapper {
   margin-top: $top-menu-h;
+  // quiron
+  position: relative;
   
   .view-id-carrega_megamenu.view-display-id-block_3,
   .view-id-carrega_megamenu.view-display-id-block_1 {
@@ -41,6 +46,10 @@ body.not-front #mm-wrapper {
     display: block;
     width: 100%;
     padding-left: 30%;
+    // zindex per sobre el wrapper general
+    // per fer els links clicables
+    z-index: 1009;
+    a,
     h4 {
       display: inline-block;
       font-size: 11px;

@@ -95,7 +95,27 @@ function tnc_form_system_theme_settings_alter(&$form, &$form_state, $form_id = N
     '#default_value' => theme_get_setting('tnc_xxss_you'),
     '#description'   => t("Enter url to link"),
   );
-
+  /** 4 links fixes del menu superior **/
+  $form['tnc_toplinks'] = array(
+    '#type'          => 'fieldset',
+    '#title'         => 'Fixed links for top megamenu',
+    '#collapsible'   => TRUE,
+    '#collapsed'     => FALSE,
+  );
+  for ($i = 0; $i < 4; $i++) {
+    $form['tnc_toplinks']['tnc_'.$i.'_text'] = array(
+      '#type'          => 'textfield',
+      '#title'         => 'Text to display for link '.$i,
+      '#default_value' => theme_get_setting('tnc_'.$i.'_text'),
+      '#description'   => t("Enter text to display"),
+    );
+    $form['tnc_toplinks']['tnc_'.$i.'_url'] = array(
+      '#type'          => 'textfield',
+      '#title'         => 'URL to link to for link '.$i,
+      '#default_value' => theme_get_setting('tnc_'.$i.'_url'),
+      '#description'   => t("Enter url to link"),
+    );
+  }
 
   // Remove some of the base theme's settings.
   /* -- Delete this line if you want to turn off this setting.

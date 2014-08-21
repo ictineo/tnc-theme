@@ -8,6 +8,10 @@
   /** estils generals **/
   background-color: $negre;
   min-height: 600px;
+  /** fixem un maxim d'alt per la imatge **/
+  max-height: 600px;
+  overflow: hidden;
+
   h5.multimedia-title {
     @include tit_multimedia();
     margin-top: 12px;
