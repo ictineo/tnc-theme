@@ -19,7 +19,7 @@
   <?php print render($content['field_data']);?>
   <?php print render($content['field_tipus_entorn']);?>
   <h2 class="node-title"><a href="<?php print($url);?>"><?php print render($title);?></a></h2>
-  <?php print render($content['field_autor']);?>
+  <?php //print render($content['field_autor']);?>
 </div>
 
 <?php else:?>
