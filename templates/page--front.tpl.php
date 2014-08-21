@@ -39,6 +39,7 @@
        print $output; ?>
     </div>
 <?php print views_embed_view('carrousel', 'block_5'); ?>
+<div id="mm-next-slide">&nbsp;</div>
 <?php print views_embed_view('carrega_megamenu', 'block_1'); ?>
 <?php print views_embed_view('carrega_megamenu', 'block_3'); ?>
     <div id="top-mm-wrapper">
