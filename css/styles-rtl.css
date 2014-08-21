@@ -321,62 +321,62 @@ ul {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003280}}
   #mm-wrapper .view-id-carrega_megamenu .mm-slide-wrapper .mm-content .field-name-field-columna-1 {
     float: right;
-    width: 16.66667%;
-    margin-right: 33.33333%;
-    margin-left: -50%;
+    width: 20%;
+    margin-right: 20%;
+    margin-left: -40%;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003283}}
   #mm-wrapper .view-id-carrega_megamenu .mm-slide-wrapper .mm-content .field-name-field-columna-2 {
     float: right;
-    width: 16.66667%;
-    margin-right: 50%;
-    margin-left: -66.66667%;
+    width: 20%;
+    margin-right: 40%;
+    margin-left: -60%;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003286}}
   #mm-wrapper .view-id-carrega_megamenu .mm-slide-wrapper .mm-content .field-name-field-columna-3 {
     float: right;
-    width: 16.66667%;
-    margin-right: 66.66667%;
-    margin-left: -83.33333%;
+    width: 20%;
+    margin-right: 60%;
+    margin-left: -80%;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003289}}
   #mm-wrapper .view-id-carrega_megamenu .mm-slide-wrapper .mm-content .field-name-field-columna-4 {
     float: right;
-    width: 16.66667%;
-    margin-right: 83.33333%;
+    width: 20%;
+    margin-right: 80%;
     margin-left: -100%;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003293}}
   #mm-wrapper .view-id-carrega_megamenu .mm-slide-wrapper .mm-content .field-name-field-columna-1 .field-items .field-item .field-name-field-altres-llistats .field-items .field-item .view-tipus-patrocinadors {
     clear: right;
     float: right;
-    width: 66.66667%;
-    margin-right: 33.33333%;
-    margin-left: -100%;
+    width: 80%;
+    margin-right: 40%;
+    margin-left: -120%;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003297}}
   #mm-wrapper .view-id-carrega_megamenu .mm-slide-wrapper .mm-content .field-name-field-columna-2 .view-tipus-patrocinadors {
     clear: right;
     float: right;
-    width: 66.66667%;
-    margin-right: 33.33333%;
-    margin-left: -100%;
+    width: 80%;
+    margin-right: 40%;
+    margin-left: -120%;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003301}}
   #mm-wrapper .view-id-carrega_megamenu .mm-slide-wrapper .mm-content .field-name-field-columna-3 .view-tipus-patrocinadors {
     clear: right;
     float: right;
-    width: 66.66667%;
-    margin-right: 33.33333%;
-    margin-left: -100%;
+    width: 80%;
+    margin-right: 40%;
+    margin-left: -120%;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003305}}
   #mm-wrapper .view-id-carrega_megamenu .mm-slide-wrapper .mm-content .field-name-field-columna-4 .view-tipus-patrocinadors {
     clear: right;
     float: right;
-    width: 66.66667%;
-    margin-right: 33.33333%;
-    margin-left: -100%;
+    width: 80%;
+    margin-right: 40%;
+    margin-left: -120%;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass-extensions\/zen-grids\/stylesheets\/zen\/_grids\.scss}line{font-family:\0000346}}
   #mm-wrapper .view-id-carrega_megamenu .mm-slide-wrapper .mm-content .field-items:before, #mm-wrapper .view-id-carrega_megamenu .mm-slide-wrapper .mm-content .field-items:after {
