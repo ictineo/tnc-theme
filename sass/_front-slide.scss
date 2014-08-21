@@ -22,6 +22,17 @@ body.front #mm-wrapper {
     width: 100%;
     overflow: hidden;
   }
+  /** bola de passar slide **/
+  #mm-next-slide {
+    width: 18px;
+    height: 18px;
+    display: block;
+    background-image: url('../images/canvislide.png');
+    background-repeat: no-repeat;
+    right: 0px;
+    bottom: 0px;
+    position: absolute;
+  }
   
 
 
@@ -87,14 +98,21 @@ body.front #mm-wrapper {
       display: block;
       position: absolute;
       width: 100%;
-      overflow: hidden;
       @include rotate(3deg);
       border-bottom: 4px solid white;
       padding: 0 100px; // talls laterals
       margin: -400px -100px 0 -100px;
       height: 1010px; //900px;
 
-      & > * {
+      /** contenidor creat per ubicar la fletxa de canvi */
+      .field-content-2wrapper {
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+        display: block;
+        position: absolute;
+      }
+      & > div > * {
         @include rotate(-3deg); // compensacio
       }
       .field-name-field-imatge-capcalera {
