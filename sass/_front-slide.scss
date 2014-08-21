@@ -2,7 +2,8 @@
 
 $min-height-mm: 800px;
 $main-tab-height: 450px;
-$main-tab-top: 650px;
+//$main-tab-top: 650px;
+$main-tab-top: 570px;
 $min-tab-height: 200px;
 $min-tab-top: 800px;
 
@@ -61,7 +62,8 @@ body.front #mm-wrapper {
         padding: 0px;
         display: block;
         height: auto;// $min-tab-height; jude comenta
-        top:680px;// $min-tab-top; jude comenta
+        //top:680px;// $min-tab-top; jude comenta
+        top: 695px;// $min-tab-top; jude comenta
         overfloww: hidden;
         
 
@@ -77,7 +79,7 @@ body.front #mm-wrapper {
     padding: 0px;
     position: absolute;
     z-index: 100;
-    min-height: $min-height-mm;
+    //min-height: $min-height-mm;
     &> .field-content {
       width:  100%;
       @include zen-grid-container();
