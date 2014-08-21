@@ -72,7 +72,7 @@ Drupal.behaviors.theme_tnc_homeslide = {
            $(obj).animateRotate(0, -180, 800,'swing', function () {
               $(obj).parent().removeClass('active').addClass('passive-in');
               // Ubiquem les taba sota per fer l'efecte de pujada
-              $('.tab').each(function () {$(this).css('top', '1200px');});
+              $(obj).find('.tab').each(function () {$(this).css('top', '1200px');});
               $(obj).animateRotate(-180, -360, 800, 'swing', function () {
               $.when(
                 $('#mm-wrapper .views-row').each(function () {
