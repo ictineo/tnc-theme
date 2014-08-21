@@ -2270,21 +2270,7 @@ body #page .region-bottom #block-menu-menu-compra-d-entrades {
   word-wrap: break-word;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003670}}
-body #page .region-bottom #block-menu-menu-regala-tnc {
-  float: left;
-  width: 20%;
-  margin-left: 80%;
-  margin-right: -100%;
-  padding-left: 10px;
-  padding-right: 10px;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -ms-box-sizing: border-box;
-  box-sizing: border-box;
-  word-wrap: break-word;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/layouts\/_responsive\.scss}line{font-family:\00003673}}
-body #page .region-bottom #block-menu-menu-restaurant-tnc {
+body #page .region-bottom #w5col {
   float: left;
   width: 20%;
   margin-left: 80%;

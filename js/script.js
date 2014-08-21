@@ -47,8 +47,8 @@ Drupal.behaviors.theme_tnc = {
   //}
   /** reestructuracio del footer **/
   jQuery('<div id="w5col"></div>').insertAfter('#block-menu-menu-restaurant-tnc');
-  jQuery('#block-menu-menu-restaurant-tnc').appendTo('#w5col');
   jQuery('#block-menu-menu-regala-tnc').appendTo('#w5col');
+  jQuery('#block-menu-menu-restaurant-tnc').appendTo('#w5col');
 
 
   }
