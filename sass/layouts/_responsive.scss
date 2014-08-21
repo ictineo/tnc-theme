@@ -606,6 +606,16 @@ $zen-auto-include-item-base: false;
         @include zen-grid-item (1,4);
       }
     }
+    /* sobre escribim full-width */
+    article.node-page.full-width {
+      .col_esq {
+        @include zen-clear();
+        @include zen-grid-item (4,1);
+      }
+      .col_dreta {
+        display: none;
+      }
+    }
   }
   body.page-temporada {
     .view-temporada {
