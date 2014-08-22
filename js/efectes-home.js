@@ -29,6 +29,11 @@ Drupal.behaviors.theme_tnc_homeslide = {
             $({deg: orig}).animate({deg: angle}, args);
         });
     };
+    /** definicio de valors  que es corresponen a les vairables sass de _front-slide.scss
+     * per fer servir a les animacions mantenint la congruencia
+     */
+    var main_tab_top = '434px';
+    var secn_tab_top = '490px';
     /* Evitem que giri si es clica sobre alguna regió del mm **/
     $('#mm-wrapper .mm-slide-wrapper').click(function(e) {
       e.stopPropagation();
@@ -50,13 +55,14 @@ Drupal.behaviors.theme_tnc_homeslide = {
       var mmw  = '#mm-wrapper';
       /* prevenim momviment si hi ha mm desplegat **/
       var mm_act = false;
+      // TODO merge checks
       $(".view-id-carrega_megamenu.view-display-id-block_1 > div > .views-row").each(function () {
         if($(this).css('top') == '0px') {
           mm_act = true;
         }
       });
       $(".view-id-carrega_megamenu.view-display-id-block_3 > div > .views-row").each(function () {
-        if($(this).css('left') == '0px') {
+        if($(this).css('top') == '0px') {
           mm_act = true;
         }
       });
@@ -69,12 +75,15 @@ Drupal.behaviors.theme_tnc_homeslide = {
             $(this).animate({top: "+=600"})
           }).promise()
         ).done(function () {
+          // animacio per treure la de dalt
            $(obj).animateRotate(0, -180, 800,'swing', function () {
               $(obj).parent().removeClass('active').addClass('passive-in');
               // Ubiquem les taba sota per fer l'efecte de pujada
               $(obj).find('.tab').each(function () {$(this).css('top', '1200px');});
+              // fem apareixer la de sota
               $(obj).animateRotate(-180, -360, 800, 'swing', function () {
               $.when(
+                // actualitzem amb les clases temporals destat
                 $('#mm-wrapper .views-row').each(function () {
                   if($(this).hasClass('passive-in')) {
                     $(this).removeClass('passive-in');
@@ -87,11 +96,11 @@ Drupal.behaviors.theme_tnc_homeslide = {
               ).done(function () {
                 if($(this).hasClass('active')) {
                   /** quiron: $(this).find('.tab-big').animate({top: 650}); */
-                  $(this).find('.tab-big').animate({top: 570});
+                  $(this).find('.tab-big').animate({top: main_tab_top});
                 }
                 if($(this).hasClass('passive')) {
                   /** quiron $(this).find('.tab-small').animate({top: 680});//jude canvia de 800 a 680 */
-                  $(this).find('.tab-small').animate({top: 695});
+                  $(this).find('.tab-small').animate({top: secn_tab_top});
                 }
               });
             });

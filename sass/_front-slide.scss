@@ -1,11 +1,13 @@
 @import "compass/css3";
 
-$min-height-mm: 800px;
-$main-tab-height: 450px;
+//$min-height-mm: 800px;
+$min-height-mm: 585px;
+$main-tab-height: 842px;
 //$main-tab-top: 650px;
-$main-tab-top: 570px;
+$main-tab-top: 434px;
 $min-tab-height: 200px;
 $min-tab-top: 800px;
+$inclinacio: 2deg;
 
 body.front #mm-wrapper {
   $zen-gutter-method: "margin";
@@ -32,7 +34,7 @@ body.front #mm-wrapper {
     display: block;
     background-image: url('../images/canvislide.png');
     background-repeat: no-repeat;
-    right: 250px;
+    right: 8%;
     bottom: -11px;
     position: absolute;
     z-index: 8005; //sempre a sobre de tot
@@ -50,6 +52,8 @@ body.front #mm-wrapper {
     padding: 0px;
     position: absolute;
     min-height: $min-height-mm;
+    // correccions
+    width: 100%;
     &> .field-content {
       width:  100%;
       @include zen-grid-container();
@@ -60,8 +64,14 @@ body.front #mm-wrapper {
         padding: 0px;
         .field-item {
           display: block;
+          // quiron correccio salt final animacio
           position: absolute;
-          width: 100%;
+          //bottom: 0px;
+          //position: relative;
+          //left: -5px;
+          //top: -5px;
+          width: 115%; // ajustem tamany de la imatege per lefecte dentrada
+          bottom: 0px;
           //overflow: hidden;
           //@include rotate(3deg);
           //padding: 0 100px; // talls laterals
@@ -81,8 +91,10 @@ body.front #mm-wrapper {
         display: block;
         height: auto;// $min-tab-height; jude comenta
         //top:680px;// $min-tab-top; jude comenta
-        top: 695px;// $min-tab-top; jude comenta
+        top: 490px;// $min-tab-top; jude comenta
         overfloww: hidden;
+        // sobreescrivim aqui right per tenirho junt
+        right: 11%;
         
 
       }
@@ -117,20 +129,26 @@ body.front #mm-wrapper {
       // canviem per posicionar la fletxa de canvi de diapo
       position: relative;
       width: 100%;
-      @include rotate(3deg);
-      border-bottom: 4px solid white;
+      @include rotate($inclinacio);
+      border-bottom: 2px solid white;
       padding: 0 100px; // talls laterals
       margin: -400px -100px 0 -100px;
-      height: 1010px; //900px;
+      // quiron ultim diseny...
+      //height: 1010px; //900px;
+      height: $main-tab-height;
 
       & > div > * {
-        @include rotate(-3deg); // compensacio
+        @include rotate(-$inclinacio); // compensacio
       }
       .field-name-field-imatge-capcalera {
         @include zen-grid-item(5, 1);
         margin: 0px;
         padding: 0px;
         .field-item {
+          // compensacio
+          position: relative;
+          top: -5px;
+          left: -5px;
          img {
             top: 400px; // compensacio
             display: block;
@@ -148,7 +166,7 @@ body.front #mm-wrapper {
         height: 100%;//$main-tab-height;
         top: $main-tab-top;
         //quiron correccio de desplacament
-        right: 25%;
+        right: 22%;
       }
       //@include zen-clear();
     }
@@ -162,8 +180,18 @@ body.front #mm-wrapper {
     position: absolute;
     z-index: 100;
     min-height: $min-height-mm;
+    // correccions 
+    //min-height: 735px;
+    height: 100%;
+    bottom: 0px;
+    width: 110%;
+    //top: -150px;
     @include rotate(-180deg);
     &> .field-content {
+      .field-content-2wrapper {
+        height: 146px;
+        bottom: 0px;
+      }
       width:  100%;
       @include zen-grid-container();
       /// efecte de gir **/
@@ -173,19 +201,19 @@ body.front #mm-wrapper {
         padding: 0px;
         .field-item {
           display: block;
-          position: absolute;
+          //position: absolute;
           width: 100%;
           overflow: hidden;
-          @include rotate(3deg);
+          @include rotate($inclinacio);
           padding: 0 100px; // talls laterals
           margin: 0 -100px ;
           top: 600px;
-          border-top: 4px solid white;
+          border-top: 2px solid white;
           img {
-            bottom: 600px; // compensacio
+            bottom: 450px; // compensacio
             display: block;
             z-index: -1;
-            @include rotate(-3deg); // compensacio
+            @include rotate(-$inclinacio); // compensacio
             width: 100%;
             position: relative;
             //right: 32px; //AJUISTar js?
