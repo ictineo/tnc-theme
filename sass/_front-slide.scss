@@ -72,6 +72,7 @@ body.front #mm-wrapper {
           //top: -5px;
           width: 115%; // ajustem tamany de la imatege per lefecte dentrada
           bottom: 0px;
+          top: 0px;
           //overflow: hidden;
           //@include rotate(3deg);
           //padding: 0 100px; // talls laterals
@@ -148,7 +149,7 @@ body.front #mm-wrapper {
           // compensacio
           position: relative;
           top: -5px;
-          left: -5px;
+          //left: -5px;
          img {
             top: 400px; // compensacio
             display: block;
