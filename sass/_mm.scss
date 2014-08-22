@@ -117,7 +117,6 @@ $top-menu-h: 40px;
       width: 380px;
       height: 500px;
       /* quina img??? */
-      background-image: url('../images/logotnc-menu-lateral.png');
       border-top-right-radius: 250px;
       border-bottom-right-radius: 250px;
       margin-left: -200px;
@@ -127,6 +126,17 @@ $top-menu-h: 40px;
       background-position: 225px 200px;
       z-index: 1005;
       margin-bottom: -145px;
+    }
+    a#tnc-left-logo {
+      background-image: url('../images/logotnc-menu-lateral.png');
+      width: 125px;
+      height: 150px;
+      background-repeat: no-repeat;
+      display: block;
+      position: relative;
+      top: 160px;
+      left: 20px;
+      position: absolute;
     }
     h4 {
       /** afinar! **/

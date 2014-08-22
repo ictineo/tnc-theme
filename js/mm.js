@@ -8,7 +8,7 @@ Drupal.behaviors.theme_tnc_mm = {
       jQuery(this).attr('mm-t', i + 1).appendTo('#top-mm-wrapper');
     });
     /* afegim un contenidor a esquerre del mm */
-    jQuery('#mm-wrapper').append('<div id="left-mm-wrapper"></div>');
+    jQuery('#mm-wrapper').append('<div id="left-mm-wrapper"><a id="tnc-left-logo" href="http://www.tnc.cat">&nbsp</a></div>');
     /* Lomplim amb els h4 de la view de top */
     jQuery('#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_3 h4').each(function( i ) {
       jQuery(this).attr('mm-l', i + 1).appendTo('#left-mm-wrapper');
@@ -81,5 +81,20 @@ Drupal.behaviors.theme_tnc_mm = {
         jQuery('#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_1 .views-row-' + jQuery(this).attr('mm-t')).animate({top: 0});
       }
     });
+
+
+
+
+
+    /** simulacio de link a la home a la bola del megamenu esquerre **/
+    //jQuery('#left-mm-wrapper:before').click(function () {
+    jQuery('#mm-wrapper #left-mm-wrapper:after').click(function () {
+      console.log('click');
+      console.log(Drupal.setting);
+      //window.location.href =
+    });
+
+
+
   }
 }
