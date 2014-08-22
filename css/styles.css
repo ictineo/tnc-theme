@@ -7861,6 +7861,123 @@ body #page .region-bottom #block-block-2 p {
   margin: 0;
   color: white;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_peu\.scss}line{font-family:\0000356}}
+body #page #sub-footer-wrapper {
+  width: 100%;
+  background-color: #dcdddf;
+  height: 40px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_peu\.scss}line{font-family:\0000361}}
+body #page #sub-footer-wrapper:before, body #page #sub-footer-wrapper:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_peu\.scss}line{font-family:\0000366}}
+body #page #sub-footer-wrapper .region-subbottom {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_peu\.scss}line{font-family:\0000370}}
+body #page #sub-footer-wrapper .region-subbottom #block-block-8 {
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_peu\.scss}line{font-family:\0000373}}
+body #page #sub-footer-wrapper .region-subbottom #block-block-8 a {
+  line-height: 20px;
+  padding: 0px 10px;
+  border-right: 1px solid #9c9e9f;
+  color: #9c9e9f;
+  font-size: 11px;
+  font-weight: 400;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_peu\.scss}line{font-family:\0000380}}
+body #page #sub-footer-wrapper .region-subbottom #block-block-8 a:last-child {
+  border-right: 0px none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_peu\.scss}line{font-family:\0000386}}
+body #page #sub-footer-wrapper .region-subbottom #block-block-3--2 {
+  display: block;
+  float: right;
+  margin: 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_peu\.scss}line{font-family:\0000388}}
+body #page #sub-footer-wrapper .region-subbottom #block-block-3--2:before, body #page #sub-footer-wrapper .region-subbottom #block-block-3--2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_peu\.scss}line{font-family:\0000396}}
+body #page #sub-footer-wrapper .region-subbottom #block-block-3--2 .xxss {
+  float: right;
+  position: static;
+  width: 290px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_peu\.scss}line{font-family:\00003101}}
+body #page #sub-footer-wrapper .region-subbottom #block-block-3--2 .xxss .fb a {
+  color: #e9eaeb;
+  background-image: url("../images/sprite.png");
+  background-repeat: no-repeat;
+  width: 28px;
+  height: 28px;
+  background-position: 0px 0px;
+  position: absolute;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_peu\.scss}line{font-family:\00003111}}
+body #page #sub-footer-wrapper .region-subbottom #block-block-3--2 .xxss .tw a {
+  color: #e9eaeb;
+  background-image: url("../images/sprite.png");
+  background-repeat: no-repeat;
+  width: 28px;
+  height: 28px;
+  background-position: -60px 0px;
+  position: absolute;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_peu\.scss}line{font-family:\00003121}}
+body #page #sub-footer-wrapper .region-subbottom #block-block-3--2 .xxss span.instagram a {
+  color: #e9eaeb;
+  background-image: url("../images/sprite.png");
+  background-repeat: no-repeat;
+  width: 28px;
+  height: 28px;
+  background-position: -30px 0px;
+  position: absolute;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_peu\.scss}line{font-family:\00003131}}
+body #page #sub-footer-wrapper .region-subbottom #block-block-3--2 .xxss span.youtube a {
+  color: #e9eaeb;
+  background-image: url("../images/sprite.png");
+  background-repeat: no-repeat;
+  width: 28px;
+  height: 28px;
+  background-position: -90px 0px;
+  position: absolute;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_peu\.scss}line{font-family:\00003141}}
+body #page #sub-footer-wrapper .region-subbottom #block-block-3--2 .xxss span.feed a {
+  color: #e9eaeb;
+  background-image: url("../images/sprite.png");
+  background-repeat: no-repeat;
+  width: 28px;
+  height: 28px;
+  background-position: -30px 0px;
+  position: absolute;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_peu\.scss}line{font-family:\00003151}}
+body #page #sub-footer-wrapper .region-subbottom #block-block-3--2 .xxss.xxss.xxss {
+  margin-top: -5px;
+  /**sobreescriptura general dels botos **/
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_peu\.scss}line{font-family:\00003155}}
+body #page #sub-footer-wrapper .region-subbottom #block-block-3--2 .xxss.xxss.xxss span a,
+body #page #sub-footer-wrapper .region-subbottom #block-block-3--2 .xxss.xxss.xxss div a {
+  float: right;
+  position: static;
+  display: block;
+  margin-left: 20px;
+}
 
 /**
  * @file
