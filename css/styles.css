@@ -5048,30 +5048,30 @@ body.node-type-fitxa-premsa article.node-fitxa-premsa #main-wrapper #xxss-wrappe
   overflow: hidden;
   text-indent: 999px;
   display: block;
-  height: 35px;
+  height: 28px;
   width: 12px;
   background-image: url("../images/sprite.png");
   background-repeat: no-repeat;
   margin: 0px;
   background-position: -6px -92px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\0000353}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\0000355}}
 .view-calendar .view-header .date-nav-wrapper ul li.date-next a,
 .view-blo .view-header .date-nav-wrapper ul li.date-next a {
   margin-top: -35px;
   background-position: -38px -92px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\0000359}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\0000361}}
 .view-calendar .view-header .date-nav-wrapper,
 .view-blo .view-header .date-nav-wrapper {
   display: inline;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\0000364}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\0000366}}
 .view-calendar .view-content .calendar-calendar .month-view table.full,
 .view-blo .view-content .calendar-calendar .month-view table.full {
   border: 0px none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\0000369}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\0000371}}
 .view-calendar .view-content .calendar-calendar .month-view table.full td.today,
 .view-calendar .view-content .calendar-calendar .month-view table.full td.date-box.today,
 .view-calendar .view-content .calendar-calendar .month-view table.full td.single-day.today,
@@ -5085,19 +5085,19 @@ body.node-type-fitxa-premsa article.node-fitxa-premsa #main-wrapper #xxss-wrappe
   border-right: 6px solid white;
   border-left: 6px solid white;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\0000376}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\0000378}}
 .view-calendar .view-content .calendar-calendar .month-view table.full thead,
 .view-blo .view-content .calendar-calendar .month-view table.full thead {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\0000380}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\0000382}}
 .view-calendar .view-content .calendar-calendar .month-view table.full tbody tr.date-box td,
 .view-blo .view-content .calendar-calendar .month-view table.full tbody tr.date-box td {
   background-color: #dcdddf;
   padding: 0px;
   margin: 0px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\0000384}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\0000386}}
 .view-calendar .view-content .calendar-calendar .month-view table.full tbody tr.date-box td .num-day,
 .view-blo .view-content .calendar-calendar .month-view table.full tbody tr.date-box td .num-day {
   float: left;
@@ -5109,7 +5109,7 @@ body.node-type-fitxa-premsa article.node-fitxa-premsa #main-wrapper #xxss-wrappe
   border-radius: 0 20px 20px 0;
   font-weight: 800;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\0000397}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\0000399}}
 .view-calendar .view-content .calendar-calendar .month-view table.full tbody tr.date-box td .month,
 .view-calendar .view-content .calendar-calendar .month-view table.full tbody tr.date-box td .txt-day,
 .view-blo .view-content .calendar-calendar .month-view table.full tbody tr.date-box td .month,
@@ -5123,50 +5123,50 @@ body.node-type-fitxa-premsa article.node-fitxa-premsa #main-wrapper #xxss-wrappe
   font-weight: 600;
   line-height: 15px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003108}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003110}}
 .view-calendar .view-content .calendar-calendar .month-view table.full tbody tr.date-box td .month,
 .view-blo .view-content .calendar-calendar .month-view table.full tbody tr.date-box td .month {
   font-weight: 800;
   vertical-align: bottom;
   padding-top: 4px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003113}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003115}}
 .view-calendar .view-content .calendar-calendar .month-view table.full tbody tr.date-box td .txt-day,
 .view-blo .view-content .calendar-calendar .month-view table.full tbody tr.date-box td .txt-day {
   vertical-align: top;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003116}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003118}}
 .view-calendar .view-content .calendar-calendar .month-view table.full tbody tr.date-box td.day-box-current .num-day,
 .view-blo .view-content .calendar-calendar .month-view table.full tbody tr.date-box td.day-box-current .num-day {
   background-color: #008991;
   color: white;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003122}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003124}}
 .view-calendar .view-content .calendar-calendar .month-view table.full tbody tr.single-day *,
 .view-blo .view-content .calendar-calendar .month-view table.full tbody tr.single-day * {
   border-radius: 0px;
   border-radius: 0px !important;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003126}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003128}}
 .view-calendar .view-content .calendar-calendar .month-view table.full tbody tr.single-day td,
 .view-blo .view-content .calendar-calendar .month-view table.full tbody tr.single-day td {
   padding: 0px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003131}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003133}}
 .view-calendar .view-content .calendar-calendar .month-view table.full tbody tr.single-day td .item .calendar.monthview,
 .view-blo .view-content .calendar-calendar .month-view table.full tbody tr.single-day td .item .calendar.monthview {
   background-color: #f4f4f5;
   padding: 0 0 5px 0;
   margin: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003135}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003137}}
 .view-calendar .view-content .calendar-calendar .month-view table.full tbody tr.single-day td .item .calendar.monthview *,
 .view-blo .view-content .calendar-calendar .month-view table.full tbody tr.single-day td .item .calendar.monthview * {
   font-size: 11px;
   line-height: 15px;
   text-transform: uppercase;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003140}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003142}}
 .view-calendar .view-content .calendar-calendar .month-view table.full tbody tr.single-day td .item .calendar.monthview * > a,
 .view-calendar .view-content .calendar-calendar .month-view table.full tbody tr.single-day td .item .calendar.monthview * .field,
 .view-blo .view-content .calendar-calendar .month-view table.full tbody tr.single-day td .item .calendar.monthview * > a,
@@ -5174,12 +5174,12 @@ body.node-type-fitxa-premsa article.node-fitxa-premsa #main-wrapper #xxss-wrappe
   padding: 0 4px 0 8px;
   display: inline-block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003145}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003147}}
 .view-calendar .view-content .calendar-calendar .month-view table.full tbody tr.single-day td .item .calendar.monthview .field-name-field-sala,
 .view-blo .view-content .calendar-calendar .month-view table.full tbody tr.single-day td .item .calendar.monthview .field-name-field-sala {
   margin-top: 4px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003148}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003150}}
 .view-calendar .view-content .calendar-calendar .month-view table.full tbody tr.single-day td .item .calendar.monthview .field-name-field-url-compra-reserva,
 .view-blo .view-content .calendar-calendar .month-view table.full tbody tr.single-day td .item .calendar.monthview .field-name-field-url-compra-reserva {
   padding: 0px;
@@ -5188,7 +5188,7 @@ body.node-type-fitxa-premsa article.node-fitxa-premsa #main-wrapper #xxss-wrappe
   width: 100%;
   margin-top: 8px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003154}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003156}}
 .view-calendar .view-content .calendar-calendar .month-view table.full tbody tr.single-day td .item .calendar.monthview .field-name-field-url-compra-reserva a,
 .view-blo .view-content .calendar-calendar .month-view table.full tbody tr.single-day td .item .calendar.monthview .field-name-field-url-compra-reserva a {
   width: 100%;
@@ -5212,24 +5212,24 @@ body.node-type-fitxa-premsa article.node-fitxa-premsa #main-wrapper #xxss-wrappe
   min-height: inherit;
   height: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003165}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003167}}
 .view-calendar .view-content .calendar-calendar .month-view table.full tbody tr.single-day td .item .calendar.monthview .field-name-field-url-compra-reserva a:hover,
 .view-blo .view-content .calendar-calendar .month-view table.full tbody tr.single-day td .item .calendar.monthview .field-name-field-url-compra-reserva a:hover {
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003171}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003173}}
 .view-calendar .view-content .calendar-calendar .month-view table.full tbody tr.single-day td .item.current,
 .view-blo .view-content .calendar-calendar .month-view table.full tbody tr.single-day td .item.current {
   border: 1px solid #008991;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003178}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003180}}
 .view-calendar .view-content .calendar-calendar .month-view table.full tbody tr.single-day td.past,
 .view-calendar .view-content .calendar-calendar .month-view table.full tbody tr.date-box td.past,
 .view-blo .view-content .calendar-calendar .month-view table.full tbody tr.single-day td.past,
 .view-blo .view-content .calendar-calendar .month-view table.full tbody tr.date-box td.past {
   background-color: #e9eaeb;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003182}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003184}}
 .view-calendar .view-content .calendar-calendar .month-view table.full tbody tr.single-day td.past .inner div.num-day,
 .view-calendar .view-content .calendar-calendar .month-view table.full tbody tr.date-box td.past .inner div.num-day,
 .view-blo .view-content .calendar-calendar .month-view table.full tbody tr.single-day td.past .inner div.num-day,
@@ -5237,7 +5237,7 @@ body.node-type-fitxa-premsa article.node-fitxa-premsa #main-wrapper #xxss-wrappe
   background-color: #dcdddf;
   color: white;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003187}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003189}}
 .view-calendar .view-content .calendar-calendar .month-view table.full tbody tr.single-day td.past *,
 .view-calendar .view-content .calendar-calendar .month-view table.full tbody tr.date-box td.past *,
 .view-blo .view-content .calendar-calendar .month-view table.full tbody tr.single-day td.past *,
@@ -5245,37 +5245,37 @@ body.node-type-fitxa-premsa article.node-fitxa-premsa #main-wrapper #xxss-wrappe
   color: #dcdddf;
   border-color: #e9eaeb;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003191}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003193}}
 .view-calendar .view-content .calendar-calendar .month-view table.full tbody tr.single-day td.past .item,
 .view-calendar .view-content .calendar-calendar .month-view table.full tbody tr.date-box td.past .item,
 .view-blo .view-content .calendar-calendar .month-view table.full tbody tr.single-day td.past .item,
 .view-blo .view-content .calendar-calendar .month-view table.full tbody tr.date-box td.past .item {
   border: 0px none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003194}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003196}}
 .view-calendar .view-content .calendar-calendar .month-view table.full tbody tr.single-day td.past .field-name-field-url-compra-reserva a,
 .view-calendar .view-content .calendar-calendar .month-view table.full tbody tr.date-box td.past .field-name-field-url-compra-reserva a,
 .view-blo .view-content .calendar-calendar .month-view table.full tbody tr.single-day td.past .field-name-field-url-compra-reserva a,
 .view-blo .view-content .calendar-calendar .month-view table.full tbody tr.date-box td.past .field-name-field-url-compra-reserva a {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003198}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003200}}
 .view-calendar .view-content .calendar-calendar .month-view table.full tbody tr.single-day.collapsed,
 .view-blo .view-content .calendar-calendar .month-view table.full tbody tr.single-day.collapsed {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003201}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003203}}
 .view-calendar .view-content .calendar-calendar .month-view table.full tbody tr.arrow,
 .view-blo .view-content .calendar-calendar .month-view table.full tbody tr.arrow {
   cursor: pointer;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003203}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003205}}
 .view-calendar .view-content .calendar-calendar .month-view table.full tbody tr.arrow td,
 .view-blo .view-content .calendar-calendar .month-view table.full tbody tr.arrow td {
   height: 20px;
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003206}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003208}}
 .view-calendar .view-content .calendar-calendar .month-view table.full tbody tr.arrow td .cal-arrow-wrapper,
 .view-blo .view-content .calendar-calendar .month-view table.full tbody tr.arrow td .cal-arrow-wrapper {
   width: 30px;
@@ -5287,7 +5287,7 @@ body.node-type-fitxa-premsa article.node-fitxa-premsa #main-wrapper #xxss-wrappe
   background-repeat: no-repeat;
   margin-bottom: 2px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003217}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003219}}
 .view-calendar .view-content .calendar-calendar .month-view table.full tbody tr.arrow.collapsed td .cal-arrow-wrapper,
 .view-blo .view-content .calendar-calendar .month-view table.full tbody tr.arrow.collapsed td .cal-arrow-wrapper {
   background-position: -28px -62px;

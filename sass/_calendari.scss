@@ -44,7 +44,9 @@
           overflow: hidden;
           text-indent: 999px;
           display: block;
-          height: 35px;
+          // quiron
+          //height: 35px;
+          height: 28px;
           width: 12px;
           @include bg_sprite();
           margin: 0px;
