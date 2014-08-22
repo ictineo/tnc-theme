@@ -1,3 +1,4 @@
+
 .icontent h1{
 	font-size:30px;
 	font-family: 'Open Sans', sans-serif;
@@ -96,7 +97,7 @@ border: 0px solid;
 	border: 0;
 }
 .icontent .textcos3columnes{
-	overflow:auto;
+	overflow:visible;
 	clear: both;
 	margin-left:-24px;
 }
@@ -105,7 +106,7 @@ border: 0px solid;
 	font-size:12px;
 	width:342px;
 	background:#F4F4F5;
-	overflow: auto;
+	overflow: visible;
 	margin-left: 24px;
 	margin-bottom: 15px;
 	float:left;
@@ -164,7 +165,7 @@ border: 0px solid;
 }
 
 .icontent .textcos2blocks{
-	overflow:auto;
+	overflow:visible;
 	clear: both;
 }
 .icontent .tc2bblock{
@@ -211,7 +212,7 @@ border: 0px solid;
 .icontent div.textcos2columnes{
 	width: 100%;
 	/*float: left;*/
-	overflow: auto;
+	overflow: visible;
 	clear: both;
 }
 .icontent  .textcos2columnes .columnaesquerra p {
@@ -300,6 +301,7 @@ height: 200px;
 
 /*taules*/
 .icontent .taula{ width:95%;}
+.icontent .taula.petita{width:auto;}
 .icontent td, th, .icontent .tabla{
 	border:0px solid #000000;
 	border-collapse: collapse;
@@ -318,6 +320,7 @@ height: 200px;
 	text-align: right;
 	padding-right: 5px;
 }
+.icontent .petita th{text-align:left;}
 .icontent tr.separacio{
 	height:20px;
 }
@@ -386,4 +389,22 @@ height: 200px;
 }
 .icontent .indentat{padding-left:20px;}
 .icontent .indentatdoble{padding-left:40px;}
-.icontent .tabonaments .preu{text-align:center;}
+
+.icontent .icomentari{
+font-size: 25px;
+color: #6bb2b8;
+line-height: 27px;
+font-weight: 800;
+margin-bottom: 30px;
+}
+.icontent .icomentari:before, .icontent .comentari:after{
+font-family: 'Lily Script One';
+font-weight: 400;
+display: inline-block;
+font-size: 325%;
+vertical-align: bottom;
+bottom: -23px;
+position: relative;
+}
+.icontent .icomentari:before{content: '\201D';}
+.icontent .icomentari:after{content: '\201C';}
