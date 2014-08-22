@@ -88,7 +88,7 @@
   <?php endif; ?>
 <div id="mm-node-region">
   <div class="field-name-field-imatge-capcalera">
-    <img src="<?php global $base_url; print ($base_url . '/' . variable_get('file_directory_path', conf_path() . '/files') . '/img_temporada.png'); ?>" />
+    <img src="<?php global $base_url; print ($base_url . '/' . variable_get('file_directory_path', conf_path() . '/files') . '/img_calendari.png'); ?>" />
   </div>
 </div>
 
