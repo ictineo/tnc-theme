@@ -113,3 +113,6 @@ global $base_url;
   <?php print render($page['bottom']); ?>
 </div>
 
+<div id="sub-footer-wrapper">
+  <?php print render($page['subbottom']); ?>
+</div>
