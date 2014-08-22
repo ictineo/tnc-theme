@@ -146,6 +146,21 @@ Drupal.behaviors.theme_tnc_homeslide = {
       jQuery(this).css('bottom', h + 'px');
     });
   });
+  /**
+   * Treiem entorn si buit del slide
+   * ajusetm altura pestanya gran slide
+   */
+  jQuery('.view-id-carrousel.view-display-id-block_5').ready(function () {
+    jQuery(this).find('.tab-big > .item-list').each(function () {
+      if(jQuery(this).text().length <= 2) {
+        jQuery(this).hide();
+        jQuery(this).parent().find('.grup_entorn').hide();
+        jQuery(this).parent().find('.field-name-field-autor').css('padding-bottom', '500px');
+      } else {
+        jQuery(this).css('padding-bottom', '500px');
+      }
+    });
+  });
 
 
 
