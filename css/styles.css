@@ -5414,7 +5414,6 @@ body.front #mm-wrapper .views-row.passive .views-field-nothing > .field-content 
   height: auto;
   top: 490px;
   overfloww: hidden;
-  right: 11%;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_front-slide\.scss}line{font-family:\00003107}}
 body.front #mm-wrapper .field-content-2wrapper {
@@ -5515,7 +5514,6 @@ body.front #mm-wrapper .views-row.active .views-field-nothing > .field-content .
   display: block;
   height: 100%;
   top: 434px;
-  right: 22%;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_front-slide\.scss}line{font-family:\00003176}}
 body.front #mm-wrapper .views-row.passive-in .views-field-nothing {

@@ -29,6 +29,38 @@ Drupal.behaviors.theme_tnc_homeslide = {
             $({deg: orig}).animate({deg: angle}, args);
         });
     };
+    /**
+     * ubiquem les pestanyes de slide en px per quadrarles
+     */
+    var ww = $(window).width();
+    if (ww > 1100) {
+      var position = $(window).width() * 0.7;
+    } else {
+      var position = $(window).width() * 0.6;
+    }
+
+    $('#mm-wrapper .tab-big').each(function () {
+      console.log(position);
+      $(this).css('left', position + 'px');
+    });
+    $('#mm-wrapper .tab-small').each(function () {
+      $(this).css('left', position - 16 + 'px');
+    });
+    $(window).resize(function () {
+      var ww = $(window).width();
+      if (ww > 1100) {
+        var position = $(window).width() * 0.7;
+      } else {
+        var position = $(window).width() * 0.6;
+      }
+      $('#mm-wrapper .tab-big').each(function () {
+        console.log(position);
+        $(this).css('left', position + 'px');
+      });
+      $('#mm-wrapper .tab-small').each(function () {
+        $(this).css('left', position - 16 + 'px');
+      });
+    });
     /** definicio de valors  que es corresponen a les vairables sass de _front-slide.scss
      * per fer servir a les animacions mantenint la congruencia
      */

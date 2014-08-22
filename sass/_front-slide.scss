@@ -94,8 +94,8 @@ body.front #mm-wrapper {
         //top:680px;// $min-tab-top; jude comenta
         top: 490px;// $min-tab-top; jude comenta
         overfloww: hidden;
-        // sobreescrivim aqui right per tenirho junt
-        right: 11%;
+        // sobreescrivim aqui right per tenirho junt via js
+        //right: 11%;
         
 
       }
@@ -166,8 +166,8 @@ body.front #mm-wrapper {
         display: block;
         height: 100%;//$main-tab-height;
         top: $main-tab-top;
-        //quiron correccio de desplacament
-        right: 22%;
+        //quiron correccio de desplacament via js
+        //right: 22%;
       }
       //@include zen-clear();
     }
