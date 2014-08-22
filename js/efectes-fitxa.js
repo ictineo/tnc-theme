@@ -130,5 +130,27 @@
     jQuery('#main-wrapper #text-wrapper .view-id-blo.view-display-id-block').hide();
     jQuery('#main-wrapper #text-wrapper #moreinfo-wrapper').hide();
   }
+  /** boto veure totes les sessions **/
+  jQuery('#sessions #see-all').click(function () {
+     if(!jQuery('#main-wrapper .tnc-tabs .tnc-tab-3').hasClass('active')) {
+      /* desactivem totes les tabs */
+      jQuery('#main-wrapper .tnc-tabs .active').each(function () {
+        jQuery(this).removeClass('active');
+      });
+      jQuery('#main-wrapper .tnc-tabs .tnc-tab-3').addClass('active');
+      /* amaguem tots els continguts */
+      jQuery('#main-wrapper #text-wrapper > div').each(function () {
+        jQuery(this).hide();
+      });
+      /* mostrem el calendari*/
+      jQuery('#main-wrapper #text-wrapper .view-id-blo.view-display-id-block').show();
+    }
+
+    jQuery('html, body').animate({
+      scrollTop: jQuery(".view-id-blo.view-display-id-block").offset().top - 10
+    }, 400);
+  });
+
+
    }
  };
