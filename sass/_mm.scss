@@ -112,6 +112,7 @@ $top-menu-h: 40px;
       content: " ";
       left: 0px;
       top: 5%;
+      margin-top: -10px;
       display: block;
       width: 380px;
       height: 500px;
@@ -125,7 +126,7 @@ $top-menu-h: 40px;
       background-repeat: no-repeat;
       background-position: 225px 200px;
       z-index: 1005;
-      margin-bottom: -100px;
+      margin-bottom: -145px;
     }
     h4 {
       /** afinar! **/
@@ -182,14 +183,14 @@ $top-menu-h: 40px;
     .views-row {
       //background-color: $blau1;
       /* quiron height: 570px; */
-      height: 668px;
+      height: 500px;
       /* quiron added */
-      @include background-image(linear-gradient(-176deg, $blau1 88%, transparent 12%));
+      @include background-image(linear-gradient(-178deg, $blau1 88%, transparent 12%));
       background-repeat: no-repeat;
       background-size: cover;
       /* quiron evitem que surti algo per sota */
       .mm-slide-wrapper {
-        height: 575px;
+        height: 430px;
         overflow: hidden;
       }
      }
@@ -504,6 +505,13 @@ $top-menu-h: 40px;
           &:before {
             margin-bottom: -76px;
           }
+          /** en alguns browsers es veu un px de separacio, correccio **/
+          & > * {
+            margin-top: -1px;
+          }
+          & > *:first-child {
+            margin-top: inherit;
+          }
           .field-name-field-url-compra-reserva {
             width: 280px;
             height: 10px;
@@ -540,7 +548,8 @@ $top-menu-h: 40px;
           }
           h4.titol {
             width: 280px;
-            margin-top: 0;
+            // quiron, aplicar correccio
+            //margin-top: 0;
             margin-bottom: 0;
             padding-top: 15px;
             padding-left: 20px;
@@ -601,7 +610,7 @@ $top-menu-h: 40px;
           .item-list {
             height: auto;
             padding-bottom: 150px;
-            margin-top: -20px;
+            margin-top: -21px;
             ul {
               list-style: none;
               width: 280px;
@@ -611,11 +620,14 @@ $top-menu-h: 40px;
                   .field-item {
                     margin-top: 5px;
                     margin-left: 20px;
-                    border-bottom: 1px solid $bora_temporada;
-                    &:last-of-type {
-                      border: none;
-                    }
+                    //border-bottom: 1px solid $bora_temporada;
+                    //&:last-of-type {
+                      //border: none;
+                    //}
                     .entorn_teaser {
+                      padding-bottom: 6px; // son 8px pero ja li sobre lineheight sembla....
+                      margin-bottom: 4px;
+                      border-bottom: 1px solid white;
                       .field-name-field-autor, 
                       .field-name-field-data,
                       .field-name-field-tipus-entorn,
@@ -634,6 +646,16 @@ $top-menu-h: 40px;
                             margin:0;
                             padding: 0;
                           }
+                        }
+                      }
+                      /** correccions per simular inline i controlar
+                       * el line height */
+                      .field-name-field-data,
+                      .field-name-field-tipus-entorn,
+                      .field-name-field-sala {
+                        display: inline;
+                        & * {
+                          display: inline;
                         }
                       }
                       .field-name-field-data {
@@ -676,6 +698,9 @@ $top-menu-h: 40px;
                           }
                         }
                       }
+                    }
+                    &:last-child .entorn_teaser {
+                      border: 0px none;
                     }
                   }
                 }
