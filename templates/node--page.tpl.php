@@ -46,7 +46,9 @@ if ( render($content['field_destacat_lateral']) == '') {
     hide($content['comments']);
     hide($content['links']);
   ?>
-  <?php print render($content['field_imatge_capcalera']);?>
+  <div id="mm-node-region">
+    <?php print render($content['field_imatge_capcalera']);?>
+  </div>
   <div class="tit_pagina"><h2><?php print render ($title);?></h2></div>
   <div class="entradeta"><?php print render ($content['field_resum_destacat']);?></div>
   <div class="col_esq">
