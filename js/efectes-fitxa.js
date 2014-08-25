@@ -150,6 +150,18 @@
       scrollTop: jQuery(".view-id-blo.view-display-id-block").offset().top - 10
     }, 400);
   });
+  /**
+   * netejem delements les columnes de fitxa artistica
+   * tids de actors i directors son 2, 42, 88 i 1
+   */
+  jQuery('.node-fitxa-espectacle .field-name-field-artista-carrec, .node-fitxa-entorn .field-name-field-artista-carrec').each(function () {
+    if(!jQuery(this).parent().hasClass('artista-carrec-left')) {
+      jQuery(this).find('.field-collection-item-field-artista-carrec.carrec-tid-42').parent().remove();
+      jQuery(this).find('.field-collection-item-field-artista-carrec.carrec-tid-2').parent().remove();
+      jQuery(this).find('.field-collection-item-field-artista-carrec.carrec-tid-1').parent().remove();
+      jQuery(this).find('.field-collection-item-field-artista-carrec.carrec-tid-88').parent().remove();
+    }
+  });
 
 
   /** corregim funcionament del paginador del calendari per evitar
