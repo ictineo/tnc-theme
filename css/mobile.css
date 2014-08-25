@@ -1,0 +1,57 @@
+/**
+ * Projecte Ictineo SCCL
+ * comportament mobil TNC
+ * 
+ * No es mobile first, aixi que anem
+ * corregint sobre el general, amb la 
+ * base que dona el zen amb grids
+ */
+@media all and (max-width: 640px) {
+  /** li donem context **/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/mobile\.scss}line{font-family:\0000311}}
+  html body {
+    /** capcalera **/
+    /* reaprofitem el div xxss-wrapper pel menu ?*/
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/mobile\.scss}line{font-family:\0000313}}
+  html body header {
+    display: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/mobile\.scss}line{font-family:\0000316}}
+  html body .xxss-wrapper #block-block-3 {
+    display: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/mobile\.scss}line{font-family:\0000321}}
+  html body #mm-wrapper #top-mm-wrapper {
+    height: 60px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/mobile\.scss}line{font-family:\0000323}}
+  html body #mm-wrapper #top-mm-wrapper > * {
+    display: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/mobile\.scss}line{font-family:\0000328}}
+  html body #mm-wrapper #top-mm-wrapper > *:nth-child(1), html body #mm-wrapper #top-mm-wrapper > *:nth-child(2), html body #mm-wrapper #top-mm-wrapper > *:nth-child(3) {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 34px;
+    padding: 13px 20px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/mobile\.scss}line{font-family:\0000337}}
+  html body #mm-wrapper #left-mm-wrapper:before {
+    width: 500px;
+    height: 600px;
+    margin-left: -290px;
+    border-radius: 500px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/mobile\.scss}line{font-family:\0000343}}
+  html body #mm-wrapper #left-mm-wrapper h4 {
+    display: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/mobile\.scss}line{font-family:\0000346}}
+  html body #mm-wrapper #left-mm-wrapper a#tnc-left-logo {
+    background-image: url("../images/logo_tnc_resp.png");
+    width: 180px;
+    height: 180px;
+    top: 60px;
+  }
+}

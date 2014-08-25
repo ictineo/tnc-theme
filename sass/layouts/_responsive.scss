@@ -294,15 +294,15 @@ $zen-auto-include-item-base: false;
         @include zen-clear();
         @include zen-grid-item(4,3);
       }
-      .field-name-field-columna-2 .view-tipus-patrocinadors {
+      .field-name-field-columna-2 .field-items .field-item .field-name-field-altres-llistats .field-items .field-item .view-tipus-patrocinadors {
         @include zen-clear();
         @include zen-grid-item(4,3)
       }
-      .field-name-field-columna-3 .view-tipus-patrocinadors { 
+      .field-name-field-columna-3 .field-items .field-item .field-name-field-altres-llistats .field-items .field-item .view-tipus-patrocinadors {
         @include zen-clear();
         @include zen-grid-item(4,3)
       }
-      .field-name-field-columna-4 .view-tipus-patrocinadors {
+      .field-name-field-columna-4 .field-items .field-item .field-name-field-altres-llistats .field-items .field-item .view-tipus-patrocinadors {
         @include zen-clear();
         @include zen-grid-item(4,3)
       }

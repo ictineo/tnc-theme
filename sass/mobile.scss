@@ -1,0 +1,59 @@
+/**
+ * Projecte Ictineo SCCL
+ * comportament mobil TNC
+ * 
+ * No es mobile first, aixi que anem
+ * corregint sobre el general, amb la 
+ * base que dona el zen amb grids
+ */
+@media all and (max-width: 640px) {
+  /** li donem context **/
+  html body {
+    /** capcalera **/
+    header {
+      display: none;
+    }
+    .xxss-wrapper #block-block-3 {
+      display: none;
+    }
+    /* reaprofitem el div xxss-wrapper pel menu ?*/
+    #mm-wrapper {
+      #top-mm-wrapper {
+        height: 60px;
+        & > * {
+          display: none;
+          // mostrem nomes els 3 primers
+          &:nth-child(1),
+          &:nth-child(2),
+          &:nth-child(3) {
+            display: inline-block; // valor original
+            font-size: 16px;
+            line-height: 34px;
+            padding: 13px 20px;
+          }
+        }
+      }
+      #left-mm-wrapper {
+        &:before {
+          width: 500px;
+          height: 600px;
+          margin-left: -290px;
+          border-radius: 500px;
+        }
+        h4 {
+          display: none;
+        }
+        a#tnc-left-logo {
+          background-image: url('../images/logo_tnc_resp.png');
+          width: 180px;
+          height: 180px;
+          top: 220px;
+        }
+      }
+    }
+  }
+
+
+
+
+}
