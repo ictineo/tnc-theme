@@ -10,10 +10,13 @@
     @include titol_bg($m,$bg:$rosa);
     @include titol();
     color: $blanc;
-    display: inline;
+    display: inline-block;
     padding-left: 83px;
     padding-right: 15px;
     margin-left: -83px;
+    font-size: 30px;
+    line-height: normal;
+    position: relative;
   }
   .entradeta p {
     @include estil_reset();

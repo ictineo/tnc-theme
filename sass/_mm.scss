@@ -360,6 +360,18 @@ $top-menu-h: 40px;
           }
         }
       }
+      .field-name-field-altres-llistats .view-view-megamenu .view-content .views-row .views-field .field-content {
+        * {
+          color: white;
+        }
+        .field.titol {
+          padding-left: 10px;
+          & > * {
+            padding-left: 0px;
+          }
+        }
+      }
+
       /** neteja destils per camp de text lliure **/
       .field-name-field-text-lliure {
         margin-right: 30px;
@@ -408,12 +420,27 @@ $top-menu-h: 40px;
           margin-top: 31px;
         }
       }
+      .field-name-field-titol + .field-name-field-text-lliure.field-label-hidden.no-line {
+        &:before {
+          content: '';
+          border: 0px none;
+          height: inherit;
+          display: inherit;
+          width: inherit;
+          margin: inherit;
+        }
+        .field-item {
+          padding-top: 0px;
+        }
+      }
+
     }
     /** calendari de les columnes **/
     .view-id-calendar.view-display-id-block_2 {
       margin-top: 0px;
       margin-right: 30px;
       .view-header {
+        margin: 0px !important; //correcio problema chrome
         .date-prev,
         .date-next {
           display: none;

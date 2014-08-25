@@ -83,16 +83,21 @@ Drupal.behaviors.theme_tnc_mm = {
     });
 
 
-
+      /** permetem incrustar output de views com a text lliure en el mm **/
+    jQuery('#mm-wrapper .field-name-field-text-lliure').each(function () {
+      if(jQuery(this).find('.view').length > 0) {
+        jQuery(this).addClass('no-line');
+      }
+    });
 
 
     /** simulacio de link a la home a la bola del megamenu esquerre **/
     //jQuery('#left-mm-wrapper:before').click(function () {
-    jQuery('#mm-wrapper #left-mm-wrapper:after').click(function () {
-      console.log('click');
-      console.log(Drupal.setting);
+    //jQuery('#mm-wrapper #left-mm-wrapper:after').click(function () {
+      //console.log('click');
+      //console.log(Drupal.setting);
       //window.location.href =
-    });
+    //});
 
 
 
