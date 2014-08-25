@@ -81,9 +81,19 @@ Drupal.behaviors.theme_tnc_homeslide = {
     });
 
     //$('.views-field-nothing ').click(function() {
-    // el element clickable ha de ser nomes el boto de fletxeta?
+    // gir automatic cada 6 segons
+    var gir_automagic = setInterval(function() {
+      $('#mm-wrapper .mm-next-slide').click();
+    }, 6000);
+    // CODI PRINCIPAL DEL GIR DEL CAROUSEL
     $('#mm-wrapper .mm-next-slide').click(function(e) {
       e.stopPropagation();
+      // netegem el interval i el reiniciem
+      clearInterval(gir_automagic);
+      gir_automagic = setInterval(function() {
+        $('#mm-wrapper .mm-next-slide').click();
+      }, 9000);
+
       var mmw  = '#mm-wrapper';
       /* prevenim momviment si hi ha mm desplegat **/
       var mm_act = false;
@@ -114,15 +124,18 @@ Drupal.behaviors.theme_tnc_homeslide = {
               $(obj).find('.tab').each(function () {$(this).css('top', '1200px');});
               // fem apareixer la de sota
               $(obj).animateRotate(-180, -360, 800, 'swing', function () {
+              var norep = $('#mm-wrapper .view-id-carrousel.view-display-id-block_5').find('.passive-in').length;
               $.when(
                 // actualitzem amb les clases temporals destat
-                $('#mm-wrapper .views-row').each(function () {
-                  if($(this).hasClass('passive-in')) {
-                    $(this).removeClass('passive-in');
-                    $(this).addClass('passive');
-                  } else if($(this).hasClass('passive')) {
-                    $(this).removeClass('passive');
-                    $(this).addClass('active');
+                $('#mm-wrapper .view-id-carrousel.view-display-id-block_5  .views-row').each(function () {
+                  if(norep > 0) {
+                    if($(this).hasClass('passive-in')) {
+                      $(this).removeClass('passive-in');
+                      $(this).addClass('passive');
+                    } else if($(this).hasClass('passive')) {
+                      $(this).removeClass('passive');
+                      $(this).addClass('active');
+                    }
                   }
                 }).promise()
               ).done(function () {
@@ -141,7 +154,6 @@ Drupal.behaviors.theme_tnc_homeslide = {
         $(mmw).removeClass('animated');
       } // endif animate
     });
-    // TODO unbind el click mentres dura l'animacio
     $('.view-carrousel.view-display-id-block_5 .views-row-1').addClass('active');
     $('.view-carrousel.view-display-id-block_5 .views-row-2').addClass('passive');
 
