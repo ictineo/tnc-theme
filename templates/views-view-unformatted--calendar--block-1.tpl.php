@@ -52,6 +52,5 @@ foreach ($days as $date => $rendered) {
 ?>
 <?php $options = array('absolute' => TRUE);
       $url = url('calendari'); ?>
-?>    
   <span class="day cal_link"><a href="<?php print($url);?>">.</a></span>
 </div>
