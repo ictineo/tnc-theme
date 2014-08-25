@@ -129,7 +129,7 @@ $top-menu-h: 40px;
     }
     a#tnc-left-logo {
       background-image: url('../images/logotnc-menu-lateral.png');
-      width: 125px;
+      width: 140px;
       height: 150px;
       background-repeat: no-repeat;
       display: block;
@@ -204,6 +204,9 @@ $top-menu-h: 40px;
         overflow: hidden;
       }
      }
+    .view .views-row {
+      height: inherit;
+    }
     .mm-slide-wrapper .mm-content {
       //&:after {
         //background-image: linear-gradient(-178deg, $blau1 44%, $blau1 46%, transparent);

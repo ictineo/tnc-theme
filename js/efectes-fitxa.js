@@ -152,5 +152,16 @@
   });
 
 
+  /** corregim funcionament del paginador del calendari per evitar
+   * els problemes que sembla donar el ajax
+   */
+  if(jQuery.cookie('tnc-cal') == 1) {
+    jQuery('#sessions #see-all').click();
+    jQuery.removeCookie('tnc-cal');
+  }
+  jQuery('.view-id-blo.view-display-id-block .pager a').click(function () {
+    jQuery.cookie('tnc-cal',1);
+  });
+
    }
  };
