@@ -6,6 +6,13 @@
  * the README.txt next to this file.
  */
 
+/** adaptacio del viewport **/
+if(jQuery(window).width() >= 1200) {
+  viewport = document.querySelector("meta[name=viewport]");
+  viewport.setAttribute('content', 'width=device-width');
+}
+
+
 // JavaScript should be made compatible with libraries other than jQuery by
 // wrapping it with an "anonymous closure". See:
 // - https://drupal.org/node/1446420

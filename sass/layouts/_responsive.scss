@@ -346,6 +346,14 @@ $zen-auto-include-item-base: false;
                   @include zen-grid-item(5,1);
                 }
               }
+              .views-field.views-field-nothing .nested {
+                @include zen-grid-item (3,3);
+                @include zen-nested-container();
+                .field {
+                  @include zen-clear();
+                  @include zen-grid-item(5,1);
+                }
+              }
             }
           }
         }

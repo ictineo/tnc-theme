@@ -284,6 +284,11 @@ $top-menu-h: 40px;
           border: none;
         }
         .view-content .views-row {
+          .field-name-field-img-carrousel {
+            img {
+              width: 90%;
+            }
+          }
         }
         .field-name-field-data {
           display: inline-block;
@@ -294,7 +299,7 @@ $top-menu-h: 40px;
               //content:'> ';
             }
             &:after {
-              content:'.';
+              //content:'.';
             }
           }
         }

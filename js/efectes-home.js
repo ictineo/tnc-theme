@@ -32,6 +32,8 @@ Drupal.behaviors.theme_tnc_homeslide = {
     };
     /**
      * ubiquem les pestanyes de slide en px per quadrarles
+     *
+     * i el tamany de les imatges per evitar salts
      */
     var ww = $(window).width();
     if (ww > 1100) {
@@ -47,6 +49,9 @@ Drupal.behaviors.theme_tnc_homeslide = {
     $('#mm-wrapper .tab-small').each(function () {
       $(this).css('left', position - 16 + 'px');
     });
+    $('#mm-wrapper .view-id-carrousel.view-display-id-block_5 .views-row .field-name-field-imatge-capcalera img').each(function () {
+      jQuery(this).width(ww);
+    });
     $(window).resize(function () {
       var ww = $(window).width();
       if (ww > 1100) {
@@ -60,6 +65,9 @@ Drupal.behaviors.theme_tnc_homeslide = {
       });
       $('#mm-wrapper .tab-small').each(function () {
         $(this).css('left', position - 16 + 'px');
+      });
+      $('#mm-wrapper .view-id-carrousel.view-display-id-block_5 .views-row .field-name-field-imatge-capcalera img').each(function () {
+        jQuery(this).width(ww);
       });
     });
     /** definicio de valors  que es corresponen a les vairables sass de _front-slide.scss

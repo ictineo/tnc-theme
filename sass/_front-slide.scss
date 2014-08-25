@@ -68,9 +68,9 @@ body.front #mm-wrapper {
           position: absolute;
           //bottom: 0px;
           //position: relative;
-          left: -5px;
+          //left: -5px;
           //top: -5px;
-          width: 115%; // ajustem tamany de la imatege per lefecte dentrada
+          width: 111%; // ajustem tamany de la imatege per lefecte dentrada
           bottom: 0px;
           top: 0px;
           //overflow: hidden;
@@ -150,7 +150,7 @@ body.front #mm-wrapper {
         .field-item {
           // compensacio
           position: relative;
-          top: -5px;
+          top: -3px;
           //left: -5px;
          img {
             top: 400px; // compensacio
@@ -192,7 +192,7 @@ body.front #mm-wrapper {
     @include rotate(-180deg);
     &> .field-content {
       .field-content-2wrapper {
-        height: 146px;
+        height: 156px;
         bottom: 0px;
       }
       width:  100%;
@@ -245,7 +245,23 @@ body.front #mm-wrapper {
       right: 20%;
       display: none;
     }
-
   }
+  /** intent de igualacio de img en base sobre-escriptura **/
+  .views-row.active  .views-field-nothing,
+  .views-row.passive .views-field-nothing,
+  .views-row.passive-in .views-field-nothing {
+    .field.field-name-field-imatge-capcalera.field.field.field.field.field.field.field {
+      img {
+        width: 110%;
+        min-width: 1200px;
+        min-height: 600px;
+      }
+    }
+  }
+  .views-row.passive .views-field-nothing .field.field-name-field-imatge-capcalera.field.field.field.field.field.field.field img{
+    top: 0px;
+  }
+
+ 
 
 }
