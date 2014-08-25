@@ -469,9 +469,13 @@ body.front {
                       
     .view-carrousel.view-display-id-block_3 {
       height: 320px;
-      margin-top: 0px;
+      margin-top: 58px;
+      ul {
+        padding-left: 4px;
+      }
       li.jcarousel-item {
         @include caixa_petita;
+        margin: 0 7px;
       }
       a.jcarousel-next.jcarousel-next-horizontal,
       a.jcarousel-next.jcarousel-next-horizontal:hover {
@@ -482,6 +486,9 @@ body.front {
       a.jcarousel-prev.jcarousel-prev-horizontal:hover {
         height: 28px;
         background-position: -90px -60px;
+      }
+      li .views-field-title {
+        min-height: 64px;
       }
     }
     .buttons-region {
