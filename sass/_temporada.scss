@@ -33,6 +33,9 @@ body.page-temporada {
           a {
             color: $verd2;
             line-heigh: 26px;
+            &:hover {
+              text-transform: inherit;
+            }
           }
         }
         .field-name-field-autor div,
@@ -53,6 +56,10 @@ body.page-temporada {
           font-weight: 800;
           font-size: 11px;
           color: $verd2;
+          /** amaguem a l'entorn si esta buit **/
+          &:last-child {
+            display: none;
+          }
         }
         .field-name-field-entorn {
           text-transform: uppercase;
