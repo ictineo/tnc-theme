@@ -35,6 +35,7 @@ if($content['field_carrec']['#items'][0]['tid'] == 2 || $content['field_carrec']
 <div class="<?php print $classes; print ' carrec-tid-'.$content['field_carrec']['#items'][0]['tid'];?> clearfix"<?php print $attributes; ?>>
   <div class="content"<?php print $content_attributes; ?>>
     <?php
+
       print render($content);
     ?>
   </div>

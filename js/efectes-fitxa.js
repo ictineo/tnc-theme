@@ -157,11 +157,14 @@
    */
   if(jQuery.cookie('tnc-cal') == 1) {
     jQuery('#sessions #see-all').click();
-    jQuery.removeCookie('tnc-cal');
+    jQuery.cookie('tnc-cal',null);
+    //jQuery.removeCookie('tnc-cal');
   }
   jQuery('.view-id-blo.view-display-id-block .pager a').click(function () {
     jQuery.cookie('tnc-cal',1);
   });
+    jQuery.cookie('tnc-cal',null);
+    //jQuery.removeCookie('tnc-cal');
 
    }
  };
