@@ -467,6 +467,7 @@ body.front {
       }
     }
                       
+    /** carrousel petit **/
     .view-carrousel.view-display-id-block_3 {
       height: 320px;
       margin-top: 58px;
@@ -481,11 +482,13 @@ body.front {
       a.jcarousel-next.jcarousel-next-horizontal:hover {
         height: 28px;
         background-position: -90px -90px;
+        top: 35%;
       }
       a.jcarousel-prev.jcarousel-prev-horizontal,
       a.jcarousel-prev.jcarousel-prev-horizontal:hover {
         height: 28px;
         background-position: -90px -60px;
+        top: 35%;
       }
       li.jcarousel-item .views-field.views-field-title {
         min-height: 64px;
