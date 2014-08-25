@@ -489,6 +489,30 @@ body.front {
       }
       li .views-field-title {
         min-height: 64px;
+        margin-top: 30px; // per si no hi ha tipus de conferencia
+      }
+      // sobreescrivim si existeix el tipus dentorn
+      li .field-name-field-tipus-entorn + .views-field-title {
+        margin-top: 0px;
+      }
+      .view-content .jcarousel-skin-default {
+        /** sobreescrivim els paginadors pel carrousel petit **/
+        a.jcarousel-prev.jcarousel-prev-horizontal,
+        a.jcarousel-prev.jcarousel-prev-horizontal:hover {
+          @include bg_sprite;
+          width: 30px;
+          height: 30px;
+          background-position: 0px -120px;
+          margin-top: 7%;
+        }
+        a.jcarousel-next.jcarousel-next-horizontal,
+        a.jcarousel-next.jcarousel-next-horizontal:hover {
+          @include bg_sprite;
+          width: 30px;
+          height: 30px;
+          background-position: -30px -120px;
+          margin-top: 7%;
+        }
       }
     }
     .buttons-region {
