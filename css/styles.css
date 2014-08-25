@@ -7795,14 +7795,14 @@ body.front #main .view-carrousel.view-display-id-block_3 a.jcarousel-next.jcarou
 body.front #main .view-carrousel.view-display-id-block_3 a.jcarousel-next.jcarousel-next-horizontal:hover {
   height: 28px;
   background-position: -90px -90px;
-  top: 35%;
+  top: 26%;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003488}}
 body.front #main .view-carrousel.view-display-id-block_3 a.jcarousel-prev.jcarousel-prev-horizontal,
 body.front #main .view-carrousel.view-display-id-block_3 a.jcarousel-prev.jcarousel-prev-horizontal:hover {
   height: 28px;
   background-position: -90px -60px;
-  top: 35%;
+  top: 26%;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003493}}
 body.front #main .view-carrousel.view-display-id-block_3 li.jcarousel-item .views-field.views-field-title {
