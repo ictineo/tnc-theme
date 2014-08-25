@@ -7736,12 +7736,12 @@ body.front #main .view-carrousel.view-display-id-block_3 a.jcarousel-prev.jcarou
   background-position: -90px -60px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003490}}
-body.front #main .view-carrousel.view-display-id-block_3 li .views-field-title {
+body.front #main .view-carrousel.view-display-id-block_3 li.jcarousel-item .views-field.views-field-title {
   min-height: 64px;
-  margin-top: 30px;
+  margin-top: 26px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003495}}
-body.front #main .view-carrousel.view-display-id-block_3 li .field-name-field-tipus-entorn + .views-field-title {
+body.front #main .view-carrousel.view-display-id-block_3 li.jcarousel-item .field-name-field-tipus-entorn + .views-field.views-field-title {
   margin-top: 0px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003498}}

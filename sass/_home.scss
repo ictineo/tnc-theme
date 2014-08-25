@@ -487,12 +487,12 @@ body.front {
         height: 28px;
         background-position: -90px -60px;
       }
-      li .views-field-title {
+      li.jcarousel-item .views-field.views-field-title {
         min-height: 64px;
-        margin-top: 30px; // per si no hi ha tipus de conferencia
+        margin-top: 26px; // per si no hi ha tipus de conferencia
       }
       // sobreescrivim si existeix el tipus dentorn
-      li .field-name-field-tipus-entorn + .views-field-title {
+      li.jcarousel-item .field-name-field-tipus-entorn + .views-field.views-field-title {
         margin-top: 0px;
       }
       .view-content .jcarousel-skin-default {
