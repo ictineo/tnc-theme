@@ -143,9 +143,16 @@
                     padding: 0 4px 0 8px;
                     display: inline-block;
                   }
+                  .views-field.views-field-field-sala {
+                    display: block;
+                    .field-content {
+                      padding-left: 8px;
+                    }
+                  }
                 }
                 .field-name-field-sala {
                   margin-top: 4px;
+                  padding-left: 8px;
                 }
                 .field-name-field-url-compra-reserva {
                   padding: 0px;

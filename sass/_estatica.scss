@@ -11,8 +11,9 @@
     @include titol();
     color: $blanc;
     display: inline;
-    padding-left: 60px;
+    padding-left: 83px;
     padding-right: 15px;
+    margin-left: -83px;
   }
   .entradeta p {
     @include estil_reset();

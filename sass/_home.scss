@@ -3,7 +3,7 @@ body.front {
     padding-top: 15px;
 /* Barra calendari home*/
     .view-calendar {
-      margin-top: 0px;
+      margin-top: 20px;
       .view-header {
         .date-nav.item-list {
           margin: 0;
@@ -27,7 +27,7 @@ body.front {
           div.month-label {
             display: inline-block;
             position: relative;
-            bottom: 34px;
+            bottom: 26px;
             word-spacing: 2px;
             font-size: 13px;
             color: $gris1;
@@ -78,6 +78,7 @@ body.front {
               position: absolute;
               //background-color: $blau3;
               bottom: 60px;
+              right: 0px; //per que quedi posat al dia
               @include caixa_dig($bg:$blau4, $w:'250px',$h:'52px');
               &:before {
                 margin-bottom: -40px;
@@ -103,7 +104,9 @@ body.front {
                 }
               }
               .field-name-field-hora-sessio {
-                border-radius: 0 0 5px 5px;
+                &:last-child {
+                  border-radius: 0 0 5px 5px;
+                }
                 &:before {
                   @include bg_sprite();
                   content: " ";
@@ -112,7 +115,8 @@ body.front {
                   background-position: -87px -66px;
                   position: absolute;
                   display: block;
-                  top: 104px;
+                  //top: 104px;
+                  bottom: -25px;
                   left: 200px;
                 }
                 .field-items .field-item {
@@ -120,8 +124,15 @@ body.front {
                   font-size: 11px;
                   line-height: 15px;
                   font-weight: 600;
-                  min-height: 60px;
+                  //min-height: 60px;
                 }
+              }
+              .views-field-field-sala {
+                height: 15px;
+                padding-top: 12px;
+              }
+              & > div:last-child {
+                padding-bottom: 20px;
               }
             }
           }
@@ -131,7 +142,7 @@ body.front {
             background-color: $blau3;
             top: 1px;
             height: 18px;
-            margin-left: -22px;
+            margin-left: -8px;
             a {
               color: $blau3;
               @include bg_sprite();

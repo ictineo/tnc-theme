@@ -333,7 +333,7 @@ $zen-auto-include-item-base: false;
               @include zen-grid-container();
               left: 0;
               position:relative;
-              .field.field-name-field-imatge-capcalera {
+              .field.field-name-field-img-carrousel {
                 @include zen-grid-item(2,1);
               }
               .views-field.views-field-nothing .nested {
@@ -440,22 +440,22 @@ $zen-auto-include-item-base: false;
                     &>.field-item.even .field-collection-item-field-artista-carrec{
                       margin-left: 0px;
                     }
-                    &>.field-item.odd .field-collection-item-field-artista-carrec.carrec-tid-110,
-                    &>.field-item.even .field-collection-item-field-artista-carrec.carrec-tid-110 {
-                      @include zen-grid-item(3,1);
-                    }
-                    &>.field-item.odd .field-collection-item-field-artista-carrec.carrec-tid-12,
-                    &>.field-item.even .field-collection-item-field-artista-carrec.carrec-tid-12 {
-                      @include zen-clear();
-                      @include zen-grid-item(3,1);
-                    }
-                    &>.field-item.odd .field-collection-item-field-artista-carrec.carrec-tid-106,
-                    &>.field-item.even .field-collection-item-field-artista-carrec.carrec-tid-106 {
-                      @include zen-clear();
-                      @include zen-grid-item(3,1);
-                    }
                     &>.field-item.odd .field-collection-item-field-artista-carrec.carrec-tid-88,
                     &>.field-item.even .field-collection-item-field-artista-carrec.carrec-tid-88 {
+                      @include zen-grid-item(3,1);
+                    }
+                    &>.field-item.odd .field-collection-item-field-artista-carrec.carrec-tid-1,
+                    &>.field-item.even .field-collection-item-field-artista-carrec.carrec-tid-1 {
+                      @include zen-clear();
+                      @include zen-grid-item(3,1);
+                    }
+                    &>.field-item.odd .field-collection-item-field-artista-carrec.carrec-tid-2,
+                    &>.field-item.even .field-collection-item-field-artista-carrec.carrec-tid-2 {
+                      @include zen-clear();
+                      @include zen-grid-item(3,1);
+                    }
+                    &>.field-item.odd .field-collection-item-field-artista-carrec.carrec-tid-42,
+                    &>.field-item.even .field-collection-item-field-artista-carrec.carrec-tid-42 {
                       @include zen-clear();
                       @include zen-grid-item(3,1);
                     }

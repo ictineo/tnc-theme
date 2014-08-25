@@ -28,7 +28,7 @@
  * @see template_process()
  */
 /** canviem el titol de artistes, corregir el TID amb el valor definitiu **/
-if($content['field_carrec']['#items'][0]['tid'] == 15) {
+if($content['field_carrec']['#items'][0]['tid'] == 2 || $content['field_carrec']['#items'][0]['tid'] == 42) {
   $content['field_carrec'][0]['#title'] = t('With') . ':';
 }
 ?>

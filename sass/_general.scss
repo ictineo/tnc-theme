@@ -6,6 +6,7 @@
   }
   #main {
     margin-bottom: 48px;
+    z-index: 990000; //evitem problemes de solapament amb el mm
   }
 }
 body.page-user,
