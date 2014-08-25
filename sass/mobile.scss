@@ -6,7 +6,7 @@
  * corregint sobre el general, amb la 
  * base que dona el zen amb grids
  */
-@media all and (max-width: 640px) {
+@media all and (max-width: 699px) {
   /** li donem context **/
   html body {
     /** capcalera **/
@@ -35,10 +35,12 @@
       }
       #left-mm-wrapper {
         &:before {
-          width: 500px;
-          height: 600px;
-          margin-left: -290px;
-          border-radius: 500px;
+          width: 650px;
+          height: 650px;
+          margin-left: -422px;
+          border-radius: 800px;
+          margin-top: 4px;
+
         }
         h4 {
           display: none;
@@ -48,6 +50,29 @@
           width: 180px;
           height: 180px;
           top: 220px;
+        }
+      }
+      .view-id-carrousel.view-display-id-block_5 {
+        .views-row-2 {
+          display: none;
+        }
+        .views-row-1 {
+          .views-field-nothing {
+            .tab-big {
+              position: absolute;
+              width: 100%;
+              top: 100px;
+              .field-name-field-url-compra-reserva {
+                display: none;
+              }
+              div.field.field.field,
+              * {
+                background-color: #008991;
+                width: 100%;
+                //padding-left: 30%;
+              }
+            }
+          }
         }
       }
     }

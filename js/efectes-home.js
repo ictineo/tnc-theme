@@ -16,6 +16,7 @@
 // To understand behaviors, see https://drupal.org/node/756722#behaviors
 Drupal.behaviors.theme_tnc_homeslide = {
   attach: function(context, settings) {
+  if(jQuery(window).width() >= 700) {
     // http://stackoverflow.com/questions/15191058/css-rotation-cross-browser-with-jquery-animate
     $.fn.animateRotate = function(orig, angle, duration, easing, complete) {
         var args = $.speed(duration, easing, complete);
@@ -172,7 +173,8 @@ Drupal.behaviors.theme_tnc_homeslide = {
     });
     jQuery('.month-label').prev('.day').addClass('pre_month');
   }
-  };
+  } // final if width < 700
+  }; // OJU final de attach
 
   /** 
    * Carrousel gran, posicionament de les pestanyes

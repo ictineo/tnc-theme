@@ -6,7 +6,7 @@
  * corregint sobre el general, amb la 
  * base que dona el zen amb grids
  */
-@media all and (max-width: 640px) {
+@media all and (max-width: 699px) {
   /** li donem context **/
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/mobile\.scss}line{font-family:\0000311}}
   html body {
@@ -38,20 +38,41 @@
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/mobile\.scss}line{font-family:\0000337}}
   html body #mm-wrapper #left-mm-wrapper:before {
-    width: 500px;
-    height: 600px;
-    margin-left: -290px;
-    border-radius: 500px;
+    width: 650px;
+    height: 650px;
+    margin-left: -422px;
+    border-radius: 800px;
+    margin-top: 4px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/mobile\.scss}line{font-family:\0000343}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/mobile\.scss}line{font-family:\0000345}}
   html body #mm-wrapper #left-mm-wrapper h4 {
     display: none;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/mobile\.scss}line{font-family:\0000346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/mobile\.scss}line{font-family:\0000348}}
   html body #mm-wrapper #left-mm-wrapper a#tnc-left-logo {
     background-image: url("../images/logo_tnc_resp.png");
     width: 180px;
     height: 180px;
-    top: 60px;
+    top: 220px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/mobile\.scss}line{font-family:\0000356}}
+  html body #mm-wrapper .view-id-carrousel.view-display-id-block_5 .views-row-2 {
+    display: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/mobile\.scss}line{font-family:\0000361}}
+  html body #mm-wrapper .view-id-carrousel.view-display-id-block_5 .views-row-1 .views-field-nothing .tab-big {
+    position: absolute;
+    width: 100%;
+    top: 100px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/mobile\.scss}line{font-family:\0000365}}
+  html body #mm-wrapper .view-id-carrousel.view-display-id-block_5 .views-row-1 .views-field-nothing .tab-big .field-name-field-url-compra-reserva {
+    display: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/mobile\.scss}line{font-family:\0000369}}
+  html body #mm-wrapper .view-id-carrousel.view-display-id-block_5 .views-row-1 .views-field-nothing .tab-big div.field.field.field,
+  html body #mm-wrapper .view-id-carrousel.view-display-id-block_5 .views-row-1 .views-field-nothing .tab-big * {
+    background-color: #008991;
+    width: 100%;
   }
 }

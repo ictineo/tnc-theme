@@ -20,7 +20,8 @@
   <?php if ($default_mobile_metatags): ?>
     <meta name="MobileOptimized" content="width">
     <meta name="HandheldFriendly" content="true">
-    <meta name="viewport" content="width=device-width">
+    <!--meta name="viewport" content="width=device-width"-->
+ <meta name="viewport" content="width=1200, initial-scale=1.0">
   <?php endif; ?>
   <meta http-equiv="cleartype" content="on">
 

@@ -54,6 +54,7 @@ padding: 0px;
 margin: 0px;
 clear: both;
 }
+.icontent h1 a:hover, .icontent h2 a:hover, .icontent h3 a:hover, .icontent h4 a:hover{text-transform: uppercase;}
 .icontent p{
 	padding:0;
 	margin: 0px 0px 20px 0px;
@@ -387,8 +388,8 @@ height: 200px;
 .icontent tr.epicentre span{
 	text-transform: none;
 }
-.icontent .indentat{padding-left:20px;}
-.icontent .indentatdoble{padding-left:40px;}
+.icontent .indentat{padding-left:20px; font-size:14px;}
+.icontent .indentatdoble{padding-left:40px; font-size:14px;}
 
 .icontent .icomentari{
 font-size: 25px;
@@ -408,3 +409,212 @@ position: relative;
 }
 .icontent .icomentari:before{content: '\201D';}
 .icontent .icomentari:after{content: '\201C';}
+
+
+
+
+/* llista fitxa-entorn */
+
+
+.llista-fitxa.views-view-grid.cols-4 .field-type-image{float:none!important;padding:0!important}
+.llista-fitxa.views-view-grid.cols-4 tr {
+    clear: left;
+  }
+  .llista-fitxa.views-view-grid.cols-4 tr:before, .llista-fitxa.views-view-grid.cols-4 tr:after {
+    content: "";
+    display: table;
+  }
+    .llista-fitxa.views-view-grid.cols-4 tr:after {
+    clear: both;
+  }
+.llista-fitxa.views-view-grid.cols-4 tr .col-1 {
+    float: left;
+    width: 25%;
+    margin-left: 0%;
+    margin-right: -25%;
+    padding-left: 10px;
+    padding-right: 10px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    word-wrap: break-word;
+  }
+  .llista-fitxa.views-view-grid.cols-4 tr .col-2 {
+    float: left;
+    width: 25%;
+    margin-left: 25%;
+    margin-right: -50%;
+    padding-left: 10px;
+    padding-right: 10px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    word-wrap: break-word;
+  }
+
+  .llista-fitxa.views-view-grid.cols-4 tr .col-3 {
+    float: left;
+    width: 25%;
+    margin-left: 50%;
+    margin-right: -75%;
+    padding-left: 10px;
+    padding-right: 10px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    word-wrap: break-word;
+  }
+  .llista-fitxa.views-view-grid.cols-4 tr .col-4 {
+    float: left;
+    width: 25%;
+    margin-left: 75%;
+    margin-right: -100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    word-wrap: break-word;
+  }
+
+.llista-fitxa.views-view-grid.cols-4 tr td {
+  margin-bottom: 30px;
+}
+.llista-fitxa.views-view-grid.cols-4 tr .espectacle,
+.llista-fitxa.views-view-grid.cols-4 tr .entorn {
+  min-height: 325px;	/*265px*/
+  background-color: #f4f4f5;
+}
+.llista-fitxa.views-view-grid.cols-4 tr .espectacle .field-name-field-data .field-item,
+.llista-fitxa.views-view-grid.cols-4 tr .espectacle .field-name-field-data span,
+.llista-fitxa.views-view-grid.cols-4 tr .espectacle .field-name-field-sala,
+.llista-fitxa.views-view-grid.cols-4 tr .espectacle .field-name-field-sala .field-item,
+.llista-fitxa.views-view-grid.cols-4 tr .entorn .field-name-field-data .field-item,
+.llista-fitxa.views-view-grid.cols-4 tr .entorn .field-name-field-data span,
+.llista-fitxa.views-view-grid.cols-4 tr .entorn .field-name-field-sala,
+.llista-fitxa.views-view-grid.cols-4 tr .entorn .field-name-field-sala .field-item {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  background-color: #008f95;
+  color: white;
+  padding-left: 5px;
+}
+.llista-fitxa.views-view-grid.cols-4 tr .espectacle .field-name-field-sala,
+.llista-fitxa.views-view-grid.cols-4 tr .espectacle .field-name-field-sala .field-item,
+.llista-fitxa.views-view-grid.cols-4 tr .entorn .field-name-field-sala,
+.llista-fitxa.views-view-grid.cols-4 tr .entorn .field-name-field-sala .field-item {
+  font-weight: 800;
+  text-transform: uppercase;
+  display: block;
+}
+.llista-fitxa.views-view-grid.cols-4 tr .espectacle .view-field-title,
+.llista-fitxa.views-view-grid.cols-4 tr .entorn .view-field-title {
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 800;
+  padding-left: 10px;
+  margin-top: 5px;
+}
+.llista-fitxa.views-view-grid.cols-4 tr .espectacle .view-field-title a,
+.llista-fitxa.views-view-grid.cols-4 tr .entorn .view-field-title a {
+  color: #008f95;
+  line-height: 26px;
+}
+.llista-fitxa.views-view-grid.cols-4 tr .espectacle .view-field-title a:hover,
+.llista-fitxa.views-view-grid.cols-4 tr .entorn .view-field-title a:hover {
+  text-transform: inherit;
+}
+.llista-fitxa.views-view-grid.cols-4 tr .espectacle .field-name-field-autor div,
+.llista-fitxa.views-view-grid.cols-4 tr .espectacle .field-name-field-rol-destacat div,
+.llista-fitxa.views-view-grid.cols-4 tr .entorn .field-name-field-autor div,
+.llista-fitxa.views-view-grid.cols-4 tr .entorn .field-name-field-rol-destacat div {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #58595a;
+  padding-left: 5px;
+  line-height: 16px;
+}
+.llista-fitxa.views-view-grid.cols-4 tr .espectacle .field-name-field-autor div,
+.llista-fitxa.views-view-grid.cols-4 tr .entorn .field-name-field-autor div {
+  font-weight: 700;
+  margin-top: 5px;
+}
+.llista-fitxa.views-view-grid.cols-4 tr .espectacle .grup_entorn,
+.llista-fitxa.views-view-grid.cols-4 tr .entorn .grup_entorn {
+  padding: 5px 0 0 10px;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 11px;
+  color: #008f95;
+  /** amaguem a l'entorn si esta buit **/
+}
+.llista-fitxa.views-view-grid.cols-4 tr .espectacle .grup_entorn:last-child,
+.llista-fitxa.views-view-grid.cols-4 tr .entorn .grup_entorn:last-child {
+  display: none;
+}
+.llista-fitxa.views-view-grid.cols-4 tr .espectacle .field-name-field-entorn,
+.llista-fitxa.views-view-grid.cols-4 tr .entorn .field-name-field-entorn {
+  text-transform: uppercase;
+  color: #58595a;
+  padding: 0 40px 0 10px;
+}
+.llista-fitxa.views-view-grid.cols-4 tr .espectacle .field-name-field-entorn .field-item,
+.llista-fitxa.views-view-grid.cols-4 tr .entorn .field-name-field-entorn .field-item {
+  border-bottom: 1px solid #cdcecf;
+}
+.llista-fitxa.views-view-grid.cols-4 tr .espectacle .field-name-field-entorn .field-item:last-of-type,
+.llista-fitxa.views-view-grid.cols-4 tr .entorn .field-name-field-entorn .field-item:last-of-type {
+  border: none;
+}
+.llista-fitxa.views-view-grid.cols-4 tr .espectacle .field-name-field-entorn .field-item .entorn_teaser,
+.llista-fitxa.views-view-grid.cols-4 tr .entorn .field-name-field-entorn .field-item .entorn_teaser {
+  padding-bottom: 5px;
+}
+.llista-fitxa.views-view-grid.cols-4 tr .espectacle .field-name-field-entorn .field-item .entorn_teaser .field-name-field-sala,
+.llista-fitxa.views-view-grid.cols-4 tr .espectacle .field-name-field-entorn .field-item .entorn_teaser .field-name-field-sala div,
+.llista-fitxa.views-view-grid.cols-4 tr .espectacle .field-name-field-entorn .field-item .entorn_teaser .field-name-field-sala .field-item,
+.llista-fitxa.views-view-grid.cols-4 tr .espectacle .field-name-field-entorn .field-item .entorn_teaser .field-name-field-data,
+.llista-fitxa.views-view-grid.cols-4 tr .espectacle .field-name-field-entorn .field-item .entorn_teaser .field-name-field-data span,
+.llista-fitxa.views-view-grid.cols-4 tr .espectacle .field-name-field-entorn .field-item .entorn_teaser .field-name-field-data .field-item,
+.llista-fitxa.views-view-grid.cols-4 tr .espectacle .field-name-field-entorn .field-item .entorn_teaser .field-name-field-tipus-entorn .field-item,
+.llista-fitxa.views-view-grid.cols-4 tr .espectacle .field-name-field-entorn .field-item .entorn_teaser .field-name-field-tipus-entorn,
+.llista-fitxa.views-view-grid.cols-4 tr .entorn .field-name-field-entorn .field-item .entorn_teaser .field-name-field-sala,
+.llista-fitxa.views-view-grid.cols-4 tr .entorn .field-name-field-entorn .field-item .entorn_teaser .field-name-field-sala div,
+.llista-fitxa.views-view-grid.cols-4 tr .entorn .field-name-field-entorn .field-item .entorn_teaser .field-name-field-sala .field-item,
+.llista-fitxa.views-view-grid.cols-4 tr .entorn .field-name-field-entorn .field-item .entorn_teaser .field-name-field-data,
+.llista-fitxa.views-view-grid.cols-4 tr .entorn .field-name-field-entorn .field-item .entorn_teaser .field-name-field-data span,
+.llista-fitxa.views-view-grid.cols-4 tr .entorn .field-name-field-entorn .field-item .entorn_teaser .field-name-field-data .field-item,
+.llista-fitxa.views-view-grid.cols-4 tr .entorn .field-name-field-entorn .field-item .entorn_teaser .field-name-field-tipus-entorn .field-item,
+.llista-fitxa.views-view-grid.cols-4 tr .entorn .field-name-field-entorn .field-item .entorn_teaser .field-name-field-tipus-entorn {
+  display: inline-block;
+  font-size: 11px;
+  line-height: 13px;
+  background-color: #f4f4f5;
+  color: #58595a;
+  font-weight: 400;
+  padding: 0;
+}
+.llista-fitxa.views-view-grid.cols-4 tr .espectacle .field-name-field-entorn .field-item .entorn_teaser h2.node-title,
+.llista-fitxa.views-view-grid.cols-4 tr .espectacle .field-name-field-entorn .field-item .entorn_teaser h2.node-title a,
+.llista-fitxa.views-view-grid.cols-4 tr .entorn .field-name-field-entorn .field-item .entorn_teaser h2.node-title,
+.llista-fitxa.views-view-grid.cols-4 tr .entorn .field-name-field-entorn .field-item .entorn_teaser h2.node-title a {
+  font-weight: 800;
+  font-size: 11px;
+  line-height: 13px;
+  margin: 0;
+  display: block;
+}
+.llista-fitxa.views-view-grid.cols-4 tr .espectacle .field-name-field-entorn .field-item .entorn_teaser .field-name-field-autor div,
+.llista-fitxa.views-view-grid.cols-4 tr .entorn .field-name-field-entorn .field-item .entorn_teaser .field-name-field-autor div {
+  display: inline-block;
+  font-size: 11px;
+  color: #58595a;
+  font-weight: 400;
+  padding: 0;
+  text-transform: none;
+  margin-top: 0;
+}

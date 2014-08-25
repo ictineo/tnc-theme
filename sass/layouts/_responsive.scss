@@ -112,7 +112,8 @@ $zen-auto-include-item-base: false;
 /**
  * Use 3 grid columns for smaller screens.
  */
-@media all and (min-width: 480px) and (max-width: 959px) {
+//@media all and (min-width: 480px) and (max-width: 959px) {
+@media all and (min-width: 480px) and (max-width: 700px) {
 
   $zen-column-count: 3;
 
@@ -216,7 +217,8 @@ $zen-auto-include-item-base: false;
 /**
  * Use 5 grid columns for larger screens.
  */
-@media all and (min-width: 960px) {
+//@media all and (min-width: 960px) {
+@media all and (min-width: 700px) {
 
   $zen-column-count: 5;
 

@@ -83,7 +83,9 @@ body.front #mm-wrapper {
             //z-index: -1;
             //@include rotate(-3deg); // compensacio
             width: 100%;
-            position: relative;
+            //position: relative;
+            position: absolute;
+            bottom: 0px;
           }
         }
       }
