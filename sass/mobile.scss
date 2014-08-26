@@ -6,6 +6,9 @@
  * corregint sobre el general, amb la 
  * base que dona el zen amb grids
  */
+@import "init";
+/* Importem les variables */
+@import "vars";
 @media all and (max-width: 699px) {
   /** li donem context **/
   html body {
@@ -17,7 +20,8 @@
       display: none;
     }
     /* reaprofitem el div xxss-wrapper pel menu ?*/
-    #mm-wrapper {
+    #page div#mm-wrapper {
+      height: 641px;
       #top-mm-wrapper {
         height: 60px;
         & > * {
@@ -56,29 +60,244 @@
         .views-row-2 {
           display: none;
         }
-        .views-row-1 {
+        .views-row-1.views-row {
           .views-field-nothing {
-            .tab-big {
+            .field-name-field-imatge-capcalera img {
+              max-width: inherit;
+              min-width: 1200px;
+            }
+            .tab.tab-big {
               position: absolute;
               width: 100%;
-              top: 100px;
+              top: 314px;
+              padding-top: 25px;
+              height: 320px;
+              @include background-image(linear-gradient(2deg,  $blau1 96%,transparent 4%));
               .field-name-field-url-compra-reserva {
                 display: none;
               }
+              div.grup_entorn,
+              h4.titol.titol.titol.titol,
               div.field.field.field,
               * {
-                background-color: #008991;
-                width: 100%;
-                //padding-left: 30%;
+                //background-color: #008991;
+                width: auto;
+                padding-left: 255px;
+                padding-righ: 20px;
+                * {
+                  padding-left: 0px;
+                }
+              }
+              div.grup_entorn,
+              div.grup_entorn + .item-list {
+                display: none;
+              }
+              .field-name-field-sala {
+                margin-top: 0px;
+                * {
+                  font-size: 27px;
+                  font-weight: 900;
+                  line-height: 34px;
+                }
+              }
+              .field-name-field-data {
+                span,
+                .field-item{
+                  font-size: 27px;
+                  font-weight: 400;
+                  line-height: 34px;
+                }
+              }
+              h4.titol {
+                margin-top: 6px;
+              }
+              .field-name-field-autor,
+              .field-name-field-subtitol {
+                * {
+                  font-size: 27px;
+                  line-height: 34px;
+                }
+              }
+              .field-name-field-subtitol {
+                margin-bottom: 26px;
+              }
+            }
+          }
+        }
+        .mm-next-slide {
+          display: none;
+        }
+      }
+    } // final mm-wrapper
+    .view-id-calendar.view-display-id-block_1 {
+      display: none;
+    }
+    #mcal {
+      display: block !important;
+      background-color: $gris5;
+      margin-top: -15px;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      .view-id-calendar.view-display-id-block_2 {
+        width: 90%;
+        margin: 0 auto;
+        .view-header {
+          // paginadors
+          .pager .date-prev,
+          .pager .date-next{
+            //display: inherit;
+            display: none;
+          }
+          // titol
+          .date-heading h3 a {
+            background: none;
+            text-indent: 0px;
+            width: auto;
+            text-transform: uppercase;
+            font-size: 24px;
+            line-height: 28px;
+            font-weight: 700;
+          }
+
+        }
+        .view-content .calendar-calendar {
+          table {
+            border: 0px none;
+            //estils tipo 
+            thead tr th,
+            tbody tr td.has-events div.month.mini-day-on,
+            tbody tr td div.month.mini-day-off {
+              font-size: 24px;
+              padding: 6px;
+              text-transform: uppercase;
+              width: 26px;
+              height: 24px;
+              margin: auto;
+            }
+            thead {
+              tr {
+                border: 0px none;
+                * {
+                  background-color: $gris5;
+                  border: 0px none;
+                  text-align: center;
+                  color: $gris2;
+                }
+              }
+            }
+            tbody {
+              tr {
+                border: 0px none;
+                background-color: $gris5;
+                td.today {
+                  background-color: $gris5;
+                }
+                * {
+                  background-color: $gris5;
+                  text-align: center;
+                }
+                td > div.month {
+                  display: block;
+                  color: $gris1;
+                  font-weight: 700;
+                }
+                td.has-events div.month.mini-day-on {
+                  color: white;
+                  @include border-radius(30px);
+                  background-color: $blau1;
+                }
               }
             }
           }
         }
       }
+    } // /mcal
+    .view-carrousel.view-display-id-block_7 .jcarousel-skin-default .jcarousel-container-horizontal {
+      padding-bottom: 8px;
     }
+    /** conversio del carrousel gran**/
+    .view-id-carrousel.view-display-id-block_1 {
+      .view-content .jcarousel-skin-default .jcarousel-container.jcarousel-container-horizontal {
+        .jcarousel-clip ul.jcarousel {
+          width: 100% !important;
+          li {
+            display: none;
+            width: 100% !important;
+            margin: 0px;
+          }
+          li.jcarousel-item:nth-child(1),
+          li.jcarousel-item:nth-child(2) {
+            display: block;
+            width: 100%;
+            overflow: hidden;
+            .field-type-image img {
+              width: 100%;
+            }
+            .views-field-nothing {
+              position: absolute;
+              right: 0px !important;
+              width: 100%;
+              .field-content {
+                width: 100%;
+                .tab.tab.tab.tab.tab.tab.tab {
+                  width: 100% !important;
+                  display: block;
+                  background-color: $blau1;
+                  @include background-image(linear-gradient(2deg,  $blau1 96%,transparent 4%));
+                  top: 50%;
+                  padding-bottom: 100px;
+                  & > .field.field.field {
+                    background-color: transparent !important;
+                    width: 100% !important;
+                  }
+                  &:before,
+                  .field-name-field-url-compra-reserva,
+                  .field-name-field-rol-destacat,
+                  .grup_entorn,
+                  .field-name-field-entorn.field-type-entityreference {
+                    display: none !important;
+                    content: '' !important;
+                    background-color: transparent !important;
+                  }
+                  .field-name-field-sala * {
+                    font-size: 24px;
+                    font-weight: 900;
+                    color: white !important;
+                  }
+                  .field-name-field-data * {
+                    fonst-size: 24px;
+                    font-weight: 400;
+                    color: white;
+                  }
+                  h3.titol a,
+                  h3.titol {
+                    background-color: transparent !important;
+                    font-size: 28px !important;
+                    line-height: 32px;
+                    color: white !important;
+                  }
+                  .field-name-field-autor *,
+                  .field-name-field-autor {
+                    background-color: transparent !important;
+                    font-size: 24px !important;
+                    line-height: 32px;
+                    color: white !important;
+                  }
+                }
+              }
+            }
+          }
+        }
+        &>a {
+          display: none;
+        }
+      }
+
+    } // /carrousel gran
+
   }
 
 
 
 
-}
+} // /media query

@@ -47,11 +47,15 @@ $top-menu-h: 40px;
     background-color: $gris4;
     display: block;
     // 70 + 30 = 100%
-    width: 70%;
-    padding-left: 30%;
-    // zindex per sobre el wrapper general
-    // per fer els links clicables
+    width: 90%;
+    padding-left: 10%;
+      // zindex per sobre el wrapper general
+      // per fer els links clicables
     z-index: 1009;
+    #menu-mm-wrapper {
+      float: right;
+      width: auto;
+    }
     a,
     h4 {
       display: inline-block;

@@ -477,6 +477,13 @@ body.front {
       li.jcarousel-item {
         @include caixa_petita;
         margin: 0 7px;
+        .field-name-field-tipus-entorn,
+        .views-field-title,
+        .field-name-field-subtitol,
+        .field-name-field-data {
+          margin-left: 10px;
+          margin-right: 10px;
+        }
       }
       a.jcarousel-next.jcarousel-next-horizontal,
       a.jcarousel-next.jcarousel-next-horizontal:hover {
@@ -490,8 +497,25 @@ body.front {
         background-position: -90px -60px;
         top: 26%;
       }
+      li.jcarousel-item .titsubtit_wp {
+        min-height: 86px;
+        margin-top: 5px;
+        a {
+          font-size: 14px;
+          line-height: 17px;
+          color: $titols_b;
+          text-transform: uppercase;
+          font-weight: 800;
+        }
+        .field-name-field-subtitol .field-item {
+          color: $gris1;
+          font-size: 12px;
+          font-weight: 700;
+          text-transform: uppercase;
+        }
+      }
       li.jcarousel-item .views-field.views-field-title {
-        min-height: 64px;
+        //min-height: 64px;
         margin-top: 26px; // per si no hi ha tipus de conferencia
       }
       // sobreescrivim si existeix el tipus dentorn

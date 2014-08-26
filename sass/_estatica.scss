@@ -1,10 +1,9 @@
 .node-projecte-artistic,
 .node-page {
-  p {
-    margin-left: 60px;
-  }
+  p,
   .cos-text {
-    margin-left: 60px;
+    margin: 0 78px 20px 0;
+    padding: 0;
   }
   .tit_pagina h2 {
     @include titol_bg($m,$bg:$rosa);

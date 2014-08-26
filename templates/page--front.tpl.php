@@ -45,11 +45,13 @@
 <?php print views_embed_view('carrega_megamenu', 'block_1'); ?>
 <?php print views_embed_view('carrega_megamenu', 'block_3'); ?>
     <div id="top-mm-wrapper">
+      <div id="menu-mm-wrapper">
       <?php /** links a mida configurats en el theme settings **/
         for ($i = 0; $i < 4; $i++) {
           print('<a href="'. theme_get_setting('tnc_'.$i.'_url') .'" rel="bookmark" title="'. theme_get_setting('tnc_'.$i.'_text') .'">'. theme_get_setting('tnc_'.$i.'_text') .'</a>');
         } 
       ?>
+      </div>
     </div>
 <?php drupal_add_js(drupal_get_path('theme', 'tnc') . '/js/mm.js'); ?>
   </div>
@@ -96,6 +98,11 @@
 
 <?php /** slides varis...*/
  print views_embed_view('calendar', 'block_1');
+/** calendari mobil **/
+print('<div id="mcal" style="display: none;">');
+ //print('<span id="mcal-title">' . t('Calendar') . '</span>');
+ print views_embed_view('calendar', 'block_2');
+print('</div>');
  print views_embed_view('avis_portada', 'block');
  print views_embed_view('carrousel', 'block_7');
  print views_embed_view('carrousel', 'block_1');

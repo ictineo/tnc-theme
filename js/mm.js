@@ -5,7 +5,7 @@ Drupal.behaviors.theme_tnc_mm = {
 
     /* Lomplim amb els h4 de la view de top */
     jQuery('#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_1 h4').each(function( i ) {
-      jQuery(this).attr('mm-t', i + 1).appendTo('#top-mm-wrapper');
+      jQuery(this).attr('mm-t', i + 1).appendTo('#top-mm-wrapper #menu-mm-wrapper');
     });
     /* afegim un contenidor a esquerre del mm */
     jQuery('#mm-wrapper').append('<div id="left-mm-wrapper"><a id="tnc-left-logo" href="http://www.tnc.cat">&nbsp</a></div>');

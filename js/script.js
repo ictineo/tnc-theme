@@ -7,9 +7,10 @@
  */
 
 /** adaptacio del viewport **/
-if(jQuery(window).width() >= 1200) {
-  viewport = document.querySelector("meta[name=viewport]");
-  viewport.setAttribute('content', 'width=device-width');
+if(jQuery(window).width() >= 1201) {
+  //viewport = document.querySelector("meta[name=viewport]");
+  //viewport.setAttribute('content', 'width=device-width');
+  jQuery('meta[name=viewport]').attr('content', 'width=device-width');
 }
 
 

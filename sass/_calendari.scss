@@ -232,4 +232,8 @@
     }
   }
 }
-
+/* treure bora verda del calendari general*/
+body.page-calendari .view-calendar .view-content .calendar-calendar .month-view table.full tbody tr.single-day td .item.current {
+  border: 0px none;
+  border-bottom: $blanc 6px solid;
+}

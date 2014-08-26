@@ -13,9 +13,11 @@
   font-size: 24px;
   font-weight: 700;
   text-transform: uppercase;
-  padding-left: 60px;
+  padding-left: 83px;
   padding-right: 15px;
-  display:inline;
+  display:inline-block;
+  margin-left: -83px;
+  position: relative;
 }
 .titol_seccio {
   @include estil_reset();
@@ -23,4 +25,8 @@
   font-weight: 700;
   color: $verd2;
   margin-left: 60px;
+  text-transform: uppercase;
+  padding-left: 83px;
+  margin-left: -83px;
+  height: 33px;
 }

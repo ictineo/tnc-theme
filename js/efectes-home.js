@@ -16,6 +16,16 @@
 // To understand behaviors, see https://drupal.org/node/756722#behaviors
 Drupal.behaviors.theme_tnc_homeslide = {
   attach: function(context, settings) {
+  /** guardem a on ha de linkar i borrem el element que ens passa la view **/
+  $('.view-id-carrousel.view-display-id-block_5 .views-row').each(function () {
+    var url = $(this).find('.views-field-view-node a').attr('href');
+    $(this).find('.views-field-nothing .field-content').attr('rel', url);
+    $(this).find('.views-field-view-node').remove();
+  });
+  $('.view-id-carrousel.view-display-id-block_5 .views-row .field-content').click(function () {
+      location.href = $(this).attr('rel');
+  });
+
   if(jQuery(window).width() >= 700) {
     // http://stackoverflow.com/questions/15191058/css-rotation-cross-browser-with-jquery-animate
     $.fn.animateRotate = function(orig, angle, duration, easing, complete) {
@@ -79,16 +89,6 @@ Drupal.behaviors.theme_tnc_homeslide = {
     $('#mm-wrapper .mm-slide-wrapper').click(function(e) {
       e.stopPropagation();
     });
-    /** guardem a on ha de linkar i borrem el element que ens passa la view **/
-    $('.view-id-carrousel.view-display-id-block_5 .views-row').each(function () {
-      var url = $(this).find('.views-field-view-node a').attr('href');
-      $(this).find('.views-field-nothing .field-content').attr('rel', url);
-      $(this).find('.views-field-view-node').remove();
-    });
-    $('.view-id-carrousel.view-display-id-block_5 .views-row .field-content').click(function () {
-        location.href = $(this).attr('rel');
-    });
-
     //$('.views-field-nothing ').click(function() {
     // gir automatic cada 6 segons
     var gir_automagic = setInterval(function() {
@@ -184,6 +184,7 @@ Drupal.behaviors.theme_tnc_homeslide = {
   } // final if width < 700
   }; // OJU final de attach
 
+
   /** 
    * Carrousel gran, posicionament de les pestanyes
    */
@@ -215,6 +216,12 @@ Drupal.behaviors.theme_tnc_homeslide = {
       }
     });
   });
+
+  /************************/
+  /** ajustos responsive **/
+  /************************/
+  /** coloquem titol de calendari **/
+  //jQuery('#mcal #mcal-title').appendTo('.view-id-calendar.view-display-id-block_2 ul.pager li h3');
 
 
 
