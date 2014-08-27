@@ -91,6 +91,23 @@ Drupal.behaviors.theme_tnc_mm = {
     });
 
 
+    /** repertim el percentatge d'ample entre el nombre de patrocinadors per categoria **/
+    jQuery('#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_3 .mm-172, #mm-wrapper .view-id-carrega_megamenu.view-display-id-block_1 .mm-172').each(function () {
+      jQuery(this).find('.view-tipus-patrocinadors .view-content').each(function () {
+        var num = jQuery(this).find('.views-row').length;
+        jQuery(this).find('.views-row').each(function () {
+          jQuery(this).css({
+            'max-width': 100.0/num + '%',
+            'float': 'left',
+            'width': 'auto',
+            'margin-right': '2%',
+            'clear': 'none'
+          });
+        });
+      });
+    });
+
+
     /** simulacio de link a la home a la bola del megamenu esquerre **/
     //jQuery('#left-mm-wrapper:before').click(function () {
     //jQuery('#mm-wrapper #left-mm-wrapper:after').click(function () {
