@@ -14,6 +14,35 @@ function tnc_form_system_theme_settings_alter(&$form, &$form_state, $form_id = N
   }
 
   // Create the form using Forms API: http://api.drupal.org/api/7
+  //
+  $form['tnc_headers_img'] = array(
+    '#type'          => 'fieldset',
+    '#title'         => t('Custom image headers'),
+    '#collapsible'   => TRUE,
+    '#collapsed'     => FALSE,
+  );
+  $form['tnc_headers_img']['tnc_cal_img'] = array(
+    '#type'     => 'managed_file',
+    '#title'    => t('Calendar header'),
+    '#required' => FALSE,
+    '#upload_location' => file_default_scheme() . '://theme/capcaleres/',
+    '#default_value' => theme_get_setting('tnc_cal_img'), 
+    '#upload_validators' => array(
+      'file_validate_extensions' => array('gif png jpg jpeg'),
+    ),
+  );
+  $form['tnc_headers_img']['tnc_tem_img'] = array(
+    '#type'     => 'managed_file',
+    '#title'    => t('Season header'),
+    '#required' => FALSE,
+    '#upload_location' => file_default_scheme() . '://theme/capcaleres/',
+    '#default_value' => theme_get_setting('tnc_tem_img'), 
+    '#upload_validators' => array(
+      'file_validate_extensions' => array('gif png jpg jpeg'),
+    ),
+  );
+ 
+ 
 
   $form['tnc_frontlink_1'] = array(
     '#type'          => 'fieldset',
