@@ -13,7 +13,7 @@
   /** li donem context **/
   html body {
     /** capcalera **/
-    header {
+    #header {
       display: none;
     }
     .xxss-wrapper #block-block-3 {
@@ -294,8 +294,80 @@
       }
 
     } // /carrousel gran
-
+      //footer
+    #footer-wrapper .region-bottom {
+      $zen-column-count: 1;
+      @include zen-grid-container;
+      #block-menu-menu-peu,
+      #block-menu-menu-compra-d-abonaments,
+      #block-menu-menu-compra-d-entrades,
+      #w5col {
+        display: none;
+      }
+      #block-block-2 {
+        @include zen-grid-item(1,1);
+        background-image: url('../images/logo_footer_mobil.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 200px;
+        p {
+          display: none;
+        }
+      }//fi footer
+    }
   }
+    // Fitxes
+
+  html body.node-type-fitxa-entorn,
+  html body.node-type-fitxa-espectacle,
+  html body.node-type-fitxa-premsa {
+    #page #main {
+      z-index: 0;
+    }
+    article.node-fitxa-entorn,
+    article.node-fitxa-espectacle,
+    article.node-fitxa-premsa {
+      header{
+        display: block;
+        margin-top: -300px;
+        padding-left: 38%;
+        max-height: 240px;
+        min-height: 240px;
+        background-color: $blau1;
+        position: absolute;
+        @include caixa_dig($bg: $blau1, $w:'auto', $h:'72px');
+        #top-left4-wrapper {
+          #top-left3-wrapper {
+            #supraheader {
+              span.sala,
+              span.data {
+                color: $blanc;
+                display: block;
+                line-height: 28px;
+              }
+            }
+            .title-region {
+              h2,
+              h3 {
+                color: $blanc;
+              }
+            }
+            .moreinfo-region {
+              h4,
+              h5 {
+                color: $blanc;
+              }
+            }
+          }
+        }
+
+        #top-left4-wrapper #sessions,
+        #tarifes {
+          display: none;
+        }
+      }
+    }
+  } //fi fitxes
 
 
 

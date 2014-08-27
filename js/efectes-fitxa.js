@@ -177,6 +177,18 @@
   });
     jQuery.cookie('tnc-cal',null);
     //jQuery.removeCookie('tnc-cal');
+    //
+
+    /** treiem el label de lentor de la columna lateral
+     * si esta buit
+     */
+    //console.log('ajust entorn');
+    //console.log(jQuery('#main-wrapper #right-col').find('.field-name-field-entorn.field-type-entityreference').length );
+    if(jQuery('#main-wrapper #right-col').find('.field-name-field-entorn.field-type-entityreference').length == 0) {
+      jQuery('#main-wrapper #right-col h3.col-title').hide();
+      //console.log('ajust entornaa');
+    }
+
 
    }
  };
