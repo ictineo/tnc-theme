@@ -31,10 +31,12 @@
   <?php print render($title_prefix); ?>
   <?php // https://api.drupal.org/api/views/theme!views-view.tpl.php/7 ?>
   <?php if ( empty($title) ): ?>
-       <?php $title = $view->get_title(); ?>
+     <?php $title = $view->get_title(); ?>
   <?php endif; ?>
   <?php if ($title): ?>
-    <?php print $title; ?>
+    <div class="view-header">
+      <p><?php print $title; ?></p>
+    </div>
   <?php endif; ?>
   <?php print render($title_suffix); ?>
   <?php if ($header): ?>

@@ -16,7 +16,16 @@ body.page-temporada {
           font-size: 14px;
           background-color: $verd2;
           color: $blanc;
-          padding-left: 5px;
+          padding-left: 10px;
+        }
+        .field-name-field-sala .field-item {
+          padding-bottom: 10px;
+        }
+        .field-name-field-data .field-item {
+          padding-top: 10px;
+        }
+        .field-name-field-data span.date-display-end {
+          padding-left: 0;
         }
         .field-name-field-sala,
         .field-name-field-sala .field-item {
@@ -24,12 +33,14 @@ body.page-temporada {
           text-transform: uppercase;
           display: block;
         }
+        .field-name-field-subtitol .field-items .field-item,
         .view-field-title {
           font-size: 24px;
           text-transform: uppercase;
           font-weight: 800;
           padding-left: 10px;
           margin-top: 5px;
+          color: $verd2;
           a {
             color: $verd2;
             line-heigh: 26px;
@@ -37,6 +48,9 @@ body.page-temporada {
               text-transform: inherit;
             }
           }
+        }
+        .field-name-field-subtitol .field-items .field-item {
+          font-size: 14px;
         }
         .field-name-field-autor div,
         .field-name-field-rol-destacat div {
@@ -80,6 +94,7 @@ body.page-temporada {
             .field-name-field-data span,
             .field-name-field-data .field-item,
             .field-name-field-tipus-entorn .field-item,
+            .field-name-field-tipus-entorn div.field-items,
             .field-name-field-tipus-entorn {
               display: inline-block;
               font-size: 11px;
@@ -96,6 +111,7 @@ body.page-temporada {
               line-height: 13px;
               margin: 0;
               display: block;
+              text-transform: uppercase;
             }
             .field-name-field-autor div {
               display: inline-block;

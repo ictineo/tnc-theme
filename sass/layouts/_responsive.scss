@@ -529,6 +529,7 @@ $zen-auto-include-item-base: false;
         }
       }   
     }
+  }
     #mm-node-region {
       $zen-column-count: 4;
       $zen-gutter-width:  120px;
@@ -548,6 +549,10 @@ $zen-auto-include-item-base: false;
         padding-right: 0px;
         $zen-column-count: 4;
         @include zen-grid-container();
+        & > .main {
+          height: 460px;
+          overflow: hidden;
+        }
         h5 {
           $zen-gutter-width:  20px;
           @include zen-grid-item(3,2);
@@ -557,10 +562,11 @@ $zen-auto-include-item-base: false;
         .pager {
           $zen-gutter-width:  80px;
           @include zen-grid-item(3,2);
+          //width: auto;
+          //height: auto;
         }
       }
     }
-  }
   }
   body.node-type-fitxa-premsa { 
     article.node-fitxa-premsa { 

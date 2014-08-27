@@ -84,13 +84,13 @@
     alwaysVisible: true,
     railVisible: true,
     color: "white",
-    height: '180px'
+    height: '125px'
   });
   jQuery('#document-wrapper .slider').slimScroll({
     alwaysVisible: true,
     railVisible: true,
     color: "white",
-    height: '60px'
+    height: '40px'
   });
   jQuery('.field-name-field-hashtag-tw').slimScroll({
     alwaysVisible: true,
@@ -187,12 +187,21 @@
     if(jQuery('#main-wrapper #right-col').find('.field-name-field-entorn.field-type-entityreference').length == 0 && jQuery('#main-wrapper #right-col').find('.view-id-eva_espectacle.view-display-id-entity_view_1').length == 0) {
       // cas no hi ha res a la columna dreta
       jQuery('#main-wrapper #right-col > h3.col-title').hide();
-      //console.log('ajust entornaa');
     } else if(jQuery('#main-wrapper #right-col #parent_espectacle').find('.views-row > .views-field-view .view-id-eva_espectacle.view-display-id-page_1 > *').text().length == 0 ) {
-      console.log('inif');
       jQuery('#main-wrapper #right-col #parent_espectacle .views-row > .views-field-view h3').hide();
     }
-    console.log('=====>   ' + jQuery('#main-wrapper #right-col #parent_espectacle').find('.views-row > .views-field-view .view-id-eva_espectacle.view-display-id-page_1 > *').text().length);
+    if (jQuery('#main-wrapper #right-col #parent_espectacle').text().length != 0 && jQuery('#main-wrapper #right-col #parent_espectacle .view-id-eva_espectacle.view-display-id-entity_view_1').text().length == 0){
+      jQuery('#main-wrapper #right-col #parent_espectacle > h3').hide();
+    }
+    
+
+    /** netejem multimedias buits **/
+    if(jQuery('#mm-node-region #right-media #audio-wrapper .slider > *').text().replace(' ','').length == 0) {
+      jQuery('#mm-node-region #right-media #audio-wrapper').hide();
+    }
+    if(jQuery('#mm-node-region #right-media #document-wrapper .slider > *').text().replace(' ','').length == 0) {
+      jQuery('#mm-node-region #right-media #document-wrapper').hide();
+    }
 
 
 

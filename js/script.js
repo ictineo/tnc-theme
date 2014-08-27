@@ -35,8 +35,8 @@ Drupal.behaviors.theme_tnc = {
           };
  
         var options = {
-            videoWidth: -1,
-            videoHeight: 200,
+            //videoWidth: -1,
+              videoHeight: 140,
             audioWidth: w,
             startVolume: 0.8,
             loop: false,

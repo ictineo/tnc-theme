@@ -772,6 +772,9 @@ line-height: 14px;
           $espectacle = node_load($view_results['0']->nid);
           $i=0;   //auxiliars
           $p=0;   //auxiliars
+          if(!$espectacle) { // cas que no hi hagi espectacle asociat
+            $espectacle = $node;
+          }
           foreach ($espectacle->field_dia_hora['und'] as $k => $sessio): 
             $myfield[$i] = entity_load('field_collection_item', array($sessio['value']));      
           //filtrem les passades amb granualirtat de segons

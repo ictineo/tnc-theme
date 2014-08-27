@@ -444,6 +444,47 @@ $top-menu-h: 40px;
       }
 
     }
+    /** sobreescriptura pel layout de patrocinadors en funcio dels nid **/
+    .mm-slide-wrapper .mm-content.mm-172 {
+      .field-name-field-columna-1,
+      .field-name-field-columna-2,
+      .field-name-field-columna-3,
+      .field-name-field-columna-4 {
+        float: none;
+        width: 100%;
+        display: block;
+        margin: 0px;
+        margin-left: 20%;
+        .field-items .field-item {
+          width: auto;
+          margin-right: 0px;
+          .field .view-tipus-patrocinadors {
+            margin-left: 0px;
+            width: auto;
+            .view-content .views-row {
+              float: left;
+              clear: none;
+              //width: auto;
+            }
+          }
+        }
+      }
+      .field-name-field-columna-1 {
+        .field-items .field-item:nth-child(1) {
+          margin-right: 14px;
+        }
+        .field-items .field-item:nth-child(2) {
+          clear: none;
+          .views-row {
+            width: 25%;
+          }
+        }
+      }
+      .field-name-field-columna-4 .views-row {
+        margin-right: 2%;
+      }
+
+    }
     /** calendari de les columnes **/
     .view-id-calendar.view-display-id-block_2 {
       margin-top: 0px;
