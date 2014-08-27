@@ -184,10 +184,16 @@
      */
     //console.log('ajust entorn');
     //console.log(jQuery('#main-wrapper #right-col').find('.field-name-field-entorn.field-type-entityreference').length );
-    if(jQuery('#main-wrapper #right-col').find('.field-name-field-entorn.field-type-entityreference').length == 0) {
-      jQuery('#main-wrapper #right-col h3.col-title').hide();
+    if(jQuery('#main-wrapper #right-col').find('.field-name-field-entorn.field-type-entityreference').length == 0 && jQuery('#main-wrapper #right-col').find('.view-id-eva_espectacle.view-display-id-entity_view_1').length == 0) {
+      // cas no hi ha res a la columna dreta
+      jQuery('#main-wrapper #right-col > h3.col-title').hide();
       //console.log('ajust entornaa');
+    } else if(jQuery('#main-wrapper #right-col #parent_espectacle').find('.views-row > .views-field-view .view-id-eva_espectacle.view-display-id-page_1 > *').text().length == 0 ) {
+      console.log('inif');
+      jQuery('#main-wrapper #right-col #parent_espectacle .views-row > .views-field-view h3').hide();
     }
+    console.log('=====>   ' + jQuery('#main-wrapper #right-col #parent_espectacle').find('.views-row > .views-field-view .view-id-eva_espectacle.view-display-id-page_1 > *').text().length);
+
 
 
    }

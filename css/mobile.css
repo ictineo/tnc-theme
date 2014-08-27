@@ -456,8 +456,8 @@
     display: block;
     margin-top: -300px;
     padding-left: 38%;
-    max-height: 220px;
-    min-height: 220px;
+    max-height: 240px;
+    min-height: 240px;
     background-color: #008991;
     position: absolute;
   }
