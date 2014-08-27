@@ -48,8 +48,8 @@ Drupal.behaviors.theme_tnc_homeslide = {
     var ww = $(window).width();
     if (ww > 1100) {
       var position = $(window).width() * 0.7;
-    } else {
-      var position = $(window).width() * 0.6;
+    //} else {
+      //var position = $(window).width() * 0.6;
     }
 
     $('#mm-wrapper .tab-big').each(function () {

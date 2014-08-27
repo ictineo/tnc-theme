@@ -6,12 +6,6 @@
  * the README.txt next to this file.
  */
 
-/** adaptacio del viewport **/
-if(jQuery(window).width() >= 1201) {
-  //viewport = document.querySelector("meta[name=viewport]");
-  //viewport.setAttribute('content', 'width=device-width');
-  jQuery('meta[name=viewport]').attr('content', 'width=device-width');
-}
 
 
 // JavaScript should be made compatible with libraries other than jQuery by
