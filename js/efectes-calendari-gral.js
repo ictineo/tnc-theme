@@ -30,12 +30,14 @@
     }
   });
   /** marca de fileres de passat **/
-  flag_td = false
-  jQuery('.view-calendar .calendar-calendar table tr').each(function () {
+  flag_td = false;
+  jQuery('#content .view-calendar .calendar-calendar table tbody tr').each(function () {
+    console.log(this);
     if(!jQuery(this).hasClass('arrow') && jQuery(this).find('td.today, td.future').length == 0) {
       jQuery(this).addClass('collapsed');
       flag_td = true;
     }
+    // ho apliquem a la seguent amb arrow
     if(flag_td && jQuery(this).hasClass('arrow')) {
       jQuery(this).addClass('collapsed');
       flag_td = false;
