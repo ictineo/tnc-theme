@@ -45,6 +45,17 @@ global $base_url;
 <?php print views_embed_view('carrega_megamenu', 'block_1'); ?>
 <?php print views_embed_view('carrega_megamenu', 'block_3'); ?>
     <div id="top-mm-wrapper">
+      <div id="mob-menu" style="display: none">
+        <?php print theme('links__system_main_menu', array(
+          'links' => $main_menu,
+          'attributes' => array(
+            'class' => array('links', 'inline', 'clearfix'),
+          ),
+          //'heading' => array(
+            //'text' => '',
+          //),
+        )); ?>
+      </div>
       <div id="menu-mm-wrapper">
       <?php /** links a mida configurats en el theme settings **/
         for ($i = 0; $i < 4; $i++) {

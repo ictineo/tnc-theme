@@ -24,20 +24,76 @@
       height: 641px;
       #top-mm-wrapper {
         height: 60px;
-        & > * {
-          display: none;
-          // mostrem nomes els 3 primers
-          &:nth-child(1),
-          &:nth-child(2),
-          &:nth-child(3) {
-            display: inline-block; // valor original
-            font-size: 16px;
-            line-height: 34px;
-            padding: 13px 20px;
+        padding: 0px;
+        width: 100%;
+        $zen-column-count: 6;
+        $zen-gutters: 0px;
+        @include zen-grid-container();
+        #mob-menu {
+          display: block !important;
+          @include zen-grid-item(1,1);
+          background-image: url('../images/mob-menu.png');
+          background-size: auto;
+          background-repeat: no-repeat;
+          background-position: 50% 50%;
+          height: 60px;
+          cursor: pointer;
+          ul {
+            margin-left: -10px;
+            margin-top: 60px;
+            position: absolute;
+            width: 100%;
+            a {
+              display: none;
+              width: 100%;
+              font-size: 28px;
+              font-weight: 900;
+              text-align: center;
+              background-color: $blau1;
+              line-height: 72px;
+              padding: 0px;
+              border-bottom: 1px solid #133338;
+            }
+          }
+          &.act a {
+            display: inline-block;
+          }
+        }
+        #menu-mm-wrapper {
+          @include zen-grid-item(5,2);
+          $zen-column-count: 3;
+          $zen-gutters: 0px;
+          @include zen-grid-container();
+          padding-right: 0px;
+          h4{
+            display: none;
+          }
+          a {
+            display: none;
+            // mostrem nomes els 3 primers
+            &:nth-child(1),
+            &:nth-child(2),
+            &:nth-child(3) {
+              display: inline-block; // valor original
+              font-size: 16px;
+              line-height: 34px;
+              padding: 13px 20px;
+              text-align: center;
+            }
+            &:nth-child(1) {
+              @include zen-grid-item(1,1);
+            }
+            &:nth-child(2) {
+              @include zen-grid-item(1,2);
+            }
+            &:nth-child(3) {
+              @include zen-grid-item(1,3);
+            }
           }
         }
       }
       #left-mm-wrapper {
+        z-index: 100;
         &:before {
           width: 650px;
           height: 650px;
@@ -416,6 +472,9 @@
   html body.node-type-fitxa-premsa {
     #page #main {
       z-index: 0;
+      #content {
+        padding: 0px;
+      }
     }
     article.node-fitxa-entorn,
     article.node-fitxa-espectacle,
@@ -423,32 +482,44 @@
       header{
         display: block;
         margin-top: -300px;
-        padding-left: 38%;
-        max-height: 240px;
-        min-height: 240px;
-        background-color: $blau1;
-        position: absolute;
-        @include caixa_dig($bg: $blau1, $w:'auto', $h:'72px');
+        max-height: 257px;
+        min-height: 257px;
+        background-image: linear-gradient(2deg, $blau1 94%, transparent 6%);
+        width: 100%;
+        padding: 0 5px;
+        position: relative;
         #top-left4-wrapper {
           #top-left3-wrapper {
             #supraheader {
+              padding-top: 12px;
+              padding-left: 38%;
+              border-bottom: 0px none;
               span.sala,
               span.data {
                 color: $blanc;
                 display: block;
                 line-height: 28px;
+                font-size: 20px;
               }
             }
             .title-region {
+              padding-left: 38%;
+              border-bottom: 0px none;
               h2,
               h3 {
                 color: $blanc;
+                font-size: 36px;
+              }
+              h3 {
+                font-size: 22px;
               }
             }
             .moreinfo-region {
+              padding-left: 38%;
               h4,
               h5 {
                 color: $blanc;
+                font-size: 20px;
               }
             }
           }
@@ -459,8 +530,285 @@
           display: none;
         }
       }
+     .view-id-blo.view-display-id-block {
+        display: block !important;
+        background-color: $gris5;
+        margin-top: -15px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        width: 90%;
+        padding-left: 5%;
+        padding-right: 5%;
+        margin: 0 auto;
+        .view-header {
+          // paginadors
+          .pager .date-prev,
+          .pager .date-next{
+            //display: inherit;
+            display: none;
+          }
+          // titol
+          .date-heading h3 a {
+            background: none;
+            text-indent: 0px;
+            width: auto;
+            text-transform: uppercase;
+            font-size: 24px;
+            line-height: 28px;
+            font-weight: 700;
+          }
+          li {
+            //padding-left: 0px;
+          }
+        }
+        .view-content .calendar-calendar {
+          table {
+            border: 0px none;
+            //estils tipo 
+            thead tr th,
+            tbody tr td.has-events div.month.mini-day-on,
+            tbody tr td div.month.mini-day-off {
+              font-size: 24px;
+              padding: 6px;
+              text-transform: uppercase;
+              width: 26px;
+              height: 24px;
+              margin: auto;
+            }
+            thead {
+              tr {
+                border: 0px none;
+                * {
+                  background-color: $gris5;
+                  border: 0px none;
+                  text-align: center;
+                  color: $gris2;
+                }
+              }
+            }
+            tbody {
+              tr {
+                border: 0px none;
+                margin-bottom: 6px;
+                background-color: $gris5;
+                &.single-day,
+                &.arrow {
+                  display: none;
+                }
+                td.today {
+                  background-color: $gris5;
+                }
+                * {
+                  background-color: $gris5;
+                  text-align: center;
+                  border: 0px none;
+                }
+                td * {
+                  padding: 0px;
+                  width: 100%;
+                }
+                .inner {
+                  display: inline-block;
+                }
+                .strs {
+                  display: none;
+                }
+                td  div.num-day {
+                  display: block;
+                  margin-left: 35%;
+                  color: $gris1;
+                  font-weight: 700;
+                  font-size: 24px;
+                  background: transparent;
+                  padding: 0px;
+                  width: 30px;
+                  line-height: 30px;
+                  vertical-align: middle;
+                  height: 30px;
+                  padding: 4px;
+                }
+                td.day-box-current div.num-day {
+                  color: white;
+                  @include border-radius(30px);
+                  background-color: $blau1;
+                }
+              }
+            }
+          }
+        }
+      }
+      #main-wrapper {
+        margin-top: 0px;
+        #main-text-wrapper,
+        #moreinfo-wrapper {
+          width: 90%;
+          margin-left: 5%;
+          margin-right: 5%;
+        }
+        #main-text-wrapper {
+          display: none;
+          margin-bottom: 20px;
+          h5.field-title {
+            border: 0px none !important;
+            font-size: 20px !important;
+          }
+          .artista-carrec-left {
+            display: none;
+          }
+          .field-name-field-artista-carrec.field-type-field-collection div div .content * {
+            display: inline !important;
+          }
+          .field-name-field-carrec:after {
+            content: ":";
+            padding-right: 3px;
+          }
+          .carrec-tid-42 .field-name-field-carrec:after {
+            content: '';
+          }
+          .field-name-field-artista .field-item:after {
+            content: ', ';
+          }
+          .field-name-field-artista .field-item:last-child:after {
+            content: '';
+          }
+          .carrec-tid-42,
+          .carrec-tid-12 {
+            display: block !important;
+            * {
+              color: $blau1;
+            }
+            margin-bottom: 12px;
+          }
+        }
+      }
+      #media-respon-w{
+        display: none;
+        padding: 20px 0;
+        background-color: black;
+        #right-media,
+        #images-wrapper {
+          position: relative;
+        }
+        .cycle-slideshow {
+          figure img {
+            width: 100%;
+            min-height: 400px;
+            min-width: 700px;
+          }
+        }
+        h5 {
+          display: none;
+        }
+        .cycle-slideshow {
+          border-top: 1px solid $gris3;
+          border-bottom: 1px solid $gris3;
+        }
+        .cycle-slideshow.pager {
+          display: none;
+        }
+        .carousel-pager {
+          @include bg_sprite();
+          top: 30%;
+          width: 20px;
+          height: 30px;
+          position: absolute;
+          cursor: pointer;
+          z-index: 999;
+          &.carousel-pager-prev {
+            background-position: -30px -30px;
+            left: 0px;
+          }
+          &.carousel-pager-next {
+            background-position: -10px -30px;
+            right: 0px;
+          }
+        }
+        #video-wrapper {
+          padding-top: 20px;
+          .outer-pager {
+            display: none;
+          }
+          .mejs-video,
+          figure {
+            width: 100%;
+            figcaption {
+              border-top: 1px solid $gris3;
+              width: 100%;
+              text-align: center;
+              padding-bottom: 16px;
+            }
+          }
+        }
+        #audio-wrapper {
+          padding: 20px;
+          border-bottom: 1px solid $gris3;
+        }
+      }
+      #right-col {
+        display: block !important;
+        &>.field {
+          display: none;
+        }
+        .entorn_lateral {
+          margin: 0px !important;
+        }
+      }
+      #main-wrapper h3.col-title.tnc-tab {
+        margin: 0px;
+      }
+      #main-wrapper h3.col-title.tnc-tab,
+      .tnc-tab {
+        text-transform: uppercase;
+        color: white;
+        background-color: $blau1;
+        display: block;
+        width: 100%;
+        font-size: 28px;
+        font-weight: 900;
+        text-align: center;
+        background-color: $blau1;
+        line-height: 72px;
+        padding: 0px;
+        border-bottom: 1px solid #133338;
+        cursor: pointer;
+      }
+      #main-wrapper > .field-name-field-url-compra-reserva {
+        width: 100%;
+        text-align: right;
+        display: block;
+        a {
+          background-color: #e2007a;
+          color: white;
+          display: inline-block;
+          font-family: 'Open Sans',sans-serif;
+          font-size: 24px;
+          font-weight: 700;
+          height: 29px;
+          line-height: 29px;
+          min-height: 29px;
+          text-align: center;
+          text-transform: uppercase;
+          vertical-align: middle;
+          width: 60%;
+          margin: 10px;
+          padding: 16px;
+        }
+      }
     }
   } //fi fitxes
+  body.page-temporada .view-temporada {
+    table,
+    tbody,
+    tr,
+    td {
+      width: 100%;
+      display: block;
+    }
+    td {
+      float: left;
+    }
+  }
+
 
 
 
