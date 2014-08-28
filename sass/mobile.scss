@@ -215,9 +215,15 @@
     .view-carrousel.view-display-id-block_7 .jcarousel-skin-default .jcarousel-container-horizontal {
       padding-bottom: 8px;
     }
+    .view-carrousel.view-display-id-block_7 ul.jcarousel-navigation{
+        display: none;
+    }
     /** conversio del carrousel gran**/
     .view-id-carrousel.view-display-id-block_1 {
+      height: 100% !important;
       .view-content .jcarousel-skin-default .jcarousel-container.jcarousel-container-horizontal {
+        position: inherit !important;
+        height: 100%;
         .jcarousel-clip ul.jcarousel {
           width: 100% !important;
           li {
@@ -242,8 +248,8 @@
                 .tab.tab.tab.tab.tab.tab.tab {
                   width: 100% !important;
                   display: block;
-                  background-color: $blau1;
-                  @include background-image(linear-gradient(2deg,  $blau1 96%,transparent 4%));
+                  //background-color: $blau1;
+                  @include background-image(linear-gradient(2deg,  $blau1 90%,transparent 10%));
                   top: 50%;
                   padding-bottom: 100px;
                   & > .field.field.field {
@@ -252,7 +258,7 @@
                   }
                   &:before,
                   .field-name-field-url-compra-reserva,
-                  .field-name-field-rol-destacat,
+                  //.field-name-field-rol-destacat,
                   .grup_entorn,
                   .field-name-field-entorn.field-type-entityreference {
                     display: none !important;
@@ -263,6 +269,9 @@
                     font-size: 24px;
                     font-weight: 900;
                     color: white !important;
+                  }
+                  .field-name-field-sala {
+                    padding-top: 5px;
                   }
                   .field-name-field-data * {
                     fonst-size: 24px;
@@ -276,12 +285,20 @@
                     line-height: 32px;
                     color: white !important;
                   }
+                  .field-name-field-rol-destacat *,
                   .field-name-field-autor *,
                   .field-name-field-autor {
                     background-color: transparent !important;
                     font-size: 24px !important;
                     line-height: 32px;
                     color: white !important;
+                  }
+                  .field-name-field-rol-destacat {
+                    margin-top: 12px;
+                    margin-bottom: 24px;
+                    * {
+                      font-size: 18px !important;
+                    }
                   }
                 }
               }
@@ -294,6 +311,68 @@
       }
 
     } // /carrousel gran
+    /** conversio del carrousel petit**/
+    .view-id-carrousel.view-display-id-block_3 {
+      height: 100% !important;
+      margin-top: 0px !important;
+      .view-content .jcarousel-skin-default .jcarousel-container.jcarousel-container-horizontal {
+        position: inherit !important;
+        height: 100%;
+        a .jcarousel-next,
+        a .jcarousel-prev {
+          display: none;
+        }
+        .jcarousel-clip ul.jcarousel {
+          width: 100% !important;
+          li.jcarousel-item {
+            display: none;
+            width: 100% !important;
+            margin: 0px !important;
+            padding-bottom: 22px;
+            .field-name-field-url-compra-reserva.field-type-link-field {
+              display: none;
+            }
+            .titsubtit_wp {
+              min-height: 0px !important;
+            }
+          }
+          li.jcarousel-item:nth-child(1),
+          li.jcarousel-item:nth-child(2),
+          li.jcarousel-item:nth-child(3),
+          li.jcarousel-item:nth-child(4) {
+            display: block;
+            width: 100%;
+            overflow: hidden;
+            .views-field-nothing {
+              position: absolute;
+              right: 0px !important;
+              width: 100%;
+              .field-content {
+                width: 100%;
+                .field-type-image img {
+                  width: 100%;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    &.front #main .buttons-region.buttons-region-1 .wrapper,
+    &.front #main .buttons-region.buttons-region-2 .wrapper{
+      pading: 0px;
+      // suma 100
+      margin: 3%;
+      width: 94%;
+    }
+    &.front #main .buttons-region.buttons-region-2 .wrapper:nth-child(1),
+    &.front #main .buttons-region.buttons-region-2 .wrapper:nth-child(3){
+      
+    }
+    &.front #main .buttons-region.buttons-region-2 .wrapper:nth-child(2),
+    &.front #main .buttons-region.buttons-region-2 .wrapper:nth-child(4){
+    }
+ 
       //footer
     #footer-wrapper .region-bottom {
       $zen-column-count: 1;
@@ -314,6 +393,20 @@
           display: none;
         }
       }//fi footer
+    }
+    #page #sub-footer-wrapper {
+      background-color: transparent;
+      #block-block-8 {
+        display: none;
+      }
+      .region-subbottom #block-block-3--2 {
+        width: 100%;
+        text-align: center;
+        margin-top: 12px;
+        .xxss {
+          float: none;
+        }
+      }
     }
   }
     // Fitxes
