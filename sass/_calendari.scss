@@ -1,12 +1,33 @@
 /**
  * Theme calendari
  */
-.view-calendar,
+//Titol page calendari
+
+body.page-calendari {
+  .view-calendar {
+    .tit_header {
+      @include titol_bg($m,$bg:$rosa);
+      @include titol();
+      color: $blanc;
+      display: inline-block;
+      padding-left: 83px;
+      padding-right: 15px;
+      margin-left: -83px;
+      font-size: 30px;
+      line-height: normal;
+      position: relative;
+      margin-bottom: 1em;
+    }
+  }
+}
+
 .view-blo {
   margin-top: 58px;
+}
+.view-calendar,
+.view-blo {
   .view-header {
     display: inline;
-
     .date-nav-wrapper ul {
       margin: 0px;
       display: block;

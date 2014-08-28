@@ -53,7 +53,14 @@ Drupal.behaviors.theme_tnc = {
   jQuery('#block-menu-menu-restaurant-tnc').appendTo('#w5col');
 
 
+            /** deteccio 404 i 403 **/
+   if(jQuery('#page #main div').length == 1) {
+     jQuery('body').addClass('error-404403');
+   }
+
   }
+
+
 };
 
 

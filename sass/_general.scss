@@ -145,3 +145,21 @@ body {
  
 }
 
+body.error-404403 {
+  #page #main {
+    background-color: #b8b8b8;
+    display: block;
+    width: 100%;
+    max-width: inherit;
+    min-height: 600px;
+    margin: 0;
+    z-index: -1;
+    #content {
+      padding-left: 30%;
+      margin-top: 200px;
+      color: #58595b;
+      font-size: 24px;
+      font-weight: 700;
+    }
+  }
+}

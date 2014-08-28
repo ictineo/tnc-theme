@@ -29,8 +29,9 @@
 ?>
 <div class="<?php print $classes; ?>">
   <?php print render($title_prefix); ?>
+  <?php $title = theme_get_setting('tnc_tit_tem'); ?>
   <?php if ($title): ?>
-    <?php print $title; ?>
+   <div class="tit_header"> <?php print $title; ?> </div>
   <?php endif; ?>
   <?php print render($title_suffix); ?>
   <?php if ($header): ?>

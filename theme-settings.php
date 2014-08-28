@@ -43,6 +43,22 @@ function tnc_form_system_theme_settings_alter(&$form, &$form_state, $form_id = N
   );
  
  
+  $form['tnc_titles'] = array(
+    '#type'          => 'fieldset',
+    '#title'         => t('Titles for custom pages'),
+    '#collapsible'   => TRUE,
+    '#collapsed'     => FALSE,
+  );
+  $form['tnc_titles']['tnc_tit_tem'] = array(
+    '#type'          => 'textfield',
+    '#title'         => t('Title temporada'),
+    '#default_value' => theme_get_setting('tnc_tit_tem'),
+  );
+  $form['tnc_titles']['tnc_tit_cal'] = array(
+    '#type'          => 'textfield',
+    '#title'         => t('Title calendar'),
+    '#default_value' => theme_get_setting('tnc_tit_cal'),
+  );
 
   $form['tnc_frontlink_1'] = array(
     '#type'          => 'fieldset',
