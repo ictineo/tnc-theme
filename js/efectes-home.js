@@ -53,7 +53,6 @@ Drupal.behaviors.theme_tnc_homeslide = {
     }
 
     $('#mm-wrapper .tab-big').each(function () {
-      console.log(position);
       $(this).css('left', position + 'px');
     });
     $('#mm-wrapper .tab-small').each(function () {
@@ -70,7 +69,6 @@ Drupal.behaviors.theme_tnc_homeslide = {
         var position = $(window).width() * 0.6;
       }
       $('#mm-wrapper .tab-big').each(function () {
-        console.log(position);
         $(this).css('left', position + 'px');
       });
       $('#mm-wrapper .tab-small').each(function () {

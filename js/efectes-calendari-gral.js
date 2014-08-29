@@ -32,7 +32,6 @@
   /** marca de fileres de passat **/
   flag_td = false;
   jQuery('#content .view-calendar .calendar-calendar table tbody tr').each(function () {
-    console.log(this);
     if(!jQuery(this).hasClass('arrow') && jQuery(this).find('td.today, td.future').length == 0) {
       jQuery(this).addClass('collapsed');
       flag_td = true;
@@ -57,10 +56,8 @@
   //});
 
 
-  //console.log('tractament carrousels DEBUG');
   //jQuery('#images-wrapper .cycle-slideshow.pager').one('cycle-initialized', function (e, h) {
     //jQuery('#images-wrapper .main figure').each(function () {
-      //console.log(jQuery(this).parent().html());
       //jQuery('#images-wrapper .cycle-slideshow.pager').cycle('add', jQuery(this).parent().html());
     //});
   //});
@@ -84,7 +81,6 @@
       //if(jQuery('#video-wrapper .main figure:nth-child('+i+')').height() > h) {
         //h = jQuery(this).height();
       //}
-      //console.log(i + '  --  ' + jQuery('#video-wrapper .main figure:nth-child('+i+')').height());
       //jQuery('#video-wrapper .main').css('height', h + 'px');
 
     });

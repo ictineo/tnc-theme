@@ -16,8 +16,7 @@ jQuery(document).ready(function () {
       jQuery('#media-respon-w').append(jQuery('#right-media'));//.show().insertAfter('#moreinfo-wrapper');
       jQuery('#images-wrapper').show().insertBefore('#right-media');
       jQuery('<span class="carousel-pager carousel-pager-prev"> </span><span class="carousel-pager carousel-pager-next">&nbsp;</span>').insertAfter('#images-wrapper .cycle-slideshow.main');
-      console.log(jQuery('#images-wrapper > .carousel-pager-next'));//.click(function () {console.log('asdf');jQuery('#images-wrapper .cycle-slideshow.main').cycle('next');console.log('---');});
-      jQuery('#images-wrapper > .carousel-pager-next').click(function () {console.log('asdf');jQuery('#images-wrapper .cycle-slideshow.main').cycle('next');console.log('---');});
+      jQuery('#images-wrapper > .carousel-pager-next').click(function () {jQuery('#images-wrapper .cycle-slideshow.main').cycle('next');});
       jQuery('#images-wrapper > .carousel-pager-prev').click(function () {jQuery('#images-wrapper .cycle-slideshow.main').cycle('prev');});
       jQuery('<span class="carousel-pager carousel-pager-prev"> </span><span class="carousel-pager carousel-pager-next"> </span>').insertAfter('#video-wrapper .cycle-slideshow.main');
       jQuery('#video-wrapper > .carousel-pager-next').click(function () {jQuery('#video-wrapper .cycle-slideshow.main').cycle('next');});

@@ -45,10 +45,8 @@
   //});
 
 
-  //console.log('tractament carrousels DEBUG');
   //jQuery('#images-wrapper .cycle-slideshow.pager').one('cycle-initialized', function (e, h) {
     //jQuery('#images-wrapper .main figure').each(function () {
-      //console.log(jQuery(this).parent().html());
       //jQuery('#images-wrapper .cycle-slideshow.pager').cycle('add', jQuery(this).parent().html());
     //});
   //});
@@ -72,7 +70,6 @@
       //if(jQuery('#video-wrapper .main figure:nth-child('+i+')').height() > h) {
         //h = jQuery(this).height();
       //}
-      //console.log(i + '  --  ' + jQuery('#video-wrapper .main figure:nth-child('+i+')').height());
       //jQuery('#video-wrapper .main').css('height', h + 'px');
 
     });
@@ -182,8 +179,6 @@
     /** treiem el label de lentor de la columna lateral
      * si esta buit
      */
-    //console.log('ajust entorn');
-    //console.log(jQuery('#main-wrapper #right-col').find('.field-name-field-entorn.field-type-entityreference').length );
     if(jQuery('#main-wrapper #right-col').find('.field-name-field-entorn.field-type-entityreference').length == 0 && jQuery('#main-wrapper #right-col').find('.view-id-eva_espectacle.view-display-id-entity_view_1').length == 0) {
       // cas no hi ha res a la columna dreta
       jQuery('#main-wrapper #right-col > h3.col-title').hide();

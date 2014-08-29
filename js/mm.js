@@ -43,7 +43,6 @@ Drupal.behaviors.theme_tnc_mm = {
           }
         );
       });
-      //console.log(act + '  ' + jQuery(this).attr('mm-l'));
       // si sha clicat un que estava amagat es mostra
       if(act != jQuery(this).attr('mm-l')) {
         jQuery('.view-id-carrega_megamenu.view-display-id-block_3').css('zIndex','1005');
@@ -75,7 +74,6 @@ Drupal.behaviors.theme_tnc_mm = {
           }
         );
       });
-      //console.log(act + '  ' + jQuery(this).attr('mm-t'));
       if(act != jQuery(this).attr('mm-t')) {
         jQuery('.view-id-carrega_megamenu.view-display-id-block_1').css('zIndex','1005');
         jQuery('#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_1 .views-row-' + jQuery(this).attr('mm-t')).animate({top: 0});
@@ -111,9 +109,6 @@ Drupal.behaviors.theme_tnc_mm = {
     /** simulacio de link a la home a la bola del megamenu esquerre **/
     //jQuery('#left-mm-wrapper:before').click(function () {
     //jQuery('#mm-wrapper #left-mm-wrapper:after').click(function () {
-      //console.log('click');
-      //console.log(Drupal.setting);
-      //window.location.href =
     //});
 
 
