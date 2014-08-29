@@ -5,6 +5,34 @@
  * In order for this JavaScript to be loaded on pages, see the instructions in
  * the README.txt next to this file.
  */
+jQuery(document).ready(function () {
+  if(jQuery(window).width() >= 700 && jQuery(window).width() < 1200) {
+    var ww = jQuery(window).width();
+    var scale_prop = ww / 1200.0;
+    jQuery('body').css({
+      'min-width': '1200px',
+      'transform-origin' : '0 0',
+      'transform': 'scale(' + scale_prop + ')'
+    });
+  }
+});
+jQuery(window).resize(function () {
+  if(jQuery(window).width() >= 700 && jQuery(window).width() < 1200) {
+    var ww = jQuery(window).width();
+    var scale_prop = ww / 1200.0;
+    jQuery('body').css({
+      'min-width': '1200px',
+      'transform-origin' : '0 0',
+      'transform': 'scale(' + scale_prop + ')'
+    });
+  } else {
+    jQuery('body').css({
+      'min-width': 'inherit',
+      'transform-origin' : '0 0',
+      'transform': 'none'
+    });
+  }
+});
 
 
 

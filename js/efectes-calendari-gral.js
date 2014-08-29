@@ -1,15 +1,5 @@
  Drupal.behaviors.theme_tnc_calendari_general = {
    attach: function(context, settings) {
-     if(jQuery(window).width() >= 700 && jQuery(window).width() < 1200) {
-       var ww = jQuery(window).width();
-       var scale_prop = ww / 1200.0;
-       jQuery('body').css({
-         'min-width': '1200px',
-         'transform-origin' : '0 0',
-         'transform': 'scale(' + scale_prop + ')'
-       });
-      }
-
   /** 
    * calendari
    */
