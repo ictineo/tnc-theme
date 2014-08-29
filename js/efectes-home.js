@@ -25,6 +25,12 @@ Drupal.behaviors.theme_tnc_homeslide = {
   $('.view-id-carrousel.view-display-id-block_5 .views-row .field-content').click(function () {
       location.href = $(this).attr('rel');
   });
+  $('.view-id-carrousel.view-display-id-block_5 .views-row .field-content .field-content-2wrapper').click(function () {
+      location.href = $(this).parent().attr('rel');
+  });
+  $('.view-id-carrousel.view-display-id-block_5 .views-row .field-content .field-content-2wrapper .tab-big').click(function () {
+      location.href = $(this).parent().parent().attr('rel');
+  });
 
   if(jQuery(window).width() >= 700) {
     // http://stackoverflow.com/questions/15191058/css-rotation-cross-browser-with-jquery-animate

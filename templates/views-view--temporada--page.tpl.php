@@ -98,3 +98,4 @@ $image_url = file_create_url(file_load($fid)->uri);
 </div>
 
 </div><?php /* class view */ ?>
+<?php drupal_add_js(drupal_get_path('theme', 'tnc') . '/js/temporada.js'); ?>

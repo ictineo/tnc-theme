@@ -16,9 +16,16 @@ body.page-temporada {
       td {
         margin-bottom: 30px;
       }
+      .views-field-nothing-1 {
+        height: 415px;
+        min-height: 415px;
+        max-height: 415px;
+        overflow: hidden;
+        background-color: $gris5;
+      }
       .espectacle,
       .entorn {
-        min-height: 265px;
+        //min-height: 265px;
         background-color: $gris5;
         .field-name-field-data .field-item,
         .field-name-field-data span,
@@ -101,14 +108,20 @@ body.page-temporada {
             padding-bottom: 5px;
             .field-name-field-sala,
             .field-name-field-sala div,
+            .field-name-field-sala .field-items,
             .field-name-field-sala .field-item,
             .field-name-field-data,
             .field-name-field-data span,
+            .field-name-field-data .field-items,
             .field-name-field-data .field-item,
             .field-name-field-tipus-entorn .field-item,
             .field-name-field-tipus-entorn div.field-items,
             .field-name-field-tipus-entorn {
-              display: inline-block;
+              //display: inline-block;
+              display: block;
+              margin-right: 2px;
+              margin-bottom: 0px;
+              white-space: nowrap;
               font-size: 11px;
               line-height: 13px;
               background-color: $gris5;
@@ -116,8 +129,31 @@ body.page-temporada {
               font-weight: 400;
               padding: 0;
             }
+            .field-name-field-sala {
+            }
+            .field-name-field-sala,
+            .field-name-field-data,
+            .field-name-field-tipus-entorn {
+              margin-top: 2px;
+              float: left;
+            }
+            .field-name-field-tipus-entorn {
+              margin-bottom: 3px;
+            }
+            .field-name-field-sala div,
+            .field-name-field-sala .field-items,
+            .field-name-field-sala .field-item,
+            .field-name-field-data span,
+            .field-name-field-data .field-items,
+            .field-name-field-data .field-item,
+            .field-name-field-tipus-entorn .field-item,
+            .field-name-field-tipus-entorn div.field-items {
+              display: inline;
+            }
+
             h2.node-title,
             h2.node-title a {
+              clear: both;
               font-weight: 800;
               font-size: 11px;
               line-height: 13px;
