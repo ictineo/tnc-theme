@@ -494,6 +494,7 @@ line-height: 14px;
   <?php if(isset($content['field_estrenat']['#items'][0]['value']) && $content['field_estrenat']['#items'][0]['value'] == '0'):?>
     <?php print render($content['field_imatge_capcalera']); ?>
   <?php else: ?>
+    <?php print '<span style="display: none;">' . render($content['field_imatge_capcalera']) . '</span>'; ?>
       <?php
         /** imatges **/
         $audio_elements = "";

@@ -276,6 +276,13 @@
     .view-carrousel.view-display-id-block_7 .jcarousel-skin-default .jcarousel-container-horizontal {
       padding-right: 0px;
       padding-bottom: 8px;
+      height: auto !important;
+      .jcarousel-clip-horizontal {
+        height: auto !important;
+      }
+      ul li p {
+        height: 100%;
+      }
     }
     .view-carrousel.view-display-id-block_7 ul.jcarousel-navigation{
         display: none;

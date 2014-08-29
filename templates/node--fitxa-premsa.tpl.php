@@ -16,7 +16,7 @@ drupal_add_js(array('tnc' => array('nid' => $node->nid)), 'setting');
   <div id="mm-node-region">
     <!-- inici codi impacte -->
 <!--<script src="http://www.impactecomunicacio.cat/clients/tncweb/media/js/jquery-ui-1.10.4.custom.min.js" type="text/javascript"></script>-->
-<style>
+<!--<style>
 	.mMLateral{
 		position:absolute;
 		z-index:100;
@@ -486,11 +486,12 @@ line-height: 14px;
 		</div>
 	</div>	
 </div>			
- 
+--> 
     <!-- final codi impacte -->
   <?php if(isset($content['field_estrenat']['#items'][0]['value']) && $content['field_estrenat']['#items'][0]['value'] == '0'):?>
     <?php print render($content['field_imatge_capcalera']); ?>
   <?php else: ?>
+    <?php print render($content['field_imatge_capcalera']); ?>
       <?php
         /** imatges **/
         $audio_elements = "";

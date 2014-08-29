@@ -12,6 +12,7 @@ jQuery(document).ready(function () {
     jQuery('#right-col').show().insertAfter('#moreinfo-wrapper');
     jQuery('#tarifes > .field-name-field-url-compra-reserva').insertAfter('.view-id-blo.view-display-id-block');
     if(jQuery('#images-wrapper').length > 0 || jQuery('#right-media').length > 0) {
+      jQuery('#mm-node-region > span').show();
       jQuery('<div id="media-respon-w"></div>').insertAfter('#moreinfo-wrapper');
       jQuery('#media-respon-w').append(jQuery('#right-media'));//.show().insertAfter('#moreinfo-wrapper');
       jQuery('#images-wrapper').show().insertBefore('#right-media');
@@ -37,24 +38,36 @@ jQuery(document).ready(function () {
       jQuery('#moreinfo-wrapper').hide();
       jQuery('#media-respon-w').hide();
       jQuery('#right-col > .field').hide();
+      jQuery('html, body').animate({
+        scrollTop: jQuery(".tnc-tab-1").offset().top - 10
+      }, 400);
     });
     jQuery('.tnc-tab-2').click(function () {
       jQuery('#main-text-wrapper').hide();
       jQuery('#moreinfo-wrapper').show();
       jQuery('#media-respon-w').hide();
       jQuery('#right-col > .field').hide();
+      jQuery('html, body').animate({
+        scrollTop: jQuery(".tnc-tab-2").offset().top - 10
+      }, 400);
     });
     jQuery('.tnc-tab-entorn').click(function () {
       jQuery('#main-text-wrapper').hide();
       jQuery('#moreinfo-wrapper').hide();
       jQuery('#media-respon-w').hide();
       jQuery('#right-col > .field').show();
+      jQuery('html, body').animate({
+        scrollTop: jQuery(".tnc-tab-entorn").offset().top - 10
+      }, 400);
     });
     jQuery('.tnc-tab-media').click(function () {
       jQuery('#main-text-wrapper').hide();
       jQuery('#moreinfo-wrapper').hide();
       jQuery('#media-respon-w').show();
       jQuery('#right-col > .field').hide();
+      jQuery('html, body').animate({
+        scrollTop: jQuery(".tnc-tab-media").offset().top - 10
+      }, 400);
     });
   }
 });

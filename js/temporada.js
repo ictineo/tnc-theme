@@ -11,8 +11,6 @@
 Drupal.behaviors.theme_tnc_temporada = {
   attach: function(context, settings) {
     jQuery('.view-id-temporada.view-display-id-page .views-field-nothing-1').each(function () {
-      console.log(jQuery(this).find('.view-field-title').text());
-      console.log(jQuery(this).find('.espectacle').height() + jQuery(this).find('.entorn').height());
       var total_h = jQuery(this).find('.espectacle').height() + jQuery(this).find('.entorn').height();
       if(total_h > 415) {
         jQuery(this).find('.entorn > .field').slimScroll({
