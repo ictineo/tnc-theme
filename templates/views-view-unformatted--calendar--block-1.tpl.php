@@ -40,7 +40,7 @@ $j = 0;
 foreach ($days as $date => $rendered) {
   /* si es un dels 5 primers dies no mostrem el mes */
   $j++;
-  if(date('d', strtotime($date)) == '1' && $j > 6) {
+  if(date('d', strtotime($date)) == '1' && $j >= 0) {
     print('<div class="month-label">'.t(date('F', strtotime($date))).'</div>');
   }
   if(!empty($rendered)) {

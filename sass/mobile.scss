@@ -80,7 +80,7 @@
             &:nth-child(2),
             &:nth-child(3) {
               display: inline-block; // valor original
-              font-size: 10px;
+              font-size: 20px;
               line-height: 34px;
               padding: 13px 20px;
               text-align: center;
@@ -193,37 +193,44 @@
     .view-id-calendar.view-display-id-block_1 {
       display: none;
     }
-    #mcal {
+    div#mcal {
       display: block !important;
       background-color: $gris5;
       margin-top: -15px;
       padding-top: 30px;
       padding-bottom: 30px;
-      .view-id-calendar.view-display-id-block_2 {
+      .view-id-cal_m_bil_home.view-display-id-block{
         width: 90%;
         margin: 0 auto;
         .view-header {
           // paginadors
           .pager .date-prev,
           .pager .date-next{
-            //display: inherit;
-            display: none;
+            display: inherit;
+            float: right;
+          }
+          .pager .date-prev {
+            right: 35px;
           }
           // titol
-          .date-heading h3 a {
-            background: none;
-            text-indent: 0px;
-            width: auto;
+          .date-heading h3 {
+            color: $gris1;
+            display: inline;
+            font-size: 35px !important;
+            font-weight: 800;
+            line-height: 19px;
+            margin: 0;
+            text-decoration: none;
             text-transform: uppercase;
-            font-size: 24px;
-            line-height: 28px;
-            font-weight: 700;
           }
 
         }
         .view-content .calendar-calendar {
           table {
             border: 0px none;
+            tbody tr * {
+              border: 0px none;
+            }
             //estils tipo 
             thead tr th,
             tbody tr td.has-events div.month.mini-day-on,
@@ -267,6 +274,27 @@
                   @include border-radius(30px);
                   background-color: $blau1;
                 }
+                td .inner 
+                .num-day {
+                  color: #58595b;
+                  display: block;
+                  font-size: 24px;
+                  font-weight: 700;
+                  height: 30px;
+                  line-height: 30px;
+                  padding: 4px;
+                  vertical-align: middle;
+                  width: 30px;
+                }
+                .strs {
+                  .txt-day,
+                  .month {
+                    display: none;
+                  }
+                }
+              }
+              tr.arrow {
+                display: none;
               }
             }
           }

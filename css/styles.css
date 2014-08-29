@@ -5080,19 +5080,22 @@ body.page-calendari .view-calendar .tit_header {
   margin-top: 58px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\0000329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\0000330}}
+.view-id-cal_m_bil_home .view-header,
 .view-calendar .view-header,
 .view-blo .view-header {
   display: inline;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\0000331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\0000332}}
+.view-id-cal_m_bil_home .view-header .date-nav-wrapper ul,
 .view-calendar .view-header .date-nav-wrapper ul,
 .view-blo .view-header .date-nav-wrapper ul {
   margin: 0px;
   display: block;
   height: 35px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\0000335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\0000336}}
+.view-id-cal_m_bil_home .view-header .date-nav-wrapper ul h3,
 .view-calendar .view-header .date-nav-wrapper ul h3,
 .view-blo .view-header .date-nav-wrapper ul h3 {
   font-size: 13px;
@@ -5108,7 +5111,8 @@ body.page-calendari .view-calendar .tit_header {
   display: inline;
   font-weight: 800;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\0000343}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\0000344}}
+.view-id-cal_m_bil_home .view-header .date-nav-wrapper ul li,
 .view-calendar .view-header .date-nav-wrapper ul li,
 .view-blo .view-header .date-nav-wrapper ul li {
   list-style: none;
@@ -5126,7 +5130,8 @@ body.page-calendari .view-calendar .tit_header {
   width: 12px;
   float: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\0000358}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\0000359}}
+.view-id-cal_m_bil_home .view-header .date-nav-wrapper ul li.date-heading,
 .view-calendar .view-header .date-nav-wrapper ul li.date-heading,
 .view-blo .view-header .date-nav-wrapper ul li.date-heading {
   text-align: center;
@@ -5134,7 +5139,8 @@ body.page-calendari .view-calendar .tit_header {
   width: auto;
   padding: 0 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\0000364}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\0000365}}
+.view-id-cal_m_bil_home .view-header .date-nav-wrapper ul li a,
 .view-calendar .view-header .date-nav-wrapper ul li a,
 .view-blo .view-header .date-nav-wrapper ul li a {
   overflow: hidden;
@@ -5147,23 +5153,30 @@ body.page-calendari .view-calendar .tit_header {
   margin: 0px;
   background-position: -6px -92px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\0000376}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\0000377}}
+.view-id-cal_m_bil_home .view-header .date-nav-wrapper ul li.date-next a,
 .view-calendar .view-header .date-nav-wrapper ul li.date-next a,
 .view-blo .view-header .date-nav-wrapper ul li.date-next a {
   margin-top: -35px;
   background-position: -38px -92px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\0000382}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\0000383}}
+.view-id-cal_m_bil_home .view-header .date-nav-wrapper,
 .view-calendar .view-header .date-nav-wrapper,
 .view-blo .view-header .date-nav-wrapper {
   display: inline;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\0000387}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\0000388}}
+.view-id-cal_m_bil_home .view-content .calendar-calendar .month-view table.full,
 .view-calendar .view-content .calendar-calendar .month-view table.full,
 .view-blo .view-content .calendar-calendar .month-view table.full {
   border: 0px none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\0000392}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\0000393}}
+.view-id-cal_m_bil_home .view-content .calendar-calendar .month-view table.full td.today,
+.view-id-cal_m_bil_home .view-content .calendar-calendar .month-view table.full td.date-box.today,
+.view-id-cal_m_bil_home .view-content .calendar-calendar .month-view table.full td.single-day.today,
+.view-id-cal_m_bil_home .view-content .calendar-calendar .month-view table.full td,
 .view-calendar .view-content .calendar-calendar .month-view table.full td.today,
 .view-calendar .view-content .calendar-calendar .month-view table.full td.date-box.today,
 .view-calendar .view-content .calendar-calendar .month-view table.full td.single-day.today,
@@ -5177,19 +5190,22 @@ body.page-calendari .view-calendar .tit_header {
   border-right: 6px solid white;
   border-left: 6px solid white;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\0000399}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003100}}
+.view-id-cal_m_bil_home .view-content .calendar-calendar .month-view table.full thead,
 .view-calendar .view-content .calendar-calendar .month-view table.full thead,
 .view-blo .view-content .calendar-calendar .month-view table.full thead {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003103}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003104}}
+.view-id-cal_m_bil_home .view-content .calendar-calendar .month-view table.full tbody tr.date-box td,
 .view-calendar .view-content .calendar-calendar .month-view table.full tbody tr.date-box td,
 .view-blo .view-content .calendar-calendar .month-view table.full tbody tr.date-box td {
   background-color: #dcdddf;
   padding: 0px;
   margin: 0px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003107}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003108}}
+.view-id-cal_m_bil_home .view-content .calendar-calendar .month-view table.full tbody tr.date-box td .num-day,
 .view-calendar .view-content .calendar-calendar .month-view table.full tbody tr.date-box td .num-day,
 .view-blo .view-content .calendar-calendar .month-view table.full tbody tr.date-box td .num-day {
   float: left;
@@ -5201,7 +5217,9 @@ body.page-calendari .view-calendar .tit_header {
   border-radius: 0 20px 20px 0;
   font-weight: 800;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003120}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003121}}
+.view-id-cal_m_bil_home .view-content .calendar-calendar .month-view table.full tbody tr.date-box td .month,
+.view-id-cal_m_bil_home .view-content .calendar-calendar .month-view table.full tbody tr.date-box td .txt-day,
 .view-calendar .view-content .calendar-calendar .month-view table.full tbody tr.date-box td .month,
 .view-calendar .view-content .calendar-calendar .month-view table.full tbody tr.date-box td .txt-day,
 .view-blo .view-content .calendar-calendar .month-view table.full tbody tr.date-box td .month,
@@ -5215,50 +5233,59 @@ body.page-calendari .view-calendar .tit_header {
   font-weight: 600;
   line-height: 15px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003131}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003132}}
+.view-id-cal_m_bil_home .view-content .calendar-calendar .month-view table.full tbody tr.date-box td .month,
 .view-calendar .view-content .calendar-calendar .month-view table.full tbody tr.date-box td .month,
 .view-blo .view-content .calendar-calendar .month-view table.full tbody tr.date-box td .month {
   font-weight: 800;
   vertical-align: bottom;
   padding-top: 4px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003136}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003137}}
+.view-id-cal_m_bil_home .view-content .calendar-calendar .month-view table.full tbody tr.date-box td .txt-day,
 .view-calendar .view-content .calendar-calendar .month-view table.full tbody tr.date-box td .txt-day,
 .view-blo .view-content .calendar-calendar .month-view table.full tbody tr.date-box td .txt-day {
   vertical-align: top;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003139}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003140}}
+.view-id-cal_m_bil_home .view-content .calendar-calendar .month-view table.full tbody tr.date-box td.day-box-current .num-day,
 .view-calendar .view-content .calendar-calendar .month-view table.full tbody tr.date-box td.day-box-current .num-day,
 .view-blo .view-content .calendar-calendar .month-view table.full tbody tr.date-box td.day-box-current .num-day {
   background-color: #008991;
   color: white;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003145}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003146}}
+.view-id-cal_m_bil_home .view-content .calendar-calendar .month-view table.full tbody tr.single-day *,
 .view-calendar .view-content .calendar-calendar .month-view table.full tbody tr.single-day *,
 .view-blo .view-content .calendar-calendar .month-view table.full tbody tr.single-day * {
   border-radius: 0px;
   border-radius: 0px !important;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003149}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003150}}
+.view-id-cal_m_bil_home .view-content .calendar-calendar .month-view table.full tbody tr.single-day td,
 .view-calendar .view-content .calendar-calendar .month-view table.full tbody tr.single-day td,
 .view-blo .view-content .calendar-calendar .month-view table.full tbody tr.single-day td {
   padding: 0px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003154}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003155}}
+.view-id-cal_m_bil_home .view-content .calendar-calendar .month-view table.full tbody tr.single-day td .item .calendar.monthview,
 .view-calendar .view-content .calendar-calendar .month-view table.full tbody tr.single-day td .item .calendar.monthview,
 .view-blo .view-content .calendar-calendar .month-view table.full tbody tr.single-day td .item .calendar.monthview {
   background-color: #f4f4f5;
   padding: 0 0 5px 0;
   margin: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003158}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003159}}
+.view-id-cal_m_bil_home .view-content .calendar-calendar .month-view table.full tbody tr.single-day td .item .calendar.monthview *,
 .view-calendar .view-content .calendar-calendar .month-view table.full tbody tr.single-day td .item .calendar.monthview *,
 .view-blo .view-content .calendar-calendar .month-view table.full tbody tr.single-day td .item .calendar.monthview * {
   font-size: 11px;
   line-height: 15px;
   text-transform: uppercase;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003163}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003164}}
+.view-id-cal_m_bil_home .view-content .calendar-calendar .month-view table.full tbody tr.single-day td .item .calendar.monthview * > a,
+.view-id-cal_m_bil_home .view-content .calendar-calendar .month-view table.full tbody tr.single-day td .item .calendar.monthview * .field,
 .view-calendar .view-content .calendar-calendar .month-view table.full tbody tr.single-day td .item .calendar.monthview * > a,
 .view-calendar .view-content .calendar-calendar .month-view table.full tbody tr.single-day td .item .calendar.monthview * .field,
 .view-blo .view-content .calendar-calendar .month-view table.full tbody tr.single-day td .item .calendar.monthview * > a,
@@ -5266,23 +5293,27 @@ body.page-calendari .view-calendar .tit_header {
   padding: 0 4px 0 8px;
   display: inline-block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003167}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003168}}
+.view-id-cal_m_bil_home .view-content .calendar-calendar .month-view table.full tbody tr.single-day td .item .calendar.monthview * .views-field.views-field-field-sala,
 .view-calendar .view-content .calendar-calendar .month-view table.full tbody tr.single-day td .item .calendar.monthview * .views-field.views-field-field-sala,
 .view-blo .view-content .calendar-calendar .month-view table.full tbody tr.single-day td .item .calendar.monthview * .views-field.views-field-field-sala {
   display: block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003169}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003170}}
+.view-id-cal_m_bil_home .view-content .calendar-calendar .month-view table.full tbody tr.single-day td .item .calendar.monthview * .views-field.views-field-field-sala .field-content,
 .view-calendar .view-content .calendar-calendar .month-view table.full tbody tr.single-day td .item .calendar.monthview * .views-field.views-field-field-sala .field-content,
 .view-blo .view-content .calendar-calendar .month-view table.full tbody tr.single-day td .item .calendar.monthview * .views-field.views-field-field-sala .field-content {
   padding-left: 8px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003174}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003175}}
+.view-id-cal_m_bil_home .view-content .calendar-calendar .month-view table.full tbody tr.single-day td .item .calendar.monthview .field-name-field-sala,
 .view-calendar .view-content .calendar-calendar .month-view table.full tbody tr.single-day td .item .calendar.monthview .field-name-field-sala,
 .view-blo .view-content .calendar-calendar .month-view table.full tbody tr.single-day td .item .calendar.monthview .field-name-field-sala {
   margin-top: 4px;
   padding-left: 8px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003178}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003179}}
+.view-id-cal_m_bil_home .view-content .calendar-calendar .month-view table.full tbody tr.single-day td .item .calendar.monthview .field-name-field-url-compra-reserva,
 .view-calendar .view-content .calendar-calendar .month-view table.full tbody tr.single-day td .item .calendar.monthview .field-name-field-url-compra-reserva,
 .view-blo .view-content .calendar-calendar .month-view table.full tbody tr.single-day td .item .calendar.monthview .field-name-field-url-compra-reserva {
   padding: 0px;
@@ -5291,7 +5322,8 @@ body.page-calendari .view-calendar .tit_header {
   width: 100%;
   margin-top: 8px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003184}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003185}}
+.view-id-cal_m_bil_home .view-content .calendar-calendar .month-view table.full tbody tr.single-day td .item .calendar.monthview .field-name-field-url-compra-reserva a,
 .view-calendar .view-content .calendar-calendar .month-view table.full tbody tr.single-day td .item .calendar.monthview .field-name-field-url-compra-reserva a,
 .view-blo .view-content .calendar-calendar .month-view table.full tbody tr.single-day td .item .calendar.monthview .field-name-field-url-compra-reserva a {
   width: 100%;
@@ -5315,24 +5347,30 @@ body.page-calendari .view-calendar .tit_header {
   min-height: inherit;
   height: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003195}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003196}}
+.view-id-cal_m_bil_home .view-content .calendar-calendar .month-view table.full tbody tr.single-day td .item .calendar.monthview .field-name-field-url-compra-reserva a:hover,
 .view-calendar .view-content .calendar-calendar .month-view table.full tbody tr.single-day td .item .calendar.monthview .field-name-field-url-compra-reserva a:hover,
 .view-blo .view-content .calendar-calendar .month-view table.full tbody tr.single-day td .item .calendar.monthview .field-name-field-url-compra-reserva a:hover {
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003201}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003202}}
+.view-id-cal_m_bil_home .view-content .calendar-calendar .month-view table.full tbody tr.single-day td .item.current,
 .view-calendar .view-content .calendar-calendar .month-view table.full tbody tr.single-day td .item.current,
 .view-blo .view-content .calendar-calendar .month-view table.full tbody tr.single-day td .item.current {
   border: 1px solid #008991;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003208}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003209}}
+.view-id-cal_m_bil_home .view-content .calendar-calendar .month-view table.full tbody tr.single-day td.past,
+.view-id-cal_m_bil_home .view-content .calendar-calendar .month-view table.full tbody tr.date-box td.past,
 .view-calendar .view-content .calendar-calendar .month-view table.full tbody tr.single-day td.past,
 .view-calendar .view-content .calendar-calendar .month-view table.full tbody tr.date-box td.past,
 .view-blo .view-content .calendar-calendar .month-view table.full tbody tr.single-day td.past,
 .view-blo .view-content .calendar-calendar .month-view table.full tbody tr.date-box td.past {
   background-color: #e9eaeb;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003212}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003213}}
+.view-id-cal_m_bil_home .view-content .calendar-calendar .month-view table.full tbody tr.single-day td.past .inner div.num-day,
+.view-id-cal_m_bil_home .view-content .calendar-calendar .month-view table.full tbody tr.date-box td.past .inner div.num-day,
 .view-calendar .view-content .calendar-calendar .month-view table.full tbody tr.single-day td.past .inner div.num-day,
 .view-calendar .view-content .calendar-calendar .month-view table.full tbody tr.date-box td.past .inner div.num-day,
 .view-blo .view-content .calendar-calendar .month-view table.full tbody tr.single-day td.past .inner div.num-day,
@@ -5340,7 +5378,9 @@ body.page-calendari .view-calendar .tit_header {
   background-color: #dcdddf;
   color: white;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003217}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003218}}
+.view-id-cal_m_bil_home .view-content .calendar-calendar .month-view table.full tbody tr.single-day td.past *,
+.view-id-cal_m_bil_home .view-content .calendar-calendar .month-view table.full tbody tr.date-box td.past *,
 .view-calendar .view-content .calendar-calendar .month-view table.full tbody tr.single-day td.past *,
 .view-calendar .view-content .calendar-calendar .month-view table.full tbody tr.date-box td.past *,
 .view-blo .view-content .calendar-calendar .month-view table.full tbody tr.single-day td.past *,
@@ -5348,37 +5388,45 @@ body.page-calendari .view-calendar .tit_header {
   color: #dcdddf;
   border-color: #e9eaeb;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003221}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003222}}
+.view-id-cal_m_bil_home .view-content .calendar-calendar .month-view table.full tbody tr.single-day td.past .item,
+.view-id-cal_m_bil_home .view-content .calendar-calendar .month-view table.full tbody tr.date-box td.past .item,
 .view-calendar .view-content .calendar-calendar .month-view table.full tbody tr.single-day td.past .item,
 .view-calendar .view-content .calendar-calendar .month-view table.full tbody tr.date-box td.past .item,
 .view-blo .view-content .calendar-calendar .month-view table.full tbody tr.single-day td.past .item,
 .view-blo .view-content .calendar-calendar .month-view table.full tbody tr.date-box td.past .item {
   border: 0px none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003224}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003225}}
+.view-id-cal_m_bil_home .view-content .calendar-calendar .month-view table.full tbody tr.single-day td.past .field-name-field-url-compra-reserva a,
+.view-id-cal_m_bil_home .view-content .calendar-calendar .month-view table.full tbody tr.date-box td.past .field-name-field-url-compra-reserva a,
 .view-calendar .view-content .calendar-calendar .month-view table.full tbody tr.single-day td.past .field-name-field-url-compra-reserva a,
 .view-calendar .view-content .calendar-calendar .month-view table.full tbody tr.date-box td.past .field-name-field-url-compra-reserva a,
 .view-blo .view-content .calendar-calendar .month-view table.full tbody tr.single-day td.past .field-name-field-url-compra-reserva a,
 .view-blo .view-content .calendar-calendar .month-view table.full tbody tr.date-box td.past .field-name-field-url-compra-reserva a {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003228}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003229}}
+.view-id-cal_m_bil_home .view-content .calendar-calendar .month-view table.full tbody tr.single-day.collapsed,
 .view-calendar .view-content .calendar-calendar .month-view table.full tbody tr.single-day.collapsed,
 .view-blo .view-content .calendar-calendar .month-view table.full tbody tr.single-day.collapsed {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003231}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003232}}
+.view-id-cal_m_bil_home .view-content .calendar-calendar .month-view table.full tbody tr.arrow,
 .view-calendar .view-content .calendar-calendar .month-view table.full tbody tr.arrow,
 .view-blo .view-content .calendar-calendar .month-view table.full tbody tr.arrow {
   cursor: pointer;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003233}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003234}}
+.view-id-cal_m_bil_home .view-content .calendar-calendar .month-view table.full tbody tr.arrow td,
 .view-calendar .view-content .calendar-calendar .month-view table.full tbody tr.arrow td,
 .view-blo .view-content .calendar-calendar .month-view table.full tbody tr.arrow td {
   height: 20px;
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003236}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003237}}
+.view-id-cal_m_bil_home .view-content .calendar-calendar .month-view table.full tbody tr.arrow td .cal-arrow-wrapper,
 .view-calendar .view-content .calendar-calendar .month-view table.full tbody tr.arrow td .cal-arrow-wrapper,
 .view-blo .view-content .calendar-calendar .month-view table.full tbody tr.arrow td .cal-arrow-wrapper {
   width: 30px;
@@ -5390,14 +5438,15 @@ body.page-calendari .view-calendar .tit_header {
   background-repeat: no-repeat;
   margin-bottom: 2px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003247}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003248}}
+.view-id-cal_m_bil_home .view-content .calendar-calendar .month-view table.full tbody tr.arrow.collapsed td .cal-arrow-wrapper,
 .view-calendar .view-content .calendar-calendar .month-view table.full tbody tr.arrow.collapsed td .cal-arrow-wrapper,
 .view-blo .view-content .calendar-calendar .month-view table.full tbody tr.arrow.collapsed td .cal-arrow-wrapper {
   background-position: -28px -62px;
 }
 
 /* treure bora verda del calendari general*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003257}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_calendari\.scss}line{font-family:\00003258}}
 body.page-calendari .view-calendar .view-content .calendar-calendar .month-view table.full tbody tr.single-day td .item.current {
   border: 0px none;
   border-bottom: white 6px solid;
@@ -6489,35 +6538,47 @@ body.front #mm-wrapper .views-row.passive .views-field-nothing .field.field-name
   max-height: 25px;
   height: auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003521}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003522}}
+#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_1 .view-id-cal_m_bil_home,
 #mm-wrapper .view-id-carrega_megamenu.view-display-id-block_1 .view-id-calendar.view-display-id-block_2,
+#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_3 .view-id-cal_m_bil_home,
 #mm-wrapper .view-id-carrega_megamenu.view-display-id-block_3 .view-id-calendar.view-display-id-block_2 {
   margin-top: 0px;
   margin-right: 30px;
   /** estil de la grella **/
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003524}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003525}}
+#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_1 .view-id-cal_m_bil_home .view-header,
 #mm-wrapper .view-id-carrega_megamenu.view-display-id-block_1 .view-id-calendar.view-display-id-block_2 .view-header,
+#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_3 .view-id-cal_m_bil_home .view-header,
 #mm-wrapper .view-id-carrega_megamenu.view-display-id-block_3 .view-id-calendar.view-display-id-block_2 .view-header {
   margin: 0px !important;
   /** sobreescrivim l'estil de capcalera **/
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003527}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003528}}
+#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_1 .view-id-cal_m_bil_home .view-header .date-prev,
+#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_1 .view-id-cal_m_bil_home .view-header .date-next,
 #mm-wrapper .view-id-carrega_megamenu.view-display-id-block_1 .view-id-calendar.view-display-id-block_2 .view-header .date-prev,
 #mm-wrapper .view-id-carrega_megamenu.view-display-id-block_1 .view-id-calendar.view-display-id-block_2 .view-header .date-next,
+#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_3 .view-id-cal_m_bil_home .view-header .date-prev,
+#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_3 .view-id-cal_m_bil_home .view-header .date-next,
 #mm-wrapper .view-id-carrega_megamenu.view-display-id-block_3 .view-id-calendar.view-display-id-block_2 .view-header .date-prev,
 #mm-wrapper .view-id-carrega_megamenu.view-display-id-block_3 .view-id-calendar.view-display-id-block_2 .view-header .date-next {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003531}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003532}}
+#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_1 .view-id-cal_m_bil_home .view-header .date-nav-wrapper .date-nav,
 #mm-wrapper .view-id-carrega_megamenu.view-display-id-block_1 .view-id-calendar.view-display-id-block_2 .view-header .date-nav-wrapper .date-nav,
+#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_3 .view-id-cal_m_bil_home .view-header .date-nav-wrapper .date-nav,
 #mm-wrapper .view-id-carrega_megamenu.view-display-id-block_3 .view-id-calendar.view-display-id-block_2 .view-header .date-nav-wrapper .date-nav {
   margin: 0 auto;
   min-height: 0;
   padding-bottom: 0px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003535}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003536}}
+#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_1 .view-id-cal_m_bil_home .view-header .date-nav-wrapper .date-nav .date-heading,
 #mm-wrapper .view-id-carrega_megamenu.view-display-id-block_1 .view-id-calendar.view-display-id-block_2 .view-header .date-nav-wrapper .date-nav .date-heading,
+#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_3 .view-id-cal_m_bil_home .view-header .date-nav-wrapper .date-nav .date-heading,
 #mm-wrapper .view-id-carrega_megamenu.view-display-id-block_3 .view-id-calendar.view-display-id-block_2 .view-header .date-nav-wrapper .date-nav .date-heading {
   padding: 0px;
   width: 100%;
@@ -6527,9 +6588,13 @@ body.front #mm-wrapper .views-row.passive .views-field-nothing .field.field-name
   padding-bottom: 2px;
   border-bottom: 1px solid white;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003544}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003545}}
+#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_1 .view-id-cal_m_bil_home .view-header .date-nav-wrapper .date-nav .date-heading h3,
+#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_1 .view-id-cal_m_bil_home .view-header .date-nav-wrapper .date-nav .date-heading a,
 #mm-wrapper .view-id-carrega_megamenu.view-display-id-block_1 .view-id-calendar.view-display-id-block_2 .view-header .date-nav-wrapper .date-nav .date-heading h3,
 #mm-wrapper .view-id-carrega_megamenu.view-display-id-block_1 .view-id-calendar.view-display-id-block_2 .view-header .date-nav-wrapper .date-nav .date-heading a,
+#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_3 .view-id-cal_m_bil_home .view-header .date-nav-wrapper .date-nav .date-heading h3,
+#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_3 .view-id-cal_m_bil_home .view-header .date-nav-wrapper .date-nav .date-heading a,
 #mm-wrapper .view-id-carrega_megamenu.view-display-id-block_3 .view-id-calendar.view-display-id-block_2 .view-header .date-nav-wrapper .date-nav .date-heading h3,
 #mm-wrapper .view-id-carrega_megamenu.view-display-id-block_3 .view-id-calendar.view-display-id-block_2 .view-header .date-nav-wrapper .date-nav .date-heading a {
   height: 14px;
@@ -6545,34 +6610,46 @@ body.front #mm-wrapper .views-row.passive .views-field-nothing .field.field-name
   width: 100%;
   color: white;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003556}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003557}}
+#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_1 .view-id-cal_m_bil_home .view-header .date-nav-wrapper .date-nav .date-heading h3:hover,
+#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_1 .view-id-cal_m_bil_home .view-header .date-nav-wrapper .date-nav .date-heading a:hover,
 #mm-wrapper .view-id-carrega_megamenu.view-display-id-block_1 .view-id-calendar.view-display-id-block_2 .view-header .date-nav-wrapper .date-nav .date-heading h3:hover,
 #mm-wrapper .view-id-carrega_megamenu.view-display-id-block_1 .view-id-calendar.view-display-id-block_2 .view-header .date-nav-wrapper .date-nav .date-heading a:hover,
+#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_3 .view-id-cal_m_bil_home .view-header .date-nav-wrapper .date-nav .date-heading h3:hover,
+#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_3 .view-id-cal_m_bil_home .view-header .date-nav-wrapper .date-nav .date-heading a:hover,
 #mm-wrapper .view-id-carrega_megamenu.view-display-id-block_3 .view-id-calendar.view-display-id-block_2 .view-header .date-nav-wrapper .date-nav .date-heading h3:hover,
 #mm-wrapper .view-id-carrega_megamenu.view-display-id-block_3 .view-id-calendar.view-display-id-block_2 .view-header .date-nav-wrapper .date-nav .date-heading a:hover {
   text-transform: uppercase;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003565}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003566}}
+#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_1 .view-id-cal_m_bil_home .view-content .month-view .mini,
 #mm-wrapper .view-id-carrega_megamenu.view-display-id-block_1 .view-id-calendar.view-display-id-block_2 .view-content .month-view .mini,
+#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_3 .view-id-cal_m_bil_home .view-content .month-view .mini,
 #mm-wrapper .view-id-carrega_megamenu.view-display-id-block_3 .view-id-calendar.view-display-id-block_2 .view-content .month-view .mini {
   border: 0px none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003567}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003568}}
+#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_1 .view-id-cal_m_bil_home .view-content .month-view .mini thead,
 #mm-wrapper .view-id-carrega_megamenu.view-display-id-block_1 .view-id-calendar.view-display-id-block_2 .view-content .month-view .mini thead,
+#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_3 .view-id-cal_m_bil_home .view-content .month-view .mini thead,
 #mm-wrapper .view-id-carrega_megamenu.view-display-id-block_3 .view-id-calendar.view-display-id-block_2 .view-content .month-view .mini thead {
   background-color: transparent;
   color: white;
   border: 0px none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003571}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003572}}
+#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_1 .view-id-cal_m_bil_home .view-content .month-view .mini thead tr,
 #mm-wrapper .view-id-carrega_megamenu.view-display-id-block_1 .view-id-calendar.view-display-id-block_2 .view-content .month-view .mini thead tr,
+#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_3 .view-id-cal_m_bil_home .view-content .month-view .mini thead tr,
 #mm-wrapper .view-id-carrega_megamenu.view-display-id-block_3 .view-id-calendar.view-display-id-block_2 .view-content .month-view .mini thead tr {
   background-color: transparent;
   color: white;
   border: 0px none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003575}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003576}}
+#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_1 .view-id-cal_m_bil_home .view-content .month-view .mini thead tr th,
 #mm-wrapper .view-id-carrega_megamenu.view-display-id-block_1 .view-id-calendar.view-display-id-block_2 .view-content .month-view .mini thead tr th,
+#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_3 .view-id-cal_m_bil_home .view-content .month-view .mini thead tr th,
 #mm-wrapper .view-id-carrega_megamenu.view-display-id-block_3 .view-id-calendar.view-display-id-block_2 .view-content .month-view .mini thead tr th {
   border: 0px none;
   background-color: transparent;
@@ -6584,20 +6661,28 @@ body.front #mm-wrapper .views-row.passive .views-field-nothing .field.field-name
   text-align: center;
   vertical-align: middle;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003589}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003590}}
+#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_1 .view-id-cal_m_bil_home .view-content .month-view .mini tbody tr,
 #mm-wrapper .view-id-carrega_megamenu.view-display-id-block_1 .view-id-calendar.view-display-id-block_2 .view-content .month-view .mini tbody tr,
+#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_3 .view-id-cal_m_bil_home .view-content .month-view .mini tbody tr,
 #mm-wrapper .view-id-carrega_megamenu.view-display-id-block_3 .view-id-calendar.view-display-id-block_2 .view-content .month-view .mini tbody tr {
   color: white;
   background-color: transparent;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003592}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003593}}
+#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_1 .view-id-cal_m_bil_home .view-content .month-view .mini tbody tr td div.calendar-empty,
 #mm-wrapper .view-id-carrega_megamenu.view-display-id-block_1 .view-id-calendar.view-display-id-block_2 .view-content .month-view .mini tbody tr td div.calendar-empty,
+#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_3 .view-id-cal_m_bil_home .view-content .month-view .mini tbody tr td div.calendar-empty,
 #mm-wrapper .view-id-carrega_megamenu.view-display-id-block_3 .view-id-calendar.view-display-id-block_2 .view-content .month-view .mini tbody tr td div.calendar-empty {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003594}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003595}}
+#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_1 .view-id-cal_m_bil_home .view-content .month-view .mini tbody tr td div.month,
+#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_1 .view-id-cal_m_bil_home .view-content .month-view .mini tbody tr td,
 #mm-wrapper .view-id-carrega_megamenu.view-display-id-block_1 .view-id-calendar.view-display-id-block_2 .view-content .month-view .mini tbody tr td div.month,
 #mm-wrapper .view-id-carrega_megamenu.view-display-id-block_1 .view-id-calendar.view-display-id-block_2 .view-content .month-view .mini tbody tr td,
+#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_3 .view-id-cal_m_bil_home .view-content .month-view .mini tbody tr td div.month,
+#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_3 .view-id-cal_m_bil_home .view-content .month-view .mini tbody tr td,
 #mm-wrapper .view-id-carrega_megamenu.view-display-id-block_3 .view-id-calendar.view-display-id-block_2 .view-content .month-view .mini tbody tr td div.month,
 #mm-wrapper .view-id-carrega_megamenu.view-display-id-block_3 .view-id-calendar.view-display-id-block_2 .view-content .month-view .mini tbody tr td {
   text-align: center;
@@ -6607,15 +6692,19 @@ body.front #mm-wrapper .views-row.passive .views-field-nothing .field.field-name
   font-size: 13px;
   font-weight: 400;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003602}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003603}}
+#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_1 .view-id-cal_m_bil_home .view-content .month-view .mini tbody tr td div.month,
 #mm-wrapper .view-id-carrega_megamenu.view-display-id-block_1 .view-id-calendar.view-display-id-block_2 .view-content .month-view .mini tbody tr td div.month,
+#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_3 .view-id-cal_m_bil_home .view-content .month-view .mini tbody tr td div.month,
 #mm-wrapper .view-id-carrega_megamenu.view-display-id-block_3 .view-id-calendar.view-display-id-block_2 .view-content .month-view .mini tbody tr td div.month {
   width: 20px;
   height: 20px;
   display: inline-block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003608}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003609}}
+#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_1 .view-id-cal_m_bil_home .view-content .month-view .mini tbody tr td.has-events div.month,
 #mm-wrapper .view-id-carrega_megamenu.view-display-id-block_1 .view-id-calendar.view-display-id-block_2 .view-content .month-view .mini tbody tr td.has-events div.month,
+#mm-wrapper .view-id-carrega_megamenu.view-display-id-block_3 .view-id-cal_m_bil_home .view-content .month-view .mini tbody tr td.has-events div.month,
 #mm-wrapper .view-id-carrega_megamenu.view-display-id-block_3 .view-id-calendar.view-display-id-block_2 .view-content .month-view .mini tbody tr td.has-events div.month {
   background-color: white;
   border-radius: 30px;
@@ -6623,40 +6712,40 @@ body.front #mm-wrapper .views-row.passive .views-field-nothing .field.field-name
 }
 
 /* Slide capçalera*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003627}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003628}}
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big,
 #mm-wrapper .view.view-carrousel .views-row.views-row-2 .views-field-nothing .tab.tab-big {
   /** en alguns browsers es veu un px de separacio, correccio **/
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003628}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003629}}
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big:before,
 #mm-wrapper .view.view-carrousel .views-row.views-row-2 .views-field-nothing .tab.tab-big:before {
   margin-bottom: -76px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003632}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003633}}
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big > *,
 #mm-wrapper .view.view-carrousel .views-row.views-row-2 .views-field-nothing .tab.tab-big > * {
   margin-top: -1px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003635}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003636}}
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big > *:first-child,
 #mm-wrapper .view.view-carrousel .views-row.views-row-2 .views-field-nothing .tab.tab-big > *:first-child {
   margin-top: inherit;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003638}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003639}}
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big .field-name-field-url-compra-reserva,
 #mm-wrapper .view.view-carrousel .views-row.views-row-2 .views-field-nothing .tab.tab-big .field-name-field-url-compra-reserva {
   width: 280px;
   height: 10px;
   background-color: transparent;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003642}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003643}}
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big .field-name-field-url-compra-reserva .field-items,
 #mm-wrapper .view.view-carrousel .views-row.views-row-2 .views-field-nothing .tab.tab-big .field-name-field-url-compra-reserva .field-items {
   margin-left: 84%;
   width: 80px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003645}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003646}}
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big .field-name-field-url-compra-reserva .field-items a,
 #mm-wrapper .view.view-carrousel .views-row.views-row-2 .views-field-nothing .tab.tab-big .field-name-field-url-compra-reserva .field-items a {
   background-color: #e2007a;
@@ -6683,12 +6772,12 @@ body.front #mm-wrapper .views-row.passive .views-field-nothing .field.field-name
   font-weight: 800;
   font-size: 14px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003654}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003655}}
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big .field-name-field-sala,
 #mm-wrapper .view.view-carrousel .views-row.views-row-2 .views-field-nothing .tab.tab-big .field-name-field-sala {
   margin-top: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003658}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003659}}
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big .field-name-field-sala,
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big .field-name-field-data,
 #mm-wrapper .view.view-carrousel .views-row.views-row-2 .views-field-nothing .tab.tab-big .field-name-field-sala,
@@ -6697,7 +6786,7 @@ body.front #mm-wrapper .views-row.passive .views-field-nothing .field.field-name
   padding-left: 20px;
   width: 280px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003664}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003665}}
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big .field-name-field-sala .field-items .field-item,
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big .field-name-field-sala .field-items .field-item span,
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big .field-name-field-data .field-items .field-item,
@@ -6711,7 +6800,7 @@ body.front #mm-wrapper .views-row.passive .views-field-nothing .field.field-name
   color: white;
   text-transform: uppercase;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003672}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003673}}
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big h4.titol,
 #mm-wrapper .view.view-carrousel .views-row.views-row-2 .views-field-nothing .tab.tab-big h4.titol {
   width: 280px;
@@ -6720,7 +6809,7 @@ body.front #mm-wrapper .views-row.passive .views-field-nothing .field.field-name
   padding-left: 20px;
   height: auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003680}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003681}}
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big h4.titol a,
 #mm-wrapper .view.view-carrousel .views-row.views-row-2 .views-field-nothing .tab.tab-big h4.titol a {
   font-size: 34px;
@@ -6728,14 +6817,14 @@ body.front #mm-wrapper .views-row.passive .views-field-nothing .field.field-name
   line-height: 34px;
   color: white;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003687}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003688}}
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big .field-name-field-subtitol,
 #mm-wrapper .view.view-carrousel .views-row.views-row-2 .views-field-nothing .tab.tab-big .field-name-field-subtitol {
   width: 280px;
   height: auto;
   padding-left: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003692}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003693}}
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big .field-name-field-subtitol .field-items .field-item,
 #mm-wrapper .view.view-carrousel .views-row.views-row-2 .views-field-nothing .tab.tab-big .field-name-field-subtitol .field-items .field-item {
   font-size: 18px;
@@ -6744,7 +6833,7 @@ body.front #mm-wrapper .views-row.passive .views-field-nothing .field.field-name
   color: white;
   text-transform: uppercase;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003702}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003703}}
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big .field-name-field-autor,
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big .field-name-field-rol-destacat,
 #mm-wrapper .view.view-carrousel .views-row.views-row-2 .views-field-nothing .tab.tab-big .field-name-field-autor,
@@ -6753,7 +6842,7 @@ body.front #mm-wrapper .views-row.passive .views-field-nothing .field.field-name
   height: auto;
   padding-left: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003707}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003708}}
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big .field-name-field-autor .field-items .field-item,
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big .field-name-field-rol-destacat .field-items .field-item,
 #mm-wrapper .view.view-carrousel .views-row.views-row-2 .views-field-nothing .tab.tab-big .field-name-field-autor .field-items .field-item,
@@ -6764,18 +6853,18 @@ body.front #mm-wrapper .views-row.passive .views-field-nothing .field.field-name
   color: white;
   text-transform: uppercase;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003716}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003717}}
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big .field-name-field-rol-destacat,
 #mm-wrapper .view.view-carrousel .views-row.views-row-2 .views-field-nothing .tab.tab-big .field-name-field-rol-destacat {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003719}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003720}}
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big .field-name-field-autor .field-items .field-item,
 #mm-wrapper .view.view-carrousel .views-row.views-row-2 .views-field-nothing .tab.tab-big .field-name-field-autor .field-items .field-item {
   font-weight: 800;
   padding-top: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003723}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003724}}
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big .grup_entorn,
 #mm-wrapper .view.view-carrousel .views-row.views-row-2 .views-field-nothing .tab.tab-big .grup_entorn {
   width: 280px;
@@ -6787,27 +6876,27 @@ body.front #mm-wrapper .views-row.passive .views-field-nothing .field.field-name
   color: white;
   text-transform: uppercase;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003733}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003734}}
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big .item-list,
 #mm-wrapper .view.view-carrousel .views-row.views-row-2 .views-field-nothing .tab.tab-big .item-list {
   height: auto;
   padding-bottom: 150px;
   margin-top: -21px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003737}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003738}}
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big .item-list ul,
 #mm-wrapper .view.view-carrousel .views-row.views-row-2 .views-field-nothing .tab.tab-big .item-list ul {
   list-style: none;
   width: 280px;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003743}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003744}}
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big .item-list ul li .field-name-field-entorn .field-items .field-item,
 #mm-wrapper .view.view-carrousel .views-row.views-row-2 .views-field-nothing .tab.tab-big .item-list ul li .field-name-field-entorn .field-items .field-item {
   margin-top: 5px;
   margin-left: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003750}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003751}}
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big .item-list ul li .field-name-field-entorn .field-items .field-item .entorn_teaser,
 #mm-wrapper .view.view-carrousel .views-row.views-row-2 .views-field-nothing .tab.tab-big .item-list ul li .field-name-field-entorn .field-items .field-item .entorn_teaser {
   padding-bottom: 6px;
@@ -6816,7 +6905,7 @@ body.front #mm-wrapper .views-row.passive .views-field-nothing .field.field-name
   /** correccions per simular inline i controlar
    * el line height */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003757}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003758}}
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big .item-list ul li .field-name-field-entorn .field-items .field-item .entorn_teaser .field-name-field-autor,
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big .item-list ul li .field-name-field-entorn .field-items .field-item .entorn_teaser .field-name-field-data,
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big .item-list ul li .field-name-field-entorn .field-items .field-item .entorn_teaser .field-name-field-tipus-entorn,
@@ -6830,7 +6919,7 @@ body.front #mm-wrapper .views-row.passive .views-field-nothing .field.field-name
   margin: 0;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003764}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003765}}
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big .item-list ul li .field-name-field-entorn .field-items .field-item .entorn_teaser .field-name-field-autor .field-items .field-item,
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big .item-list ul li .field-name-field-entorn .field-items .field-item .entorn_teaser .field-name-field-autor .field-items .field-item span,
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big .item-list ul li .field-name-field-entorn .field-items .field-item .entorn_teaser .field-name-field-data .field-items .field-item,
@@ -6854,7 +6943,7 @@ body.front #mm-wrapper .views-row.passive .views-field-nothing .field.field-name
   margin: 0;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003778}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003779}}
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big .item-list ul li .field-name-field-entorn .field-items .field-item .entorn_teaser .field-name-field-data,
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big .item-list ul li .field-name-field-entorn .field-items .field-item .entorn_teaser .field-name-field-tipus-entorn,
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big .item-list ul li .field-name-field-entorn .field-items .field-item .entorn_teaser .field-name-field-sala,
@@ -6863,7 +6952,7 @@ body.front #mm-wrapper .views-row.passive .views-field-nothing .field.field-name
 #mm-wrapper .view.view-carrousel .views-row.views-row-2 .views-field-nothing .tab.tab-big .item-list ul li .field-name-field-entorn .field-items .field-item .entorn_teaser .field-name-field-sala {
   display: inline;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003780}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003781}}
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big .item-list ul li .field-name-field-entorn .field-items .field-item .entorn_teaser .field-name-field-data *,
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big .item-list ul li .field-name-field-entorn .field-items .field-item .entorn_teaser .field-name-field-tipus-entorn *,
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big .item-list ul li .field-name-field-entorn .field-items .field-item .entorn_teaser .field-name-field-sala *,
@@ -6872,22 +6961,22 @@ body.front #mm-wrapper .views-row.passive .views-field-nothing .field.field-name
 #mm-wrapper .view.view-carrousel .views-row.views-row-2 .views-field-nothing .tab.tab-big .item-list ul li .field-name-field-entorn .field-items .field-item .entorn_teaser .field-name-field-sala * {
   display: inline;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003787}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003788}}
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big .item-list ul li .field-name-field-entorn .field-items .field-item .entorn_teaser .field-name-field-data .field-items .field-item span:after,
 #mm-wrapper .view.view-carrousel .views-row.views-row-2 .views-field-nothing .tab.tab-big .item-list ul li .field-name-field-entorn .field-items .field-item .entorn_teaser .field-name-field-data .field-items .field-item span:after {
   content: '. ';
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003796}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003797}}
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big .item-list ul li .field-name-field-entorn .field-items .field-item .entorn_teaser .field-name-field-sala .field-items .field-item:after,
 #mm-wrapper .view.view-carrousel .views-row.views-row-2 .views-field-nothing .tab.tab-big .item-list ul li .field-name-field-entorn .field-items .field-item .entorn_teaser .field-name-field-sala .field-items .field-item:after {
   content: '. ';
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003803}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003804}}
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big .item-list ul li .field-name-field-entorn .field-items .field-item .entorn_teaser .field-name-field-autor.field-name-field-autor,
 #mm-wrapper .view.view-carrousel .views-row.views-row-2 .views-field-nothing .tab.tab-big .item-list ul li .field-name-field-entorn .field-items .field-item .entorn_teaser .field-name-field-autor.field-name-field-autor {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003807}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003808}}
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big .item-list ul li .field-name-field-entorn .field-items .field-item .entorn_teaser h2.node-title,
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big .item-list ul li .field-name-field-entorn .field-items .field-item .entorn_teaser .field-name-field-autor,
 #mm-wrapper .view.view-carrousel .views-row.views-row-2 .views-field-nothing .tab.tab-big .item-list ul li .field-name-field-entorn .field-items .field-item .entorn_teaser h2.node-title,
@@ -6899,7 +6988,7 @@ body.front #mm-wrapper .views-row.passive .views-field-nothing .field.field-name
   padding: 0;
   line-height: 15px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003814}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003815}}
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big .item-list ul li .field-name-field-entorn .field-items .field-item .entorn_teaser h2.node-title a,
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big .item-list ul li .field-name-field-entorn .field-items .field-item .entorn_teaser .field-name-field-autor a,
 #mm-wrapper .view.view-carrousel .views-row.views-row-2 .views-field-nothing .tab.tab-big .item-list ul li .field-name-field-entorn .field-items .field-item .entorn_teaser h2.node-title a,
@@ -6909,32 +6998,32 @@ body.front #mm-wrapper .views-row.passive .views-field-nothing .field.field-name
   color: white;
   text-transform: uppercase;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003819}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003820}}
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big .item-list ul li .field-name-field-entorn .field-items .field-item .entorn_teaser h2.node-title a:after,
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big .item-list ul li .field-name-field-entorn .field-items .field-item .entorn_teaser .field-name-field-autor a:after,
 #mm-wrapper .view.view-carrousel .views-row.views-row-2 .views-field-nothing .tab.tab-big .item-list ul li .field-name-field-entorn .field-items .field-item .entorn_teaser h2.node-title a:after,
 #mm-wrapper .view.view-carrousel .views-row.views-row-2 .views-field-nothing .tab.tab-big .item-list ul li .field-name-field-entorn .field-items .field-item .entorn_teaser .field-name-field-autor a:after {
   content: '. ';
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003825}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003826}}
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-big .item-list ul li .field-name-field-entorn .field-items .field-item:last-child .entorn_teaser,
 #mm-wrapper .view.view-carrousel .views-row.views-row-2 .views-field-nothing .tab.tab-big .item-list ul li .field-name-field-entorn .field-items .field-item:last-child .entorn_teaser {
   border: 0px none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003834}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003835}}
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-small,
 #mm-wrapper .view.view-carrousel .views-row.views-row-2 .views-field-nothing .tab.tab-small {
   right: 18%;
   margin-right: 3px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003838}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003839}}
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-small .field,
 #mm-wrapper .view.view-carrousel .views-row.views-row-2 .views-field-nothing .tab.tab-small .field {
   width: auto;
   height: auto;
   display: inline-block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003844}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003845}}
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-small .field .field-items .field-item,
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-small .field .field-items .field-item span,
 #mm-wrapper .view.view-carrousel .views-row.views-row-2 .views-field-nothing .tab.tab-small .field .field-items .field-item,
@@ -6944,23 +7033,23 @@ body.front #mm-wrapper .views-row.passive .views-field-nothing .field.field-name
   line-height: 15px;
   font-weight: 600;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003852}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003853}}
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-small .field-name-field-sala,
 #mm-wrapper .view.view-carrousel .views-row.views-row-2 .views-field-nothing .tab.tab-small .field-name-field-sala {
   padding-left: 20px;
   margin-top: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003856}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003857}}
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-small .field-name-field-sala .field-items .field-item,
 #mm-wrapper .view.view-carrousel .views-row.views-row-2 .views-field-nothing .tab.tab-small .field-name-field-sala .field-items .field-item {
   text-transform: uppercase;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003858}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003859}}
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-small .field-name-field-sala .field-items .field-item:after,
 #mm-wrapper .view.view-carrousel .views-row.views-row-2 .views-field-nothing .tab.tab-small .field-name-field-sala .field-items .field-item:after {
   content: '. ';
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003864}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003865}}
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-small a,
 #mm-wrapper .view.view-carrousel .views-row.views-row-2 .views-field-nothing .tab.tab-small a {
   color: white;
@@ -6974,15 +7063,19 @@ body.front #mm-wrapper .views-row.passive .views-field-nothing .field.field-name
   width: 280px;
   padding-top: 1px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003876}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003877}}
 #mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-small .field-name-field-autor,
 #mm-wrapper .view.view-carrousel .views-row.views-row-2 .views-field-nothing .tab.tab-small .field-name-field-autor {
   padding-left: 20px;
   display: block;
-  height: 45px;
   margin: -2px 0;
   width: 280px;
   padding-top: 1px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mm\.scss}line{font-family:\00003884}}
+#mm-wrapper .view.view-carrousel .views-row.views-row-1 .views-field-nothing .tab.tab-small > *:last-child,
+#mm-wrapper .view.view-carrousel .views-row.views-row-2 .views-field-nothing .tab.tab-small > *:last-child {
+  height: 55px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_ckeditor\.scss}line{font-family:\000031}}
@@ -7382,30 +7475,37 @@ body.front #main {
   /* Carrousel teletips*/
   /** carrousel petit **/
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\000035}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\000036}}
+body.front #main .view-id-cal_m_bil_home,
 body.front #main .view-calendar {
   margin-top: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\000038}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\000039}}
+body.front #main .view-id-cal_m_bil_home .view-header .date-nav.item-list,
 body.front #main .view-calendar .view-header .date-nav.item-list {
   margin: 0;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\0000313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\0000314}}
+body.front #main .view-id-cal_m_bil_home .view-header .pager .date-heading h3,
 body.front #main .view-calendar .view-header .pager .date-heading h3 {
   word-spacing: 2px;
   font-size: 13px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\0000318}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\0000319}}
+body.front #main .view-id-cal_m_bil_home .view-header .pager .date-prev,
+body.front #main .view-id-cal_m_bil_home .view-header .pager .date-next,
 body.front #main .view-calendar .view-header .pager .date-prev,
 body.front #main .view-calendar .view-header .pager .date-next {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\0000325}}
+body.front #main .view-id-cal_m_bil_home .view-content #cal-line,
 body.front #main .view-calendar .view-content #cal-line {
   white-space: nowrap;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\0000327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\0000328}}
+body.front #main .view-id-cal_m_bil_home .view-content #cal-line div.month-label,
 body.front #main .view-calendar .view-content #cal-line div.month-label {
   display: inline-block;
   position: relative;
@@ -7416,17 +7516,20 @@ body.front #main .view-calendar .view-content #cal-line div.month-label {
   text-transform: uppercase;
   font-weight: 800;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\0000337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\0000338}}
+body.front #main .view-id-cal_m_bil_home .view-content #cal-line div.month-label + span.day,
 body.front #main .view-calendar .view-content #cal-line div.month-label + span.day {
   margin-left: -75px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\0000341}}
+body.front #main .view-id-cal_m_bil_home .view-content #cal-line span.day.pre_month,
 body.front #main .view-calendar .view-content #cal-line span.day.pre_month {
   /*quiron border-right: 6px solid $blanc; */
   border-right-width: 6px;
   margin-right: -8px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\0000346}}
+body.front #main .view-id-cal_m_bil_home .view-content #cal-line span.day,
 body.front #main .view-calendar .view-content #cal-line span.day {
   border-radius: 0 100px 100px 0;
   margin: 0 -16px 0 0;
@@ -7439,7 +7542,8 @@ body.front #main .view-calendar .view-content #cal-line span.day {
   border: 2px solid white;
   /*quiron*/
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\0000356}}
+body.front #main .view-id-cal_m_bil_home .view-content #cal-line span.day span.num,
 body.front #main .view-calendar .view-content #cal-line span.day span.num {
   text-decoration: none;
   font-size: 17px;
@@ -7447,15 +7551,18 @@ body.front #main .view-calendar .view-content #cal-line span.day span.num {
   color: white;
   vertical-align: middle;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\0000363}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\0000364}}
+body.front #main .view-id-cal_m_bil_home .view-content #cal-line span.day:first-child,
 body.front #main .view-calendar .view-content #cal-line span.day:first-child {
   padding-left: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\0000367}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\0000368}}
+body.front #main .view-id-cal_m_bil_home .view-content #cal-line span.day.event,
 body.front #main .view-calendar .view-content #cal-line span.day.event {
   background-color: #bfe2e3;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\0000369}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\0000370}}
+body.front #main .view-id-cal_m_bil_home .view-content #cal-line span.day.event span.num,
 body.front #main .view-calendar .view-content #cal-line span.day.event span.num {
   color: #96cbcd;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
@@ -7463,7 +7570,8 @@ body.front #main .view-calendar .view-content #cal-line span.day.event span.num 
   font-size: 17px;
   vertical-align: middle;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\0000376}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\0000377}}
+body.front #main .view-id-cal_m_bil_home .view-content #cal-line span.day.event .events,
 body.front #main .view-calendar .view-content #cal-line span.day.event .events {
   min-height: 40px;
   position: absolute;
@@ -7471,6 +7579,7 @@ body.front #main .view-calendar .view-content #cal-line span.day.event .events {
   right: 0px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mixins\.scss}line{font-family:\0000358}}
+body.front #main .view-id-cal_m_bil_home .view-content #cal-line span.day.event .events:before,
 body.front #main .view-calendar .view-content #cal-line span.day.event .events:before {
   width: 250px;
   content: " ";
@@ -7492,25 +7601,33 @@ body.front #main .view-calendar .view-content #cal-line span.day.event .events:b
   z-index: 1000;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_mixins\.scss}line{font-family:\0000376}}
+body.front #main .view-id-cal_m_bil_home .view-content #cal-line span.day.event .events > *,
 body.front #main .view-calendar .view-content #cal-line span.day.event .events > * {
   background-color: #e8f4f5;
   width: 250px;
   height: 52px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\0000383}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\0000384}}
+body.front #main .view-id-cal_m_bil_home .view-content #cal-line span.day.event .events:before,
 body.front #main .view-calendar .view-content #cal-line span.day.event .events:before {
   margin-bottom: -40px;
   background-position: 0 -20px;
   border-radius: 10px 13px 0 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\0000390}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\0000391}}
+body.front #main .view-id-cal_m_bil_home .view-content #cal-line span.day.event .events .views-field,
+body.front #main .view-id-cal_m_bil_home .view-content #cal-line span.day.event .events .field,
 body.front #main .view-calendar .view-content #cal-line span.day.event .events .views-field,
 body.front #main .view-calendar .view-content #cal-line span.day.event .events .field {
   padding-left: 20px;
   width: 230px;
   height: auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\0000395}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\0000396}}
+body.front #main .view-id-cal_m_bil_home .view-content #cal-line span.day.event .events .views-field .field-content,
+body.front #main .view-id-cal_m_bil_home .view-content #cal-line span.day.event .events .views-field .field-content a,
+body.front #main .view-id-cal_m_bil_home .view-content #cal-line span.day.event .events .field .field-content,
+body.front #main .view-id-cal_m_bil_home .view-content #cal-line span.day.event .events .field .field-content a,
 body.front #main .view-calendar .view-content #cal-line span.day.event .events .views-field .field-content,
 body.front #main .view-calendar .view-content #cal-line span.day.event .events .views-field .field-content a,
 body.front #main .view-calendar .view-content #cal-line span.day.event .events .field .field-content,
@@ -7521,16 +7638,20 @@ body.front #main .view-calendar .view-content #cal-line span.day.event .events .
   line-height: 15px;
   font-weight: 600;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003102}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003103}}
+body.front #main .view-id-cal_m_bil_home .view-content #cal-line span.day.event .events .views-field .field-content a,
+body.front #main .view-id-cal_m_bil_home .view-content #cal-line span.day.event .events .field .field-content a,
 body.front #main .view-calendar .view-content #cal-line span.day.event .events .views-field .field-content a,
 body.front #main .view-calendar .view-content #cal-line span.day.event .events .field .field-content a {
   font-weight: 800;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003107}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003108}}
+body.front #main .view-id-cal_m_bil_home .view-content #cal-line span.day.event .events .field-name-field-hora-sessio:last-child,
 body.front #main .view-calendar .view-content #cal-line span.day.event .events .field-name-field-hora-sessio:last-child {
   border-radius: 0 0 5px 5px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003110}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003111}}
+body.front #main .view-id-cal_m_bil_home .view-content #cal-line span.day.event .events .field-name-field-hora-sessio:before,
 body.front #main .view-calendar .view-content #cal-line span.day.event .events .field-name-field-hora-sessio:before {
   background-image: url("../images/sprite.png");
   background-repeat: no-repeat;
@@ -7543,23 +7664,27 @@ body.front #main .view-calendar .view-content #cal-line span.day.event .events .
   bottom: -25px;
   left: 200px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003122}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003123}}
+body.front #main .view-id-cal_m_bil_home .view-content #cal-line span.day.event .events .field-name-field-hora-sessio .field-items .field-item,
 body.front #main .view-calendar .view-content #cal-line span.day.event .events .field-name-field-hora-sessio .field-items .field-item {
   color: #008991;
   font-size: 11px;
   line-height: 15px;
   font-weight: 600;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003130}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003131}}
+body.front #main .view-id-cal_m_bil_home .view-content #cal-line span.day.event .events .views-field-field-sala,
 body.front #main .view-calendar .view-content #cal-line span.day.event .events .views-field-field-sala {
   height: 15px;
   padding-top: 12px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003134}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003135}}
+body.front #main .view-id-cal_m_bil_home .view-content #cal-line span.day.event .events > div:last-child,
 body.front #main .view-calendar .view-content #cal-line span.day.event .events > div:last-child {
   padding-bottom: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003139}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003140}}
+body.front #main .view-id-cal_m_bil_home .view-content #cal-line span.day.cal_link,
 body.front #main .view-calendar .view-content #cal-line span.day.cal_link {
   display: inline-block;
   color: #bfe2e3;
@@ -7568,7 +7693,8 @@ body.front #main .view-calendar .view-content #cal-line span.day.cal_link {
   height: 18px;
   margin-left: -8px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003146}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003147}}
+body.front #main .view-id-cal_m_bil_home .view-content #cal-line span.day.cal_link a,
 body.front #main .view-calendar .view-content #cal-line span.day.cal_link a {
   color: #bfe2e3;
   background-image: url("../images/sprite.png");
@@ -7579,7 +7705,7 @@ body.front #main .view-calendar .view-content #cal-line span.day.cal_link a {
   margin-right: -3px;
   padding-right: 22px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003161}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003162}}
 body.front #main .view-avis-portada .view-content {
   border: 3px solid #e2007a;
   margin-top: 10px;
@@ -7587,7 +7713,7 @@ body.front #main .view-avis-portada .view-content {
   background-color: #e2007a;
   margin-left: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003167}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003168}}
 body.front #main .view-avis-portada .view-content .field-item p {
   text-transform: uppercase;
   font-weight: 800px;
@@ -7595,38 +7721,38 @@ body.front #main .view-avis-portada .view-content .field-item p {
   color: #000000;
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003180}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003181}}
 body.front #main .view-carrousel.view-display-id-block_7 .jcarousel-skin-default .jcarousel-container-horizontal {
   width: 100%;
   padding-left: 0;
   /* treiem les fletxetes */
   /* theaming del pager */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003183}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003184}}
 body.front #main .view-carrousel.view-display-id-block_7 .jcarousel-skin-default .jcarousel-container-horizontal .jcarousel-clip-horizontal {
   width: 100%;
   height: 80px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003186}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003187}}
 body.front #main .view-carrousel.view-display-id-block_7 .jcarousel-skin-default .jcarousel-container-horizontal .jcarousel-clip-horizontal li {
   border: none;
   background-color: #f4f4f5;
   height: auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003190}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003191}}
 body.front #main .view-carrousel.view-display-id-block_7 .jcarousel-skin-default .jcarousel-container-horizontal .jcarousel-clip-horizontal li .field-name-field-imatge {
   display: inline-block;
   float: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003193}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003194}}
 body.front #main .view-carrousel.view-display-id-block_7 .jcarousel-skin-default .jcarousel-container-horizontal .jcarousel-clip-horizontal li .field-name-field-imatge .field-item {
   margin-top: 4px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003195}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003196}}
 body.front #main .view-carrousel.view-display-id-block_7 .jcarousel-skin-default .jcarousel-container-horizontal .jcarousel-clip-horizontal li .field-name-field-imatge .field-item img {
   height: 65px !important;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003202}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003203}}
 body.front #main .view-carrousel.view-display-id-block_7 .jcarousel-skin-default .jcarousel-container-horizontal .jcarousel-clip-horizontal li .field-name-body .field-item p {
   float: left;
   font-size: 19px;
@@ -7634,17 +7760,17 @@ body.front #main .view-carrousel.view-display-id-block_7 .jcarousel-skin-default
   margin-left: 15px;
   text-transform: uppercase;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003214}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003215}}
 body.front #main .view-carrousel.view-display-id-block_7 .jcarousel-skin-default .jcarousel-container-horizontal > a {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003218}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003219}}
 body.front #main .view-carrousel.view-display-id-block_7 .jcarousel-skin-default .jcarousel-container-horizontal ul.jcarousel-navigation {
   position: absolute;
   right: 60px;
   bottom: 60px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003222}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003223}}
 body.front #main .view-carrousel.view-display-id-block_7 .jcarousel-skin-default .jcarousel-container-horizontal ul.jcarousel-navigation li a span {
   display: inline-block;
   -webkit-border-radius: 100%;
@@ -7658,33 +7784,33 @@ body.front #main .view-carrousel.view-display-id-block_7 .jcarousel-skin-default
   text-indent: -9999999px;
   background-color: #58595b;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003231}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003232}}
 body.front #main .view-carrousel.view-display-id-block_7 .jcarousel-skin-default .jcarousel-container-horizontal ul.jcarousel-navigation li.active a span {
   background-color: #e2007a;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003238}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003239}}
 body.front #main .view-carrousel.view-display-id-block_3,
 body.front #main .view-carrousel.view-display-id-block_1 {
   height: 360px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003242}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003243}}
 body.front #main .view-carrousel.view-display-id-block_3 .view-content .jcarousel-skin-default .jcarousel-container.jcarousel-container-horizontal,
 body.front #main .view-carrousel.view-display-id-block_1 .view-content .jcarousel-skin-default .jcarousel-container.jcarousel-container-horizontal {
   width: 100%;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003245}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003246}}
 body.front #main .view-carrousel.view-display-id-block_3 .view-content .jcarousel-skin-default .jcarousel-container.jcarousel-container-horizontal .jcarousel-clip,
 body.front #main .view-carrousel.view-display-id-block_1 .view-content .jcarousel-skin-default .jcarousel-container.jcarousel-container-horizontal .jcarousel-clip {
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003248}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003249}}
 body.front #main .view-carrousel.view-display-id-block_3 .view-content .jcarousel-skin-default .jcarousel-container.jcarousel-container-horizontal .jcarousel-clip ul.jcarousel li.jcarousel-item,
 body.front #main .view-carrousel.view-display-id-block_1 .view-content .jcarousel-skin-default .jcarousel-container.jcarousel-container-horizontal .jcarousel-clip ul.jcarousel li.jcarousel-item {
   height: auto;
   border: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003253}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003254}}
 body.front #main .view-carrousel.view-display-id-block_3 .view-content .jcarousel-skin-default .jcarousel-container.jcarousel-container-horizontal .jcarousel-clip ul.jcarousel li.jcarousel-item .views-field-nothing .field-content .tab,
 body.front #main .view-carrousel.view-display-id-block_1 .view-content .jcarousel-skin-default .jcarousel-container.jcarousel-container-horizontal .jcarousel-clip ul.jcarousel li.jcarousel-item .views-field-nothing .field-content .tab {
   position: absolute;
@@ -7723,27 +7849,27 @@ body.front #main .view-carrousel.view-display-id-block_1 .view-content .jcarouse
   width: 250px;
   height: 52px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003261}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003262}}
 body.front #main .view-carrousel.view-display-id-block_3 .view-content .jcarousel-skin-default .jcarousel-container.jcarousel-container-horizontal .jcarousel-clip ul.jcarousel li.jcarousel-item .views-field-nothing .field-content .tab:before,
 body.front #main .view-carrousel.view-display-id-block_1 .view-content .jcarousel-skin-default .jcarousel-container.jcarousel-container-horizontal .jcarousel-clip ul.jcarousel li.jcarousel-item .views-field-nothing .field-content .tab:before {
   margin-bottom: -70px;
   background-position: 0 -20px;
   border-radius: 10px 13px 0 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003266}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003267}}
 body.front #main .view-carrousel.view-display-id-block_3 .view-content .jcarousel-skin-default .jcarousel-container.jcarousel-container-horizontal .jcarousel-clip ul.jcarousel li.jcarousel-item .views-field-nothing .field-content .tab .field-name-field-url-compra-reserva,
 body.front #main .view-carrousel.view-display-id-block_1 .view-content .jcarousel-skin-default .jcarousel-container.jcarousel-container-horizontal .jcarousel-clip ul.jcarousel li.jcarousel-item .views-field-nothing .field-content .tab .field-name-field-url-compra-reserva {
   width: 235px;
   height: 10px;
   background-color: transparent;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003270}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003271}}
 body.front #main .view-carrousel.view-display-id-block_3 .view-content .jcarousel-skin-default .jcarousel-container.jcarousel-container-horizontal .jcarousel-clip ul.jcarousel li.jcarousel-item .views-field-nothing .field-content .tab .field-name-field-url-compra-reserva .field-items,
 body.front #main .view-carrousel.view-display-id-block_1 .view-content .jcarousel-skin-default .jcarousel-container.jcarousel-container-horizontal .jcarousel-clip ul.jcarousel li.jcarousel-item .views-field-nothing .field-content .tab .field-name-field-url-compra-reserva .field-items {
   margin-left: 84%;
   width: 80px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003273}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003274}}
 body.front #main .view-carrousel.view-display-id-block_3 .view-content .jcarousel-skin-default .jcarousel-container.jcarousel-container-horizontal .jcarousel-clip ul.jcarousel li.jcarousel-item .views-field-nothing .field-content .tab .field-name-field-url-compra-reserva .field-items a,
 body.front #main .view-carrousel.view-display-id-block_1 .view-content .jcarousel-skin-default .jcarousel-container.jcarousel-container-horizontal .jcarousel-clip ul.jcarousel li.jcarousel-item .views-field-nothing .field-content .tab .field-name-field-url-compra-reserva .field-items a {
   background-color: #e2007a;
@@ -7770,13 +7896,13 @@ body.front #main .view-carrousel.view-display-id-block_1 .view-content .jcarouse
   font-weight: 800;
   font-size: 11px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003282}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003283}}
 body.front #main .view-carrousel.view-display-id-block_3 .view-content .jcarousel-skin-default .jcarousel-container.jcarousel-container-horizontal .jcarousel-clip ul.jcarousel li.jcarousel-item .views-field-nothing .field-content .tab .field-name-field-sala .field-items .field-item,
 body.front #main .view-carrousel.view-display-id-block_1 .view-content .jcarousel-skin-default .jcarousel-container.jcarousel-container-horizontal .jcarousel-clip ul.jcarousel li.jcarousel-item .views-field-nothing .field-content .tab .field-name-field-sala .field-items .field-item {
   margin-top: 20px;
   color: #008991;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003287}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003288}}
 body.front #main .view-carrousel.view-display-id-block_3 .view-content .jcarousel-skin-default .jcarousel-container.jcarousel-container-horizontal .jcarousel-clip ul.jcarousel li.jcarousel-item .views-field-nothing .field-content .tab .field-name-field-sala,
 body.front #main .view-carrousel.view-display-id-block_3 .view-content .jcarousel-skin-default .jcarousel-container.jcarousel-container-horizontal .jcarousel-clip ul.jcarousel li.jcarousel-item .views-field-nothing .field-content .tab .field-name-field-data,
 body.front #main .view-carrousel.view-display-id-block_1 .view-content .jcarousel-skin-default .jcarousel-container.jcarousel-container-horizontal .jcarousel-clip ul.jcarousel li.jcarousel-item .views-field-nothing .field-content .tab .field-name-field-sala,
@@ -7786,7 +7912,7 @@ body.front #main .view-carrousel.view-display-id-block_1 .view-content .jcarouse
   width: 235px;
   line-height: 16px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003294}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003295}}
 body.front #main .view-carrousel.view-display-id-block_3 .view-content .jcarousel-skin-default .jcarousel-container.jcarousel-container-horizontal .jcarousel-clip ul.jcarousel li.jcarousel-item .views-field-nothing .field-content .tab .field-name-field-sala .field-items .field-item,
 body.front #main .view-carrousel.view-display-id-block_3 .view-content .jcarousel-skin-default .jcarousel-container.jcarousel-container-horizontal .jcarousel-clip ul.jcarousel li.jcarousel-item .views-field-nothing .field-content .tab .field-name-field-sala .field-items .field-item span,
 body.front #main .view-carrousel.view-display-id-block_3 .view-content .jcarousel-skin-default .jcarousel-container.jcarousel-container-horizontal .jcarousel-clip ul.jcarousel li.jcarousel-item .views-field-nothing .field-content .tab .field-name-field-data .field-items .field-item,
@@ -7799,7 +7925,7 @@ body.front #main .view-carrousel.view-display-id-block_1 .view-content .jcarouse
   font-weight: 700;
   text-transform: uppercase;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003301}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003302}}
 body.front #main .view-carrousel.view-display-id-block_3 .view-content .jcarousel-skin-default .jcarousel-container.jcarousel-container-horizontal .jcarousel-clip ul.jcarousel li.jcarousel-item .views-field-nothing .field-content .tab h3.titol,
 body.front #main .view-carrousel.view-display-id-block_1 .view-content .jcarousel-skin-default .jcarousel-container.jcarousel-container-horizontal .jcarousel-clip ul.jcarousel li.jcarousel-item .views-field-nothing .field-content .tab h3.titol {
   width: 235px;
@@ -7809,14 +7935,14 @@ body.front #main .view-carrousel.view-display-id-block_1 .view-content .jcarouse
   padding-left: 15px;
   height: auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003308}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003309}}
 body.front #main .view-carrousel.view-display-id-block_3 .view-content .jcarousel-skin-default .jcarousel-container.jcarousel-container-horizontal .jcarousel-clip ul.jcarousel li.jcarousel-item .views-field-nothing .field-content .tab h3.titol a,
 body.front #main .view-carrousel.view-display-id-block_1 .view-content .jcarousel-skin-default .jcarousel-container.jcarousel-container-horizontal .jcarousel-clip ul.jcarousel li.jcarousel-item .views-field-nothing .field-content .tab h3.titol a {
   font-size: 24px;
   font-weight: 800;
   color: #008991;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003317}}
 body.front #main .view-carrousel.view-display-id-block_3 .view-content .jcarousel-skin-default .jcarousel-container.jcarousel-container-horizontal .jcarousel-clip ul.jcarousel li.jcarousel-item .views-field-nothing .field-content .tab .field-name-field-autor,
 body.front #main .view-carrousel.view-display-id-block_3 .view-content .jcarousel-skin-default .jcarousel-container.jcarousel-container-horizontal .jcarousel-clip ul.jcarousel li.jcarousel-item .views-field-nothing .field-content .tab .field-name-field-rol-destacat,
 body.front #main .view-carrousel.view-display-id-block_1 .view-content .jcarousel-skin-default .jcarousel-container.jcarousel-container-horizontal .jcarousel-clip ul.jcarousel li.jcarousel-item .views-field-nothing .field-content .tab .field-name-field-autor,
@@ -7825,7 +7951,7 @@ body.front #main .view-carrousel.view-display-id-block_1 .view-content .jcarouse
   height: auto;
   padding-left: 15px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003321}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003322}}
 body.front #main .view-carrousel.view-display-id-block_3 .view-content .jcarousel-skin-default .jcarousel-container.jcarousel-container-horizontal .jcarousel-clip ul.jcarousel li.jcarousel-item .views-field-nothing .field-content .tab .field-name-field-autor .field-items .field-item,
 body.front #main .view-carrousel.view-display-id-block_3 .view-content .jcarousel-skin-default .jcarousel-container.jcarousel-container-horizontal .jcarousel-clip ul.jcarousel li.jcarousel-item .views-field-nothing .field-content .tab .field-name-field-rol-destacat .field-items .field-item,
 body.front #main .view-carrousel.view-display-id-block_1 .view-content .jcarousel-skin-default .jcarousel-container.jcarousel-container-horizontal .jcarousel-clip ul.jcarousel li.jcarousel-item .views-field-nothing .field-content .tab .field-name-field-autor .field-items .field-item,
@@ -7835,13 +7961,13 @@ body.front #main .view-carrousel.view-display-id-block_1 .view-content .jcarouse
   font-weight: 600;
   text-transform: uppercase;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003330}}
 body.front #main .view-carrousel.view-display-id-block_3 .view-content .jcarousel-skin-default .jcarousel-container.jcarousel-container-horizontal .jcarousel-clip ul.jcarousel li.jcarousel-item .views-field-nothing .field-content .tab .field-name-field-autor .field-items .field-item,
 body.front #main .view-carrousel.view-display-id-block_1 .view-content .jcarousel-skin-default .jcarousel-container.jcarousel-container-horizontal .jcarousel-clip ul.jcarousel li.jcarousel-item .views-field-nothing .field-content .tab .field-name-field-autor .field-items .field-item {
   font-weight: 800;
   padding-top: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003334}}
 body.front #main .view-carrousel.view-display-id-block_3 .view-content .jcarousel-skin-default .jcarousel-container.jcarousel-container-horizontal .jcarousel-clip ul.jcarousel li.jcarousel-item .views-field-nothing .field-content .tab .grup_entorn,
 body.front #main .view-carrousel.view-display-id-block_1 .view-content .jcarousel-skin-default .jcarousel-container.jcarousel-container-horizontal .jcarousel-clip ul.jcarousel li.jcarousel-item .views-field-nothing .field-content .tab .grup_entorn {
   width: 235px;
@@ -7854,7 +7980,7 @@ body.front #main .view-carrousel.view-display-id-block_1 .view-content .jcarouse
   text-transform: uppercase;
   padding-top: 5px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003346}}
 body.front #main .view-carrousel.view-display-id-block_3 .view-content .jcarousel-skin-default .jcarousel-container.jcarousel-container-horizontal .jcarousel-clip ul.jcarousel li.jcarousel-item .views-field-nothing .field-content .tab .field-name-field-entorn,
 body.front #main .view-carrousel.view-display-id-block_1 .view-content .jcarousel-skin-default .jcarousel-container.jcarousel-container-horizontal .jcarousel-clip ul.jcarousel li.jcarousel-item .views-field-nothing .field-content .tab .field-name-field-entorn {
   height: auto;
@@ -7862,19 +7988,19 @@ body.front #main .view-carrousel.view-display-id-block_1 .view-content .jcarouse
   padding-left: 15px;
   margin-top: -5px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003351}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003352}}
 body.front #main .view-carrousel.view-display-id-block_3 .view-content .jcarousel-skin-default .jcarousel-container.jcarousel-container-horizontal .jcarousel-clip ul.jcarousel li.jcarousel-item .views-field-nothing .field-content .tab .field-name-field-entorn .field-items .field-item,
 body.front #main .view-carrousel.view-display-id-block_1 .view-content .jcarousel-skin-default .jcarousel-container.jcarousel-container-horizontal .jcarousel-clip ul.jcarousel li.jcarousel-item .views-field-nothing .field-content .tab .field-name-field-entorn .field-items .field-item {
   margin-top: 5px;
   border-bottom: 0.5px solid #cdcecf;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003356}}
 body.front #main .view-carrousel.view-display-id-block_3 .view-content .jcarousel-skin-default .jcarousel-container.jcarousel-container-horizontal .jcarousel-clip ul.jcarousel li.jcarousel-item .views-field-nothing .field-content .tab .field-name-field-entorn .field-items .field-item:last-of-type,
 body.front #main .view-carrousel.view-display-id-block_1 .view-content .jcarousel-skin-default .jcarousel-container.jcarousel-container-horizontal .jcarousel-clip ul.jcarousel li.jcarousel-item .views-field-nothing .field-content .tab .field-name-field-entorn .field-items .field-item:last-of-type {
   border: none;
   padding-bottom: 50px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003363}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003364}}
 body.front #main .view-carrousel.view-display-id-block_3 .view-content .jcarousel-skin-default .jcarousel-container.jcarousel-container-horizontal .jcarousel-clip ul.jcarousel li.jcarousel-item .views-field-nothing .field-content .tab .field-name-field-entorn .field-items .field-item .entorn_teaser .field-name-field-autor,
 body.front #main .view-carrousel.view-display-id-block_3 .view-content .jcarousel-skin-default .jcarousel-container.jcarousel-container-horizontal .jcarousel-clip ul.jcarousel li.jcarousel-item .views-field-nothing .field-content .tab .field-name-field-entorn .field-items .field-item .entorn_teaser .field-name-field-data,
 body.front #main .view-carrousel.view-display-id-block_3 .view-content .jcarousel-skin-default .jcarousel-container.jcarousel-container-horizontal .jcarousel-clip ul.jcarousel li.jcarousel-item .views-field-nothing .field-content .tab .field-name-field-entorn .field-items .field-item .entorn_teaser .field-name-field-tipus-entorn,
@@ -7888,7 +8014,7 @@ body.front #main .view-carrousel.view-display-id-block_1 .view-content .jcarouse
   margin: 0;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003370}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003371}}
 body.front #main .view-carrousel.view-display-id-block_3 .view-content .jcarousel-skin-default .jcarousel-container.jcarousel-container-horizontal .jcarousel-clip ul.jcarousel li.jcarousel-item .views-field-nothing .field-content .tab .field-name-field-entorn .field-items .field-item .entorn_teaser .field-name-field-autor .field-items .field-item,
 body.front #main .view-carrousel.view-display-id-block_3 .view-content .jcarousel-skin-default .jcarousel-container.jcarousel-container-horizontal .jcarousel-clip ul.jcarousel li.jcarousel-item .views-field-nothing .field-content .tab .field-name-field-entorn .field-items .field-item .entorn_teaser .field-name-field-autor .field-items .field-item span,
 body.front #main .view-carrousel.view-display-id-block_3 .view-content .jcarousel-skin-default .jcarousel-container.jcarousel-container-horizontal .jcarousel-clip ul.jcarousel li.jcarousel-item .views-field-nothing .field-content .tab .field-name-field-entorn .field-items .field-item .entorn_teaser .field-name-field-data .field-items .field-item,
@@ -7912,22 +8038,22 @@ body.front #main .view-carrousel.view-display-id-block_1 .view-content .jcarouse
   padding: 0;
   color: #58595a;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003383}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003384}}
 body.front #main .view-carrousel.view-display-id-block_3 .view-content .jcarousel-skin-default .jcarousel-container.jcarousel-container-horizontal .jcarousel-clip ul.jcarousel li.jcarousel-item .views-field-nothing .field-content .tab .field-name-field-entorn .field-items .field-item .entorn_teaser .field-name-field-data .field-items .field-item span:after,
 body.front #main .view-carrousel.view-display-id-block_1 .view-content .jcarousel-skin-default .jcarousel-container.jcarousel-container-horizontal .jcarousel-clip ul.jcarousel li.jcarousel-item .views-field-nothing .field-content .tab .field-name-field-entorn .field-items .field-item .entorn_teaser .field-name-field-data .field-items .field-item span:after {
   content: '. ';
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003391}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003392}}
 body.front #main .view-carrousel.view-display-id-block_3 .view-content .jcarousel-skin-default .jcarousel-container.jcarousel-container-horizontal .jcarousel-clip ul.jcarousel li.jcarousel-item .views-field-nothing .field-content .tab .field-name-field-entorn .field-items .field-item .entorn_teaser .field.field-name-field-sala .field-items div.field-item,
 body.front #main .view-carrousel.view-display-id-block_1 .view-content .jcarousel-skin-default .jcarousel-container.jcarousel-container-horizontal .jcarousel-clip ul.jcarousel li.jcarousel-item .views-field-nothing .field-content .tab .field-name-field-entorn .field-items .field-item .entorn_teaser .field.field-name-field-sala .field-items div.field-item {
   color: #58595a;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003393}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003394}}
 body.front #main .view-carrousel.view-display-id-block_3 .view-content .jcarousel-skin-default .jcarousel-container.jcarousel-container-horizontal .jcarousel-clip ul.jcarousel li.jcarousel-item .views-field-nothing .field-content .tab .field-name-field-entorn .field-items .field-item .entorn_teaser .field.field-name-field-sala .field-items div.field-item:after,
 body.front #main .view-carrousel.view-display-id-block_1 .view-content .jcarousel-skin-default .jcarousel-container.jcarousel-container-horizontal .jcarousel-clip ul.jcarousel li.jcarousel-item .views-field-nothing .field-content .tab .field-name-field-entorn .field-items .field-item .entorn_teaser .field.field-name-field-sala .field-items div.field-item:after {
   content: '. ';
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003400}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003401}}
 body.front #main .view-carrousel.view-display-id-block_3 .view-content .jcarousel-skin-default .jcarousel-container.jcarousel-container-horizontal .jcarousel-clip ul.jcarousel li.jcarousel-item .views-field-nothing .field-content .tab .field-name-field-entorn .field-items .field-item .entorn_teaser h2.node-title,
 body.front #main .view-carrousel.view-display-id-block_3 .view-content .jcarousel-skin-default .jcarousel-container.jcarousel-container-horizontal .jcarousel-clip ul.jcarousel li.jcarousel-item .views-field-nothing .field-content .tab .field-name-field-entorn .field-items .field-item .entorn_teaser .field-name-field-autor,
 body.front #main .view-carrousel.view-display-id-block_1 .view-content .jcarousel-skin-default .jcarousel-container.jcarousel-container-horizontal .jcarousel-clip ul.jcarousel li.jcarousel-item .views-field-nothing .field-content .tab .field-name-field-entorn .field-items .field-item .entorn_teaser h2.node-title,
@@ -7939,7 +8065,7 @@ body.front #main .view-carrousel.view-display-id-block_1 .view-content .jcarouse
   padding: 0;
   line-height: 15px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003407}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003408}}
 body.front #main .view-carrousel.view-display-id-block_3 .view-content .jcarousel-skin-default .jcarousel-container.jcarousel-container-horizontal .jcarousel-clip ul.jcarousel li.jcarousel-item .views-field-nothing .field-content .tab .field-name-field-entorn .field-items .field-item .entorn_teaser h2.node-title a,
 body.front #main .view-carrousel.view-display-id-block_3 .view-content .jcarousel-skin-default .jcarousel-container.jcarousel-container-horizontal .jcarousel-clip ul.jcarousel li.jcarousel-item .views-field-nothing .field-content .tab .field-name-field-entorn .field-items .field-item .entorn_teaser .field-name-field-autor a,
 body.front #main .view-carrousel.view-display-id-block_1 .view-content .jcarousel-skin-default .jcarousel-container.jcarousel-container-horizontal .jcarousel-clip ul.jcarousel li.jcarousel-item .views-field-nothing .field-content .tab .field-name-field-entorn .field-items .field-item .entorn_teaser h2.node-title a,
@@ -7949,14 +8075,14 @@ body.front #main .view-carrousel.view-display-id-block_1 .view-content .jcarouse
   color: #58595a;
   text-transform: uppercase;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003412}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003413}}
 body.front #main .view-carrousel.view-display-id-block_3 .view-content .jcarousel-skin-default .jcarousel-container.jcarousel-container-horizontal .jcarousel-clip ul.jcarousel li.jcarousel-item .views-field-nothing .field-content .tab .field-name-field-entorn .field-items .field-item .entorn_teaser h2.node-title a:after,
 body.front #main .view-carrousel.view-display-id-block_3 .view-content .jcarousel-skin-default .jcarousel-container.jcarousel-container-horizontal .jcarousel-clip ul.jcarousel li.jcarousel-item .views-field-nothing .field-content .tab .field-name-field-entorn .field-items .field-item .entorn_teaser .field-name-field-autor a:after,
 body.front #main .view-carrousel.view-display-id-block_1 .view-content .jcarousel-skin-default .jcarousel-container.jcarousel-container-horizontal .jcarousel-clip ul.jcarousel li.jcarousel-item .views-field-nothing .field-content .tab .field-name-field-entorn .field-items .field-item .entorn_teaser h2.node-title a:after,
 body.front #main .view-carrousel.view-display-id-block_1 .view-content .jcarousel-skin-default .jcarousel-container.jcarousel-container-horizontal .jcarousel-clip ul.jcarousel li.jcarousel-item .views-field-nothing .field-content .tab .field-name-field-entorn .field-items .field-item .entorn_teaser .field-name-field-autor a:after {
   content: '. ';
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003429}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003430}}
 body.front #main .view-carrousel.view-display-id-block_3 .view-content .jcarousel-skin-default a.jcarousel-prev.jcarousel-prev-horizontal,
 body.front #main .view-carrousel.view-display-id-block_3 .view-content .jcarousel-skin-default a.jcarousel-prev.jcarousel-prev-horizontal:hover,
 body.front #main .view-carrousel.view-display-id-block_1 .view-content .jcarousel-skin-default a.jcarousel-prev.jcarousel-prev-horizontal,
@@ -7968,7 +8094,7 @@ body.front #main .view-carrousel.view-display-id-block_1 .view-content .jcarouse
   background-position: -120px 0px;
   margin-top: 7%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003437}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003438}}
 body.front #main .view-carrousel.view-display-id-block_3 .view-content .jcarousel-skin-default a.jcarousel-next.jcarousel-next-horizontal,
 body.front #main .view-carrousel.view-display-id-block_3 .view-content .jcarousel-skin-default a.jcarousel-next.jcarousel-next-horizontal:hover,
 body.front #main .view-carrousel.view-display-id-block_1 .view-content .jcarousel-skin-default a.jcarousel-next.jcarousel-next-horizontal,
@@ -7980,43 +8106,43 @@ body.front #main .view-carrousel.view-display-id-block_1 .view-content .jcarouse
   background-position: -120px -60px;
   margin-top: 7%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003447}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003448}}
 body.front #main .view-carrousel.view-display-id-block_1 {
   /** quiron
    * sobreescritura pel carousel gran (block_1) per fer les
    * caixes dinamiques daltura comencant des de baix (+ js)
    */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003452}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003453}}
 body.front #main .view-carrousel.view-display-id-block_1 .view-content .jcarousel-skin-default .jcarousel-container.jcarousel-container-horizontal .jcarousel-clip ul.jcarousel li.jcarousel-item {
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003454}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003455}}
 body.front #main .view-carrousel.view-display-id-block_1 .view-content .jcarousel-skin-default .jcarousel-container.jcarousel-container-horizontal .jcarousel-clip ul.jcarousel li.jcarousel-item .views-field-nothing {
   position: absolute;
   bottom: 0px;
   right: 300px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003458}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003459}}
 body.front #main .view-carrousel.view-display-id-block_1 .view-content .jcarousel-skin-default .jcarousel-container.jcarousel-container-horizontal .jcarousel-clip ul.jcarousel li.jcarousel-item .views-field-nothing .field-content {
   display: block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003460}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003461}}
 body.front #main .view-carrousel.view-display-id-block_1 .view-content .jcarousel-skin-default .jcarousel-container.jcarousel-container-horizontal .jcarousel-clip ul.jcarousel li.jcarousel-item .views-field-nothing .field-content .tab {
   height: inherit;
   margin-left: inherit;
   margin-top: inherit;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003471}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003472}}
 body.front #main .view-carrousel.view-display-id-block_3 {
   height: 320px;
   margin-top: 58px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003474}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003475}}
 body.front #main .view-carrousel.view-display-id-block_3 ul {
   padding-left: 4px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003477}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003478}}
 body.front #main .view-carrousel.view-display-id-block_3 li.jcarousel-item {
   background-color: #f4f4f5;
   text-align: center;
@@ -8094,7 +8220,7 @@ body.front #main .view-carrousel.view-display-id-block_3 li.jcarousel-item .fiel
   height: 25px;
   width: 55%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003483}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003484}}
 body.front #main .view-carrousel.view-display-id-block_3 li.jcarousel-item .field-name-field-tipus-entorn,
 body.front #main .view-carrousel.view-display-id-block_3 li.jcarousel-item .views-field-title,
 body.front #main .view-carrousel.view-display-id-block_3 li.jcarousel-item .field-name-field-subtitol,
@@ -8102,26 +8228,26 @@ body.front #main .view-carrousel.view-display-id-block_3 li.jcarousel-item .fiel
   margin-left: 10px;
   margin-right: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003489}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003490}}
 body.front #main .view-carrousel.view-display-id-block_3 a.jcarousel-next.jcarousel-next-horizontal,
 body.front #main .view-carrousel.view-display-id-block_3 a.jcarousel-next.jcarousel-next-horizontal:hover {
   height: 28px;
   background-position: -90px -90px;
   top: 26%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003495}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003496}}
 body.front #main .view-carrousel.view-display-id-block_3 a.jcarousel-prev.jcarousel-prev-horizontal,
 body.front #main .view-carrousel.view-display-id-block_3 a.jcarousel-prev.jcarousel-prev-horizontal:hover {
   height: 28px;
   background-position: -90px -60px;
   top: 26%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003500}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003501}}
 body.front #main .view-carrousel.view-display-id-block_3 li.jcarousel-item .titsubtit_wp {
   min-height: 86px;
   margin-top: 5px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003503}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003504}}
 body.front #main .view-carrousel.view-display-id-block_3 li.jcarousel-item .titsubtit_wp a {
   font-size: 14px;
   line-height: 17px;
@@ -8129,26 +8255,26 @@ body.front #main .view-carrousel.view-display-id-block_3 li.jcarousel-item .tits
   text-transform: uppercase;
   font-weight: 800;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003510}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003511}}
 body.front #main .view-carrousel.view-display-id-block_3 li.jcarousel-item .titsubtit_wp .field-name-field-subtitol .field-item {
   color: #58595b;
   font-size: 12px;
   font-weight: 700;
   text-transform: uppercase;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003517}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003518}}
 body.front #main .view-carrousel.view-display-id-block_3 li.jcarousel-item .views-field.views-field-title {
   margin-top: 26px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003522}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003523}}
 body.front #main .view-carrousel.view-display-id-block_3 li.jcarousel-item .field-name-field-tipus-entorn + .views-field.views-field-title {
   margin-top: 0px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003525}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003526}}
 body.front #main .view-carrousel.view-display-id-block_3 .view-content .jcarousel-skin-default {
   /** sobreescrivim els paginadors pel carrousel petit **/
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003528}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003529}}
 body.front #main .view-carrousel.view-display-id-block_3 .view-content .jcarousel-skin-default a.jcarousel-prev.jcarousel-prev-horizontal,
 body.front #main .view-carrousel.view-display-id-block_3 .view-content .jcarousel-skin-default a.jcarousel-prev.jcarousel-prev-horizontal:hover {
   background-image: url("../images/sprite.png");
@@ -8158,7 +8284,7 @@ body.front #main .view-carrousel.view-display-id-block_3 .view-content .jcarouse
   background-position: 0px -120px;
   margin-top: 7%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003536}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003537}}
 body.front #main .view-carrousel.view-display-id-block_3 .view-content .jcarousel-skin-default a.jcarousel-next.jcarousel-next-horizontal,
 body.front #main .view-carrousel.view-display-id-block_3 .view-content .jcarousel-skin-default a.jcarousel-next.jcarousel-next-horizontal:hover {
   background-image: url("../images/sprite.png");
@@ -8168,7 +8294,7 @@ body.front #main .view-carrousel.view-display-id-block_3 .view-content .jcarouse
   background-position: -30px -120px;
   margin-top: 7%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003545}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003546}}
 body.front #main .buttons-region {
   height: auto;
 }
@@ -8181,7 +8307,7 @@ body.front #main .buttons-region:before, body.front #main .buttons-region:after 
 body.front #main .buttons-region:after {
   clear: both;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003549}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003550}}
 body.front #main .buttons-region .wrapper:nth-child(1) {
   float: left;
   width: 25%;
@@ -8195,7 +8321,7 @@ body.front #main .buttons-region .wrapper:nth-child(1) {
   box-sizing: border-box;
   word-wrap: break-word;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003552}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003553}}
 body.front #main .buttons-region .wrapper:nth-child(2) {
   float: left;
   width: 25%;
@@ -8209,7 +8335,7 @@ body.front #main .buttons-region .wrapper:nth-child(2) {
   box-sizing: border-box;
   word-wrap: break-word;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003555}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003556}}
 body.front #main .buttons-region .wrapper:nth-child(3) {
   float: left;
   width: 25%;
@@ -8223,7 +8349,7 @@ body.front #main .buttons-region .wrapper:nth-child(3) {
   box-sizing: border-box;
   word-wrap: break-word;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003558}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003559}}
 body.front #main .buttons-region .wrapper:nth-child(4) {
   float: left;
   width: 25%;
@@ -8237,13 +8363,13 @@ body.front #main .buttons-region .wrapper:nth-child(4) {
   box-sizing: border-box;
   word-wrap: break-word;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003561}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003562}}
 body.front #main .buttons-region .wrapper {
   height: 65px;
   text-align: center;
   display: table;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003565}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003566}}
 body.front #main .buttons-region .wrapper a {
   font-size: 19px;
   font-weight: 800;
@@ -8252,26 +8378,26 @@ body.front #main .buttons-region .wrapper a {
   vertical-align: middle;
   display: table-cell;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003577}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003578}}
 body.front #main .buttons-region-1 .wrapper:nth-child(1),
 body.front #main .buttons-region-1 .wrapper:nth-child(3) {
   background-color: #e9eaeb;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003581}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003582}}
 body.front #main .buttons-region-1 .wrapper:nth-child(2),
 body.front #main .buttons-region-1 .wrapper:nth-child(4) {
   background-color: #f4f4f5;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003585}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003586}}
 body.front #main .buttons-region-2 {
   margin-top: 15px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003588}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003589}}
 body.front #main .buttons-region-2 .wrapper:nth-child(1),
 body.front #main .buttons-region-2 .wrapper:nth-child(3) {
   background-color: #f4f4f5;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003592}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/_home\.scss}line{font-family:\00003593}}
 body.front #main .buttons-region-2 .wrapper:nth-child(2),
 body.front #main .buttons-region-2 .wrapper:nth-child(4) {
   background-color: #e9eaeb;

@@ -6,6 +6,12 @@ jQuery(document).ready(function() {
   } else {
     jQuery('meta[name=viewport]').attr('content', 'width=device-width');
   }
+  if(jQuery(window).width() < 700) {
+    jQuery('body.page-calendari #main .view-calendar.view-display-id-page_1').css({
+      'transform': 'scale(0.8)',
+      'transform-origin': '0 0 0'
+    });
+  }
   /** adaptacio del viewport **/
   //if(jQuery(window).width() >= 1201) {
     //viewport = document.querySelector("meta[name=viewport]");

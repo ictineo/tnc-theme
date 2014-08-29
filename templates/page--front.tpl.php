@@ -112,7 +112,7 @@
 /** calendari mobil **/
 print('<div id="mcal" style="display: none;">');
  //print('<span id="mcal-title">' . t('Calendar') . '</span>');
- print views_embed_view('calendar', 'block_2');
+ print views_embed_view('cal_m_bil_home', 'block');
 print('</div>');
  print views_embed_view('avis_portada', 'block');
  print views_embed_view('carrousel', 'block_7');

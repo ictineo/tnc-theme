@@ -518,6 +518,7 @@ $top-menu-h: 40px;
 
     }
     /** calendari de les columnes **/
+    .view-id-cal_m_bil_home,
     .view-id-calendar.view-display-id-block_2 {
       margin-top: 0px;
       margin-right: 30px;
@@ -876,11 +877,14 @@ $top-menu-h: 40px;
           .field-name-field-autor {
             padding-left: 20px;
             display: block;
-            height: 45px;
             margin: -2px 0;
             width: 280px;
             padding-top: 1px;
           }
+          & > *:last-child {
+            height: 55px;
+          }
+
         }
       }
     }

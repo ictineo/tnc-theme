@@ -6,6 +6,25 @@
  * the README.txt next to this file.
  */
 jQuery(document).ready(function () {
+  //if(jQuery(window).width() >= 700 && jQuery(window).width() < 1200) {
+    //var ww = jQuery(window).width();
+    //var scale_prop = ww / 1200.0;
+    //jQuery('body').css({
+      //'min-width': '1200px',
+      //'transform-origin' : '0 0',
+      //'transform': 'scale(' + scale_prop + ')'
+    //});
+  //}
+  //if( !/iPhone|iPad|iPod/i.test(navigator.userAgent) ) {
+  //if(window.devicePixelRatio == 1 && jQuery(window).width() < 700) {
+      //var ww = jQuery(window).width();
+      //var scale_prop = ww / 700.0;
+      //jQuery('body').css({
+        //'min-width': '700px',
+        //'transform-origin' : '0 0',
+        //'transform': 'scale(' + scale_prop + ')'
+      //});
+    //}
   if(jQuery(window).width() >= 700 && jQuery(window).width() < 1200) {
     var ww = jQuery(window).width();
     var scale_prop = ww / 1200.0;
@@ -14,10 +33,53 @@ jQuery(document).ready(function () {
       'transform-origin' : '0 0',
       'transform': 'scale(' + scale_prop + ')'
     });
+  //} else if(jQuery(window).width() < 700 && !/iPhone|iPad|iPod/i.test(navigator.userAgent) ) {
+  } else if(window.devicePixelRatio == 1 && jQuery(window).width() < 700 || 
+    window.devicePixelRatio > 1 && jQuery(window).width() < 700 && navigator.userAgent.toLowerCase().indexOf("iphone") > -1 ) {
+    var ww = jQuery(window).width();
+    var scale_prop = ww / 700.0;
+    jQuery('body').css({
+      'min-width': '700px',
+      'transform-origin' : '0 0',
+      'transform': 'scale(' + scale_prop + ')'
+    });
+  } else if(navigator.userAgent.toLowerCase().indexOf("ipad") > -1 && jQuery(window).width() < 1200 ) {
+    var ww = jQuery(window).width();
+    var scale_prop = ww / 1200.0;
+    jQuery('body').css({
+      'min-width': '1200px',
+      'transform-origin' : '0 0',
+      'transform': 'scale(' + scale_prop + ')'
+    });
+  } else {
+    jQuery('body').css({
+      'min-width': 'inherit',
+      'transform-origin' : '0 0',
+      'transform': 'none'
+    });
   }
+
 });
 jQuery(window).resize(function () {
   if(jQuery(window).width() >= 700 && jQuery(window).width() < 1200) {
+    var ww = jQuery(window).width();
+    var scale_prop = ww / 1200.0;
+    jQuery('body').css({
+      'min-width': '1200px',
+      'transform-origin' : '0 0',
+      'transform': 'scale(' + scale_prop + ')'
+    });
+  //} else if(jQuery(window).width() < 700 && !/iPhone|iPad|iPod/i.test(navigator.userAgent) ) {
+  } else if(window.devicePixelRatio == 1 && jQuery(window).width() < 700 || 
+    window.devicePixelRatio > 1 && jQuery(window).width() < 700 && navigator.userAgent.toLowerCase().indexOf("iphone") > -1 ) {
+    var ww = jQuery(window).width();
+    var scale_prop = ww / 700.0;
+    jQuery('body').css({
+      'min-width': '700px',
+      'transform-origin' : '0 0',
+      'transform': 'scale(' + scale_prop + ')'
+    });
+  } else if(navigator.userAgent.toLowerCase().indexOf("ipad") > -1 && jQuery(window).width() < 1200 ) {
     var ww = jQuery(window).width();
     var scale_prop = ww / 1200.0;
     jQuery('body').css({

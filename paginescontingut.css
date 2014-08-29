@@ -152,7 +152,9 @@ border: 0px solid;
 	text-transform: uppercase;
 	font-weight:800;
 	text-align: center;
+	padding: 4px 8px;
 }
+.icontent .botocompra a{color:#fff;text-transform:uppercase;}
 
 .icontent .infoadicional{margin-right: 42px;}
 .icontent .infoadicional h6{
@@ -203,7 +205,7 @@ border: 0px solid;
 	padding: 0 20px;
 }
 .icontent .separacio{
-	background:url('http://188.165.131.21/tnc_impactev1/sites/default/files/rodonetes.png');
+	background:url('/sites/default/files/rodonetes.png');
 	width:35px;
 	height:5px;
 	margin: 17px auto;
@@ -430,6 +432,9 @@ height: 200px;
 	color:#e2007a;
 	padding-left: 5px;
 }
+
+
+
 .icontent tr.epicentre span{
 	text-transform: none;
 }
@@ -573,6 +578,18 @@ position: relative;
 .llista-fitxa.views-view-grid.cols-4 tr .entorn .view-field-title a:hover {
   text-transform: inherit;
 }
+.llista-fitxa.views-view-grid.cols-4 tr .espectacle .field-name-field-tipus-entorn{
+	text-align:center;
+}
+.llista-fitxa.views-view-grid.cols-4 tr .espectacle .field-name-field-tipus-entorn .field-item{
+font-size: 11px;
+text-transform: uppercase;
+font-weight: 600;
+border-bottom: 1px solid #9c9e9f;
+padding-bottom: 3px;
+line-height: 13px;
+margin-bottom: 5px;
+}
 .llista-fitxa.views-view-grid.cols-4 tr .espectacle .field-name-field-autor div,
 .llista-fitxa.views-view-grid.cols-4 tr .espectacle .field-name-field-rol-destacat div,
 .llista-fitxa.views-view-grid.cols-4 tr .entorn .field-name-field-autor div,
@@ -712,4 +729,34 @@ padding: 0;
 }
 .icontent .content-form hr{
 width:89.5%;
+}
+
+
+/* 2col */
+
+.icontent .row{clear:both; margin: 0px 78px 0px 0px}
+.icontent .col-span3{width:25%; float:left}
+.icontent .col-span6{width:50%; float:left}
+.icontent .col-span9{width:75%; float:left}
+.icontent .row .colcontent{padding-right:20px}
+.icontent .row h3{
+clear: inherit;
+color:#58595b
+}
+
+
+@media all and (max-width: 699px) {
+
+  .llista-fitxa table,
+  .llista-fitxa tbody,
+  .llista-fitxa tr,
+  .llista-fitxa td {
+    width: 100%!important;
+    display: block!important;
+  }
+  .llista-fitxa td {
+    float: left!important;
+	margin-left:0!important;
+	margin-right:0!important;
+  }
 }
