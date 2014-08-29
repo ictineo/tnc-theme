@@ -73,7 +73,8 @@ clear: both;
 
 .icontent div.textintro{
 	margin: 0px 0px 0px 0px;
-	width: 700px;
+	/*width: 700px;*/
+	width: 90%;
 }
 .icontent div.textintro p{
 	font-size:18px;
@@ -105,7 +106,8 @@ border: 0px solid;
 
 .icontent .tc3block{
 	font-size:12px;
-	width:342px;
+	/*width:342px;*/
+	width: 30%;
 	background:#F4F4F5;
 	overflow: visible;
 	margin-left: 24px;
@@ -118,7 +120,8 @@ border: 0px solid;
 .icontent .tc3block .tc3bText{
 	padding: 11px;
 	float: left;
-	width: 148px;
+	/*width: 148px;*/
+	width:45%;
 }
 .icontent .tc3block h5{
 	font-size: 15px;
@@ -172,7 +175,8 @@ border: 0px solid;
 .icontent .tc2bblock{
 	float: left;
 	background: #F4F4F5;
-	width: 536px;
+	width:45%;
+	/*width: 536px;*/
 	text-align:center;
 	margin-right: 64px;
 	padding-bottom: 20px;
@@ -221,7 +225,8 @@ margin: 0px 78px 20px 0px;
 }
 .icontent .textcos2columnes .columnaesquerra img {
 /* ull, no sé si afecta a algun altre contingut... aquest és per pàgina "edifici i espais" */
-width: 300px;
+/*width: 300px;*/
+width:30%;
 float: left;
 margin: 4px 40px 10px 0px;
 height: 200px;
@@ -657,4 +662,54 @@ position: relative;
   padding: 0;
   text-transform: none;
   margin-top: 0;
+}
+
+
+/* formulari */
+.icontent label {
+display: block;
+font-weight: bold;
+width: 32.3%;
+float: left;
+margin-bottom: 20px;
+padding-right: 1%;
+}
+.icontent label.extra_large {
+width: 44%;
+}
+
+.icontent .form-row{
+	clear:both;
+}
+.icontent input, .icontent textarea{
+background:#e5f4f6;
+border:0;
+padding-left:8px;
+width:100%;
+}
+.icontent .radiogrup span.radios{
+float: left;
+display: block;
+width: 100%;
+}
+.icontent .radiogrup{
+display:block;
+width: 30%;
+float: left;
+margin-right:10px;
+margin-bottom: 20px;
+}
+.icontent .radiogrup.extra_large{
+width: 38%;
+}
+.icontent .radiogrup label{width:100%; margin-bottom: 0;}
+.icontent label.radio{width:auto}
+.icontent input[type="radio"]{width: auto;}
+.icontent input[type="checkbox"]{width: auto;}
+
+.icontent fieldset{
+padding: 0;
+}
+.icontent .content-form hr{
+width:89.5%;
 }

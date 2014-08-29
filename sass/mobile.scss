@@ -814,3 +814,800 @@
 
 
 } // /media query
+  html body.custom-mobile {
+    /** capcalera **/
+    #header {
+      display: none;
+    }
+    .xxss-wrapper #block-block-3 {
+      display: none;
+    }
+    /* reaprofitem el div xxss-wrapper pel menu ?*/
+    #page div#mm-wrapper {
+      height: 641px;
+      #top-mm-wrapper {
+        height: 60px;
+        padding: 0px;
+        width: 100%;
+        $zen-column-count: 6;
+        $zen-gutters: 0px;
+        @include zen-grid-container();
+        #mob-menu {
+          display: block !important;
+          @include zen-grid-item(1,1);
+          background-image: url('../images/mob-menu.png');
+          background-size: auto;
+          background-repeat: no-repeat;
+          background-position: 50% 50%;
+          height: 60px;
+          cursor: pointer;
+          ul {
+            margin-left: -10px;
+            margin-top: 60px;
+            position: absolute;
+            width: 100%;
+            a {
+              display: none;
+              width: 100%;
+              font-size: 28px;
+              font-weight: 900;
+              text-align: center;
+              background-color: $blau1;
+              line-height: 72px;
+              padding: 0px;
+              border-bottom: 1px solid #133338;
+            }
+          }
+          &.act a {
+            display: inline-block;
+          }
+        }
+        #menu-mm-wrapper {
+          @include zen-grid-item(5,2);
+          $zen-column-count: 3;
+          $zen-gutters: 0px;
+          @include zen-grid-container();
+          padding-right: 0px;
+          h4{
+            display: none;
+          }
+          a {
+            display: none;
+            // mostrem nomes els 3 primers
+            &:nth-child(1),
+            &:nth-child(2),
+            &:nth-child(3) {
+              display: inline-block; // valor original
+              font-size: 16px;
+              line-height: 34px;
+              padding: 13px 20px;
+              text-align: center;
+            }
+            &:nth-child(1) {
+              @include zen-grid-item(1,1);
+            }
+            &:nth-child(2) {
+              @include zen-grid-item(1,2);
+            }
+            &:nth-child(3) {
+              @include zen-grid-item(1,3);
+            }
+          }
+        }
+      }
+      #left-mm-wrapper {
+        z-index: 100;
+        &:before {
+          width: 650px;
+          height: 650px;
+          margin-left: -422px;
+          border-radius: 800px;
+          margin-top: 4px;
+
+        }
+        h4 {
+          display: none;
+        }
+        a#tnc-left-logo {
+          background-image: url('../images/logo_tnc_resp.png');
+          width: 180px;
+          height: 180px;
+          top: 220px;
+        }
+      }
+      .view-id-carrousel.view-display-id-block_5 {
+        .views-row-2 {
+          display: none;
+        }
+        .views-row-1.views-row {
+          .views-field-nothing {
+            .field-name-field-imatge-capcalera img {
+              max-width: inherit;
+              min-width: 1200px;
+            }
+            .tab.tab-big {
+              position: absolute;
+              width: 100%;
+              top: 314px;
+              padding-top: 25px;
+              height: 320px;
+              @include background-image(linear-gradient(2deg,  $blau1 96%,transparent 4%));
+              .field-name-field-url-compra-reserva {
+                display: none;
+              }
+              div.grup_entorn,
+              h4.titol.titol.titol.titol,
+              div.field.field.field,
+              * {
+                //background-color: #008991;
+                width: auto;
+                padding-left: 255px;
+                padding-righ: 20px;
+                * {
+                  padding-left: 0px;
+                }
+              }
+              div.grup_entorn,
+              div.grup_entorn + .item-list {
+                display: none;
+              }
+              .field-name-field-sala {
+                margin-top: 0px;
+                * {
+                  font-size: 27px;
+                  font-weight: 900;
+                  line-height: 34px;
+                }
+              }
+              .field-name-field-data {
+                span,
+                .field-item{
+                  font-size: 27px;
+                  font-weight: 400;
+                  line-height: 34px;
+                }
+              }
+              h4.titol {
+                margin-top: 6px;
+              }
+              .field-name-field-autor,
+              .field-name-field-subtitol {
+                * {
+                  font-size: 27px;
+                  line-height: 34px;
+                }
+              }
+              .field-name-field-subtitol {
+                margin-bottom: 26px;
+              }
+            }
+          }
+        }
+        .mm-next-slide {
+          display: none;
+        }
+      }
+    } // final mm-wrapper
+    .view-id-calendar.view-display-id-block_1 {
+      display: none;
+    }
+    #mcal {
+      display: block !important;
+      background-color: $gris5;
+      margin-top: -15px;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      .view-id-calendar.view-display-id-block_2 {
+        width: 90%;
+        margin: 0 auto;
+        .view-header {
+          // paginadors
+          .pager .date-prev,
+          .pager .date-next{
+            //display: inherit;
+            display: none;
+          }
+          // titol
+          .date-heading h3 a {
+            background: none;
+            text-indent: 0px;
+            width: auto;
+            text-transform: uppercase;
+            font-size: 24px;
+            line-height: 28px;
+            font-weight: 700;
+          }
+
+        }
+        .view-content .calendar-calendar {
+          table {
+            border: 0px none;
+            //estils tipo 
+            thead tr th,
+            tbody tr td.has-events div.month.mini-day-on,
+            tbody tr td div.month.mini-day-off {
+              font-size: 24px;
+              padding: 6px;
+              text-transform: uppercase;
+              width: 26px;
+              height: 24px;
+              margin: auto;
+            }
+            thead {
+              tr {
+                border: 0px none;
+                * {
+                  background-color: $gris5;
+                  border: 0px none;
+                  text-align: center;
+                  color: $gris2;
+                }
+              }
+            }
+            tbody {
+              tr {
+                border: 0px none;
+                background-color: $gris5;
+                td.today {
+                  background-color: $gris5;
+                }
+                * {
+                  background-color: $gris5;
+                  text-align: center;
+                }
+                td > div.month {
+                  display: block;
+                  color: $gris1;
+                  font-weight: 700;
+                }
+                td.has-events div.month.mini-day-on {
+                  color: white;
+                  @include border-radius(30px);
+                  background-color: $blau1;
+                }
+              }
+            }
+          }
+        }
+      }
+    } // /mcal
+    .view-carrousel.view-display-id-block_7 .jcarousel-skin-default .jcarousel-container-horizontal {
+      padding-bottom: 8px;
+    }
+    .view-carrousel.view-display-id-block_7 ul.jcarousel-navigation{
+        display: none;
+    }
+    /** conversio del carrousel gran**/
+    .view-id-carrousel.view-display-id-block_1 {
+      height: 100% !important;
+      .view-content .jcarousel-skin-default .jcarousel-container.jcarousel-container-horizontal {
+        position: inherit !important;
+        height: 100%;
+        .jcarousel-clip ul.jcarousel {
+          width: 100% !important;
+          li {
+            display: none;
+            width: 100% !important;
+            margin: 0px;
+          }
+          li.jcarousel-item:nth-child(1),
+          li.jcarousel-item:nth-child(2) {
+            display: block;
+            width: 100%;
+            overflow: hidden;
+            .field-type-image img {
+              width: 100%;
+            }
+            .views-field-nothing {
+              position: absolute;
+              right: 0px !important;
+              width: 100%;
+              .field-content {
+                width: 100%;
+                .tab.tab.tab.tab.tab.tab.tab {
+                  width: 100% !important;
+                  display: block;
+                  //background-color: $blau1;
+                  @include background-image(linear-gradient(2deg,  $blau1 90%,transparent 10%));
+                  top: 50%;
+                  padding-bottom: 100px;
+                  & > .field.field.field {
+                    background-color: transparent !important;
+                    width: 100% !important;
+                  }
+                  &:before,
+                  .field-name-field-url-compra-reserva,
+                  //.field-name-field-rol-destacat,
+                  .grup_entorn,
+                  .field-name-field-entorn.field-type-entityreference {
+                    display: none !important;
+                    content: '' !important;
+                    background-color: transparent !important;
+                  }
+                  .field-name-field-sala * {
+                    font-size: 24px;
+                    font-weight: 900;
+                    color: white !important;
+                  }
+                  .field-name-field-sala {
+                    padding-top: 5px;
+                  }
+                  .field-name-field-data * {
+                    fonst-size: 24px;
+                    font-weight: 400;
+                    color: white;
+                  }
+                  h3.titol a,
+                  h3.titol {
+                    background-color: transparent !important;
+                    font-size: 28px !important;
+                    line-height: 32px;
+                    color: white !important;
+                  }
+                  .field-name-field-rol-destacat *,
+                  .field-name-field-autor *,
+                  .field-name-field-autor {
+                    background-color: transparent !important;
+                    font-size: 24px !important;
+                    line-height: 32px;
+                    color: white !important;
+                  }
+                  .field-name-field-rol-destacat {
+                    margin-top: 12px;
+                    margin-bottom: 24px;
+                    * {
+                      font-size: 18px !important;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+        &>a {
+          display: none;
+        }
+      }
+
+    } // /carrousel gran
+    /** conversio del carrousel petit**/
+    .view-id-carrousel.view-display-id-block_3 {
+      height: 100% !important;
+      margin-top: 0px !important;
+      .view-content .jcarousel-skin-default .jcarousel-container.jcarousel-container-horizontal {
+        position: inherit !important;
+        height: 100%;
+        a .jcarousel-next,
+        a .jcarousel-prev {
+          display: none;
+        }
+        .jcarousel-clip ul.jcarousel {
+          width: 100% !important;
+          li.jcarousel-item {
+            display: none;
+            width: 100% !important;
+            margin: 0px !important;
+            padding-bottom: 22px;
+            .field-name-field-url-compra-reserva.field-type-link-field {
+              display: none;
+            }
+            .titsubtit_wp {
+              min-height: 0px !important;
+            }
+          }
+          li.jcarousel-item:nth-child(1),
+          li.jcarousel-item:nth-child(2),
+          li.jcarousel-item:nth-child(3),
+          li.jcarousel-item:nth-child(4) {
+            display: block;
+            width: 100%;
+            overflow: hidden;
+            .views-field-nothing {
+              position: absolute;
+              right: 0px !important;
+              width: 100%;
+              .field-content {
+                width: 100%;
+                .field-type-image img {
+                  width: 100%;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    &.front #main .buttons-region.buttons-region-1 .wrapper,
+    &.front #main .buttons-region.buttons-region-2 .wrapper{
+      pading: 0px;
+      // suma 100
+      margin: 3%;
+      width: 94%;
+    }
+    &.front #main .buttons-region.buttons-region-2 .wrapper:nth-child(1),
+    &.front #main .buttons-region.buttons-region-2 .wrapper:nth-child(3){
+      
+    }
+    &.front #main .buttons-region.buttons-region-2 .wrapper:nth-child(2),
+    &.front #main .buttons-region.buttons-region-2 .wrapper:nth-child(4){
+    }
+ 
+      //footer
+    #footer-wrapper .region-bottom {
+      $zen-column-count: 1;
+      @include zen-grid-container;
+      #block-menu-menu-peu,
+      #block-menu-menu-compra-d-abonaments,
+      #block-menu-menu-compra-d-entrades,
+      #w5col {
+        display: none;
+      }
+      #block-block-2 {
+        @include zen-grid-item(1,1);
+        background-image: url('../images/logo_footer_mobil.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 200px;
+        p {
+          display: none;
+        }
+      }//fi footer
+    }
+    #page #sub-footer-wrapper {
+      background-color: transparent;
+      #block-block-8 {
+        display: none;
+      }
+      .region-subbottom #block-block-3--2 {
+        width: 100%;
+        text-align: center;
+        margin-top: 12px;
+        .xxss {
+          float: none;
+        }
+      }
+    }
+  }
+    // Fitxes
+
+  html body.custom-mobile.node-type-fitxa-entorn,
+  html body.custom-mobile.node-type-fitxa-espectacle,
+  html body.custom-mobile.node-type-fitxa-premsa {
+    #page #main {
+      z-index: 0;
+      #content {
+        padding: 0px;
+      }
+    }
+    article.node-fitxa-entorn,
+    article.node-fitxa-espectacle,
+    article.node-fitxa-premsa {
+      header{
+        display: block;
+        margin-top: -300px;
+        max-height: 257px;
+        min-height: 257px;
+        background-image: linear-gradient(2deg, $blau1 94%, transparent 6%);
+        width: 100%;
+        padding: 0 5px;
+        position: relative;
+        #top-left4-wrapper {
+          #top-left3-wrapper {
+            #supraheader {
+              padding-top: 12px;
+              padding-left: 38%;
+              border-bottom: 0px none;
+              span.sala,
+              span.data {
+                color: $blanc;
+                display: block;
+                line-height: 28px;
+                font-size: 20px;
+              }
+            }
+            .title-region {
+              padding-left: 38%;
+              border-bottom: 0px none;
+              h2,
+              h3 {
+                color: $blanc;
+                font-size: 36px;
+              }
+              h3 {
+                font-size: 22px;
+              }
+            }
+            .moreinfo-region {
+              padding-left: 38%;
+              h4,
+              h5 {
+                color: $blanc;
+                font-size: 20px;
+              }
+            }
+          }
+        }
+
+        #top-left4-wrapper #sessions,
+        #tarifes {
+          display: none;
+        }
+      }
+     .view-id-blo.view-display-id-block {
+        display: block !important;
+        background-color: $gris5;
+        margin-top: -15px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        width: 90%;
+        padding-left: 5%;
+        padding-right: 5%;
+        margin: 0 auto;
+        .view-header {
+          // paginadors
+          .pager .date-prev,
+          .pager .date-next{
+            //display: inherit;
+            display: none;
+          }
+          // titol
+          .date-heading h3 a {
+            background: none;
+            text-indent: 0px;
+            width: auto;
+            text-transform: uppercase;
+            font-size: 24px;
+            line-height: 28px;
+            font-weight: 700;
+          }
+          li {
+            //padding-left: 0px;
+          }
+        }
+        .view-content .calendar-calendar {
+          table {
+            border: 0px none;
+            //estils tipo 
+            thead tr th,
+            tbody tr td.has-events div.month.mini-day-on,
+            tbody tr td div.month.mini-day-off {
+              font-size: 24px;
+              padding: 6px;
+              text-transform: uppercase;
+              width: 26px;
+              height: 24px;
+              margin: auto;
+            }
+            thead {
+              tr {
+                border: 0px none;
+                * {
+                  background-color: $gris5;
+                  border: 0px none;
+                  text-align: center;
+                  color: $gris2;
+                }
+              }
+            }
+            tbody {
+              tr {
+                border: 0px none;
+                margin-bottom: 6px;
+                background-color: $gris5;
+                &.single-day,
+                &.arrow {
+                  display: none;
+                }
+                td.today {
+                  background-color: $gris5;
+                }
+                * {
+                  background-color: $gris5;
+                  text-align: center;
+                  border: 0px none;
+                }
+                td * {
+                  padding: 0px;
+                  width: 100%;
+                }
+                .inner {
+                  display: inline-block;
+                }
+                .strs {
+                  display: none;
+                }
+                td  div.num-day {
+                  display: block;
+                  margin-left: 35%;
+                  color: $gris1;
+                  font-weight: 700;
+                  font-size: 24px;
+                  background: transparent;
+                  padding: 0px;
+                  width: 30px;
+                  line-height: 30px;
+                  vertical-align: middle;
+                  height: 30px;
+                  padding: 4px;
+                }
+                td.day-box-current div.num-day {
+                  color: white;
+                  @include border-radius(30px);
+                  background-color: $blau1;
+                }
+              }
+            }
+          }
+        }
+      }
+      #main-wrapper {
+        margin-top: 0px;
+        #main-text-wrapper,
+        #moreinfo-wrapper {
+          width: 90%;
+          margin-left: 5%;
+          margin-right: 5%;
+        }
+        #main-text-wrapper {
+          display: none;
+          margin-bottom: 20px;
+          h5.field-title {
+            border: 0px none !important;
+            font-size: 20px !important;
+          }
+          .artista-carrec-left {
+            display: none;
+          }
+          .field-name-field-artista-carrec.field-type-field-collection div div .content * {
+            display: inline !important;
+          }
+          .field-name-field-carrec:after {
+            content: ":";
+            padding-right: 3px;
+          }
+          .carrec-tid-42 .field-name-field-carrec:after {
+            content: '';
+          }
+          .field-name-field-artista .field-item:after {
+            content: ', ';
+          }
+          .field-name-field-artista .field-item:last-child:after {
+            content: '';
+          }
+          .carrec-tid-42,
+          .carrec-tid-12 {
+            display: block !important;
+            * {
+              color: $blau1;
+            }
+            margin-bottom: 12px;
+          }
+        }
+      }
+      #media-respon-w{
+        display: none;
+        padding: 20px 0;
+        background-color: black;
+        #right-media,
+        #images-wrapper {
+          position: relative;
+        }
+        .cycle-slideshow {
+          figure img {
+            width: 100%;
+            min-height: 400px;
+            min-width: 700px;
+          }
+        }
+        h5 {
+          display: none;
+        }
+        .cycle-slideshow {
+          border-top: 1px solid $gris3;
+          border-bottom: 1px solid $gris3;
+        }
+        .cycle-slideshow.pager {
+          display: none;
+        }
+        .carousel-pager {
+          @include bg_sprite();
+          top: 30%;
+          width: 20px;
+          height: 30px;
+          position: absolute;
+          cursor: pointer;
+          z-index: 999;
+          &.carousel-pager-prev {
+            background-position: -30px -30px;
+            left: 0px;
+          }
+          &.carousel-pager-next {
+            background-position: -10px -30px;
+            right: 0px;
+          }
+        }
+        #video-wrapper {
+          padding-top: 20px;
+          .outer-pager {
+            display: none;
+          }
+          .mejs-video,
+          figure {
+            width: 100%;
+            figcaption {
+              border-top: 1px solid $gris3;
+              width: 100%;
+              text-align: center;
+              padding-bottom: 16px;
+            }
+          }
+        }
+        #audio-wrapper {
+          padding: 20px;
+          border-bottom: 1px solid $gris3;
+        }
+      }
+      #right-col {
+        display: block !important;
+        &>.field {
+          display: none;
+        }
+        .entorn_lateral {
+          margin: 0px !important;
+        }
+      }
+      #main-wrapper h3.col-title.tnc-tab {
+        margin: 0px;
+      }
+      #main-wrapper h3.col-title.tnc-tab,
+      .tnc-tab {
+        text-transform: uppercase;
+        color: white;
+        background-color: $blau1;
+        display: block;
+        width: 100%;
+        font-size: 28px;
+        font-weight: 900;
+        text-align: center;
+        background-color: $blau1;
+        line-height: 72px;
+        padding: 0px;
+        border-bottom: 1px solid #133338;
+        cursor: pointer;
+      }
+      #main-wrapper > .field-name-field-url-compra-reserva {
+        width: 100%;
+        text-align: right;
+        display: block;
+        a {
+          background-color: #e2007a;
+          color: white;
+          display: inline-block;
+          font-family: 'Open Sans',sans-serif;
+          font-size: 24px;
+          font-weight: 700;
+          height: 29px;
+          line-height: 29px;
+          min-height: 29px;
+          text-align: center;
+          text-transform: uppercase;
+          vertical-align: middle;
+          width: 60%;
+          margin: 10px;
+          padding: 16px;
+        }
+      }
+    }
+  } //fi fitxes
+  body.custom-mobile.page-temporada .view-temporada {
+    table,
+    tbody,
+    tr,
+    td {
+      width: 100%;
+      display: block;
+    }
+    td {
+      float: left;
+    }
+  }
