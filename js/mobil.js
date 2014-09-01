@@ -69,10 +69,6 @@ jQuery(document).ready(function () {
         scrollTop: jQuery(".tnc-tab-media").offset().top - 10
       }, 400);
     });
-    jQuery('body.front .view-id-cal_m_bil_home.view-display-id-block tr.date-box .num-day').click(function (e) {
-      e.preventDefault();
-      var day = jQuery(this).parent().parent().attr('data-date');
-      var bub = jQuery('body.front .view-id-cal_m_bil_home.view-display-id-block tr.single-day td[data-date=' + day + '] .inner').toggleClass('active');
-    });
+
   }
 });

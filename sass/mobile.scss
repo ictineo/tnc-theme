@@ -232,7 +232,11 @@
               border: 0px none;
             }
             //estils tipo 
+            thead {
+              display: table-header-group;
+            }
             thead tr th,
+            tbody tr td.has-events div.num-day
             tbody tr td.has-events div.month.mini-day-on,
             tbody tr td div.month.mini-day-off {
               font-size: 24px;
@@ -257,6 +261,7 @@
               tr {
                 border: 0px none;
                 background-color: $gris5;
+                text-align: center;
                 td.today {
                   background-color: $gris5;
                 }
@@ -264,11 +269,13 @@
                   background-color: $gris5;
                   text-align: center;
                 }
+                td div,
                 td > div.month {
                   display: block;
                   color: $gris1;
                   font-weight: 700;
                 }
+                td.has-events div.num-day,
                 td.has-events div.month.mini-day-on {
                   color: white;
                   @include border-radius(30px);
@@ -286,6 +293,13 @@
                   vertical-align: middle;
                   width: 30px;
                 }
+                td > .inner {
+                  dispay: inline-block;
+                  width: 30px;
+                  margin-left: 30%;
+                }
+                td .num-day {
+                }
                 .strs {
                   .txt-day,
                   .month {
@@ -293,8 +307,84 @@
                   }
                 }
               }
+              tr.single-day,
               tr.arrow {
                 display: none;
+              }
+              //tr.single-day td,
+              //tr.single-day {
+                //height: 0px;
+                //padding: 0px;
+              //}
+              //tr.single-day td .inner {
+                //display: none;
+              //}
+              //tr.single-day td .inner.active {
+
+              //}
+              td.has-events .num-day > .inner {
+                min-height: 40px;
+                position: relative;
+                //background-color: $blau3;
+                bottom: 140px;
+                right: 0px; //per que quedi posat al dia
+                left: -100px;
+                z-index: 99999;
+                @include caixa_dig($bg:$blau4, $w:'250px',$h:'52px');
+                &:before {
+                  margin-bottom: -40px;
+                  background-position: 0 -20px;
+                  border-radius: 10px 13px 0 0;
+                }
+                
+                .views-field, 
+                .field {
+                  padding-left: 20px;
+                  width: 230px;
+                  height: auto;
+                  .field-content,
+                  .field-content a {
+                    color: $blau1;
+                    text-transform: uppercase;
+                    font-size: 11px;
+                    line-height: 15px;
+                    font-weight: 600;
+                  }
+                  .field-content a {
+                    font-weight: 800;
+                  }
+                }
+                .field-name-field-hora-sessio {
+                  &:last-child {
+                    border-radius: 0 0 5px 5px;
+                  }
+                  &:before {
+                    @include bg_sprite();
+                    content: " ";
+                    width: 28px;
+                    height: 28px;
+                    background-position: -87px -66px;
+                    position: absolute;
+                    display: block;
+                    //top: 104px;
+                    bottom: -25px;
+                    left: 200px;
+                  }
+                  .field-items .field-item {
+                    color: $blau1;
+                    font-size: 11px;
+                    line-height: 15px;
+                    font-weight: 600;
+                    //min-height: 60px;
+                  }
+                }
+                  &:first-child .views-field-field-sala {
+                  height: 15px;
+                  padding-top: 12px;
+                }
+                & > div:last-child {
+                  padding-bottom: 20px;
+                }
               }
             }
           }

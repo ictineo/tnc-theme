@@ -148,6 +148,26 @@ Drupal.behaviors.theme_tnc = {
      jQuery('body').addClass('error-404403');
    }
 
+      /** calendar mobil home ultima hora correccions **/
+    jQuery('body.front .view-id-cal_m_bil_home.view-display-id-block tr.single-day td').each(function () {
+      if(jQuery(this).find('.inner *').length > 1) {
+        var date = jQuery(this).attr('data-date');
+        jQuery('body.front .view-id-cal_m_bil_home.view-display-id-block tr.date-box td[data-date=' + date + ']').addClass('has-events');
+        jQuery('body.front .view-id-cal_m_bil_home.view-display-id-block tr.date-box td[data-date=' + date + '] .num-day').css('cursor', 'pointer');
+      }
+    });
+    jQuery('body.front .view-id-cal_m_bil_home.view-display-id-block tr.date-box .num-day').click(function (e) {
+      e.preventDefault();
+      var day = jQuery(this).parent().parent().attr('data-date');
+      if(jQuery('body.front .view-id-cal_m_bil_home.view-display-id-block tr.single-day td[data-date=' + day + '] .inner').hasClass('active')) {
+        jQuery('body.front .view-id-cal_m_bil_home.view-display-id-block tr.date-box td[data-date=' + day + '] .inner .num-day .inner').remove();
+      } else {
+        jQuery(this).append(jQuery('body.front .view-id-cal_m_bil_home.view-display-id-block tr.single-day td[data-date=' + day + '] ').html());
+        var marg = jQuery('body.front .view-id-cal_m_bil_home.view-display-id-block tr.date-box td[data-date=' + day + '] .inner .num-day .inner > .item').length * 30;
+        jQuery('body.front .view-id-cal_m_bil_home.view-display-id-block tr.date-box td[data-date=' + day + '] .inner .num-day .inner').css('margin-top', '-' + marg + 'px');
+      }
+      jQuery('body.front .view-id-cal_m_bil_home.view-display-id-block tr.single-day td[data-date=' + day + '] .inner').toggleClass('active');
+    });
   }
 
 
