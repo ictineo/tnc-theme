@@ -188,6 +188,10 @@
     if (jQuery('#main-wrapper #right-col #parent_espectacle').text().length != 0 && jQuery('#main-wrapper #right-col #parent_espectacle .view-id-eva_espectacle.view-display-id-entity_view_1').text().length == 0){
       jQuery('#main-wrapper #right-col #parent_espectacle > h3').hide();
     }
+    //console.log(jQuery('body.node-type-fitxa-premsa article #right-col #parent_espectacle').text()); console.log(jQuery('body.node-type-fitxa-premsa article #right-col #parent_espectacle .view-id-eva_espectacle.view-display-id-entity_view_1').text());
+    if (jQuery('body.node-type-fitxa-premsa article #right-col-premsa #parent_espectacle').text().length != 0 && jQuery('body.node-type-fitxa-premsa article #right-col-premsa #parent_espectacle .view-id-eva_espectacle.view-display-id-entity_view_1').text().length == 0){
+      jQuery('body.node-type-fitxa-premsa article #right-col-premsa #parent_espectacle > h3').hide();
+    }
     
 
     /** netejem multimedias buits **/

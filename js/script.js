@@ -219,6 +219,11 @@ Drupal.behaviors.theme_tnc = {
    }
 
       /** calendar mobil home ultima hora correccions **/
+    jQuery('body.front .view-id-cal_m_bil_home.view-display-id-block .date-heading').css('cursor', 'pointer');
+    jQuery('body.front .view-id-cal_m_bil_home.view-display-id-block .date-heading').click(function () {
+      location.href = 'http://tnc.cat/calendari';
+    });
+
     jQuery('body.front .view-id-cal_m_bil_home.view-display-id-block tr.single-day td').each(function () {
       if(jQuery(this).find('.inner *').length > 1) {
         var date = jQuery(this).attr('data-date');
@@ -227,7 +232,7 @@ Drupal.behaviors.theme_tnc = {
       }
     });
     jQuery('body.front .view-id-cal_m_bil_home.view-display-id-block tr.date-box .num-day').click(function (e) {
-      e.preventDefault();
+      //e.preventDefault();
       var day = jQuery(this).parent().parent().attr('data-date');
       if(jQuery('body.front .view-id-cal_m_bil_home.view-display-id-block tr.single-day td[data-date=' + day + '] .inner').hasClass('active')) {
         jQuery('body.front .view-id-cal_m_bil_home.view-display-id-block tr.date-box td[data-date=' + day + '] .inner .num-day .inner').remove();
@@ -238,6 +243,13 @@ Drupal.behaviors.theme_tnc = {
       }
       jQuery('body.front .view-id-cal_m_bil_home.view-display-id-block tr.single-day td[data-date=' + day + '] .inner').toggleClass('active');
     });
+
+    /** fem que front, /calendari i /temporada mostrin cast i eng com a no traduit **/
+    jQuery('body.front, body.page-views.page-calendari, body.page-views.page-temporada').each(function() {
+      jQuery(this).find('#block-locale-language li.es').html('<span lang="es" class="language-link locale-untranslated">esp</span>')
+      jQuery(this).find('#block-locale-language li.en').html('<span lang="en" class="language-link locale-untranslated">eng</span>')
+    });
+
   }
 
 
