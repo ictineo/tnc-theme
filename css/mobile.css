@@ -1830,4 +1830,11 @@
   body.page-temporada .view-temporada td {
     float: left;
   }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/tnc_mergecont\/sites\/all\/themes\/tnc\/sass\/mobile\.scss}line{font-family:\00003953}}
+  body.page-temporada .view-temporada tr .views-field-nothing-1 {
+    overflow: hidden;
+    height: inherit;
+    min-height: inherit;
+    max-height: inherit;
+  }
 }

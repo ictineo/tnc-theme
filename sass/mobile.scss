@@ -950,6 +950,12 @@
     td {
       float: left;
     }
+    tr .views-field-nothing-1 {
+      overflow: hidden;
+      height: inherit;
+      min-height: inherit;
+      max-height: inherit;
+    }
   }
 
 

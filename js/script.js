@@ -65,6 +65,12 @@ jQuery(document).ready(function () {
 
 });
 jQuery(window).resize(function () {
+  /** abans de canviar tamanys guardem els que ens calen originals per altres temes **/
+  //jQuery('body.page-views.page-temporada .view-id-temporada.view-display-id-page .views-field-nothing-1').each(function () {
+      //jQuery(this).find('.espectacle').attr('resp-h', jQuery(this).find('.espectacle').height());
+      //jQuery(this).find('.entorn').attr('resp-h', jQuery(this).find('.entorn').height());
+  //});
+
   if(jQuery(window).width() >= 700 && jQuery(window).width() < 1200 && navigator.userAgent.toLowerCase().indexOf("ipad") > -1  ) {
     //alert('1');
     var ww = jQuery(window).width();
