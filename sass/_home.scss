@@ -136,6 +136,36 @@ body.front {
                 padding-bottom: 20px;
               }
             }
+            .events.day-1,
+            .events.day-2,
+            .events.day-3,
+            .events.day-4,
+            .events.day-5,
+            .events.day-6,
+            .events.day-7 {
+              right: -130px;
+            }
+            .events.day-1 {
+               .field-name-field-hora-sessio:before { left: 0px; }
+             }
+            .events.day-2 {
+               .field-name-field-hora-sessio:before { left: 20px; }
+             }
+            .events.day-3 {
+               .field-name-field-hora-sessio:before { left: 70px; }
+             }
+            .events.day-4 {
+               .field-name-field-hora-sessio:before { left: 110px; }
+             }
+            .events.day-5 {
+               .field-name-field-hora-sessio:before { left: 140px; }
+             }
+            .events.day-6 {
+               .field-name-field-hora-sessio:before { left: 180px; }
+             }
+            .events.day-7 {
+               .field-name-field-hora-sessio:before { left: 220px; }
+             }
           }
           span.day.cal_link {
             display: inline-block;
