@@ -36,15 +36,18 @@ if (array_key_exists(date('Y-m-d', strtotime($row[0]->calendar_start)), $days)) 
 <div id="cal-line">
 <?php 
 /** mostrem el html que volem **/
+$flag_primermes = true;
 $j = 0;
 foreach ($days as $date => $rendered) {
   /* si es un dels 5 primers dies no mostrem el mes */
   $j++;
-  if(date('d', strtotime($date)) == '1' && $j >= 0) {
+  if(date('d', strtotime($date)) == '1' && $j >= 0 ||
+    $flag_primermes && date('d', strtotime($date)) < 28) {
     print('<div class="month-label">'.t(date('F', strtotime($date))).'</div>');
+    $flag_primermes = false;
   }
   if(!empty($rendered)) {
-    print('<span class="day event"><span class="num">' . date('d', strtotime($date)) . '</span><div class="events">'.$rendered.'</div></span>');
+    print('<span class="day event"><span class="num">' . date('d', strtotime($date)) . '</span><div class="events day-'.$j.'">'.$rendered.'</div></span>');
   } else {
     print('<span class="day"><span class="num">' . date('d', strtotime($date)) . '</span></span>');
   }
