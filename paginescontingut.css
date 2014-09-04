@@ -233,6 +233,9 @@ float: left;
 margin: 4px 40px 10px 0px;
 height: 200px;
 }
+.icontent .textcos2columnes .columnaesquerra img {
+
+}
 .icontent div.columnaesquerra{
 	width:75%;
 	float:left;
@@ -586,9 +589,10 @@ font-size: 11px;
 text-transform: uppercase;
 font-weight: 600;
 border-bottom: 1px solid #9c9e9f;
-padding-bottom: 3px;
+padding: 0 6px 3px;
 line-height: 13px;
 margin-bottom: 5px;
+display:inline-block;
 }
 .llista-fitxa.views-view-grid.cols-4 tr .espectacle .field-name-field-autor div,
 .llista-fitxa.views-view-grid.cols-4 tr .espectacle .field-name-field-rol-destacat div,
@@ -758,5 +762,20 @@ color:#58595b
     float: left!important;
 	margin-left:0!important;
 	margin-right:0!important;
+  }
+  /* restaurant, publicacions...*/
+  .icontent .tc3block, .icontent .tc2bblock, .icontent .tc3block .tc3bText, .icontent .tc2bblock{
+	width:100%;
+	/*  min-width: 320px; */
+  }
+  /*formulari*/
+  .icontent .col-span3, .icontent .col-span6, .icontent .col-span9{
+	width:100%;
+	/*  min-width: 320px; */
+  }
+  /* format 2 columnes */
+  .icontent div.columnaesquerra, .icontent div.columnadreta{
+	width:100%;
+	/*  min-width: 320px; */
   }
 }

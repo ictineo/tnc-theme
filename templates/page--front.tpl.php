@@ -61,7 +61,9 @@
       <div id="menu-mm-wrapper">
       <?php /** links a mida configurats en el theme settings **/
         for ($i = 0; $i < 4; $i++) {
-          print('<a href="'. theme_get_setting('tnc_'.$i.'_url') .'" rel="bookmark" title="'. theme_get_setting('tnc_'.$i.'_text') .'">'. theme_get_setting('tnc_'.$i.'_text') .'</a>');
+          if(theme_get_setting('tnc_'.$i.'_url') != '') {
+            print('<a href="'. theme_get_setting('tnc_'.$i.'_url') .'" rel="bookmark" title="'. theme_get_setting('tnc_'.$i.'_text') .'">'. theme_get_setting('tnc_'.$i.'_text') .'</a>');
+          }
         } 
       ?>
       </div>

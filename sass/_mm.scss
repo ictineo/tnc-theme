@@ -72,6 +72,11 @@ $top-menu-h: 40px;
         left: -12px;
         position: relative;
       }
+    }
+    h4:first-child:before {
+      border-left: 0px none;
+    }
+    a {
       &:nth-child(1) {
         background-color: $destacat;
         color: white;

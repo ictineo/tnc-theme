@@ -26,4 +26,15 @@ jQuery(document).ready(function() {
     });
     jQuery(window).trigger('resize');
   }
+  if(jQuery(window).width() < 700) {
+    var gir_automagic = setInterval(function() {
+      jQuery('#mm-wrapper .view-display-id-block_5 .views-row').each(function () {
+        if(jQuery(this).css('display') == 'none') {
+          jQuery(this).show();
+        } else {
+          jQuery(this).hide();
+        }
+      });
+    }, 4000);
+  }
 });
