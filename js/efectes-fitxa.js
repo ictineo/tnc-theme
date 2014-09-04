@@ -57,6 +57,13 @@
     var index = jQuery('#images-wrapper .pager').data('cycle.API').getSlideIndex(this);
     jQuery('#images-wrapper .main').cycle('goto', index);
   });
+  jQuery('#images-wrapper #img-dwl-lnk').click(function() {
+    var img_url = jQuery(this).parent().find('.cycle-slideshow.main .cycle-slide-active .img-wrapper').attr('rel');
+    if(img_url != '') {
+      console.log(img_url);
+      window.open(img_url, '_blank');
+    }
+  });
   jQuery('#video-wrapper .pager figure').click(function() {
     var index = jQuery('#video-wrapper .pager').data('cycle.API').getSlideIndex(this);
     jQuery('#video-wrapper .main').cycle('goto', index);

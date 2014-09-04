@@ -521,7 +521,7 @@ line-height: 14px;
   <?php if(isset($content['field_estrenat']['#items'][0]['value']) && $content['field_estrenat']['#items'][0]['value'] == '0'):?>
     <?php print render($content['field_imatge_capcalera']); ?>
   <?php else: ?>
-      <?php print render($content['field_imatge_capcalera']); ?>
+    <?php print render($content['field_imatge_capcalera']); ?>
       <?php
         /** imatges **/
         $audio_elements = "";
@@ -530,7 +530,8 @@ line-height: 14px;
           foreach ($content['field_imatges'][$i]['node'] as $nid => $img):
             foreach ($img['field_imatge']['#items'] as $j => $elem):
               $audio_elements .= '<figure class="image-figure">';
-              $audio_elements .= '  <img id="image-'.$i.'" src="'.file_create_url($elem['uri']).'" alt="'.$elem['description'].'" />';
+              //$audio_elements .= '  <img id="image-'.$i.'" src="'.file_create_url($elem['uri']).'" alt="'.$elem['description'].'" />';
+              $audio_elements .= '  <div class="img-wrapper" rel="'.file_create_url($content['field_imatges'][$i]['node'][$nid]['#node']->field_imatge_alta[LANGUAGE_NONE][0]['uri']).'"><img id="image-'.$i.'" src="'.file_create_url($elem['uri']).'" alt="'.$elem['description'].'" /></div>';
               $audio_elements .= '</figure>';
             endforeach;
           endforeach;
@@ -572,13 +573,14 @@ line-height: 14px;
               $poster = file_create_url($video['field_img_preview'][0]['#item']['uri']);
               $elem = $video['field_video']['#items'][0];
               $path_to_file = file_create_url($elem['uri']);
+              $path_to_file_alta = file_create_url($content['field_videos'][$i]['node'][$nid]['#node']->field_video_alta[LANGUAGE_NONE][0]['uri']);
               $video_elements .= '<figure class="video-figure">';
               $video_elements .= '  <video id="audio-'.$i.'" preload="none" height="100" poster="'.$poster.'">';
               $video_elements .= '    <source type="'.$elem['filemime'].'" src="'.$path_to_file.'" />';
               $video_elements .= '  </video>';
               $video_elements .= '  <figcaption id="video-'.$i.'-description">';
               $video_elements .=      $elem['description'];
-              $video_elements .=      '<div><a href="'.$path_to_file.'" class="download-link">'.t('Download').'</a></div>';
+              $video_elements .=      '<div><a href="'.$path_to_file_alta.'" class="download-link">'.t('Download').'</a></div>';
               $video_elements .=   '</figcaption>';
               $video_elements .= '</figure>';
               $video_pager .= '<figure class="video-figure">';

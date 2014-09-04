@@ -15,248 +15,12 @@ drupal_add_js(array('tnc' => array('nid' => $node->nid)), 'setting');
 <article class="node-<?php print $node->nid; ?> <?php print $classes; ?> clearfix"<?php print $attributes; ?>>
   <div id="mm-node-region">
     <!-- inici codi impacte -->
-<!--<script src="http://www.impactecomunicacio.cat/clients/tncweb/media/js/jquery-ui-1.10.4.custom.min.js" type="text/javascript"></script>-->
-<style>
-	.mMLateral{
-		position:absolute;
-		z-index:100;
-		height: 680px;
-	}
-	.mMenuLateralLogo{
-		width:191px;
-		height:503px;
-		background:url('http://188.165.131.21/tnc_entregapv1/sites/default/files/esfera.png') no-repeat;
-	}
-	.mMenuLogoImg{
-		position: absolute;
-		top: 198px;
-		left: 18px;
-	}
-	#mMenuLateral{
-		position: relative;
-		top: -151px;
-		width: 353px;
-		
-	}
-	#mMenuLateral ul{
-		margin: 0;
-		padding: 0;
-	}
-	#mMenuLateral ul li{
-		list-style: none;
-		text-transform: uppercase;
-		color: #FFF;
-		font-size: 15px;
-		font-weight: 700;
-		background: #E2007A;
-		padding: 2px 35px;
-		display: table;
-		margin: 3px 0px;
-	}
-	.mayus{
-	text-transform:uppercase;
-}
-.negreta{
-		font-weight:800;
-	}
-</style>
-	
-	<script>
-		function slideLeft(id){
-			jQuery('#'+id).toggle("slide");
-		}
-		
-		jQuery(document).ready(function(){
-			jQuery('#pArt').click(function(){
-				//jQuery('.mMenuDesplegat:visible').toggle("slide",function(){
-					slideLeft('pArtistic');
-				//});
-				
-			});
-			jQuery('#t1415').click(function(){
-				//jQuery('.mMenuDesplegat:visible').toggle("slide",function(){
-					slideLeft('temporada1415');
-				//});
-			});
-			jQuery('#tnc').click(function(){
-				//jQuery('.mMenuDesplegat:visible').toggle("slide",function(){
-					slideLeft('eTNC');
-				//});
-			});
-			jQuery('#pPeda').click(function(){
-				//jQuery('.mMenuDesplegat:visible').toggle("slide",function(){
-					slideLeft('pPedagogic');
-				//});
-			});
-		});
-	</script>
-	<style>
-		.desplegamenu{
-			width:100%;
-			height: 584px;
-			position: absolute;
-			z-index: 90;
-		}
-		.menusLateralscontent{
-			position:relative;
-		}
-		.mMenuDesplegat{
-			background:#008F95;
-			width:100%;
-			overflow: auto;
-			padding-bottom: 45px;
-			display:none;
-			top: 0px;
-			position: absolute;
-			border-bottom:2px solid #FFFFFF;
-		}
-		.mMenuDesplegat .mDBlock{
-			width: 214px;
-			float: left;
-			padding-left: 20px;
-			padding-top: 26px;
-			color:#FFFFFF;
-		}
-		.mMenuDesplegat .mDBlock.primer{
-			padding-left: 280px;
-		}
-		.mMenuDesplegat .mDBlock h4{
-			clear:both;
-			font-weight:800;
-			font-size:13px;
-			color:#000;
-			margin-bottom: 12px;
-			text-transform:uppercase;
-		}
-		.mMenuDesplegat .mDBlock h5{
-			clear:both;
-			font-weight:700;
-			font-size:13px;
-			line-height:13px;
-			color:#000;
-			margin-bottom: 3px;
-			margin-top:18px;
-			text-transform:uppercase;
-		}
-		.mMenuDesplegat .mDBlock .blockImatge{
-			clear:both;
-			overflow: auto;
-			padding-bottom: 6px;
-			padding-top:5px;
-
-		}
-		.mMenuDesplegat .mDBlock .blockImatge img{
-			float:left;
-			width:70px;
-		}
-		.mMenuDesplegat .mDBlock .blockImatge div{
-			float: left;
-			text-transform: uppercase;
-			width: 138px;
-			padding-left: 5px;
-			font-size: 10px;
-			font-weight: 400;
-			color: #FFF;
-			line-height: normal;
-		}
-		.mMenuDesplegat .mDBlock .blockImatge div span{
-			text-transform: uppercase;
-			color: #FFF;
-			line-height: 14px;
-		}
-		.mMenuDesplegat .mDBlock .blockImatge div span a{
-			text-transform: uppercase;
-			color: #FFF;
-			line-height: 14px;
-		}
-		.minus{
-			text-transform:none;
-		}
-		.mMenuDesplegat a:hover{
-			text-transform:uppercase;
-		}
-		.mMenuDesplegat a{
-			color: #FFFFFF;
-			font-weight: 800;
-			font-size: 13px;
-			line-height: 14px;
-		}
-		.mMenuDesplegat .mDBlock .blockllistat ul{
-			margin: 0px;
-			padding: 0;
-		}
-		 .mMenuDesplegat .mDBlock .blockllistat ul li{
-			text-transform:uppercase;
-			font-size:11px;
-			font-weight:600;
-			list-style: none;
-			color:#FFFFFF;
-			margin-bottom: 8px;
-			line-height: 14px;
-		}
-		.mMenuDesplegat .mDBlock .blockllistat ul li a{
-			color:#FFFFFF;
-			font-weight: 600;
-		}
-		.minus{
-			text-transform: none;
-		}
-		.mMenuDesplegat .mDBlock .blockllistatObres ul{
-			margin:0px;
-			padding:0px;
-		}
-		.mMenuDesplegat .mDBlock .blockllistatObres ul li{
-line-height: 14px;
-			font-size:11px;
-			list-style: none;
-			color:#FFFFFF;
-			margin-bottom: 13px;
-			font-weight: normal;
-		}
-.mMenuDesplegat .mDBlock .blockllistatObres ul li span{
-			line-height: 14px;
-			
-		}
-		.mMenuDesplegat .mDBlock .blockllistatObres ul li a{
-			color:#FFFFFF;
-			font-weight: normal;
-			font-size:10px;
-			text-transform:normal;
-		}
-		.mMenuDesplegat .mDBlock .blockllistatObres ul li a span{
-			color:#FFFFFF;
-		}
-		.mMenuDesplegat .mDBlock .blockllistatObres ul li span.titul{
-			text-transform: uppercase;
-			font-weight:800;
-			font-size:13px;
-		}
-		.mMenuDesplegat .mDBlock .blockImatgeSol{
-			clear:both;
-			overflow: auto;
-			padding-bottom: 3px;
-		}
-		.mMenuDesplegat .mDBlock .blockImatgeSol img{
-			
-			width:70px;
-		}
-		.mMenuDesplegat .mDBlock .blockImatgeSol div{
-			color:#FFFFFF;
-			font-size: 11px;
-			line-height:13px;
-			font-weight: 600;
-			text-transform: uppercase;
-			padding-top: 4px;
-		}
-		.mMenuDesplegat .mDBlock .blockImatgeSol div span{
-			color:#FFFFFF;
-		}
-	</style>
     <!-- final codi impacte -->
-  <?php if(isset($content['field_estrenat']['#items'][0]['value']) && $content['field_estrenat']['#items'][0]['value'] == '0'):?>
+  <?php if(isset($content['body']['#object']->field_estrenat[LANGUAGE_NONE][0]['value']) &&
+  $content['body']['#object']->field_estrenat[LANGUAGE_NONE][0]['value'] == '0'):?>
     <?php print render($content['field_imatge_capcalera']); ?>
   <?php else: ?>
-    <?php print render($content['field_imatge_capcalera']); ?>
+      <?php print '<span style="display: none;">' . render($content['field_imatge_capcalera']) . '</span>'; ?>
       <?php
         /** imatges **/
         $audio_elements = "";
@@ -265,7 +29,8 @@ line-height: 14px;
           foreach ($content['field_imatges'][$i]['node'] as $nid => $img):
             foreach ($img['field_imatge']['#items'] as $j => $elem):
               $audio_elements .= '<figure class="image-figure">';
-              $audio_elements .= '  <img id="image-'.$i.'" src="'.file_create_url($elem['uri']).'" alt="'.$elem['description'].'" />';
+              //$audio_elements .= '  <img id="image-'.$i.'" src="'.file_create_url($elem['uri']).'" alt="'.$elem['description'].'" />';
+              $audio_elements .= '  <div class="img-wrapper" rel="'.file_create_url($content['field_imatges'][$i]['node'][$nid]['#node']->field_imatge_alta[LANGUAGE_NONE][0]['uri']).'"><img id="image-'.$i.'" src="'.file_create_url($elem['uri']).'" alt="'.$elem['description'].'" /></div>';
               $audio_elements .= '</figure>';
             endforeach;
           endforeach;
@@ -307,13 +72,14 @@ line-height: 14px;
               $poster = file_create_url($video['field_img_preview'][0]['#item']['uri']);
               $elem = $video['field_video']['#items'][0];
               $path_to_file = file_create_url($elem['uri']);
+              $path_to_file_alta = file_create_url($content['field_videos'][$i]['node'][$nid]['#node']->field_video_alta[LANGUAGE_NONE][0]['uri']);
               $video_elements .= '<figure class="video-figure">';
               $video_elements .= '  <video id="audio-'.$i.'" preload="none" height="100" poster="'.$poster.'">';
               $video_elements .= '    <source type="'.$elem['filemime'].'" src="'.$path_to_file.'" />';
               $video_elements .= '  </video>';
               $video_elements .= '  <figcaption id="video-'.$i.'-description">';
               $video_elements .=      $elem['description'];
-              $video_elements .=      '<div><a href="'.$path_to_file.'" class="download-link">'.t('Download').'</a></div>';
+              $video_elements .=      '<div><a href="'.$path_to_file_alta.'" class="download-link">'.t('Download').'</a></div>';
               $video_elements .=   '</figcaption>';
               $video_elements .= '</figure>';
               $video_pager .= '<figure class="video-figure">';
